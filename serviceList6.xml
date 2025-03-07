@@ -92,7 +92,7 @@
 <Polarization>horizontal</Polarization>
 </DVBSDeliveryParameters>
 <SATIPDeliveryParameters>
-<QueryParameters>freq=11494 pol=h ro=0.35 msys=dvbs2 mtype=8psk plts=on sr=22000 fec=23 pids=0,17,18,5100,5101,5102,5104</QueryParameters>
+<QueryParameters>freq=11494&amp;pol=h&amp;ro=0.35&amp;msys=dvbs2&amp;mtype=8psk&amp;plts=on&amp;sr=22000&amp;fec=23&amp;pids=0,17,18,5100,5101,5102,5104</QueryParameters>
 </SATIPDeliveryParameters>
 </ServiceInstance>
 <ServiceInstance priority="2">
@@ -121,7 +121,7 @@
 <Polarization>horizontal</Polarization>
 </DVBSDeliveryParameters>
 <SATIPDeliveryParameters>
-<QueryParameters>freq=11836 pol=h ro=0.35 msys=dvbs mtype=8psk plts=off sr=27500 fec=34 pids=0,17,18,100,101,102,104</QueryParameters>
+<QueryParameters>freq=11836&amp;pol=h ro=0.35&amp;msys=dvbs&amp;mtype=8psk&amp;plts=off&amp;sr=27500&amp;fec=34&amp;pids=0,17,18,100,101,102,104</QueryParameters>
 </SATIPDeliveryParameters>
 </ServiceInstance>
 <ServiceInstance priority="3">
