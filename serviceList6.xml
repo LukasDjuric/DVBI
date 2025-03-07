@@ -121,7 +121,7 @@
 <Polarization>horizontal</Polarization>
 </DVBSDeliveryParameters>
 <SATIPDeliveryParameters>
-<QueryParameters>freq=11836&amp;pol=h&amp;ro=0.35&amp;msys=dvbs&amp;mtype=8psk&amp;plts=off&amp;sr=27500&amp;fec=34&amp;pids=0,17,18,100,101,102,104</QueryParameters>
+<QueryParameters>freq=11836 pol=h&amp;ro=0.35 msys=dvbs mtype=8psk plts=off sr=27500 fec=34 pids=0,17,18,100,101,102,104</QueryParameters>
 </SATIPDeliveryParameters>
 </ServiceInstance>
 <ServiceInstance priority="3">
