@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ServiceList xmlns="urn:dvb:metadata:servicediscovery:2024" 
+             xmlns:dvbi-types="urn:dvb:metadata:servicediscovery-types:2023" 
+             xmlns:tva="urn:tva:metadata:2024" 
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+             version="1" 
+             id="tag:example.com,2024:test-service-list" 
+             xml:lang="en" 
+             xsi:schemaLocation="urn:dvb:metadata:servicediscovery:2024 dvbi_v6.0.xsd">
+
+  <!-- Osnovne informacije o servisnoj listi -->
+  <Name>Test DVB-I Service List</Name>
+  <ProviderName>Test Provider</ProviderName>
+
+  <!-- LCN tabela -->
+  <LCNTableList>
+    <LCNTable preserveBroadcastLCN="true">
+      <LCN channelNumber="101" serviceRef="tag:example.com,2024:service1"/>
+      <LCN channelNumber="102" serviceRef="tag:example.com,2024:service2"/>
+    </LCNTable>
+  </LCNTableList>
+
+  <!-- Izvor EPG podataka -->
+  <ContentGuideSource CGSID="cgs1" minimumMetadataUpdatePeriod="PT1H">
+    <Name>Test EPG Provider</Name>
+    <ProviderName>EPG Provider Inc.</ProviderName>
+    <ScheduleInfoEndpoint contentType="application/xml">
+      <dvbi-types:URI>https://epg.example.com/schedule.xml</dvbi-types:URI>
+    </ScheduleInfoEndpoint>
+  </ContentGuideSource>
+
+  <!-- Prvi servis -->
+  <Service version="1" dynamic="false" replayAvailable="true">
+    <UniqueIdentifier>tag:example.com,2024:service1</UniqueIdentifier>
+    
+    <ServiceInstance priority="1" id="s1-inst1">
+      <ContentProtection>
+        <DRMSystemId encryptionScheme="cenc" cpsIndex="drm1">edef8ba9-79d6-4ace-a3c8-27dcd51d21ed</DRMSystemId>
+      </ContentProtection>
+      
+      <DASHDeliveryParameters>
+        <UriBasedLocation contentType="application/dash+xml">
+          <dvbi-types:URI>https://cdn.example.com/service1/manifest.mpd</dvbi-types:URI>
+        </UriBasedLocation>
+        <MinimumBitRate>5000000</MinimumBitRate>
+      </DASHDeliveryParameters>
+    </ServiceInstance>
+
+    <ServiceName>Test Service 1</ServiceName>
+    <ProviderName>Test Broadcaster</ProviderName>
+    <ServiceGenre href="urn:tva:metadata:cs:ContentCS:2024:1.1">
+      <Name>Entertainment</Name>
+    </ServiceGenre>
+  </Service>
+
+  <!-- Drugi servis sa više instanci -->
+  <Service version="1" dynamic="true">
+    <UniqueIdentifier>tag:example.com,2024:service2</UniqueIdentifier>
+    
+    <ServiceInstance priority="1" id="s2-inst1">
+      <ContentProtection>
+        <CASystemId cpsIndex="cas1">0x1234</CASystemId>
+      </ContentProtection>
+      
+      <DVBTDeliveryParameters>
+        <DVBTriplet>
+          <OriginalNetworkId>12345</OriginalNetworkId>
+          <TransportStreamId>67890</TransportStreamId>
+          <ServiceId>54321</ServiceId>
+        </DVBTriplet>
+      </DVBTDeliveryParameters>
+    </ServiceInstance>
+
+    <ServiceInstance priority="2" id="s2-inst2">
+      <MulticastTSDeliveryParameters>
+        <IPMulticastAddress Address="239.255.1.1" Port="5000" Streaming="udp"/>
+      </MulticastTSDeliveryParameters>
+    </ServiceInstance>
+
+    <ServiceName>Test Service 2</ServiceName>
+    <ProviderName>Test Broadcaster</ProviderName>
+    <ParentalRating>
+      <MinimumAge countryCodes="GB">16</MinimumAge>
+    </ParentalRating>
+  </Service>
+
+  <!-- Treći servis sa dodatnim atributima -->
+  <Service version="1">
+    <UniqueIdentifier>tag:example.com,2024:service3</UniqueIdentifier>
+    
+    <ServiceInstance priority="1">
+      <RelatedMaterial>
+        <tva:HowRelated href="urn:dvb:metadata:cs:LinkedContentCS:2024:1.0"/>
+        <tva:MediaLocator>
+          <tva:MediaUri>https://example.com/promo.jpg</tva:MediaUri>
+        </tva:MediaLocator>
+      </RelatedMaterial>
+      
+      <IdentifierBasedDeliveryParameters contentType="application/vnd.apple.mpegurl">
+        https://cdn.example.com/service3/master.m3u8
+      </IdentifierBasedDeliveryParameters>
+    </ServiceInstance>
+
+    <ServiceName>Test Service 3</ServiceName>
+    <ProviderName>Test Broadcaster</ProviderName>
+    <ServiceType href="urn:tva:metadata:cs:ServiceTypeCS:2024:1.0"/>
+  </Service>
+
+</ServiceList>
