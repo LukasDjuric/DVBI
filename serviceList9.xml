@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ServiceList xmlns="urn:dvb:metadata:servicediscovery:2024" 
+             xmlns:dvbi-types="urn:dvb:metadata:servicediscovery-types:2023"
+             xmlns:tva="urn:tva:metadata:2024"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             id="tag:test.com,2024:advanced-services"
+             version="2"
+             responseStatus="OK"
+             xml:lang="en"
+             xsi:schemaLocation="urn:dvb:metadata:servicediscovery:2024 dvbi_v6.0.xsd">
+
+    <Name>Advanced Service List Example</Name>
+    <ProviderName>Test Broadcast Network</ProviderName>
+    
+    <!-- Region List -->
+    <RegionList version="1" xml:lang="en">
+        <Region countryCodes="GB" regionID="uk-main" selectable="true">
+            <RegionName>United Kingdom</RegionName>
+            <Coordinates>
+                <Latitude>54.0026</Latitude>
+                <Longitude>-2.5475</Longitude>
+                <Radius>500</Radius>
+            </Coordinates>
+        </Region>
+    </RegionList>
+
+    <!-- Content Guide Source -->
+    <ContentGuideSource CGSID="cgs1" xml:lang="en">
+        <ProviderName>EPG Provider Ltd</ProviderName>
+        <ScheduleInfoEndpoint contentType="application/xml">
+            <dvbi-types:URI>https://epg.example.com/schedule.xml</dvbi-types:URI>
+        </ScheduleInfoEndpoint>
+        <ProgramInfoEndpoint contentType="application/json">
+            <dvbi-types:URI>https://epg.example.com/programs.json</dvbi-types:URI>
+        </ProgramInfoEndpoint>
+    </ContentGuideSource>
+
+    <!-- Subscription Packages -->
+    <SubscriptionPackageList>
+        <SubscriptionPackage>Premium Sports</SubscriptionPackage>
+        <SubscriptionPackage>Basic Entertainment</SubscriptionPackage>
+    </SubscriptionPackageList>
+
+    <!-- Service 1: NVOD Service -->
+    <Service version="1" dynamic="true" replayAvailable="true">
+        <UniqueIdentifier>tag:test.com,2024:nvod-service</UniqueIdentifier>
+        
+        <ServiceInstance priority="1">
+            <DVBCDeliveryParameters>
+                <DVBTriplet origNetId="1234" tsId="5678" serviceId="9012"/>
+                <NetworkID>7890</NetworkID>
+            </DVBCDeliveryParameters>
+            
+            <FTAContentManagement userDefined="false" 
+                                doNotScramble="true" 
+                                controlRemoteAccessOverInternet="2"
+                                doNotApplyRevocation="true"/>
+        </ServiceInstance>
+
+        <NVOD mode="timeshifted" offset="PT1H"/>
+        
+        <ServiceName>NVOD Timeshift Channel</ServiceName>
+        <ProviderName>NVOD Provider</ProviderName>
+        
+        <ServiceGenre href="urn:tva:metadata:cs:ContentCS:2024:1.1">
+            <tva:Name>Movies</tva:Name>
+        </ServiceGenre>
+        
+        <RecordingInfo href="urn:tva:metadata:cs:RecordingCS:2024:1.0"/>
+    </Service>
+
+    <!-- Service 2: Sports Service with Multiple Delivery -->
+    <Service version="2" dynamic="false">
+        <UniqueIdentifier>tag:test.com,2024:sports-service</UniqueIdentifier>
+        
+        <ServiceInstance priority="1">
+            <DVBTDeliveryParameters>
+                <DVBTriplet origNetId="8916" tsId="4097" serviceId="74"/>
+                <TargetCountry>GB</TargetCountry>
+            </DVBTDeliveryParameters>
+            
+            <ContentProtection>
+                <CASystemId>0x1234</CASystemId>
+                <DRMSystemId encryptionScheme="cbcs">edef8ba9-79d6-4ace-a3c8-27dcd51d21ed</DRMSystemId>
+            </ContentProtection>
+            
+            <SubscriptionPackage>Premium Sports</SubscriptionPackage>
+        </ServiceInstance>
+
+        <ServiceInstance priority="2">
+            <RTSPDeliveryParameters>
+                <DVBTriplet origNetId="8916" tsId="4097" serviceId="74"/>
+                <RTSPURL>rtsp://stream.example.com/sports</RTSPURL>
+                <MinimumBitRate>8000000</MinimumBitRate>
+            </RTSPDeliveryParameters>
+        </ServiceInstance>
+
+        <ServiceName>Live Sports HD</ServiceName>
+        <ProviderName>Sports Network</ProviderName>
+        
+        <ServiceGenre href="urn:tva:metadata:cs:ContentCS:2024:1.1">
+            <tva:Name>Sports</tva:Name>
+        </ServiceGenre>
+        
+        <ParentalRating>
+            <MinimumAge countryCodes="GB">18</MinimumAge>
+        </ParentalRating>
+    </Service>
+
+    <!-- Service 3: VOD Service with Advanced Features -->
+    <Service version="1" dynamic="true">
+        <UniqueIdentifier>tag:test.com,2024:vod-service</UniqueIdentifier>
+        
+        <ServiceInstance priority="1">
+            <DASHDeliveryParameters>
+                <UriBasedLocation contentType="application/dash+xml">
+                    <dvbi-types:URI>https://vod.example.com/manifest.mpd</dvbi-types:URI>
+                </UriBasedLocation>
+                <MinimumBitRate>2500000</MinimumBitRate>
+            </DASHDeliveryParameters>
+            
+            <FTAContentManagement userDefined="true" 
+                                doNotScramble="false" 
+                                controlRemoteAccessOverInternet="3"
+                                doNotApplyRevocation="false"/>
+                                
+            <SubscriptionPackage>Basic Entertainment</SubscriptionPackage>
+        </ServiceInstance>
+
+        <ServiceName>Movies on Demand</ServiceName>
+        <ProviderName>VOD Provider</ProviderName>
+        
+        <ServiceGenre href="urn:tva:metadata:cs:ContentCS:2024:1.1">
+            <tva:Name>Entertainment</tva:Name>
+        </ServiceGenre>
+        
+        <RecordingInfo href="urn:tva:metadata:cs:RecordingCS:2024:2.0"/>
+        
+        <ProminenceList>
+            <Prominence country="GB" ranking="5">Top Movie Service</Prominence>
+        </ProminenceList>
+    </Service>
+
+</ServiceList>
