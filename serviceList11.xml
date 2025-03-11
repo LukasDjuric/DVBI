@@ -82,25 +82,25 @@
 
             <!-- Content Attributes -->
             <ContentAttributes>
-                <tva:AudioAttributes>
+                <AudioAttributes>
                     <tva:Coding href="urn:tva:metadata:cs:AudioCodingCS:2024:5.1"/>
                     <tva:NumOfChannels>6</tva:NumOfChannels>
                     <tva:BitRate variable="true" average="256000"/>
-                </tva:AudioAttributes>
+                </AudioAttributes>
                 
-                <dvbi-types:VideoAttributes>
+                <VideoAttributes>
                     <tva:Coding href="urn:tva:metadata:cs:VideoCodingCS:2024:h265"/>
                     <tva:HorizontalSize>3840</tva:HorizontalSize>
                     <tva:VerticalSize>2160</tva:VerticalSize>
                     <tva:Colorimetry>BT.2020</tva:Colorimetry>
-                </dvbi-types:VideoAttributes>
+                </VideoAttributes>
                 
-                <tva:AccessibilityAttributes>
+                <AccessibilityAttributes>
                     <tva:SubtitleAttributes>
                         <tva:Coding href="urn:tva:metadata:cs:SubtitleCodingCS:2024:1.1"/>
                         <tva:SubtitleLanguage>eng</tva:SubtitleLanguage>
                     </tva:SubtitleAttributes>
-                </tva:AccessibilityAttributes>
+                </AccessibilityAttributes>
             </ContentAttributes>
 
             <!-- Additional Parameters -->
