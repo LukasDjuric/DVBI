@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ServiceList xmlns="urn:dvb:metadata:servicediscovery:2024"
+             xmlns:dvbi-types="urn:dvb:metadata:servicediscovery-types:2023"
+             xmlns:tva="urn:tva:metadata:2024"
+             xmlns:mpeg7="urn:tva:mpeg7:2008"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             id="tag:test.com,2024:max-complexity"
+             version="4"
+             responseStatus="OK"
+             xml:lang="en"
+             xsi:schemaLocation="urn:dvb:metadata:servicediscovery:2024 dvbi_v6.0.xsd">
+
+    <!-- Global Elements -->
+    <LanguageList>
+        <tva:AudioLanguage>eng</tva:AudioLanguage>
+        <tva:AudioLanguage purpose="narration">fra</tva:AudioLanguage>
+    </LanguageList>
+
+    <RegionList version="2">
+        <Region regionID="eu-west" countryCodes="GB,FR" selectable="false">
+            <RegionName>Western Europe</RegionName>
+            <Coordinates>
+                <dvbi-types:Latitude>48.8566</dvbi-types:Latitude>
+                <dvbi-types:Longitude>2.3522</dvbi-types:Longitude>
+                <dvbi-types:Radius>300</dvbi-types:Radius>
+            </Coordinates>
+            <PostcodeRange from="WC1" to="WC99"/>
+        </Region>
+    </RegionList>
+
+    <ContentGuideSourceList>
+        <ContentGuideSource CGSID="cgs1" minimumMetadataUpdatePeriod="PT30M">
+            <GroupInfoEndpoint contentType="application/json">
+                <dvbi-types:URI>https://epg.example.com/groups.json</dvbi-types:URI>
+            </GroupInfoEndpoint>
+            <MoreEpisodesEndpoint contentType="application/xml">
+                <dvbi-types:URI>https://epg.example.com/series.xml</dvbi-types:URI>
+            </MoreEpisodesEndpoint>
+        </ContentGuideSource>
+    </ContentGuideSourceList>
+
+    <!-- Test Service sa kompleksnom strukturom -->
+    <Service version="3" dynamic="true" replayAvailable="false">
+        <UniqueIdentifier>tag:test.com,2024:ultra-service</UniqueIdentifier>
+        
+        <!-- Multi-instanca sa različitim delivery parametrima -->
+        <ServiceInstance priority="1" id="main-instance">
+            <!-- Delivery Parameters -->
+            <DVBSDeliveryParameters>
+                <DVBTriplet origNetId="8916" tsId="4097" serviceId="74"/>
+                <OrbitalPosition>19.2</OrbitalPosition>
+                <Frequency>11766000</Frequency>
+                <Polarization>horizontal</Polarization>
+                <SymbolRate>27500</SymbolRate>
+                <ModulationSystem>DVB-S2X</ModulationSystem>
+                <ModulationType>16APSK</ModulationType>
+                <FEC>3/4</FEC>
+                <ChannelBonding>
+                    <Frequency primary="true">11766000</Frequency>
+                    <Frequency>11836000</Frequency>
+                </ChannelBonding>
+            </DVBSDeliveryParameters>
+
+            <!-- Content Protection -->
+            <ContentProtection>
+                <CASystemId cpsIndex="cas1">0x1234ABCD</CASystemId>
+                <DRMSystemId encryptionScheme="cbcs-10" cpsIndex="drm1">9a04f079-9840-4286-ab92-e65be0885f95</DRMSystemId>
+            </ContentProtection>
+
+            <!-- FTA Management -->
+            <FTAContentManagement userDefined="true"
+                                 doNotScramble="false"
+                                 controlRemoteAccessOverInternet="3"
+                                 doNotApplyRevocation="false"/>
+
+            <!-- Availability -->
+            <Availability>
+                <Period validFrom="2024-01-01T00:00:00Z" validTo="2024-12-31T23:59:59Z">
+                    <Interval days="1,3,5" startTime="08:00:00Z" endTime="23:00:00Z"/>
+                </Period>
+            </Availability>
+
+            <!-- Content Attributes -->
+            <ContentAttributes>
+                <tva:AudioAttributes>
+                    <tva:Coding href="urn:tva:metadata:cs:AudioCodingCS:2024:5.1"/>
+                    <tva:NumOfChannels>6</tva:NumOfChannels>
+                    <tva:BitRate variable="true" average="256000"/>
+                </tva:AudioAttributes>
+                
+                <dvbi-types:VideoAttributes>
+                    <tva:Coding href="urn:tva:metadata:cs:VideoCodingCS:2024:h265"/>
+                    <tva:HorizontalSize>3840</tva:HorizontalSize>
+                    <tva:VerticalSize>2160</tva:VerticalSize>
+                    <tva:Colorimetry>BT.2020</tva:Colorimetry>
+                </dvbi-types:VideoAttributes>
+                
+                <tva:AccessibilityAttributes>
+                    <tva:SubtitleAttributes>
+                        <tva:Coding href="urn:tva:metadata:cs:SubtitleCodingCS:2024:1.1"/>
+                        <tva:SubtitleLanguage>eng</tva:SubtitleLanguage>
+                    </tva:SubtitleAttributes>
+                </tva:AccessibilityAttributes>
+            </ContentAttributes>
+
+            <!-- Additional Parameters -->
+            <AdditionalServiceParameters dvbi-types:extensionName="custom-params">
+                <custom:InteractiveFeatures xmlns:custom="urn:custom:extensions">
+                    <custom:Feature>HDR10+</custom:Feature>
+                </custom:InteractiveFeatures>
+            </AdditionalServiceParameters>
+        </ServiceInstance>
+
+        <!-- Alternative Instance -->
+        <ServiceInstance priority="2">
+            <ApplicationDelivery>
+                <ApplicationType contentType="application/vnd.hbbtv.xhtml+xml"
+                                xmlAitApplicationType="application/vnd.dvb.ait+xml"/>
+            </ApplicationDelivery>
+            <IdentifierBasedDeliveryParameters contentType="text/plain">
+                hbbtv:1.2.1:org.example.interactive
+            </IdentifierBasedDeliveryParameters>
+        </ServiceInstance>
+
+        <!-- Service Metadata -->
+        <ServiceName>UltraHD Test Channel</ServiceName>
+        <AltServiceName>UHD Test</AltServiceName>
+        <ProviderName>Advanced Broadcast Consortium</ProviderName>
+        
+        <ServiceGenre href="urn:tva:metadata:cs:ContentCS:2024:3.0">
+            <tva:Name>Technology</tva:Name>
+        </ServiceGenre>
+        
+        <ParentalRating>
+            <MinimumAge countryCodes="GB,US">13</MinimumAge>
+            <MinimumAge countryCodes="DE">16</MinimumAge>
+        </ParentalRating>
+
+        <ProminenceList>
+            <Prominence country="GB" region="eu-west" ranking="1"/>
+        </ProminenceList>
+
+        <RelatedMaterial>
+            <tva:HowRelated href="urn:tva:metadata:cs:RelatedMaterialCS:2024:2.0"/>
+            <tva:SocialMediaReference referenceType="official-twitter">https://twitter.com/example</tva:SocialMediaReference>
+        </RelatedMaterial>
+
+        <RecordingInfo href="urn:tva:metadata:cs:RecordingCS:2024:3.0"/>
+    </Service>
+
+    <!-- Regular Service sa neobičnim elementima -->
+    <Service version="1" dynamic="false">
+        <UniqueIdentifier>tag:test.com,2024:standard-service</UniqueIdentifier>
+        
+        <ServiceInstance priority="1">
+            <SATIPDeliveryParameters>
+                <QueryParameters>src=1&amp;freq=11490</QueryParameters>
+            </SATIPDeliveryParameters>
+            
+            <SourceType>urn:dvb:metadata:source:legacy-broadcast</SourceType>
+        </ServiceInstance>
+
+        <ServiceName>Classic Channel</ServiceName>
+        <ProviderName>Retro Broadcasting</ProviderName>
+        
+        <TargetRegion>eu-west</TargetRegion>
+        
+        <ServiceDescription>
+            <tva:Synopsis length="medium">Vintage programming 24/7</tva:Synopsis>
+        </ServiceDescription>
+
+        <NVOD mode="reference" reference="tag:test.com,2024:nvod-ref"/>
+    </Service>
+
+</ServiceList>
