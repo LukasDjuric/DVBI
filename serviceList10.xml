@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?><ServiceList xmlns="urn:dvb:metadata:servicediscovery:2024" xsi:schemaLocation="urn:dvb:metadata:servicediscovery:2024 schemas/dvbi_v6.0.xsd" xml:lang="fr" id="l1sta" version="2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:tva="urn:tva:metadata:2024" xmlns:dvbi-types="urn:dvb:metadata:servicediscovery-types:2023">
 <Name>DVB-I TEST Service list</Name>
 <ProviderName>sbb</ProviderName>
-<RelatedMaterial><tva:HowRelated href="urn:dvb:metadata:cs:HowRelatedCS:2021:1001.1"/><tva:MediaLocator><tva:MediaUri contentType="image/png">https://www.google.com/url?sa=i&amp;url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FManchester_United_F.C.&amp;psig=AOvVaw3aKoSeMCCpieVGsPx-hkS3&amp;ust=1741768788025000&amp;source=images&amp;cd=vfe&amp;opi=89978449&amp;ved=0CBUQjRxqFwoTCLig68DQgYwDFQAAAAAdAAAAABAE</tva:MediaUri>
+<RelatedMaterial>
+  <tva:HowRelated href="urn:dvb:metadata:cs:HowRelatedCS:2021:1001.1"/>
+  <tva:MediaLocator>
+    <tva:MediaUri contentType="image/png">https://www.google.com/url?sa=i&amp;url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FManchester_United_F.C.&amp;psig=AOvVaw3aKoSeMCCpieVGsPx-hkS3&amp;ust=1741768788025000&amp;source=images&amp;cd=vfe&amp;opi=89978449&amp;ved=0CBUQjRxqFwoTCLig68DQgYwDFQAAAAAdAAAAABAE</tva:MediaUri>
 </tva:MediaLocator>
 </RelatedMaterial>
 <RegionList version="1">
