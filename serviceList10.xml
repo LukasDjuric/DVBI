@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?><ServiceList xmlns="urn:dvb:metadata:servicediscovery:2024" xsi:schemaLocation="urn:dvb:metadata:servicediscovery:2024 schemas/dvbi_v6.0.xsd" xml:lang="fr" id="l1sta" version="2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:tva="urn:tva:metadata:2024" xmlns:dvbi-types="urn:dvb:metadata:servicediscovery-types:2023">
+<Name>DVB-I TEST Service list</Name>
+<ProviderName>sbb</ProviderName>
+<RelatedMaterial><tva:HowRelated href="urn:dvb:metadata:cs:HowRelatedCS:2021:1001.1"/><tva:MediaLocator><tva:MediaUri contentType="image/png">https://www.google.com/url?sa=i&amp;url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FManchester_United_F.C.&amp;psig=AOvVaw3aKoSeMCCpieVGsPx-hkS3&amp;ust=1741768788025000&amp;source=images&amp;cd=vfe&amp;opi=89978449&amp;ved=0CBUQjRxqFwoTCLig68DQgYwDFQAAAAAdAAAAABAE</tva:MediaUri>
+</tva:MediaLocator>
+</RelatedMaterial>
+<RegionList version="1">
+<Region regionID="serbia" countryCodes="serbia"/>
+</RegionList>
+<LCNTableList>
+<LCNTable>
+<TargetRegion>serbia</TargetRegion>
+<LCN channelNumber="1" serviceRef="Pr1v1"/>
+</LCNTable>
+</LCNTableList>
+<ContentGuideSource CGSID="cg1d">
+<ProviderName>SBB</ProviderName>
+<ScheduleInfoEndpoint contentType="application/xml">
+<URI>INSTALL~~LOCATION/backend/program_information.php</URI>
+</ScheduleInfoEndpoint>
+</ContentGuideSource>
+<Service version="1">
+<UniqueIdentifier>Pr1v1</UniqueIdentifier>
+<ServiceInstance priority="1">
+<DisplayName>instanca1</DisplayName>
+<RelatedMaterial>
+<tva:HowRelated href="urn:dvb:metadata:cs:LinkedApplicationCS:2019:1.2"/>
+<tva:MediaLocator>
+<tva:MediaUri contentType="application/vnd.dvb.ait+xml">https://linkto.myapp.de/xml.aitx?sid=1</tva:MediaUri>
+</tva:MediaLocator>
+</RelatedMaterial>
+<RelatedMaterial>
+<tva:HowRelated href="urn:dvb:metadata:cs:LinkedApplicationCS:2019:1.1"/>
+<tva:MediaLocator>
+<tva:MediaUri contentType="application/vnd.dvb.ait+xml">https://linkto.myapp.de/xml.aitx?sid=2</tva:MediaUri>
+</tva:MediaLocator>
+</RelatedMaterial>
+</ServiceInstance>
+<ServiceName>prvi</ServiceName>
+<ProviderName>sbb</ProviderName>
+<RelatedMaterial>
+<tva:HowRelated href="urn:dvb:metadata:cs:HowRelatedCS:2021:1001.2"/><tva:MediaLocator>
+<tva:MediaUri contentType="image/png">https://www.google.com/url?sa=i&amp;url=https%3A%2F%2Fsr.wikipedia.org%2Fwiki%2FSBB&amp;psig=AOvVaw2CrFM_FUxQQ2yUN4SrcvMz&amp;ust=1741769737783000&amp;source=images&amp;cd=vfe&amp;opi=89978449&amp;ved=0CBUQjRxqFwoTCPj88YXUgYwDFQAAAAAdAAAAABAE</tva:MediaUri>
+</tva:MediaLocator>
+</RelatedMaterial>
+<RelatedMaterial>
+<tva:HowRelated href="urn:dvb:metadata:cs:LinkedApplicationCS:2019:1.2"/>
+<tva:MediaLocator>
+<tva:MediaUri contentType="application/vnd.dvb.ait+xml">https://linkto.myapp.de/xml.aitx?sid=11</tva:MediaUri>
+</tva:MediaLocator>
+</RelatedMaterial>
+<RelatedMaterial>
+<tva:HowRelated href="urn:dvb:metadata:cs:LinkedApplicationCS:2019:1.1"/><tva:MediaLocator>
+<tva:MediaUri contentType="application/vnd.dvb.ait+xml">https://linkto.myapp.de/xml.aitx?sid=12
+</tva:MediaUri>
+</tva:MediaLocator>
+</RelatedMaterial>
+<ProminenceList>
+<Prominence/>
+</ProminenceList>
+</Service>
+</ServiceList>
