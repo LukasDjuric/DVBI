@@ -35,10 +35,11 @@
         </ProgramInfoEndpoint>
     </ContentGuideSource>
 
-    <!-- Subscription Packages -->
-    <SubscriptionPackageList>
-        <SubscriptionPackage>Premium Sports</SubscriptionPackage>
-        <SubscriptionPackage>Basic Entertainment</SubscriptionPackage>
+    <!-- Global Subscription Package List -->
+    <SubscriptionPackageList allowNoPackage="false">
+        <SubscriptionPackage xml:lang="en">Premium Sports</SubscriptionPackage>
+        <SubscriptionPackage xml:lang="en">Basic Entertainment</SubscriptionPackage>
+        <SubscriptionPackage xml:lang="de">Deutsches Paket</SubscriptionPackage>
     </SubscriptionPackageList>
 
     <!-- Service 1: NVOD Service -->
