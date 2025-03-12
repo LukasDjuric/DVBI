@@ -13,6 +13,7 @@
     <!-- Global Elements -->
     <LanguageList>
         <tva:Language>eng</tva:Language>
+        <tva:Language>srb</tva:Language>
         <tva:Language purpose="narration">fra</tva:Language>
     </LanguageList>
 
