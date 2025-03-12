@@ -12,8 +12,8 @@
 
     <!-- Global Elements -->
     <LanguageList>
-        <tva:AudioLanguage>eng</tva:AudioLanguage>
-        <tva:AudioLanguage purpose="narration">fra</tva:AudioLanguage>
+        <tva:Language>eng</tva:Language>
+        <tva:Language purpose="narration">fra</tva:Language>
     </LanguageList>
 
     <RegionList version="2">
