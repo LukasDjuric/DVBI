@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ServiceList version="2" xml:lang="en"
+    id="tag:test.com,2024:parser-test"
+    xmlns="urn:dvb:metadata:servicediscovery:2024"
+    xmlns:dvbi-types="urn:dvb:metadata:servicediscovery-types:2023"
+    xmlns:tva="urn:tva:metadata:2024"
+    xmlns:mpeg7="urn:tva:mpeg7:2008"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="urn:dvb:metadata:servicediscovery:2024 dvbi_v6.0.xsd">
+
+    <Name>Comprehensive Parser Test List</Name>
+    <ProviderName>Parser Test Provider</ProviderName>
+
+    <!-- Language List -->
+    <LanguageList>
+        <Language purpose="original">
+            <mpeg7:Textual>eng</mpeg7:Textual>
+        </Language>
+        <Language purpose="dubbed">
+            <mpeg7:Textual>fra</mpeg7:Textual>
+        </Language>
+    </LanguageList>
+
+    <!-- Region List -->
+    <RegionList version="1">
+        <Region regionID="R1" selectable="true">
+            <RegionName>Central Europe</RegionName>
+            <Postcode>1000</Postcode>
+            <Coordinates>
+                <Latitude>48.8566</Latitude>
+                <Longitude>2.3522</Longitude>
+                <Radius>50</Radius>
+            </Coordinates>
+        </Region>
+    </RegionList>
+
+    <!-- LCN Table -->
+    <LCNTableList>
+        <LCNTable preserveBroadcastLCN="true">
+            <LCN channelNumber="101" serviceRef="tag:test.com,2024:service1" visible="true"/>
+            <LCNRange start="200" end="299" serviceType="urn:tva:metadata:cs:ServiceTypeCS:2024:1.1"/>
+        </LCNTable>
+    </LCNTableList>
+
+    <!-- Content Guide Source -->
+    <ContentGuideSourceList>
+        <ContentGuideSource CGSID="CG1" minimumMetadataUpdatePeriod="PT1H">
+            <ProviderName>EPG Provider</ProviderName>
+            <ScheduleInfoEndpoint>https://epg.example.com/schedule</ScheduleInfoEndpoint>
+        </ContentGuideSource>
+    </ContentGuideSourceList>
+
+    <!-- Test Service with Multiple Features -->
+    <TestService version="1" dynamic="true" replayAvailable="true">
+        <UniqueIdentifier>tag:test.com,2024:service1</UniqueIdentifier>
+        
+        <ServiceInstance priority="1" id="SI1">
+            <!-- Multiple Delivery Methods -->
+            <DVBTDeliveryParameters>
+                <DVBTriplet>
+                    <dvbi-types:OriginalNetworkId>1</dvbi-types:OriginalNetworkId>
+                    <dvbi-types:TransportStreamId>100</dvbi-types:TransportStreamId>
+                    <dvbi-types:ServiceId>500</dvbi-types:ServiceId>
+                </DVBTriplet>
+            </DVBTDeliveryParameters>
+            
+            <ContentProtection>
+                <CASystemId cpsIndex="1">CA_SYSTEM_123</CASystemId>
+                <DRMSystemId encryptionScheme="cenc">DRM_SYSTEM_456</DRMSystemId>
+            </ContentProtection>
+
+            <Availability>
+                <Period validFrom="2024-01-01T00:00:00Z">
+                    <Interval days="1 3 5" startTime="08:00:00Z" endTime="23:59:59Z"/>
+                </Period>
+            </Availability>
+
+            <FTAContentManagement 
+                userDefined="true" 
+                doNotScramble="false" 
+                controlRemoteAccessOverInternet="2"
+            />
+        </ServiceInstance>
+
+        <ServiceName>Test Service 1</ServiceName>
+        <ProviderName>Test Provider</ProviderName>
+        
+        <!-- Service Metadata -->
+        <ServiceGenre href="urn:tva:metadata:cs:GenreCS:2024:1.5">
+            <tva:Name>Entertainment</tva:Name>
+        </ServiceGenre>
+        
+        <ServiceType href="urn:tva:metadata:cs:ServiceTypeCS:2024:1.1">
+            <tva:Name>Linear TV</tva:Name>
+        </ServiceType>
+        
+        <ParentalRating>
+            <MinimumAge countryCodes="GBR,FRA">12</MinimumAge>
+        </ParentalRating>
+
+        <ProminenceList>
+            <Prominence ranking="5">Prime Time</Prominence>
+        </ProminenceList>
+    </TestService>
+
+    <!-- Subscription Packages -->
+    <SubscriptionPackageList allowNoPackage="false">
+        <SubscriptionPackage>Basic Pack</SubscriptionPackage>
+        <SubscriptionPackage>Premium Pack</SubscriptionPackage>
+    </SubscriptionPackageList>
+
+</ServiceList>
