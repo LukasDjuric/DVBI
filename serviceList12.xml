@@ -4,6 +4,7 @@
     xmlns="urn:dvb:metadata:servicediscovery:2024"
     xmlns:dvbi-types="urn:dvb:metadata:servicediscovery-types:2023"
     xmlns:tva="urn:tva:metadata:2024"
+    xmlns:mpeg7="urn:mpeg:mpeg7:schema:2024"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:schemaLocation="urn:dvb:metadata:servicediscovery:2024 dvbi_v6.0.xsd">
 
@@ -31,38 +32,38 @@
                 <tva:Name>Promotional</tva:Name>
             </HowRelated>
             <PromotionalMedia>
-                <!-- TitleImage koristi ImageLocator -->
-                <TitleImage>
-                    <MediaUri contentType="image/jpeg" uriType="urn:tva:metadata:cs:ImageCS:2024:2.1">
+                <!-- TitleImage koristi ImageLocator iz mpeg7 namespace-a -->
+                <mpeg7:TitleImage>
+                    <mpeg7:MediaUri contentType="image/jpeg" uriType="urn:tva:metadata:cs:ImageCS:2024:2.1">
                         https://images.example.com/banner.jpg
-                    </MediaUri>
-                    <StreamID>123</StreamID>
-                    <BytePosition offset="1000" length="5000"/>
-                </TitleImage>
+                    </mpeg7:MediaUri>
+                    <mpeg7:StreamID>123</mpeg7:StreamID>
+                    <mpeg7:BytePosition offset="1000" length="5000"/>
+                </mpeg7:TitleImage>
 
-                <!-- TitleVideo koristi TemporalSegmentLocator -->
-                <TitleVideo>
-                    <MediaUri contentType="video/mp4" uriType="urn:tva:metadata:cs:VideoCS:2024:1.2">
+                <!-- TitleVideo koristi TemporalSegmentLocator iz mpeg7 namespace-a -->
+                <mpeg7:TitleVideo>
+                    <mpeg7:MediaUri contentType="video/mp4" uriType="urn:tva:metadata:cs:VideoCS:2024:1.2">
                         https://video.example.com/trailer.mp4
-                    </MediaUri>
-                    <StreamID>456</StreamID>
-                    <MediaTime>
-                        <MediaTimePoint>T00:01:30F24</MediaTimePoint>
-                        <MediaDuration>PT30S</MediaDuration>
-                    </MediaTime>
-                </TitleVideo>
+                    </mpeg7:MediaUri>
+                    <mpeg7:StreamID>456</mpeg7:StreamID>
+                    <mpeg7:MediaTime>
+                        <mpeg7:MediaTimePoint>T00:01:30F24</mpeg7:MediaTimePoint>
+                        <mpeg7:MediaDuration>PT30S</mpeg7:MediaDuration>
+                    </mpeg7:MediaTime>
+                </mpeg7:TitleVideo>
 
-                <!-- TitleAudio koristi TemporalSegmentLocator -->
-                <TitleAudio>
-                    <MediaUri contentType="audio/aac" uriType="urn:tva:metadata:cs:AudioCS:2024:1.0">
+                <!-- TitleAudio koristi TemporalSegmentLocator iz mpeg7 namespace-a -->
+                <mpeg7:TitleAudio>
+                    <mpeg7:MediaUri contentType="audio/aac" uriType="urn:tva:metadata:cs:AudioCS:2024:1.0">
                         https://audio.example.com/theme.aac
-                    </MediaUri>
-                    <StreamID>789</StreamID>
-                    <MediaTime>
-                        <MediaTimePoint>T00:00:15F24</MediaTimePoint>
-                        <MediaDuration>PT10S</MediaDuration>
-                    </MediaTime>
-                </TitleAudio>
+                    </mpeg7:MediaUri>
+                    <mpeg7:StreamID>789</mpeg7:StreamID>
+                    <mpeg7:MediaTime>
+                        <mpeg7:MediaTimePoint>T00:00:15F24</mpeg7:MediaTimePoint>
+                        <mpeg7:MediaDuration>PT10S</mpeg7:MediaDuration>
+                    </mpeg7:MediaTime>
+                </mpeg7:TitleAudio>
             </PromotionalMedia>
         </RelatedMaterial>
     </Service>
