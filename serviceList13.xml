@@ -13,12 +13,8 @@
 
     <!-- Language List -->
     <LanguageList>
-        <Language purpose="original">
-            <mpeg7:Textual>eng</mpeg7:Textual>
-        </Language>
-        <Language purpose="dubbed">
-            <mpeg7:Textual>fra</mpeg7:Textual>
-        </Language>
+    <Language mpeg7:purpose="original" type="original">eng</Language>
+    <Language mpeg7:purpose="dubbed" type="dubbed">fra</Language>
     </LanguageList>
 
     <!-- Region List -->
