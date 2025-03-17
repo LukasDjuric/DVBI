@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <ServiceList version="1" xml:lang="en"
     id="tag:test.com,2024:temporal-image-test"
     xmlns="urn:dvb:metadata:servicediscovery:2024"
@@ -21,7 +22,7 @@
             </DASHDeliveryParameters>
         </ServiceInstance>
 
-        <ServiceName>Test Channel Temporal & Image</ServiceName>
+        <ServiceName>Test Channel Temporal &amp; Image</ServiceName>
         <ProviderName>Test Provider</ProviderName>
 
         <!-- Related Material koji sadrži PromotionalMedia -->
