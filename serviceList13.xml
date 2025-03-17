@@ -23,9 +23,9 @@
             <RegionName>Central Europe</RegionName>
             <Postcode>1000</Postcode>
             <Coordinates>
-                <Latitude>48.8566</Latitude>
-                <Longitude>2.3522</Longitude>
-                <Radius>50</Radius>
+                <dvbi-types:Latitude>48.8566</dvbi-types:Latitude>
+                <dvbi-types:Longitude>2.3522</dvbi-types:Longitude>
+                <dvbi-types:Radius>50</dvbi-types:Radius>
             </Coordinates>
         </Region>
     </RegionList>
