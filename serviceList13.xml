@@ -42,7 +42,9 @@
     <ContentGuideSourceList>
         <ContentGuideSource CGSID="CG1" minimumMetadataUpdatePeriod="PT1H">
             <ProviderName>EPG Provider</ProviderName>
-            <ScheduleInfoEndpoint>https://epg.example.com/schedule</ScheduleInfoEndpoint>
+            <ScheduleInfoEndpoint contentType="application/xml">
+                <dvbi-types:URI>https://cgs.az.metadata/schedule</dvbi-types:URI>
+            </ScheduleInfoEndpoint>
         </ContentGuideSource>
     </ContentGuideSourceList>
 
