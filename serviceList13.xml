@@ -13,8 +13,8 @@
 
     <!-- Language List -->
     <LanguageList>
-    <Language mpeg7:purpose="original" type="original">eng</Language>
-    <Language mpeg7:purpose="dubbed" type="dubbed">fra</Language>
+    <tva:Language mpeg7:purpose="original" type="original">eng</tva:Language>
+    <tva:Language mpeg7:purpose="dubbed" type="dubbed">fra</tva:Language>
     </LanguageList>
 
     <!-- Region List -->
