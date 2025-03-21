@@ -1270,7 +1270,7 @@
 <DisplayName>RTL HD</DisplayName>
 <DASHDeliveryParameters>
 <UriBasedLocation contentType="application/dash+xml">
-<URI>http://cdn-test01.cdn.media-broadcast.com/egress/chandler/mb/test01/index.mpd?drm=true&type=normal</URI>
+<URI>http://cdn-test01.cdn.media-broadcast.com/egress/chandler/mb/test01/index.mpd?drm=true&amptype=normal</URI>
 </UriBasedLocation>
 </DASHDeliveryParameters>
 </ServiceInstance>
@@ -1874,7 +1874,7 @@
 <DisplayName>Bloomberg Europe TV</DisplayName>
 <DASHDeliveryParameters>
 <UriBasedLocation contentType="application/dash+xml">
-<URI>https://lu-mb-global.in.airflow.jetstre.am/sz/freenet_tv/webdav/live/egress/chandler/mb/test02/index.mpd?drm=true&type=premium</URI>
+<URI>https://lu-mb-global.in.airflow.jetstre.am/sz/freenet_tv/webdav/live/egress/chandler/mb/test02/index.mpd?drm=true&amptype=premium</URI>
 </UriBasedLocation>
 </DASHDeliveryParameters>
 </ServiceInstance>
