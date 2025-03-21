@@ -1,3 +1,4 @@
+<!--  ©2025 DVB-I Projektbüro. All rights reserved.  -->
 <ServiceList xmlns:dvbisd-2022b="urn:dvb:metadata:servicediscovery:2022b" xmlns:hls="vnd:apple:mpegurl" xmlns:dvbisd-2023="urn:dvb:metadata:servicediscovery:2023" xmlns:dvbi-types="urn:dvb:metadata:servicediscovery-types:2023" xmlns:tva-2019="urn:tva:metadata:2019" xmlns:mpeg7="urn:tva:mpeg7:2008" xmlns:tva-2023="urn:tva:metadata:2023" xmlns="urn:dvb:metadata:servicediscovery:2024" xmlns:tva="urn:tva:metadata:2024" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="tag:bmt-technik.de,2024:8ac1915d" version="884" responseStatus="OK" xml:lang="de">
 <Name>Serviceliste Deutschland</Name>
 <ProviderName>DVB-I Pilot Germany</ProviderName>
@@ -4440,5 +4441,398 @@
 <tva:MediaUri contentType="image/png">https://research.rbb-online.de/dvbi/ressources/WDR/WDR_Retro.png</tva:MediaUri>
 </tva:MediaLocator>
 </RelatedMaterial>
+</Service>
+<Service version="3">
+<UniqueIdentifier>tag:zdf.de,2020:zdf/playlist</UniqueIdentifier>
+<ServiceInstance priority="1">
+<DisplayName>ZDF Playlist</DisplayName>
+<DASHDeliveryParameters>
+<UriBasedLocation contentType="application/xml">
+<dvbi-types:URI>https://wwwdyn.zdf.de/dvbi/playlists/playList.xml</dvbi-types:URI>
+</UriBasedLocation>
+</DASHDeliveryParameters>
+</ServiceInstance>
+<ServiceName>ZDF XML Playlist</ServiceName>
+<ProviderName>ZDF, Zweites Deutsches Fernsehen</ProviderName>
+<RelatedMaterial>
+<tva:HowRelated href="urn:dvb:metadata:cs:HowRelatedCS:2021:1001.2"/>
+<tva:MediaLocator>
+<tva:MediaUri contentType="image/png">https://int-dvbi.zdf.de/contentguide/image/?id=11662</tva:MediaUri>
+</tva:MediaLocator>
+</RelatedMaterial>
+<RelatedMaterial>
+<tva:HowRelated href="urn:dvb:metadata:cs:HowRelatedCS:2021:1000.2"/>
+<tva:MediaLocator>
+<tva:MediaUri contentType="image/png">https://int-dvbi.zdf.de/contentguide/image/?id=11664</tva:MediaUri>
+</tva:MediaLocator>
+</RelatedMaterial>
+<RelatedMaterial>
+<tva:HowRelated href="urn:dvb:metadata:cs:LinkedApplicationCS:2019:1.1"/>
+<tva:MediaLocator>
+<tva:MediaUri contentType="application/vnd.dvb.ait+xml">https://int-dvbi.zdf.de/contentguide/aitx.php?id=1</tva:MediaUri>
+</tva:MediaLocator>
+</RelatedMaterial>
+<RelatedMaterial>
+<tva:HowRelated href="urn:dvb:metadata:cs:LinkedApplicationCS:2019:1.1"/>
+<tva:MediaLocator>
+<tva:MediaUri contentType="application/xhtml+xml">https://int-dvbi.zdf.de/apps/zdfhtml/index.php</tva:MediaUri>
+</tva:MediaLocator>
+</RelatedMaterial>
+<ServiceType href="urn:dvb:metadata:cs:ServiceTypeCS:2019:other"/>
+<RecordingInfo href="urn:dvb:metadata:cs:RecordingInfoCS:2019:5"/>
+</Service>
+<Service version="16">
+<UniqueIdentifier>tag:mitxp.com,2021:1.1073.28221</UniqueIdentifier>
+<ServiceInstance priority="5">
+<DASHDeliveryParameters>
+<UriBasedLocation contentType="application/dash+xml">
+<dvbi-types:URI>https://ardref-dash.akamaized.net/dash/live/2027076/dashhbbtv-multiaudio-ebuttd/manifest.mpd</dvbi-types:URI>
+</UriBasedLocation>
+</DASHDeliveryParameters>
+</ServiceInstance>
+<ServiceInstance priority="4">
+<DVBSDeliveryParameters>
+<DVBTriplet origNetId="1" tsId="1073" serviceId="28221"/>
+</DVBSDeliveryParameters>
+</ServiceInstance>
+<ServiceName>alt_ARD-TEST-1</ServiceName>
+<ProviderName>ARD</ProviderName>
+<RelatedMaterial>
+<tva:HowRelated href="urn:dvb:metadata:cs:HowRelatedCS:2021:1001.2"/>
+<tva:MediaLocator>
+<tva:MediaUri contentType="image/png">https://itv-api.ard.de/ardstart/img/services/28206.png</tva:MediaUri>
+</tva:MediaLocator>
+</RelatedMaterial>
+<RelatedMaterial>
+<tva:HowRelated href="urn:dvb:metadata:cs:LinkedApplicationCS:2019:1.1"/>
+<tva:MediaLocator>
+<tva:MediaUri contentType="application/vnd.dvb.ait+xml">https://itv-api.ard.de/xml.aitx?sid=28221</tva:MediaUri>
+</tva:MediaLocator>
+</RelatedMaterial>
+<ServiceType href="urn:dvb:metadata:cs:ServiceTypeCS:2019:linear"/>
+<ContentGuideSourceRef>iSIMS</ContentGuideSourceRef>
+<ContentGuideServiceRef>tag:mitxp.com,2021:eit1.1073.28221</ContentGuideServiceRef>
+</Service>
+<Service version="10">
+<UniqueIdentifier>tag:mitxp.com,2021:1.1201.28341</UniqueIdentifier>
+<ServiceInstance priority="5">
+<DASHDeliveryParameters>
+<UriBasedLocation contentType="application/dash+xml">
+<dvbi-types:URI>https://wdrlull.akamaized.net/cmaf/live-ull/2016904/ll07/manifest.mpd</dvbi-types:URI>
+</UriBasedLocation>
+</DASHDeliveryParameters>
+</ServiceInstance>
+<ServiceInstance priority="3">
+<DVBSDeliveryParameters>
+<DVBTriplet origNetId="1" tsId="1201" serviceId="28341"/>
+</DVBSDeliveryParameters>
+</ServiceInstance>
+<ServiceName>WDR IBC-Test Ultra-Low-Latency HEVC</ServiceName>
+<ProviderName>ARD</ProviderName>
+<RelatedMaterial>
+<tva:HowRelated href="urn:dvb:metadata:cs:HowRelatedCS:2021:1001.2"/>
+<tva:MediaLocator>
+<tva:MediaUri contentType="image/png">https://itv-api.ard.de/ardstart/img/services/28111.png</tva:MediaUri>
+</tva:MediaLocator>
+</RelatedMaterial>
+<RelatedMaterial>
+<tva:HowRelated href="urn:dvb:metadata:cs:LinkedApplicationCS:2019:1.1"/>
+<tva:MediaLocator>
+<tva:MediaUri contentType="application/vnd.dvb.ait+xml">https://itv-api.ard.de/xml.aitx?sid=28111</tva:MediaUri>
+</tva:MediaLocator>
+</RelatedMaterial>
+<ServiceType href="urn:dvb:metadata:cs:ServiceTypeCS:2019:linear"/>
+<ContentGuideSourceRef>iSIMS</ContentGuideSourceRef>
+<ContentGuideServiceRef>tag:mitxp.com,2021:eit1.1201.28341</ContentGuideServiceRef>
+</Service>
+<Service version="1">
+<UniqueIdentifier>tag:mitxp.com,2021:1.1201.28349</UniqueIdentifier>
+<ServiceInstance priority="5">
+<DASHDeliveryParameters>
+<UriBasedLocation contentType="application/dash+xml">
+<dvbi-types:URI>https://wdrlokalzeit.akamaized.net/dash/live/2018116/wdrlz_muensterland_ut/manifest.mpd</dvbi-types:URI>
+</UriBasedLocation>
+</DASHDeliveryParameters>
+</ServiceInstance>
+<ServiceInstance priority="3">
+<DVBSDeliveryParameters>
+<DVBTriplet origNetId="1" tsId="1201" serviceId="28349"/>
+</DVBSDeliveryParameters>
+</ServiceInstance>
+<ServiceName>WDR Münsterland EBU-TT-D</ServiceName>
+<ProviderName>ARD</ProviderName>
+<RelatedMaterial>
+<tva:HowRelated href="urn:dvb:metadata:cs:HowRelatedCS:2021:1001.2"/>
+<tva:MediaLocator>
+<tva:MediaUri contentType="image/png">https://itv-api.ard.de/ardstart/img/services/28111.png</tva:MediaUri>
+</tva:MediaLocator>
+</RelatedMaterial>
+<RelatedMaterial>
+<tva:HowRelated href="urn:dvb:metadata:cs:LinkedApplicationCS:2019:1.1"/>
+<tva:MediaLocator>
+<tva:MediaUri contentType="application/vnd.dvb.ait+xml">https://itv-api.ard.de/xml.aitx?sid=28111</tva:MediaUri>
+</tva:MediaLocator>
+</RelatedMaterial>
+<ServiceType href="urn:dvb:metadata:cs:ServiceTypeCS:2019:linear"/>
+<ContentGuideSourceRef>iSIMS</ContentGuideSourceRef>
+<ContentGuideServiceRef>tag:mitxp.com,2021:eit1.1201.28349</ContentGuideServiceRef>
+</Service>
+<Service version="5">
+<UniqueIdentifier>tag:zdf.de,2020:zdf/ibc</UniqueIdentifier>
+<ServiceInstance priority="1">
+<DisplayName>IBC 2023</DisplayName>
+<DASHDeliveryParameters>
+<UriBasedLocation contentType="application/dash+xml">
+<dvbi-types:URI>https://rbbevent04-dash.akamaized.net/dash/live/685983/rbbevent04/manifest.mpd</dvbi-types:URI>
+</UriBasedLocation>
+</DASHDeliveryParameters>
+</ServiceInstance>
+<ServiceName>DVB-I@IBC</ServiceName>
+<ProviderName>ZDF, Zweites Deutsches Fernsehen</ProviderName>
+<RelatedMaterial>
+<tva:HowRelated href="urn:dvb:metadata:cs:HowRelatedCS:2021:1001.2"/>
+<tva:MediaLocator>
+<tva:MediaUri contentType="image/png">https://int-dvbi.zdf.de/contentguide/image/?id=14639</tva:MediaUri>
+</tva:MediaLocator>
+</RelatedMaterial>
+<RelatedMaterial>
+<tva:HowRelated href="urn:dvb:metadata:cs:LinkedApplicationCS:2019:1.1"/>
+<tva:MediaLocator>
+<tva:MediaUri contentType="application/vnd.dvb.ait+xml">https://int-dvbi.zdf.de/contentguide/aitx.php?id=6</tva:MediaUri>
+</tva:MediaLocator>
+</RelatedMaterial>
+<RelatedMaterial>
+<tva:HowRelated href="urn:dvb:metadata:cs:LinkedApplicationCS:2019:1.1"/>
+<tva:MediaLocator>
+<tva:MediaUri contentType="application/xhtml+xml">https://int-dvbi.zdf.de/ibc/apphtml/</tva:MediaUri>
+</tva:MediaLocator>
+</RelatedMaterial>
+<ServiceType href="urn:dvb:metadata:cs:ServiceTypeCS:2019:other"/>
+<RecordingInfo href="urn:dvb:metadata:cs:RecordingInfoCS:2019:5"/>
+<ContentGuideSourceRef>int-6</ContentGuideSourceRef>
+</Service>
+<Service version="18">
+<UniqueIdentifier>tag:mitxp.com,2021:1.1039.10458</UniqueIdentifier>
+<ServiceInstance priority="5">
+<DASHDeliveryParameters>
+<UriBasedLocation contentType="application/dash+xml">
+<dvbi-types:URI>https://wdr-diemaus-live.icecast.wdr.de/wdr/diemaus/live/mp3/128/stream.mp3</dvbi-types:URI>
+</UriBasedLocation>
+</DASHDeliveryParameters>
+</ServiceInstance>
+<ServiceInstance priority="4">
+<DVBSDeliveryParameters>
+<DVBTriplet origNetId="1" tsId="1039" serviceId="10458"/>
+</DVBSDeliveryParameters>
+</ServiceInstance>
+<ServiceName>Die Maus</ServiceName>
+<ProviderName>ARD WDR</ProviderName>
+<RelatedMaterial>
+<tva:HowRelated href="urn:dvb:metadata:cs:HowRelatedCS:2021:1001.2"/>
+<tva:MediaLocator>
+<tva:MediaUri contentType="image/png">https://itv-api.ard.de/ardstart/img/services/28482.png</tva:MediaUri>
+</tva:MediaLocator>
+</RelatedMaterial>
+<RelatedMaterial>
+<tva:HowRelated href="urn:dvb:metadata:cs:LinkedApplicationCS:2019:1.1"/>
+<tva:MediaLocator>
+<tva:MediaUri contentType="application/vnd.dvb.ait+xml">https://itv-api.ard.de/xml.aitx?sid=28482</tva:MediaUri>
+</tva:MediaLocator>
+</RelatedMaterial>
+<ServiceType href="urn:dvb:metadata:cs:ServiceTypeCS:2019:linear-radio"/>
+<ContentGuideSourceRef>ardradio-iSIMS</ContentGuideSourceRef>
+<ContentGuideServiceRef>tag:mitxp.com,2021:eit1.1039.10458</ContentGuideServiceRef>
+</Service>
+<Service version="20">
+<UniqueIdentifier>tag:mitxp.com,2021:1.1061.10484</UniqueIdentifier>
+<ServiceInstance priority="5">
+<DASHDeliveryParameters>
+<UriBasedLocation contentType="application/dash+xml">
+<dvbi-types:URI>https://www.inforadio.de/livemp3</dvbi-types:URI>
+</UriBasedLocation>
+</DASHDeliveryParameters>
+</ServiceInstance>
+<ServiceInstance priority="4">
+<DVBSDeliveryParameters>
+<DVBTriplet origNetId="1" tsId="1061" serviceId="10484"/>
+</DVBSDeliveryParameters>
+</ServiceInstance>
+<ServiceName>rbb24 Inforadio</ServiceName>
+<ProviderName>ARD rbb</ProviderName>
+<RelatedMaterial>
+<tva:HowRelated href="urn:dvb:metadata:cs:HowRelatedCS:2021:1001.2"/>
+<tva:MediaLocator>
+<tva:MediaUri contentType="image/png">https://itv-api.ard.de/ardstart/img/services/28452.png</tva:MediaUri>
+</tva:MediaLocator>
+</RelatedMaterial>
+<RelatedMaterial>
+<tva:HowRelated href="urn:dvb:metadata:cs:LinkedApplicationCS:2019:1.1"/>
+<tva:MediaLocator>
+<tva:MediaUri contentType="application/vnd.dvb.ait+xml">https://itv-api.ard.de/xml.aitx?sid=28452</tva:MediaUri>
+</tva:MediaLocator>
+</RelatedMaterial>
+<ServiceType href="urn:dvb:metadata:cs:ServiceTypeCS:2019:linear-radio"/>
+<ContentGuideSourceRef>ardradio-iSIMS</ContentGuideSourceRef>
+<ContentGuideServiceRef>tag:mitxp.com,2021:eit1.1061.10484</ContentGuideServiceRef>
+</Service>
+<Service version="22">
+<UniqueIdentifier>tag:mitxp.com,2021:1.1061.10485</UniqueIdentifier>
+<ServiceInstance priority="5">
+<DASHDeliveryParameters>
+<UriBasedLocation contentType="application/dash+xml">
+<dvbi-types:URI>https://www.rbbkultur.de/livemp3</dvbi-types:URI>
+</UriBasedLocation>
+</DASHDeliveryParameters>
+</ServiceInstance>
+<ServiceInstance priority="4">
+<DVBSDeliveryParameters>
+<DVBTriplet origNetId="1" tsId="1061" serviceId="10485"/>
+</DVBSDeliveryParameters>
+</ServiceInstance>
+<ServiceName>radio3</ServiceName>
+<ProviderName>ARD rbb</ProviderName>
+<RelatedMaterial>
+<tva:HowRelated href="urn:dvb:metadata:cs:HowRelatedCS:2021:1001.2"/>
+<tva:MediaLocator>
+<tva:MediaUri contentType="image/png">https://itv-api.ard.de/ardstart/img/services/28453.png</tva:MediaUri>
+</tva:MediaLocator>
+</RelatedMaterial>
+<RelatedMaterial>
+<tva:HowRelated href="urn:dvb:metadata:cs:LinkedApplicationCS:2019:1.1"/>
+<tva:MediaLocator>
+<tva:MediaUri contentType="application/vnd.dvb.ait+xml">https://itv-api.ard.de/xml.aitx?sid=28453</tva:MediaUri>
+</tva:MediaLocator>
+</RelatedMaterial>
+<ServiceType href="urn:dvb:metadata:cs:ServiceTypeCS:2019:linear-radio"/>
+<ContentGuideSourceRef>ardradio-iSIMS</ContentGuideSourceRef>
+<ContentGuideServiceRef>tag:mitxp.com,2021:eit1.1061.10485</ContentGuideServiceRef>
+</Service>
+<Service version="19">
+<UniqueIdentifier>tag:mitxp.com,2021:1.1061.10486</UniqueIdentifier>
+<ServiceInstance priority="5">
+<DASHDeliveryParameters>
+<UriBasedLocation contentType="application/dash+xml">
+<dvbi-types:URI>https://www.antennebrandenburg.de/livemp3</dvbi-types:URI>
+</UriBasedLocation>
+</DASHDeliveryParameters>
+</ServiceInstance>
+<ServiceInstance priority="4">
+<DVBSDeliveryParameters>
+<DVBTriplet origNetId="1" tsId="1061" serviceId="10486"/>
+</DVBSDeliveryParameters>
+</ServiceInstance>
+<ServiceName>Antenne Brbg.</ServiceName>
+<ProviderName>ARD rbb</ProviderName>
+<RelatedMaterial>
+<tva:HowRelated href="urn:dvb:metadata:cs:HowRelatedCS:2021:1001.2"/>
+<tva:MediaLocator>
+<tva:MediaUri contentType="image/png">https://itv-api.ard.de/ardstart/img/services/28454.png</tva:MediaUri>
+</tva:MediaLocator>
+</RelatedMaterial>
+<RelatedMaterial>
+<tva:HowRelated href="urn:dvb:metadata:cs:LinkedApplicationCS:2019:1.1"/>
+<tva:MediaLocator>
+<tva:MediaUri contentType="application/vnd.dvb.ait+xml">https://itv-api.ard.de/xml.aitx?sid=28454</tva:MediaUri>
+</tva:MediaLocator>
+</RelatedMaterial>
+<ServiceType href="urn:dvb:metadata:cs:ServiceTypeCS:2019:linear-radio"/>
+<ContentGuideSourceRef>ardradio-iSIMS</ContentGuideSourceRef>
+<ContentGuideServiceRef>tag:mitxp.com,2021:eit1.1061.10486</ContentGuideServiceRef>
+</Service>
+<Service version="19">
+<UniqueIdentifier>tag:mitxp.com,2021:1.1061.10487</UniqueIdentifier>
+<ServiceInstance priority="5">
+<DASHDeliveryParameters>
+<UriBasedLocation contentType="application/dash+xml">
+<dvbi-types:URI>https://www.rbb888.de/livemp3</dvbi-types:URI>
+</UriBasedLocation>
+</DASHDeliveryParameters>
+</ServiceInstance>
+<ServiceInstance priority="4">
+<DVBSDeliveryParameters>
+<DVBTriplet origNetId="1" tsId="1061" serviceId="10487"/>
+</DVBSDeliveryParameters>
+</ServiceInstance>
+<ServiceName>rbb 88.8</ServiceName>
+<ProviderName>ARD rbb</ProviderName>
+<RelatedMaterial>
+<tva:HowRelated href="urn:dvb:metadata:cs:HowRelatedCS:2021:1001.2"/>
+<tva:MediaLocator>
+<tva:MediaUri contentType="image/png">https://itv-api.ard.de/ardstart/img/services/28455.png</tva:MediaUri>
+</tva:MediaLocator>
+</RelatedMaterial>
+<RelatedMaterial>
+<tva:HowRelated href="urn:dvb:metadata:cs:LinkedApplicationCS:2019:1.1"/>
+<tva:MediaLocator>
+<tva:MediaUri contentType="application/vnd.dvb.ait+xml">https://itv-api.ard.de/xml.aitx?sid=28455</tva:MediaUri>
+</tva:MediaLocator>
+</RelatedMaterial>
+<ServiceType href="urn:dvb:metadata:cs:ServiceTypeCS:2019:linear-radio"/>
+<ContentGuideSourceRef>ardradio-iSIMS</ContentGuideSourceRef>
+<ContentGuideServiceRef>tag:mitxp.com,2021:eit1.1061.10487</ContentGuideServiceRef>
+</Service>
+<Service version="20">
+<UniqueIdentifier>tag:mitxp.com,2021:1.1061.10488</UniqueIdentifier>
+<ServiceInstance priority="5">
+<DASHDeliveryParameters>
+<UriBasedLocation contentType="application/dash+xml">
+<dvbi-types:URI>https://www.radioeins.de/livemp3</dvbi-types:URI>
+</UriBasedLocation>
+</DASHDeliveryParameters>
+</ServiceInstance>
+<ServiceInstance priority="4">
+<DVBSDeliveryParameters>
+<DVBTriplet origNetId="1" tsId="1061" serviceId="10488"/>
+</DVBSDeliveryParameters>
+</ServiceInstance>
+<ServiceName>radioeins</ServiceName>
+<ProviderName>ARD rbb</ProviderName>
+<RelatedMaterial>
+<tva:HowRelated href="urn:dvb:metadata:cs:HowRelatedCS:2021:1001.2"/>
+<tva:MediaLocator>
+<tva:MediaUri contentType="image/png">https://itv-api.ard.de/ardstart/img/services/28456.png</tva:MediaUri>
+</tva:MediaLocator>
+</RelatedMaterial>
+<RelatedMaterial>
+<tva:HowRelated href="urn:dvb:metadata:cs:LinkedApplicationCS:2019:1.1"/>
+<tva:MediaLocator>
+<tva:MediaUri contentType="application/vnd.dvb.ait+xml">https://itv-api.ard.de/xml.aitx?sid=28456</tva:MediaUri>
+</tva:MediaLocator>
+</RelatedMaterial>
+<ServiceType href="urn:dvb:metadata:cs:ServiceTypeCS:2019:linear-radio"/>
+<ContentGuideSourceRef>ardradio-iSIMS</ContentGuideSourceRef>
+<ContentGuideServiceRef>tag:mitxp.com,2021:eit1.1061.10488</ContentGuideServiceRef>
+</Service>
+<Service version="19">
+<UniqueIdentifier>tag:mitxp.com,2021:1.1061.10489</UniqueIdentifier>
+<ServiceInstance priority="5">
+<DASHDeliveryParameters>
+<UriBasedLocation contentType="application/dash+xml">
+<dvbi-types:URI>https://www.fritz.de/livemp3</dvbi-types:URI>
+</UriBasedLocation>
+</DASHDeliveryParameters>
+</ServiceInstance>
+<ServiceInstance priority="4">
+<DVBSDeliveryParameters>
+<DVBTriplet origNetId="1" tsId="1061" serviceId="10489"/>
+</DVBSDeliveryParameters>
+</ServiceInstance>
+<ServiceName>Fritz</ServiceName>
+<ProviderName>ARD rbb</ProviderName>
+<RelatedMaterial>
+<tva:HowRelated href="urn:dvb:metadata:cs:HowRelatedCS:2021:1001.2"/>
+<tva:MediaLocator>
+<tva:MediaUri contentType="image/png">https://itv-api.ard.de/ardstart/img/services/28457.png</tva:MediaUri>
+</tva:MediaLocator>
+</RelatedMaterial>
+<RelatedMaterial>
+<tva:HowRelated href="urn:dvb:metadata:cs:LinkedApplicationCS:2019:1.1"/>
+<tva:MediaLocator>
+<tva:MediaUri contentType="application/vnd.dvb.ait+xml">https://itv-api.ard.de/xml.aitx?sid=28457</tva:MediaUri>
+</tva:MediaLocator>
+</RelatedMaterial>
+<ServiceType href="urn:dvb:metadata:cs:ServiceTypeCS:2019:linear-radio"/>
+<ContentGuideSourceRef>ardradio-iSIMS</ContentGuideSourceRef>
+<ContentGuideServiceRef>tag:mitxp.com,2021:eit1.1061.10489</ContentGuideServiceRef>
 </Service>
 </ServiceList>
