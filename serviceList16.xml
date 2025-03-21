@@ -1,0 +1,2167 @@
+<ServiceList xmlns="urn:dvb:metadata:servicediscovery:2020" xmlns:hls="vnd:apple:mpegurl" xmlns:tva="urn:tva:metadata:2019" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="123" xsi:schemaLocation="urn:dvb:metadata:servicediscovery:2020 ../dvbi_v2.0.xsd">
+<Name>MBroadcast</Name>
+<ProviderName>Sofia Digital</ProviderName>
+<RegionList version="1">
+<Region countryCodes="DEU" regionID="Deutschland">
+<RegionName>Deutschland</RegionName>
+<Region regionID="Aachen">
+<RegionName>Aachen</RegionName>
+<WildcardPostcode>52*</WildcardPostcode>
+</Region>
+<Region regionID="Baden_Württemberg">
+<RegionName>Baden_Württemberg</RegionName>
+<WildcardPostcode>70*</WildcardPostcode>
+</Region>
+<Region regionID="Bayern_Nord">
+<RegionName>Bayern_Nord</RegionName>
+<WildcardPostcode>90*</WildcardPostcode>
+</Region>
+<Region regionID="Bayern_Süd">
+<RegionName>Bayern_Süd</RegionName>
+<WildcardPostcode>80*</WildcardPostcode>
+</Region>
+<Region regionID="Bielefeld">
+<RegionName>Bielefeld</RegionName>
+<WildcardPostcode>33*</WildcardPostcode>
+</Region>
+<Region regionID="Bonn">
+<RegionName>Bonn</RegionName>
+<WildcardPostcode>53*</WildcardPostcode>
+</Region>
+<Region regionID="Brandenburg">
+<RegionName>Brandenburg</RegionName>
+<Region regionID="Berlin">
+<RegionName>Berlin</RegionName>
+<WildcardPostcode>10*</WildcardPostcode>
+<WildcardPostcode>11*</WildcardPostcode>
+<WildcardPostcode>12*</WildcardPostcode>
+<WildcardPostcode>13*</WildcardPostcode>
+</Region>
+</Region>
+<Region regionID="Bremen">
+<RegionName>Bremen</RegionName>
+<Postcode>28195</Postcode>
+<Postcode>28203</Postcode>
+<Postcode>28205</Postcode>
+<Postcode>28207</Postcode>
+<Postcode>28209</Postcode>
+<Postcode>28211</Postcode>
+<Postcode>28213</Postcode>
+<Postcode>28215</Postcode>
+<Postcode>28217</Postcode>
+<Postcode>28219</Postcode>
+<Postcode>28237</Postcode>
+<Postcode>28239</Postcode>
+<Postcode>28307</Postcode>
+<Postcode>28309</Postcode>
+<Postcode>28325</Postcode>
+<Postcode>28327</Postcode>
+<Postcode>28329</Postcode>
+<Postcode>28355</Postcode>
+<Postcode>28357</Postcode>
+<Postcode>28359</Postcode>
+<Postcode>28717</Postcode>
+<Postcode>28719</Postcode>
+<Postcode>28755</Postcode>
+<Postcode>28757</Postcode>
+<Postcode>28759</Postcode>
+<Postcode>28777</Postcode>
+<Postcode>28779</Postcode>
+<Postcode>28197</Postcode>
+<Postcode>28199</Postcode>
+<Postcode>28201</Postcode>
+<Postcode>28259</Postcode>
+<Postcode>28277</Postcode>
+<Postcode>28279</Postcode>
+</Region>
+<Region regionID="Duisburg">
+<RegionName>Duisburg</RegionName>
+<WildcardPostcode>47*</WildcardPostcode>
+</Region>
+<Region regionID="Düsseldorf">
+<RegionName>Düsseldorf</RegionName>
+<WildcardPostcode>40*</WildcardPostcode>
+</Region>
+<Region regionID="Hamburg">
+<RegionName>Hamburg</RegionName>
+<WildcardPostcode>20*</WildcardPostcode>
+<WildcardPostcode>21*</WildcardPostcode>
+<WildcardPostcode>22*</WildcardPostcode>
+</Region>
+<Region regionID="Hessen">
+<RegionName>Hessen</RegionName>
+<Postcode>37194</Postcode>
+<Postcode>55246</Postcode>
+<Postcode>55252</Postcode>
+<Postcode>68519</Postcode>
+<Postcode>69239</Postcode>
+<Postcode>69434</Postcode>
+<Postcode>69509</Postcode>
+<PostcodeRange from="34117" to="34329"/>
+<PostcodeRange from="34359" to="34399"/>
+<PostcodeRange from="34454" to="36399"/>
+<PostcodeRange from="37213" to="37299"/>
+<PostcodeRange from="60306" to="63699"/>
+<PostcodeRange from="64283" to="65556"/>
+<PostcodeRange from="65589" to="65620"/>
+<PostcodeRange from="65719" to="65936"/>
+<PostcodeRange from="68623" to="68649"/>
+<PostcodeRange from="69483" to="69488"/>
+<PostcodeRange from="69517" to="69518"/>
+</Region>
+<Region regionID="Köln">
+<RegionName>Köln</RegionName>
+<Postcode>50667</Postcode>
+<Postcode>50668</Postcode>
+<Postcode>50670</Postcode>
+<Postcode>50672</Postcode>
+<Postcode>50674</Postcode>
+<Postcode>50676</Postcode>
+<Postcode>50677</Postcode>
+<Postcode>50678</Postcode>
+<Postcode>50679</Postcode>
+<Postcode>50733</Postcode>
+<Postcode>50735</Postcode>
+<Postcode>50737</Postcode>
+<Postcode>50739</Postcode>
+<Postcode>50765</Postcode>
+<Postcode>50767</Postcode>
+<Postcode>50769</Postcode>
+<Postcode>50823</Postcode>
+<Postcode>50825</Postcode>
+<Postcode>50827</Postcode>
+<Postcode>50829</Postcode>
+<Postcode>50858</Postcode>
+<Postcode>50859</Postcode>
+<Postcode>50931</Postcode>
+<Postcode>50933</Postcode>
+<Postcode>50935</Postcode>
+<Postcode>50937</Postcode>
+<Postcode>50939</Postcode>
+<Postcode>50968</Postcode>
+<Postcode>50969</Postcode>
+<Postcode>50996</Postcode>
+<Postcode>50997</Postcode>
+<Postcode>50999</Postcode>
+<Postcode>51061</Postcode>
+<Postcode>51063</Postcode>
+<Postcode>51065</Postcode>
+<Postcode>51067</Postcode>
+<Postcode>51069</Postcode>
+<Postcode>51103</Postcode>
+<Postcode>51105</Postcode>
+<Postcode>51107</Postcode>
+<Postcode>51109</Postcode>
+<Postcode>51143</Postcode>
+<Postcode>51145</Postcode>
+<Postcode>51147</Postcode>
+<Postcode>51149</Postcode>
+</Region>
+<Region regionID="Mecklenburg_Vorpommern">
+<RegionName>Mecklenburg_Vorpommern</RegionName>
+<WildcardPostcode>17*</WildcardPostcode>
+<WildcardPostcode>18*</WildcardPostcode>
+<WildcardPostcode>19*</WildcardPostcode>
+</Region>
+<Region regionID="Niedersachsen">
+<RegionName>Niedersachsen</RegionName>
+</Region>
+<Region regionID="Rheinland-Pfalz">
+<RegionName>Rheinland-Pfalz</RegionName>
+<WildcardPostcode>54*</WildcardPostcode>
+<WildcardPostcode>55*</WildcardPostcode>
+<WildcardPostcode>56*</WildcardPostcode>
+</Region>
+<Region regionID="Sachsen">
+<RegionName>Sachsen</RegionName>
+<WildcardPostcode>01*</WildcardPostcode>
+<WildcardPostcode>02*</WildcardPostcode>
+<WildcardPostcode>08*</WildcardPostcode>
+<WildcardPostcode>09*</WildcardPostcode>
+</Region>
+<Region regionID="Sachsen-Anhalt">
+<RegionName>Sachsen-Anhalt</RegionName>
+<WildcardPostcode>06*</WildcardPostcode>
+</Region>
+<Region regionID="Schleswig-Holstein">
+<RegionName>Schleswig-Holstein</RegionName>
+<WildcardPostcode>23*</WildcardPostcode>
+<WildcardPostcode>24*</WildcardPostcode>
+<WildcardPostcode>25*</WildcardPostcode>
+</Region>
+<Region regionID="Siegen">
+<RegionName>Siegen</RegionName>
+<WildcardPostcode>57*</WildcardPostcode>
+</Region>
+<Region regionID="Thüringen">
+<RegionName>Thüringen</RegionName>
+<PostcodeRange from="4600" to="4639"/>
+<PostcodeRange from="6556" to="6578"/>
+<PostcodeRange from="7318" to="7987"/>
+<PostcodeRange from="36404" to="36469"/>
+</Region>
+<Region regionID="Wuppertal">
+<RegionName>Wuppertal</RegionName>
+<WildcardPostcode>42*</WildcardPostcode>
+</Region>
+<Region regionID="Essen">
+<RegionName>Essen</RegionName>
+<WildcardPostcode>45*</WildcardPostcode>
+</Region>
+<Region regionID="Saarland">
+<RegionName>Saarland</RegionName>
+<Postcode>66265</Postcode>
+<Postcode>66271</Postcode>
+<Postcode>66280</Postcode>
+<Postcode>66287</Postcode>
+<Postcode>66292</Postcode>
+<Postcode>66299</Postcode>
+<Postcode>66333</Postcode>
+<Postcode>66346</Postcode>
+<Postcode>66352</Postcode>
+<Postcode>66359</Postcode>
+<Postcode>66386</Postcode>
+<Postcode>66399</Postcode>
+<Postcode>66424</Postcode>
+<Postcode>66440</Postcode>
+<Postcode>66450</Postcode>
+<Postcode>66453</Postcode>
+<Postcode>66459</Postcode>
+<Postcode>66557</Postcode>
+<Postcode>66564</Postcode>
+<Postcode>66571</Postcode>
+<Postcode>66578</Postcode>
+<Postcode>66583</Postcode>
+<Postcode>66589</Postcode>
+<Postcode>66606</Postcode>
+<Postcode>66620</Postcode>
+<Postcode>66625</Postcode>
+<Postcode>66629</Postcode>
+<Postcode>66636</Postcode>
+<Postcode>66640</Postcode>
+<Postcode>66646</Postcode>
+<Postcode>66649</Postcode>
+<Postcode>66663</Postcode>
+<Postcode>66679</Postcode>
+<Postcode>66687</Postcode>
+<Postcode>66693</Postcode>
+<Postcode>66701</Postcode>
+<Postcode>66706</Postcode>
+<Postcode>66709</Postcode>
+<Postcode>66740</Postcode>
+<Postcode>66763</Postcode>
+<Postcode>66773</Postcode>
+<Postcode>66780</Postcode>
+<Postcode>66787</Postcode>
+<Postcode>66793</Postcode>
+<Postcode>66798</Postcode>
+<Postcode>66802</Postcode>
+<Postcode>66806</Postcode>
+<Postcode>66809</Postcode>
+<Postcode>66822</Postcode>
+<Postcode>66839</Postcode>
+<PostcodeRange from="66111" to="66133"/>
+<PostcodeRange from="66538" to="66540"/>
+</Region>
+<Region regionID="Münster">
+<RegionName>Münster</RegionName>
+<WildcardPostcode>48*</WildcardPostcode>
+</Region>
+</Region>
+</RegionList>
+<LCNTableList>
+<LCNTable>
+<TargetRegion>Deutschland</TargetRegion>
+<LCN channelNumber="1" serviceRef="tag:sofiadigital.com,2023:769"/>
+<LCN channelNumber="2" serviceRef="tag:sofiadigital.com,2023:2001"/>
+<LCN channelNumber="3" serviceRef="tag:sofiadigital.com,2023:16896"/>
+<LCN channelNumber="4" serviceRef="tag:sofiadigital.com,2023:16937"/>
+<LCN channelNumber="5" serviceRef="tag:sofiadigital.com,2023:16929"/>
+<LCN channelNumber="7" serviceRef="tag:sofiadigital.com,2023:16930"/>
+<LCN channelNumber="8" serviceRef="tag:sofiadigital.com,2023:16899"/>
+<LCN channelNumber="9" serviceRef="tag:sofiadigital.com,2023:2003"/>
+<LCN channelNumber="10" serviceRef="tag:sofiadigital.com,2023:16898"/>
+<LCN channelNumber="13" serviceRef="tag:sofiadigital.com,2023:2004"/>
+<LCN channelNumber="14" serviceRef="tag:sofiadigital.com,2023:2002"/>
+<LCN channelNumber="16" serviceRef="tag:sofiadigital.com,2023:2005"/>
+<LCN channelNumber="17" serviceRef="tag:sofiadigital.com,2023:771"/>
+<LCN channelNumber="19" serviceRef="tag:sofiadigital.com,2023:770"/>
+<LCN channelNumber="23" serviceRef="tag:sofiadigital.com,2023:16902"/>
+<LCN channelNumber="28" serviceRef="tag:sofiadigital.com,2023:772"/>
+<LCN channelNumber="29" serviceRef="tag:sofiadigital.com,2023:773"/>
+<LCN channelNumber="61" serviceRef="tag:sofiadigital.com,2023:1030"/>
+<LCN channelNumber="70" serviceRef="tag:sofiadigital.com,2023:16905"/>
+<LCN channelNumber="71" serviceRef="tag:sofiadigital.com,2023:16903"/>
+<LCN channelNumber="72" serviceRef="tag:sofiadigital.com,2023:16904"/>
+<LCN channelNumber="73" serviceRef="tag:sofiadigital.com,2023:16906"/>
+<LCN channelNumber="74" serviceRef="tag:sofiadigital.com,2023:16907"/>
+<LCN channelNumber="101" serviceRef="tag:sofiadigital.com,2023:17044"/>
+<LCN channelNumber="102" serviceRef="tag:sofiadigital.com,2023:17042"/>
+<LCN channelNumber="103" serviceRef="tag:sofiadigital.com,2023:17041"/>
+<LCN channelNumber="104" serviceRef="tag:sofiadigital.com,2023:17029"/>
+<LCN channelNumber="105" serviceRef="tag:sofiadigital.com,2023:17038"/>
+<LCN channelNumber="106" serviceRef="tag:sofiadigital.com,2023:17025"/>
+<LCN channelNumber="107" serviceRef="tag:sofiadigital.com,2023:17051"/>
+<LCN channelNumber="108" serviceRef="tag:sofiadigital.com,2023:17040"/>
+<LCN channelNumber="110" serviceRef="tag:sofiadigital.com,2023:17030"/>
+<LCN channelNumber="111" serviceRef="tag:sofiadigital.com,2023:17028"/>
+<LCN channelNumber="112" serviceRef="tag:sofiadigital.com,2023:17027"/>
+<LCN channelNumber="113" serviceRef="tag:sofiadigital.com,2023:17043"/>
+<LCN channelNumber="115" serviceRef="tag:sofiadigital.com,2023:17046"/>
+<LCN channelNumber="116" serviceRef="tag:sofiadigital.com,2023:17045"/>
+<LCN channelNumber="117" serviceRef="tag:sofiadigital.com,2023:17047"/>
+<LCN channelNumber="118" serviceRef="tag:sofiadigital.com,2023:17048"/>
+<LCN channelNumber="119" serviceRef="tag:sofiadigital.com,2023:17049"/>
+<LCN channelNumber="120" serviceRef="tag:sofiadigital.com,2023:17050"/>
+<LCN channelNumber="121" serviceRef="tag:sofiadigital.com,2023:AnixeHD"/>
+<LCN channelNumber="122" serviceRef="tag:sofiadigital.com,2023:MBTV1"/>
+<LCN channelNumber="122" serviceRef="tag:sofiadigital.com,2023:MBTV2"/>
+</LCNTable>
+<LCNTable>
+<TargetRegion>Aachen</TargetRegion>
+<LCN channelNumber="1" serviceRef="tag:sofiadigital.com,2023:769"/>
+<LCN channelNumber="2" serviceRef="tag:sofiadigital.com,2023:2001"/>
+<LCN channelNumber="3" serviceRef="tag:sofiadigital.com,2023:16896"/>
+<LCN channelNumber="4" serviceRef="tag:sofiadigital.com,2023:16937"/>
+<LCN channelNumber="8" serviceRef="tag:sofiadigital.com,2023:16899"/>
+<LCN channelNumber="9" serviceRef="tag:sofiadigital.com,2023:2003"/>
+<LCN channelNumber="14" serviceRef="tag:sofiadigital.com,2023:2002"/>
+<LCN channelNumber="17" serviceRef="tag:sofiadigital.com,2023:771"/>
+<LCN channelNumber="61" serviceRef="tag:sofiadigital.com,2023:1030"/>
+<LCN channelNumber="70" serviceRef="tag:sofiadigital.com,2023:16905"/>
+<LCN channelNumber="71" serviceRef="tag:sofiadigital.com,2023:16903"/>
+<LCN channelNumber="72" serviceRef="tag:sofiadigital.com,2023:16904"/>
+<LCN channelNumber="73" serviceRef="tag:sofiadigital.com,2023:16906"/>
+<LCN channelNumber="74" serviceRef="tag:sofiadigital.com,2023:16907"/>
+<LCN channelNumber="101" serviceRef="tag:sofiadigital.com,2023:17044"/>
+<LCN channelNumber="102" serviceRef="tag:sofiadigital.com,2023:17042"/>
+<LCN channelNumber="103" serviceRef="tag:sofiadigital.com,2023:17041"/>
+<LCN channelNumber="104" serviceRef="tag:sofiadigital.com,2023:17029"/>
+<LCN channelNumber="105" serviceRef="tag:sofiadigital.com,2023:17038"/>
+<LCN channelNumber="106" serviceRef="tag:sofiadigital.com,2023:17025"/>
+<LCN channelNumber="107" serviceRef="tag:sofiadigital.com,2023:17051"/>
+<LCN channelNumber="108" serviceRef="tag:sofiadigital.com,2023:17040"/>
+<LCN channelNumber="115" serviceRef="tag:sofiadigital.com,2023:17046"/>
+<LCN channelNumber="116" serviceRef="tag:sofiadigital.com,2023:17045"/>
+<LCN channelNumber="117" serviceRef="tag:sofiadigital.com,2023:17047"/>
+<LCN channelNumber="118" serviceRef="tag:sofiadigital.com,2023:17048"/>
+<LCN channelNumber="119" serviceRef="tag:sofiadigital.com,2023:17049"/>
+<LCN channelNumber="120" serviceRef="tag:sofiadigital.com,2023:17050"/>
+<LCN channelNumber="121" serviceRef="tag:sofiadigital.com,2023:AnixeHD"/>
+<LCN channelNumber="122" serviceRef="tag:sofiadigital.com,2023:MBTV1"/>
+<LCN channelNumber="122" serviceRef="tag:sofiadigital.com,2023:MBTV2"/>
+</LCNTable>
+<LCNTable>
+<TargetRegion>Köln</TargetRegion>
+<LCN channelNumber="1" serviceRef="tag:sofiadigital.com,2023:769"/>
+<LCN channelNumber="2" serviceRef="tag:sofiadigital.com,2023:2001"/>
+<LCN channelNumber="3" serviceRef="tag:sofiadigital.com,2023:16896"/>
+<LCN channelNumber="4" serviceRef="tag:sofiadigital.com,2023:16937"/>
+<LCN channelNumber="8" serviceRef="tag:sofiadigital.com,2023:16899"/>
+<LCN channelNumber="9" serviceRef="tag:sofiadigital.com,2023:2003"/>
+<LCN channelNumber="14" serviceRef="tag:sofiadigital.com,2023:2002"/>
+<LCN channelNumber="17" serviceRef="tag:sofiadigital.com,2023:771"/>
+<LCN channelNumber="61" serviceRef="tag:sofiadigital.com,2023:1030"/>
+<LCN channelNumber="70" serviceRef="tag:sofiadigital.com,2023:16905"/>
+<LCN channelNumber="71" serviceRef="tag:sofiadigital.com,2023:16903"/>
+<LCN channelNumber="72" serviceRef="tag:sofiadigital.com,2023:16904"/>
+<LCN channelNumber="73" serviceRef="tag:sofiadigital.com,2023:16906"/>
+<LCN channelNumber="74" serviceRef="tag:sofiadigital.com,2023:16907"/>
+<LCN channelNumber="101" serviceRef="tag:sofiadigital.com,2023:17044"/>
+<LCN channelNumber="102" serviceRef="tag:sofiadigital.com,2023:17042"/>
+<LCN channelNumber="103" serviceRef="tag:sofiadigital.com,2023:17041"/>
+<LCN channelNumber="104" serviceRef="tag:sofiadigital.com,2023:17029"/>
+<LCN channelNumber="105" serviceRef="tag:sofiadigital.com,2023:17038"/>
+<LCN channelNumber="106" serviceRef="tag:sofiadigital.com,2023:17025"/>
+<LCN channelNumber="107" serviceRef="tag:sofiadigital.com,2023:17051"/>
+<LCN channelNumber="108" serviceRef="tag:sofiadigital.com,2023:17040"/>
+<LCN channelNumber="115" serviceRef="tag:sofiadigital.com,2023:17046"/>
+<LCN channelNumber="116" serviceRef="tag:sofiadigital.com,2023:17045"/>
+<LCN channelNumber="117" serviceRef="tag:sofiadigital.com,2023:17047"/>
+<LCN channelNumber="118" serviceRef="tag:sofiadigital.com,2023:17048"/>
+<LCN channelNumber="119" serviceRef="tag:sofiadigital.com,2023:17049"/>
+<LCN channelNumber="120" serviceRef="tag:sofiadigital.com,2023:17050"/>
+<LCN channelNumber="121" serviceRef="tag:sofiadigital.com,2023:AnixeHD"/>
+<LCN channelNumber="122" serviceRef="tag:sofiadigital.com,2023:MBTV1"/>
+<LCN channelNumber="122" serviceRef="tag:sofiadigital.com,2023:MBTV2"/>
+</LCNTable>
+<LCNTable>
+<TargetRegion>Baden_Württemberg</TargetRegion>
+<LCN channelNumber="1" serviceRef="tag:sofiadigital.com,2023:769"/>
+<LCN channelNumber="2" serviceRef="tag:sofiadigital.com,2023:2001"/>
+<LCN channelNumber="3" serviceRef="tag:sofiadigital.com,2023:16896"/>
+<LCN channelNumber="4" serviceRef="tag:sofiadigital.com,2023:16937"/>
+<LCN channelNumber="8" serviceRef="tag:sofiadigital.com,2023:16899"/>
+<LCN channelNumber="9" serviceRef="tag:sofiadigital.com,2023:2003"/>
+<LCN channelNumber="14" serviceRef="tag:sofiadigital.com,2023:2002"/>
+<LCN channelNumber="17" serviceRef="tag:sofiadigital.com,2023:771"/>
+<LCN channelNumber="61" serviceRef="tag:sofiadigital.com,2023:1030"/>
+<LCN channelNumber="70" serviceRef="tag:sofiadigital.com,2023:16905"/>
+<LCN channelNumber="71" serviceRef="tag:sofiadigital.com,2023:16903"/>
+<LCN channelNumber="72" serviceRef="tag:sofiadigital.com,2023:16904"/>
+<LCN channelNumber="73" serviceRef="tag:sofiadigital.com,2023:16906"/>
+<LCN channelNumber="74" serviceRef="tag:sofiadigital.com,2023:16907"/>
+<LCN channelNumber="101" serviceRef="tag:sofiadigital.com,2023:17044"/>
+<LCN channelNumber="102" serviceRef="tag:sofiadigital.com,2023:17042"/>
+<LCN channelNumber="103" serviceRef="tag:sofiadigital.com,2023:17041"/>
+<LCN channelNumber="104" serviceRef="tag:sofiadigital.com,2023:17029"/>
+<LCN channelNumber="105" serviceRef="tag:sofiadigital.com,2023:17038"/>
+<LCN channelNumber="106" serviceRef="tag:sofiadigital.com,2023:17025"/>
+<LCN channelNumber="107" serviceRef="tag:sofiadigital.com,2023:17051"/>
+<LCN channelNumber="108" serviceRef="tag:sofiadigital.com,2023:17040"/>
+<LCN channelNumber="115" serviceRef="tag:sofiadigital.com,2023:17046"/>
+<LCN channelNumber="116" serviceRef="tag:sofiadigital.com,2023:17045"/>
+<LCN channelNumber="117" serviceRef="tag:sofiadigital.com,2023:17047"/>
+<LCN channelNumber="118" serviceRef="tag:sofiadigital.com,2023:17048"/>
+<LCN channelNumber="119" serviceRef="tag:sofiadigital.com,2023:17049"/>
+<LCN channelNumber="120" serviceRef="tag:sofiadigital.com,2023:17050"/>
+<LCN channelNumber="121" serviceRef="tag:sofiadigital.com,2023:AnixeHD"/>
+<LCN channelNumber="122" serviceRef="tag:sofiadigital.com,2023:MBTV1"/>
+<LCN channelNumber="122" serviceRef="tag:sofiadigital.com,2023:MBTV2"/>
+</LCNTable>
+<LCNTable>
+<TargetRegion>Bayern_Nord</TargetRegion>
+<LCN channelNumber="1" serviceRef="tag:sofiadigital.com,2023:769"/>
+<LCN channelNumber="2" serviceRef="tag:sofiadigital.com,2023:2001"/>
+<LCN channelNumber="3" serviceRef="tag:sofiadigital.com,2023:16896"/>
+<LCN channelNumber="4" serviceRef="tag:sofiadigital.com,2023:16937"/>
+<LCN channelNumber="8" serviceRef="tag:sofiadigital.com,2023:16899"/>
+<LCN channelNumber="9" serviceRef="tag:sofiadigital.com,2023:2003"/>
+<LCN channelNumber="14" serviceRef="tag:sofiadigital.com,2023:2002"/>
+<LCN channelNumber="17" serviceRef="tag:sofiadigital.com,2023:771"/>
+<LCN channelNumber="61" serviceRef="tag:sofiadigital.com,2023:1030"/>
+<LCN channelNumber="70" serviceRef="tag:sofiadigital.com,2023:16905"/>
+<LCN channelNumber="71" serviceRef="tag:sofiadigital.com,2023:16903"/>
+<LCN channelNumber="72" serviceRef="tag:sofiadigital.com,2023:16904"/>
+<LCN channelNumber="73" serviceRef="tag:sofiadigital.com,2023:16906"/>
+<LCN channelNumber="74" serviceRef="tag:sofiadigital.com,2023:16907"/>
+<LCN channelNumber="101" serviceRef="tag:sofiadigital.com,2023:17044"/>
+<LCN channelNumber="102" serviceRef="tag:sofiadigital.com,2023:17042"/>
+<LCN channelNumber="103" serviceRef="tag:sofiadigital.com,2023:17041"/>
+<LCN channelNumber="104" serviceRef="tag:sofiadigital.com,2023:17029"/>
+<LCN channelNumber="105" serviceRef="tag:sofiadigital.com,2023:17038"/>
+<LCN channelNumber="106" serviceRef="tag:sofiadigital.com,2023:17025"/>
+<LCN channelNumber="107" serviceRef="tag:sofiadigital.com,2023:17051"/>
+<LCN channelNumber="108" serviceRef="tag:sofiadigital.com,2023:17040"/>
+<LCN channelNumber="115" serviceRef="tag:sofiadigital.com,2023:17046"/>
+<LCN channelNumber="116" serviceRef="tag:sofiadigital.com,2023:17045"/>
+<LCN channelNumber="117" serviceRef="tag:sofiadigital.com,2023:17047"/>
+<LCN channelNumber="118" serviceRef="tag:sofiadigital.com,2023:17048"/>
+<LCN channelNumber="119" serviceRef="tag:sofiadigital.com,2023:17049"/>
+<LCN channelNumber="120" serviceRef="tag:sofiadigital.com,2023:17050"/>
+<LCN channelNumber="121" serviceRef="tag:sofiadigital.com,2023:AnixeHD"/>
+<LCN channelNumber="122" serviceRef="tag:sofiadigital.com,2023:MBTV1"/>
+<LCN channelNumber="122" serviceRef="tag:sofiadigital.com,2023:MBTV2"/>
+</LCNTable>
+<LCNTable>
+<TargetRegion>Bayern_Süd</TargetRegion>
+<LCN channelNumber="1" serviceRef="tag:sofiadigital.com,2023:769"/>
+<LCN channelNumber="2" serviceRef="tag:sofiadigital.com,2023:2001"/>
+<LCN channelNumber="3" serviceRef="tag:sofiadigital.com,2023:16896"/>
+<LCN channelNumber="4" serviceRef="tag:sofiadigital.com,2023:16937"/>
+<LCN channelNumber="8" serviceRef="tag:sofiadigital.com,2023:16899"/>
+<LCN channelNumber="9" serviceRef="tag:sofiadigital.com,2023:2003"/>
+<LCN channelNumber="14" serviceRef="tag:sofiadigital.com,2023:2002"/>
+<LCN channelNumber="17" serviceRef="tag:sofiadigital.com,2023:771"/>
+<LCN channelNumber="61" serviceRef="tag:sofiadigital.com,2023:1030"/>
+<LCN channelNumber="70" serviceRef="tag:sofiadigital.com,2023:16905"/>
+<LCN channelNumber="71" serviceRef="tag:sofiadigital.com,2023:16903"/>
+<LCN channelNumber="72" serviceRef="tag:sofiadigital.com,2023:16904"/>
+<LCN channelNumber="73" serviceRef="tag:sofiadigital.com,2023:16906"/>
+<LCN channelNumber="74" serviceRef="tag:sofiadigital.com,2023:16907"/>
+<LCN channelNumber="101" serviceRef="tag:sofiadigital.com,2023:17044"/>
+<LCN channelNumber="102" serviceRef="tag:sofiadigital.com,2023:17042"/>
+<LCN channelNumber="103" serviceRef="tag:sofiadigital.com,2023:17041"/>
+<LCN channelNumber="104" serviceRef="tag:sofiadigital.com,2023:17029"/>
+<LCN channelNumber="105" serviceRef="tag:sofiadigital.com,2023:17038"/>
+<LCN channelNumber="106" serviceRef="tag:sofiadigital.com,2023:17025"/>
+<LCN channelNumber="107" serviceRef="tag:sofiadigital.com,2023:17051"/>
+<LCN channelNumber="108" serviceRef="tag:sofiadigital.com,2023:17040"/>
+<LCN channelNumber="115" serviceRef="tag:sofiadigital.com,2023:17046"/>
+<LCN channelNumber="116" serviceRef="tag:sofiadigital.com,2023:17045"/>
+<LCN channelNumber="117" serviceRef="tag:sofiadigital.com,2023:17047"/>
+<LCN channelNumber="118" serviceRef="tag:sofiadigital.com,2023:17048"/>
+<LCN channelNumber="119" serviceRef="tag:sofiadigital.com,2023:17049"/>
+<LCN channelNumber="120" serviceRef="tag:sofiadigital.com,2023:17050"/>
+<LCN channelNumber="121" serviceRef="tag:sofiadigital.com,2023:AnixeHD"/>
+<LCN channelNumber="122" serviceRef="tag:sofiadigital.com,2023:MBTV1"/>
+<LCN channelNumber="122" serviceRef="tag:sofiadigital.com,2023:MBTV2"/>
+</LCNTable>
+<LCNTable>
+<TargetRegion>Berlin</TargetRegion>
+<LCN channelNumber="1" serviceRef="tag:sofiadigital.com,2023:769"/>
+<LCN channelNumber="2" serviceRef="tag:sofiadigital.com,2023:2001"/>
+<LCN channelNumber="3" serviceRef="tag:sofiadigital.com,2023:16896"/>
+<LCN channelNumber="4" serviceRef="tag:sofiadigital.com,2023:16937"/>
+<LCN channelNumber="8" serviceRef="tag:sofiadigital.com,2023:16899"/>
+<LCN channelNumber="9" serviceRef="tag:sofiadigital.com,2023:2003"/>
+<LCN channelNumber="14" serviceRef="tag:sofiadigital.com,2023:2002"/>
+<LCN channelNumber="17" serviceRef="tag:sofiadigital.com,2023:771"/>
+<LCN channelNumber="61" serviceRef="tag:sofiadigital.com,2023:1030"/>
+<LCN channelNumber="70" serviceRef="tag:sofiadigital.com,2023:16905"/>
+<LCN channelNumber="71" serviceRef="tag:sofiadigital.com,2023:16903"/>
+<LCN channelNumber="72" serviceRef="tag:sofiadigital.com,2023:16904"/>
+<LCN channelNumber="73" serviceRef="tag:sofiadigital.com,2023:16906"/>
+<LCN channelNumber="74" serviceRef="tag:sofiadigital.com,2023:16907"/>
+<LCN channelNumber="101" serviceRef="tag:sofiadigital.com,2023:17044"/>
+<LCN channelNumber="102" serviceRef="tag:sofiadigital.com,2023:17042"/>
+<LCN channelNumber="103" serviceRef="tag:sofiadigital.com,2023:17041"/>
+<LCN channelNumber="104" serviceRef="tag:sofiadigital.com,2023:17029"/>
+<LCN channelNumber="105" serviceRef="tag:sofiadigital.com,2023:17038"/>
+<LCN channelNumber="106" serviceRef="tag:sofiadigital.com,2023:17025"/>
+<LCN channelNumber="107" serviceRef="tag:sofiadigital.com,2023:17051"/>
+<LCN channelNumber="108" serviceRef="tag:sofiadigital.com,2023:17040"/>
+<LCN channelNumber="115" serviceRef="tag:sofiadigital.com,2023:17046"/>
+<LCN channelNumber="116" serviceRef="tag:sofiadigital.com,2023:17045"/>
+<LCN channelNumber="117" serviceRef="tag:sofiadigital.com,2023:17047"/>
+<LCN channelNumber="118" serviceRef="tag:sofiadigital.com,2023:17048"/>
+<LCN channelNumber="119" serviceRef="tag:sofiadigital.com,2023:17049"/>
+<LCN channelNumber="120" serviceRef="tag:sofiadigital.com,2023:17050"/>
+<LCN channelNumber="121" serviceRef="tag:sofiadigital.com,2023:AnixeHD"/>
+<LCN channelNumber="122" serviceRef="tag:sofiadigital.com,2023:MBTV1"/>
+<LCN channelNumber="122" serviceRef="tag:sofiadigital.com,2023:MBTV2"/>
+</LCNTable>
+<LCNTable>
+<TargetRegion>Bielefeld</TargetRegion>
+<LCN channelNumber="1" serviceRef="tag:sofiadigital.com,2023:769"/>
+<LCN channelNumber="2" serviceRef="tag:sofiadigital.com,2023:2001"/>
+<LCN channelNumber="3" serviceRef="tag:sofiadigital.com,2023:16896"/>
+<LCN channelNumber="4" serviceRef="tag:sofiadigital.com,2023:16937"/>
+<LCN channelNumber="8" serviceRef="tag:sofiadigital.com,2023:16899"/>
+<LCN channelNumber="9" serviceRef="tag:sofiadigital.com,2023:2003"/>
+<LCN channelNumber="14" serviceRef="tag:sofiadigital.com,2023:2002"/>
+<LCN channelNumber="17" serviceRef="tag:sofiadigital.com,2023:771"/>
+<LCN channelNumber="61" serviceRef="tag:sofiadigital.com,2023:1030"/>
+<LCN channelNumber="70" serviceRef="tag:sofiadigital.com,2023:16905"/>
+<LCN channelNumber="71" serviceRef="tag:sofiadigital.com,2023:16903"/>
+<LCN channelNumber="72" serviceRef="tag:sofiadigital.com,2023:16904"/>
+<LCN channelNumber="73" serviceRef="tag:sofiadigital.com,2023:16906"/>
+<LCN channelNumber="74" serviceRef="tag:sofiadigital.com,2023:16907"/>
+<LCN channelNumber="101" serviceRef="tag:sofiadigital.com,2023:17044"/>
+<LCN channelNumber="102" serviceRef="tag:sofiadigital.com,2023:17042"/>
+<LCN channelNumber="103" serviceRef="tag:sofiadigital.com,2023:17041"/>
+<LCN channelNumber="104" serviceRef="tag:sofiadigital.com,2023:17029"/>
+<LCN channelNumber="105" serviceRef="tag:sofiadigital.com,2023:17038"/>
+<LCN channelNumber="106" serviceRef="tag:sofiadigital.com,2023:17025"/>
+<LCN channelNumber="107" serviceRef="tag:sofiadigital.com,2023:17051"/>
+<LCN channelNumber="108" serviceRef="tag:sofiadigital.com,2023:17040"/>
+<LCN channelNumber="115" serviceRef="tag:sofiadigital.com,2023:17046"/>
+<LCN channelNumber="116" serviceRef="tag:sofiadigital.com,2023:17045"/>
+<LCN channelNumber="117" serviceRef="tag:sofiadigital.com,2023:17047"/>
+<LCN channelNumber="118" serviceRef="tag:sofiadigital.com,2023:17048"/>
+<LCN channelNumber="119" serviceRef="tag:sofiadigital.com,2023:17049"/>
+<LCN channelNumber="120" serviceRef="tag:sofiadigital.com,2023:17050"/>
+<LCN channelNumber="121" serviceRef="tag:sofiadigital.com,2023:AnixeHD"/>
+<LCN channelNumber="122" serviceRef="tag:sofiadigital.com,2023:MBTV1"/>
+<LCN channelNumber="122" serviceRef="tag:sofiadigital.com,2023:MBTV2"/>
+</LCNTable>
+<LCNTable>
+<TargetRegion>Bonn</TargetRegion>
+<LCN channelNumber="1" serviceRef="tag:sofiadigital.com,2023:769"/>
+<LCN channelNumber="2" serviceRef="tag:sofiadigital.com,2023:2001"/>
+<LCN channelNumber="3" serviceRef="tag:sofiadigital.com,2023:16896"/>
+<LCN channelNumber="4" serviceRef="tag:sofiadigital.com,2023:16937"/>
+<LCN channelNumber="8" serviceRef="tag:sofiadigital.com,2023:16899"/>
+<LCN channelNumber="9" serviceRef="tag:sofiadigital.com,2023:2003"/>
+<LCN channelNumber="14" serviceRef="tag:sofiadigital.com,2023:2002"/>
+<LCN channelNumber="17" serviceRef="tag:sofiadigital.com,2023:771"/>
+<LCN channelNumber="61" serviceRef="tag:sofiadigital.com,2023:1030"/>
+<LCN channelNumber="70" serviceRef="tag:sofiadigital.com,2023:16905"/>
+<LCN channelNumber="71" serviceRef="tag:sofiadigital.com,2023:16903"/>
+<LCN channelNumber="72" serviceRef="tag:sofiadigital.com,2023:16904"/>
+<LCN channelNumber="73" serviceRef="tag:sofiadigital.com,2023:16906"/>
+<LCN channelNumber="74" serviceRef="tag:sofiadigital.com,2023:16907"/>
+<LCN channelNumber="101" serviceRef="tag:sofiadigital.com,2023:17044"/>
+<LCN channelNumber="102" serviceRef="tag:sofiadigital.com,2023:17042"/>
+<LCN channelNumber="103" serviceRef="tag:sofiadigital.com,2023:17041"/>
+<LCN channelNumber="104" serviceRef="tag:sofiadigital.com,2023:17029"/>
+<LCN channelNumber="105" serviceRef="tag:sofiadigital.com,2023:17038"/>
+<LCN channelNumber="106" serviceRef="tag:sofiadigital.com,2023:17025"/>
+<LCN channelNumber="107" serviceRef="tag:sofiadigital.com,2023:17051"/>
+<LCN channelNumber="108" serviceRef="tag:sofiadigital.com,2023:17040"/>
+<LCN channelNumber="115" serviceRef="tag:sofiadigital.com,2023:17046"/>
+<LCN channelNumber="116" serviceRef="tag:sofiadigital.com,2023:17045"/>
+<LCN channelNumber="117" serviceRef="tag:sofiadigital.com,2023:17047"/>
+<LCN channelNumber="118" serviceRef="tag:sofiadigital.com,2023:17048"/>
+<LCN channelNumber="119" serviceRef="tag:sofiadigital.com,2023:17049"/>
+<LCN channelNumber="120" serviceRef="tag:sofiadigital.com,2023:17050"/>
+<LCN channelNumber="121" serviceRef="tag:sofiadigital.com,2023:AnixeHD"/>
+<LCN channelNumber="122" serviceRef="tag:sofiadigital.com,2023:MBTV1"/>
+<LCN channelNumber="122" serviceRef="tag:sofiadigital.com,2023:MBTV2"/>
+</LCNTable>
+<LCNTable>
+<TargetRegion>Brandenburg</TargetRegion>
+<LCN channelNumber="1" serviceRef="tag:sofiadigital.com,2023:769"/>
+<LCN channelNumber="2" serviceRef="tag:sofiadigital.com,2023:2001"/>
+<LCN channelNumber="3" serviceRef="tag:sofiadigital.com,2023:16896"/>
+<LCN channelNumber="4" serviceRef="tag:sofiadigital.com,2023:16937"/>
+<LCN channelNumber="8" serviceRef="tag:sofiadigital.com,2023:16899"/>
+<LCN channelNumber="9" serviceRef="tag:sofiadigital.com,2023:2003"/>
+<LCN channelNumber="14" serviceRef="tag:sofiadigital.com,2023:2002"/>
+<LCN channelNumber="17" serviceRef="tag:sofiadigital.com,2023:771"/>
+<LCN channelNumber="61" serviceRef="tag:sofiadigital.com,2023:1030"/>
+<LCN channelNumber="70" serviceRef="tag:sofiadigital.com,2023:16905"/>
+<LCN channelNumber="71" serviceRef="tag:sofiadigital.com,2023:16903"/>
+<LCN channelNumber="72" serviceRef="tag:sofiadigital.com,2023:16904"/>
+<LCN channelNumber="73" serviceRef="tag:sofiadigital.com,2023:16906"/>
+<LCN channelNumber="74" serviceRef="tag:sofiadigital.com,2023:16907"/>
+<LCN channelNumber="101" serviceRef="tag:sofiadigital.com,2023:17044"/>
+<LCN channelNumber="102" serviceRef="tag:sofiadigital.com,2023:17042"/>
+<LCN channelNumber="103" serviceRef="tag:sofiadigital.com,2023:17041"/>
+<LCN channelNumber="104" serviceRef="tag:sofiadigital.com,2023:17029"/>
+<LCN channelNumber="105" serviceRef="tag:sofiadigital.com,2023:17038"/>
+<LCN channelNumber="106" serviceRef="tag:sofiadigital.com,2023:17025"/>
+<LCN channelNumber="107" serviceRef="tag:sofiadigital.com,2023:17051"/>
+<LCN channelNumber="108" serviceRef="tag:sofiadigital.com,2023:17040"/>
+<LCN channelNumber="115" serviceRef="tag:sofiadigital.com,2023:17046"/>
+<LCN channelNumber="116" serviceRef="tag:sofiadigital.com,2023:17045"/>
+<LCN channelNumber="117" serviceRef="tag:sofiadigital.com,2023:17047"/>
+<LCN channelNumber="118" serviceRef="tag:sofiadigital.com,2023:17048"/>
+<LCN channelNumber="119" serviceRef="tag:sofiadigital.com,2023:17049"/>
+<LCN channelNumber="120" serviceRef="tag:sofiadigital.com,2023:17050"/>
+<LCN channelNumber="121" serviceRef="tag:sofiadigital.com,2023:AnixeHD"/>
+<LCN channelNumber="122" serviceRef="tag:sofiadigital.com,2023:MBTV1"/>
+<LCN channelNumber="122" serviceRef="tag:sofiadigital.com,2023:MBTV2"/>
+</LCNTable>
+<LCNTable>
+<TargetRegion>Bremen</TargetRegion>
+<LCN channelNumber="1" serviceRef="tag:sofiadigital.com,2023:769"/>
+<LCN channelNumber="2" serviceRef="tag:sofiadigital.com,2023:2001"/>
+<LCN channelNumber="3" serviceRef="tag:sofiadigital.com,2023:16896"/>
+<LCN channelNumber="4" serviceRef="tag:sofiadigital.com,2023:16937"/>
+<LCN channelNumber="8" serviceRef="tag:sofiadigital.com,2023:16899"/>
+<LCN channelNumber="9" serviceRef="tag:sofiadigital.com,2023:2003"/>
+<LCN channelNumber="14" serviceRef="tag:sofiadigital.com,2023:2002"/>
+<LCN channelNumber="17" serviceRef="tag:sofiadigital.com,2023:771"/>
+<LCN channelNumber="61" serviceRef="tag:sofiadigital.com,2023:1030"/>
+<LCN channelNumber="70" serviceRef="tag:sofiadigital.com,2023:16905"/>
+<LCN channelNumber="71" serviceRef="tag:sofiadigital.com,2023:16903"/>
+<LCN channelNumber="72" serviceRef="tag:sofiadigital.com,2023:16904"/>
+<LCN channelNumber="73" serviceRef="tag:sofiadigital.com,2023:16906"/>
+<LCN channelNumber="74" serviceRef="tag:sofiadigital.com,2023:16907"/>
+<LCN channelNumber="101" serviceRef="tag:sofiadigital.com,2023:17044"/>
+<LCN channelNumber="102" serviceRef="tag:sofiadigital.com,2023:17042"/>
+<LCN channelNumber="103" serviceRef="tag:sofiadigital.com,2023:17041"/>
+<LCN channelNumber="104" serviceRef="tag:sofiadigital.com,2023:17029"/>
+<LCN channelNumber="105" serviceRef="tag:sofiadigital.com,2023:17038"/>
+<LCN channelNumber="106" serviceRef="tag:sofiadigital.com,2023:17025"/>
+<LCN channelNumber="107" serviceRef="tag:sofiadigital.com,2023:17051"/>
+<LCN channelNumber="108" serviceRef="tag:sofiadigital.com,2023:17040"/>
+<LCN channelNumber="115" serviceRef="tag:sofiadigital.com,2023:17046"/>
+<LCN channelNumber="116" serviceRef="tag:sofiadigital.com,2023:17045"/>
+<LCN channelNumber="117" serviceRef="tag:sofiadigital.com,2023:17047"/>
+<LCN channelNumber="118" serviceRef="tag:sofiadigital.com,2023:17048"/>
+<LCN channelNumber="119" serviceRef="tag:sofiadigital.com,2023:17049"/>
+<LCN channelNumber="120" serviceRef="tag:sofiadigital.com,2023:17050"/>
+<LCN channelNumber="121" serviceRef="tag:sofiadigital.com,2023:AnixeHD"/>
+<LCN channelNumber="122" serviceRef="tag:sofiadigital.com,2023:MBTV1"/>
+<LCN channelNumber="122" serviceRef="tag:sofiadigital.com,2023:MBTV2"/>
+</LCNTable>
+<LCNTable>
+<TargetRegion>Duisburg</TargetRegion>
+<LCN channelNumber="1" serviceRef="tag:sofiadigital.com,2023:769"/>
+<LCN channelNumber="2" serviceRef="tag:sofiadigital.com,2023:2001"/>
+<LCN channelNumber="3" serviceRef="tag:sofiadigital.com,2023:16896"/>
+<LCN channelNumber="4" serviceRef="tag:sofiadigital.com,2023:16937"/>
+<LCN channelNumber="8" serviceRef="tag:sofiadigital.com,2023:16899"/>
+<LCN channelNumber="9" serviceRef="tag:sofiadigital.com,2023:2003"/>
+<LCN channelNumber="14" serviceRef="tag:sofiadigital.com,2023:2002"/>
+<LCN channelNumber="17" serviceRef="tag:sofiadigital.com,2023:771"/>
+<LCN channelNumber="61" serviceRef="tag:sofiadigital.com,2023:1030"/>
+<LCN channelNumber="70" serviceRef="tag:sofiadigital.com,2023:16905"/>
+<LCN channelNumber="71" serviceRef="tag:sofiadigital.com,2023:16903"/>
+<LCN channelNumber="72" serviceRef="tag:sofiadigital.com,2023:16904"/>
+<LCN channelNumber="73" serviceRef="tag:sofiadigital.com,2023:16906"/>
+<LCN channelNumber="74" serviceRef="tag:sofiadigital.com,2023:16907"/>
+<LCN channelNumber="101" serviceRef="tag:sofiadigital.com,2023:17044"/>
+<LCN channelNumber="102" serviceRef="tag:sofiadigital.com,2023:17042"/>
+<LCN channelNumber="103" serviceRef="tag:sofiadigital.com,2023:17041"/>
+<LCN channelNumber="104" serviceRef="tag:sofiadigital.com,2023:17029"/>
+<LCN channelNumber="105" serviceRef="tag:sofiadigital.com,2023:17038"/>
+<LCN channelNumber="106" serviceRef="tag:sofiadigital.com,2023:17025"/>
+<LCN channelNumber="107" serviceRef="tag:sofiadigital.com,2023:17051"/>
+<LCN channelNumber="108" serviceRef="tag:sofiadigital.com,2023:17040"/>
+<LCN channelNumber="115" serviceRef="tag:sofiadigital.com,2023:17046"/>
+<LCN channelNumber="116" serviceRef="tag:sofiadigital.com,2023:17045"/>
+<LCN channelNumber="117" serviceRef="tag:sofiadigital.com,2023:17047"/>
+<LCN channelNumber="118" serviceRef="tag:sofiadigital.com,2023:17048"/>
+<LCN channelNumber="119" serviceRef="tag:sofiadigital.com,2023:17049"/>
+<LCN channelNumber="120" serviceRef="tag:sofiadigital.com,2023:17050"/>
+<LCN channelNumber="121" serviceRef="tag:sofiadigital.com,2023:AnixeHD"/>
+<LCN channelNumber="122" serviceRef="tag:sofiadigital.com,2023:MBTV1"/>
+<LCN channelNumber="122" serviceRef="tag:sofiadigital.com,2023:MBTV2"/>
+</LCNTable>
+<LCNTable>
+<TargetRegion>Düsseldorf</TargetRegion>
+<LCN channelNumber="1" serviceRef="tag:sofiadigital.com,2023:769"/>
+<LCN channelNumber="2" serviceRef="tag:sofiadigital.com,2023:2001"/>
+<LCN channelNumber="3" serviceRef="tag:sofiadigital.com,2023:16896"/>
+<LCN channelNumber="4" serviceRef="tag:sofiadigital.com,2023:16937"/>
+<LCN channelNumber="8" serviceRef="tag:sofiadigital.com,2023:16899"/>
+<LCN channelNumber="9" serviceRef="tag:sofiadigital.com,2023:2003"/>
+<LCN channelNumber="14" serviceRef="tag:sofiadigital.com,2023:2002"/>
+<LCN channelNumber="17" serviceRef="tag:sofiadigital.com,2023:771"/>
+<LCN channelNumber="61" serviceRef="tag:sofiadigital.com,2023:1030"/>
+<LCN channelNumber="70" serviceRef="tag:sofiadigital.com,2023:16905"/>
+<LCN channelNumber="71" serviceRef="tag:sofiadigital.com,2023:16903"/>
+<LCN channelNumber="72" serviceRef="tag:sofiadigital.com,2023:16904"/>
+<LCN channelNumber="73" serviceRef="tag:sofiadigital.com,2023:16906"/>
+<LCN channelNumber="74" serviceRef="tag:sofiadigital.com,2023:16907"/>
+<LCN channelNumber="101" serviceRef="tag:sofiadigital.com,2023:17044"/>
+<LCN channelNumber="102" serviceRef="tag:sofiadigital.com,2023:17042"/>
+<LCN channelNumber="103" serviceRef="tag:sofiadigital.com,2023:17041"/>
+<LCN channelNumber="104" serviceRef="tag:sofiadigital.com,2023:17029"/>
+<LCN channelNumber="105" serviceRef="tag:sofiadigital.com,2023:17038"/>
+<LCN channelNumber="106" serviceRef="tag:sofiadigital.com,2023:17025"/>
+<LCN channelNumber="107" serviceRef="tag:sofiadigital.com,2023:17051"/>
+<LCN channelNumber="108" serviceRef="tag:sofiadigital.com,2023:17040"/>
+<LCN channelNumber="115" serviceRef="tag:sofiadigital.com,2023:17046"/>
+<LCN channelNumber="116" serviceRef="tag:sofiadigital.com,2023:17045"/>
+<LCN channelNumber="117" serviceRef="tag:sofiadigital.com,2023:17047"/>
+<LCN channelNumber="118" serviceRef="tag:sofiadigital.com,2023:17048"/>
+<LCN channelNumber="119" serviceRef="tag:sofiadigital.com,2023:17049"/>
+<LCN channelNumber="120" serviceRef="tag:sofiadigital.com,2023:17050"/>
+<LCN channelNumber="121" serviceRef="tag:sofiadigital.com,2023:AnixeHD"/>
+<LCN channelNumber="122" serviceRef="tag:sofiadigital.com,2023:MBTV1"/>
+<LCN channelNumber="122" serviceRef="tag:sofiadigital.com,2023:MBTV2"/>
+</LCNTable>
+<LCNTable>
+<TargetRegion>Hamburg</TargetRegion>
+<LCN channelNumber="1" serviceRef="tag:sofiadigital.com,2023:769"/>
+<LCN channelNumber="2" serviceRef="tag:sofiadigital.com,2023:2001"/>
+<LCN channelNumber="3" serviceRef="tag:sofiadigital.com,2023:16896"/>
+<LCN channelNumber="4" serviceRef="tag:sofiadigital.com,2023:16937"/>
+<LCN channelNumber="8" serviceRef="tag:sofiadigital.com,2023:16899"/>
+<LCN channelNumber="9" serviceRef="tag:sofiadigital.com,2023:2003"/>
+<LCN channelNumber="14" serviceRef="tag:sofiadigital.com,2023:2002"/>
+<LCN channelNumber="17" serviceRef="tag:sofiadigital.com,2023:771"/>
+<LCN channelNumber="61" serviceRef="tag:sofiadigital.com,2023:1030"/>
+<LCN channelNumber="70" serviceRef="tag:sofiadigital.com,2023:16905"/>
+<LCN channelNumber="71" serviceRef="tag:sofiadigital.com,2023:16903"/>
+<LCN channelNumber="72" serviceRef="tag:sofiadigital.com,2023:16904"/>
+<LCN channelNumber="73" serviceRef="tag:sofiadigital.com,2023:16906"/>
+<LCN channelNumber="74" serviceRef="tag:sofiadigital.com,2023:16907"/>
+<LCN channelNumber="101" serviceRef="tag:sofiadigital.com,2023:17044"/>
+<LCN channelNumber="102" serviceRef="tag:sofiadigital.com,2023:17042"/>
+<LCN channelNumber="103" serviceRef="tag:sofiadigital.com,2023:17041"/>
+<LCN channelNumber="104" serviceRef="tag:sofiadigital.com,2023:17029"/>
+<LCN channelNumber="105" serviceRef="tag:sofiadigital.com,2023:17038"/>
+<LCN channelNumber="106" serviceRef="tag:sofiadigital.com,2023:17025"/>
+<LCN channelNumber="107" serviceRef="tag:sofiadigital.com,2023:17051"/>
+<LCN channelNumber="108" serviceRef="tag:sofiadigital.com,2023:17040"/>
+<LCN channelNumber="115" serviceRef="tag:sofiadigital.com,2023:17046"/>
+<LCN channelNumber="116" serviceRef="tag:sofiadigital.com,2023:17045"/>
+<LCN channelNumber="117" serviceRef="tag:sofiadigital.com,2023:17047"/>
+<LCN channelNumber="118" serviceRef="tag:sofiadigital.com,2023:17048"/>
+<LCN channelNumber="119" serviceRef="tag:sofiadigital.com,2023:17049"/>
+<LCN channelNumber="120" serviceRef="tag:sofiadigital.com,2023:17050"/>
+<LCN channelNumber="121" serviceRef="tag:sofiadigital.com,2023:AnixeHD"/>
+<LCN channelNumber="122" serviceRef="tag:sofiadigital.com,2023:MBTV1"/>
+<LCN channelNumber="122" serviceRef="tag:sofiadigital.com,2023:MBTV2"/>
+</LCNTable>
+<LCNTable>
+<TargetRegion>Hessen</TargetRegion>
+<LCN channelNumber="1" serviceRef="tag:sofiadigital.com,2023:769"/>
+<LCN channelNumber="2" serviceRef="tag:sofiadigital.com,2023:2001"/>
+<LCN channelNumber="3" serviceRef="tag:sofiadigital.com,2023:16896"/>
+<LCN channelNumber="4" serviceRef="tag:sofiadigital.com,2023:16937"/>
+<LCN channelNumber="8" serviceRef="tag:sofiadigital.com,2023:16899"/>
+<LCN channelNumber="9" serviceRef="tag:sofiadigital.com,2023:2003"/>
+<LCN channelNumber="14" serviceRef="tag:sofiadigital.com,2023:2002"/>
+<LCN channelNumber="17" serviceRef="tag:sofiadigital.com,2023:771"/>
+<LCN channelNumber="61" serviceRef="tag:sofiadigital.com,2023:1030"/>
+<LCN channelNumber="70" serviceRef="tag:sofiadigital.com,2023:16905"/>
+<LCN channelNumber="71" serviceRef="tag:sofiadigital.com,2023:16903"/>
+<LCN channelNumber="72" serviceRef="tag:sofiadigital.com,2023:16904"/>
+<LCN channelNumber="73" serviceRef="tag:sofiadigital.com,2023:16906"/>
+<LCN channelNumber="74" serviceRef="tag:sofiadigital.com,2023:16907"/>
+<LCN channelNumber="101" serviceRef="tag:sofiadigital.com,2023:17044"/>
+<LCN channelNumber="102" serviceRef="tag:sofiadigital.com,2023:17042"/>
+<LCN channelNumber="103" serviceRef="tag:sofiadigital.com,2023:17041"/>
+<LCN channelNumber="104" serviceRef="tag:sofiadigital.com,2023:17029"/>
+<LCN channelNumber="105" serviceRef="tag:sofiadigital.com,2023:17038"/>
+<LCN channelNumber="106" serviceRef="tag:sofiadigital.com,2023:17025"/>
+<LCN channelNumber="107" serviceRef="tag:sofiadigital.com,2023:17051"/>
+<LCN channelNumber="108" serviceRef="tag:sofiadigital.com,2023:17040"/>
+<LCN channelNumber="115" serviceRef="tag:sofiadigital.com,2023:17046"/>
+<LCN channelNumber="116" serviceRef="tag:sofiadigital.com,2023:17045"/>
+<LCN channelNumber="117" serviceRef="tag:sofiadigital.com,2023:17047"/>
+<LCN channelNumber="118" serviceRef="tag:sofiadigital.com,2023:17048"/>
+<LCN channelNumber="119" serviceRef="tag:sofiadigital.com,2023:17049"/>
+<LCN channelNumber="120" serviceRef="tag:sofiadigital.com,2023:17050"/>
+<LCN channelNumber="121" serviceRef="tag:sofiadigital.com,2023:AnixeHD"/>
+<LCN channelNumber="122" serviceRef="tag:sofiadigital.com,2023:MBTV1"/>
+<LCN channelNumber="122" serviceRef="tag:sofiadigital.com,2023:MBTV2"/>
+</LCNTable>
+<LCNTable>
+<TargetRegion>Mecklenburg_Vorpommern</TargetRegion>
+<LCN channelNumber="1" serviceRef="tag:sofiadigital.com,2023:769"/>
+<LCN channelNumber="2" serviceRef="tag:sofiadigital.com,2023:2001"/>
+<LCN channelNumber="3" serviceRef="tag:sofiadigital.com,2023:16896"/>
+<LCN channelNumber="4" serviceRef="tag:sofiadigital.com,2023:16937"/>
+<LCN channelNumber="8" serviceRef="tag:sofiadigital.com,2023:16899"/>
+<LCN channelNumber="9" serviceRef="tag:sofiadigital.com,2023:2003"/>
+<LCN channelNumber="14" serviceRef="tag:sofiadigital.com,2023:2002"/>
+<LCN channelNumber="17" serviceRef="tag:sofiadigital.com,2023:771"/>
+<LCN channelNumber="61" serviceRef="tag:sofiadigital.com,2023:1030"/>
+<LCN channelNumber="70" serviceRef="tag:sofiadigital.com,2023:16905"/>
+<LCN channelNumber="71" serviceRef="tag:sofiadigital.com,2023:16903"/>
+<LCN channelNumber="72" serviceRef="tag:sofiadigital.com,2023:16904"/>
+<LCN channelNumber="73" serviceRef="tag:sofiadigital.com,2023:16906"/>
+<LCN channelNumber="74" serviceRef="tag:sofiadigital.com,2023:16907"/>
+<LCN channelNumber="101" serviceRef="tag:sofiadigital.com,2023:17044"/>
+<LCN channelNumber="102" serviceRef="tag:sofiadigital.com,2023:17042"/>
+<LCN channelNumber="103" serviceRef="tag:sofiadigital.com,2023:17041"/>
+<LCN channelNumber="104" serviceRef="tag:sofiadigital.com,2023:17029"/>
+<LCN channelNumber="105" serviceRef="tag:sofiadigital.com,2023:17038"/>
+<LCN channelNumber="106" serviceRef="tag:sofiadigital.com,2023:17025"/>
+<LCN channelNumber="107" serviceRef="tag:sofiadigital.com,2023:17051"/>
+<LCN channelNumber="108" serviceRef="tag:sofiadigital.com,2023:17040"/>
+<LCN channelNumber="115" serviceRef="tag:sofiadigital.com,2023:17046"/>
+<LCN channelNumber="116" serviceRef="tag:sofiadigital.com,2023:17045"/>
+<LCN channelNumber="117" serviceRef="tag:sofiadigital.com,2023:17047"/>
+<LCN channelNumber="118" serviceRef="tag:sofiadigital.com,2023:17048"/>
+<LCN channelNumber="119" serviceRef="tag:sofiadigital.com,2023:17049"/>
+<LCN channelNumber="120" serviceRef="tag:sofiadigital.com,2023:17050"/>
+<LCN channelNumber="121" serviceRef="tag:sofiadigital.com,2023:AnixeHD"/>
+<LCN channelNumber="122" serviceRef="tag:sofiadigital.com,2023:MBTV1"/>
+<LCN channelNumber="122" serviceRef="tag:sofiadigital.com,2023:MBTV2"/>
+</LCNTable>
+<LCNTable>
+<TargetRegion>Niedersachsen</TargetRegion>
+<LCN channelNumber="1" serviceRef="tag:sofiadigital.com,2023:769"/>
+<LCN channelNumber="2" serviceRef="tag:sofiadigital.com,2023:2001"/>
+<LCN channelNumber="3" serviceRef="tag:sofiadigital.com,2023:16896"/>
+<LCN channelNumber="4" serviceRef="tag:sofiadigital.com,2023:16937"/>
+<LCN channelNumber="8" serviceRef="tag:sofiadigital.com,2023:16899"/>
+<LCN channelNumber="9" serviceRef="tag:sofiadigital.com,2023:2003"/>
+<LCN channelNumber="14" serviceRef="tag:sofiadigital.com,2023:2002"/>
+<LCN channelNumber="17" serviceRef="tag:sofiadigital.com,2023:771"/>
+<LCN channelNumber="61" serviceRef="tag:sofiadigital.com,2023:1030"/>
+<LCN channelNumber="70" serviceRef="tag:sofiadigital.com,2023:16905"/>
+<LCN channelNumber="71" serviceRef="tag:sofiadigital.com,2023:16903"/>
+<LCN channelNumber="72" serviceRef="tag:sofiadigital.com,2023:16904"/>
+<LCN channelNumber="73" serviceRef="tag:sofiadigital.com,2023:16906"/>
+<LCN channelNumber="74" serviceRef="tag:sofiadigital.com,2023:16907"/>
+<LCN channelNumber="101" serviceRef="tag:sofiadigital.com,2023:17044"/>
+<LCN channelNumber="102" serviceRef="tag:sofiadigital.com,2023:17042"/>
+<LCN channelNumber="103" serviceRef="tag:sofiadigital.com,2023:17041"/>
+<LCN channelNumber="104" serviceRef="tag:sofiadigital.com,2023:17029"/>
+<LCN channelNumber="105" serviceRef="tag:sofiadigital.com,2023:17038"/>
+<LCN channelNumber="106" serviceRef="tag:sofiadigital.com,2023:17025"/>
+<LCN channelNumber="107" serviceRef="tag:sofiadigital.com,2023:17051"/>
+<LCN channelNumber="108" serviceRef="tag:sofiadigital.com,2023:17040"/>
+<LCN channelNumber="115" serviceRef="tag:sofiadigital.com,2023:17046"/>
+<LCN channelNumber="116" serviceRef="tag:sofiadigital.com,2023:17045"/>
+<LCN channelNumber="117" serviceRef="tag:sofiadigital.com,2023:17047"/>
+<LCN channelNumber="118" serviceRef="tag:sofiadigital.com,2023:17048"/>
+<LCN channelNumber="119" serviceRef="tag:sofiadigital.com,2023:17049"/>
+<LCN channelNumber="120" serviceRef="tag:sofiadigital.com,2023:17050"/>
+<LCN channelNumber="121" serviceRef="tag:sofiadigital.com,2023:AnixeHD"/>
+<LCN channelNumber="122" serviceRef="tag:sofiadigital.com,2023:MBTV1"/>
+<LCN channelNumber="122" serviceRef="tag:sofiadigital.com,2023:MBTV2"/>
+</LCNTable>
+<LCNTable>
+<TargetRegion>Rheinland-Pfalz</TargetRegion>
+<LCN channelNumber="1" serviceRef="tag:sofiadigital.com,2023:769"/>
+<LCN channelNumber="2" serviceRef="tag:sofiadigital.com,2023:2001"/>
+<LCN channelNumber="3" serviceRef="tag:sofiadigital.com,2023:16896"/>
+<LCN channelNumber="4" serviceRef="tag:sofiadigital.com,2023:16937"/>
+<LCN channelNumber="8" serviceRef="tag:sofiadigital.com,2023:16899"/>
+<LCN channelNumber="9" serviceRef="tag:sofiadigital.com,2023:2003"/>
+<LCN channelNumber="14" serviceRef="tag:sofiadigital.com,2023:2002"/>
+<LCN channelNumber="17" serviceRef="tag:sofiadigital.com,2023:771"/>
+<LCN channelNumber="61" serviceRef="tag:sofiadigital.com,2023:1030"/>
+<LCN channelNumber="70" serviceRef="tag:sofiadigital.com,2023:16905"/>
+<LCN channelNumber="71" serviceRef="tag:sofiadigital.com,2023:16903"/>
+<LCN channelNumber="72" serviceRef="tag:sofiadigital.com,2023:16904"/>
+<LCN channelNumber="73" serviceRef="tag:sofiadigital.com,2023:16906"/>
+<LCN channelNumber="101" serviceRef="tag:sofiadigital.com,2023:17044"/>
+<LCN channelNumber="102" serviceRef="tag:sofiadigital.com,2023:17042"/>
+<LCN channelNumber="103" serviceRef="tag:sofiadigital.com,2023:17041"/>
+<LCN channelNumber="104" serviceRef="tag:sofiadigital.com,2023:17029"/>
+<LCN channelNumber="105" serviceRef="tag:sofiadigital.com,2023:17038"/>
+<LCN channelNumber="106" serviceRef="tag:sofiadigital.com,2023:17025"/>
+<LCN channelNumber="107" serviceRef="tag:sofiadigital.com,2023:17051"/>
+<LCN channelNumber="108" serviceRef="tag:sofiadigital.com,2023:17040"/>
+<LCN channelNumber="115" serviceRef="tag:sofiadigital.com,2023:17046"/>
+<LCN channelNumber="116" serviceRef="tag:sofiadigital.com,2023:17045"/>
+<LCN channelNumber="117" serviceRef="tag:sofiadigital.com,2023:17047"/>
+<LCN channelNumber="118" serviceRef="tag:sofiadigital.com,2023:17048"/>
+<LCN channelNumber="119" serviceRef="tag:sofiadigital.com,2023:17049"/>
+<LCN channelNumber="120" serviceRef="tag:sofiadigital.com,2023:17050"/>
+<LCN channelNumber="121" serviceRef="tag:sofiadigital.com,2023:AnixeHD"/>
+<LCN channelNumber="122" serviceRef="tag:sofiadigital.com,2023:MBTV1"/>
+<LCN channelNumber="122" serviceRef="tag:sofiadigital.com,2023:MBTV2"/>
+</LCNTable>
+<LCNTable>
+<TargetRegion>Sachsen</TargetRegion>
+<LCN channelNumber="1" serviceRef="tag:sofiadigital.com,2023:769"/>
+<LCN channelNumber="2" serviceRef="tag:sofiadigital.com,2023:2001"/>
+<LCN channelNumber="3" serviceRef="tag:sofiadigital.com,2023:16896"/>
+<LCN channelNumber="4" serviceRef="tag:sofiadigital.com,2023:16937"/>
+<LCN channelNumber="8" serviceRef="tag:sofiadigital.com,2023:16899"/>
+<LCN channelNumber="9" serviceRef="tag:sofiadigital.com,2023:2003"/>
+<LCN channelNumber="14" serviceRef="tag:sofiadigital.com,2023:2002"/>
+<LCN channelNumber="17" serviceRef="tag:sofiadigital.com,2023:771"/>
+<LCN channelNumber="61" serviceRef="tag:sofiadigital.com,2023:1030"/>
+<LCN channelNumber="70" serviceRef="tag:sofiadigital.com,2023:16905"/>
+<LCN channelNumber="71" serviceRef="tag:sofiadigital.com,2023:16903"/>
+<LCN channelNumber="72" serviceRef="tag:sofiadigital.com,2023:16904"/>
+<LCN channelNumber="73" serviceRef="tag:sofiadigital.com,2023:16906"/>
+<LCN channelNumber="101" serviceRef="tag:sofiadigital.com,2023:17044"/>
+<LCN channelNumber="102" serviceRef="tag:sofiadigital.com,2023:17042"/>
+<LCN channelNumber="103" serviceRef="tag:sofiadigital.com,2023:17041"/>
+<LCN channelNumber="104" serviceRef="tag:sofiadigital.com,2023:17029"/>
+<LCN channelNumber="105" serviceRef="tag:sofiadigital.com,2023:17038"/>
+<LCN channelNumber="106" serviceRef="tag:sofiadigital.com,2023:17025"/>
+<LCN channelNumber="107" serviceRef="tag:sofiadigital.com,2023:17051"/>
+<LCN channelNumber="108" serviceRef="tag:sofiadigital.com,2023:17040"/>
+<LCN channelNumber="115" serviceRef="tag:sofiadigital.com,2023:17046"/>
+<LCN channelNumber="116" serviceRef="tag:sofiadigital.com,2023:17045"/>
+<LCN channelNumber="117" serviceRef="tag:sofiadigital.com,2023:17047"/>
+<LCN channelNumber="118" serviceRef="tag:sofiadigital.com,2023:17048"/>
+<LCN channelNumber="119" serviceRef="tag:sofiadigital.com,2023:17049"/>
+<LCN channelNumber="120" serviceRef="tag:sofiadigital.com,2023:17050"/>
+<LCN channelNumber="121" serviceRef="tag:sofiadigital.com,2023:AnixeHD"/>
+<LCN channelNumber="122" serviceRef="tag:sofiadigital.com,2023:MBTV1"/>
+<LCN channelNumber="122" serviceRef="tag:sofiadigital.com,2023:MBTV2"/>
+</LCNTable>
+<LCNTable>
+<TargetRegion>Sachsen-Anhalt</TargetRegion>
+<LCN channelNumber="1" serviceRef="tag:sofiadigital.com,2023:769"/>
+<LCN channelNumber="2" serviceRef="tag:sofiadigital.com,2023:2001"/>
+<LCN channelNumber="3" serviceRef="tag:sofiadigital.com,2023:16896"/>
+<LCN channelNumber="4" serviceRef="tag:sofiadigital.com,2023:16937"/>
+<LCN channelNumber="8" serviceRef="tag:sofiadigital.com,2023:16899"/>
+<LCN channelNumber="9" serviceRef="tag:sofiadigital.com,2023:2003"/>
+<LCN channelNumber="14" serviceRef="tag:sofiadigital.com,2023:2002"/>
+<LCN channelNumber="17" serviceRef="tag:sofiadigital.com,2023:771"/>
+<LCN channelNumber="61" serviceRef="tag:sofiadigital.com,2023:1030"/>
+<LCN channelNumber="70" serviceRef="tag:sofiadigital.com,2023:16905"/>
+<LCN channelNumber="71" serviceRef="tag:sofiadigital.com,2023:16903"/>
+<LCN channelNumber="72" serviceRef="tag:sofiadigital.com,2023:16904"/>
+<LCN channelNumber="73" serviceRef="tag:sofiadigital.com,2023:16906"/>
+<LCN channelNumber="101" serviceRef="tag:sofiadigital.com,2023:17044"/>
+<LCN channelNumber="102" serviceRef="tag:sofiadigital.com,2023:17042"/>
+<LCN channelNumber="103" serviceRef="tag:sofiadigital.com,2023:17041"/>
+<LCN channelNumber="104" serviceRef="tag:sofiadigital.com,2023:17029"/>
+<LCN channelNumber="105" serviceRef="tag:sofiadigital.com,2023:17038"/>
+<LCN channelNumber="106" serviceRef="tag:sofiadigital.com,2023:17025"/>
+<LCN channelNumber="107" serviceRef="tag:sofiadigital.com,2023:17051"/>
+<LCN channelNumber="108" serviceRef="tag:sofiadigital.com,2023:17040"/>
+<LCN channelNumber="115" serviceRef="tag:sofiadigital.com,2023:17046"/>
+<LCN channelNumber="116" serviceRef="tag:sofiadigital.com,2023:17045"/>
+<LCN channelNumber="117" serviceRef="tag:sofiadigital.com,2023:17047"/>
+<LCN channelNumber="118" serviceRef="tag:sofiadigital.com,2023:17048"/>
+<LCN channelNumber="119" serviceRef="tag:sofiadigital.com,2023:17049"/>
+<LCN channelNumber="120" serviceRef="tag:sofiadigital.com,2023:17050"/>
+<LCN channelNumber="121" serviceRef="tag:sofiadigital.com,2023:AnixeHD"/>
+<LCN channelNumber="122" serviceRef="tag:sofiadigital.com,2023:MBTV1"/>
+<LCN channelNumber="122" serviceRef="tag:sofiadigital.com,2023:MBTV2"/>
+</LCNTable>
+<LCNTable>
+<TargetRegion>Schleswig-Holstein</TargetRegion>
+<LCN channelNumber="1" serviceRef="tag:sofiadigital.com,2023:769"/>
+<LCN channelNumber="2" serviceRef="tag:sofiadigital.com,2023:2001"/>
+<LCN channelNumber="3" serviceRef="tag:sofiadigital.com,2023:16896"/>
+<LCN channelNumber="4" serviceRef="tag:sofiadigital.com,2023:16937"/>
+<LCN channelNumber="8" serviceRef="tag:sofiadigital.com,2023:16899"/>
+<LCN channelNumber="9" serviceRef="tag:sofiadigital.com,2023:2003"/>
+<LCN channelNumber="14" serviceRef="tag:sofiadigital.com,2023:2002"/>
+<LCN channelNumber="17" serviceRef="tag:sofiadigital.com,2023:771"/>
+<LCN channelNumber="61" serviceRef="tag:sofiadigital.com,2023:1030"/>
+<LCN channelNumber="70" serviceRef="tag:sofiadigital.com,2023:16905"/>
+<LCN channelNumber="71" serviceRef="tag:sofiadigital.com,2023:16903"/>
+<LCN channelNumber="72" serviceRef="tag:sofiadigital.com,2023:16904"/>
+<LCN channelNumber="73" serviceRef="tag:sofiadigital.com,2023:16906"/>
+<LCN channelNumber="101" serviceRef="tag:sofiadigital.com,2023:17044"/>
+<LCN channelNumber="102" serviceRef="tag:sofiadigital.com,2023:17042"/>
+<LCN channelNumber="103" serviceRef="tag:sofiadigital.com,2023:17041"/>
+<LCN channelNumber="104" serviceRef="tag:sofiadigital.com,2023:17029"/>
+<LCN channelNumber="105" serviceRef="tag:sofiadigital.com,2023:17038"/>
+<LCN channelNumber="106" serviceRef="tag:sofiadigital.com,2023:17025"/>
+<LCN channelNumber="107" serviceRef="tag:sofiadigital.com,2023:17051"/>
+<LCN channelNumber="108" serviceRef="tag:sofiadigital.com,2023:17040"/>
+<LCN channelNumber="115" serviceRef="tag:sofiadigital.com,2023:17046"/>
+<LCN channelNumber="116" serviceRef="tag:sofiadigital.com,2023:17045"/>
+<LCN channelNumber="117" serviceRef="tag:sofiadigital.com,2023:17047"/>
+<LCN channelNumber="118" serviceRef="tag:sofiadigital.com,2023:17048"/>
+<LCN channelNumber="119" serviceRef="tag:sofiadigital.com,2023:17049"/>
+<LCN channelNumber="120" serviceRef="tag:sofiadigital.com,2023:17050"/>
+<LCN channelNumber="121" serviceRef="tag:sofiadigital.com,2023:AnixeHD"/>
+<LCN channelNumber="122" serviceRef="tag:sofiadigital.com,2023:MBTV1"/>
+<LCN channelNumber="122" serviceRef="tag:sofiadigital.com,2023:MBTV2"/>
+</LCNTable>
+<LCNTable>
+<TargetRegion>Siegen</TargetRegion>
+<LCN channelNumber="1" serviceRef="tag:sofiadigital.com,2023:769"/>
+<LCN channelNumber="2" serviceRef="tag:sofiadigital.com,2023:2001"/>
+<LCN channelNumber="3" serviceRef="tag:sofiadigital.com,2023:16896"/>
+<LCN channelNumber="4" serviceRef="tag:sofiadigital.com,2023:16937"/>
+<LCN channelNumber="8" serviceRef="tag:sofiadigital.com,2023:16899"/>
+<LCN channelNumber="9" serviceRef="tag:sofiadigital.com,2023:2003"/>
+<LCN channelNumber="14" serviceRef="tag:sofiadigital.com,2023:2002"/>
+<LCN channelNumber="17" serviceRef="tag:sofiadigital.com,2023:771"/>
+<LCN channelNumber="61" serviceRef="tag:sofiadigital.com,2023:1030"/>
+<LCN channelNumber="70" serviceRef="tag:sofiadigital.com,2023:16905"/>
+<LCN channelNumber="71" serviceRef="tag:sofiadigital.com,2023:16903"/>
+<LCN channelNumber="72" serviceRef="tag:sofiadigital.com,2023:16904"/>
+<LCN channelNumber="73" serviceRef="tag:sofiadigital.com,2023:16906"/>
+<LCN channelNumber="101" serviceRef="tag:sofiadigital.com,2023:17044"/>
+<LCN channelNumber="102" serviceRef="tag:sofiadigital.com,2023:17042"/>
+<LCN channelNumber="103" serviceRef="tag:sofiadigital.com,2023:17041"/>
+<LCN channelNumber="104" serviceRef="tag:sofiadigital.com,2023:17029"/>
+<LCN channelNumber="105" serviceRef="tag:sofiadigital.com,2023:17038"/>
+<LCN channelNumber="106" serviceRef="tag:sofiadigital.com,2023:17025"/>
+<LCN channelNumber="107" serviceRef="tag:sofiadigital.com,2023:17051"/>
+<LCN channelNumber="108" serviceRef="tag:sofiadigital.com,2023:17040"/>
+<LCN channelNumber="115" serviceRef="tag:sofiadigital.com,2023:17046"/>
+<LCN channelNumber="116" serviceRef="tag:sofiadigital.com,2023:17045"/>
+<LCN channelNumber="117" serviceRef="tag:sofiadigital.com,2023:17047"/>
+<LCN channelNumber="118" serviceRef="tag:sofiadigital.com,2023:17048"/>
+<LCN channelNumber="119" serviceRef="tag:sofiadigital.com,2023:17049"/>
+<LCN channelNumber="120" serviceRef="tag:sofiadigital.com,2023:17050"/>
+<LCN channelNumber="121" serviceRef="tag:sofiadigital.com,2023:AnixeHD"/>
+<LCN channelNumber="122" serviceRef="tag:sofiadigital.com,2023:MBTV1"/>
+<LCN channelNumber="122" serviceRef="tag:sofiadigital.com,2023:MBTV2"/>
+</LCNTable>
+<LCNTable>
+<TargetRegion>Thüringen</TargetRegion>
+<LCN channelNumber="1" serviceRef="tag:sofiadigital.com,2023:769"/>
+<LCN channelNumber="2" serviceRef="tag:sofiadigital.com,2023:2001"/>
+<LCN channelNumber="3" serviceRef="tag:sofiadigital.com,2023:16896"/>
+<LCN channelNumber="4" serviceRef="tag:sofiadigital.com,2023:16937"/>
+<LCN channelNumber="8" serviceRef="tag:sofiadigital.com,2023:16899"/>
+<LCN channelNumber="9" serviceRef="tag:sofiadigital.com,2023:2003"/>
+<LCN channelNumber="14" serviceRef="tag:sofiadigital.com,2023:2002"/>
+<LCN channelNumber="17" serviceRef="tag:sofiadigital.com,2023:771"/>
+<LCN channelNumber="61" serviceRef="tag:sofiadigital.com,2023:1030"/>
+<LCN channelNumber="70" serviceRef="tag:sofiadigital.com,2023:16905"/>
+<LCN channelNumber="71" serviceRef="tag:sofiadigital.com,2023:16903"/>
+<LCN channelNumber="72" serviceRef="tag:sofiadigital.com,2023:16904"/>
+<LCN channelNumber="73" serviceRef="tag:sofiadigital.com,2023:16906"/>
+<LCN channelNumber="101" serviceRef="tag:sofiadigital.com,2023:17044"/>
+<LCN channelNumber="102" serviceRef="tag:sofiadigital.com,2023:17042"/>
+<LCN channelNumber="103" serviceRef="tag:sofiadigital.com,2023:17041"/>
+<LCN channelNumber="104" serviceRef="tag:sofiadigital.com,2023:17029"/>
+<LCN channelNumber="105" serviceRef="tag:sofiadigital.com,2023:17038"/>
+<LCN channelNumber="106" serviceRef="tag:sofiadigital.com,2023:17025"/>
+<LCN channelNumber="107" serviceRef="tag:sofiadigital.com,2023:17051"/>
+<LCN channelNumber="108" serviceRef="tag:sofiadigital.com,2023:17040"/>
+<LCN channelNumber="115" serviceRef="tag:sofiadigital.com,2023:17046"/>
+<LCN channelNumber="116" serviceRef="tag:sofiadigital.com,2023:17045"/>
+<LCN channelNumber="117" serviceRef="tag:sofiadigital.com,2023:17047"/>
+<LCN channelNumber="118" serviceRef="tag:sofiadigital.com,2023:17048"/>
+<LCN channelNumber="119" serviceRef="tag:sofiadigital.com,2023:17049"/>
+<LCN channelNumber="120" serviceRef="tag:sofiadigital.com,2023:17050"/>
+<LCN channelNumber="121" serviceRef="tag:sofiadigital.com,2023:AnixeHD"/>
+<LCN channelNumber="122" serviceRef="tag:sofiadigital.com,2023:MBTV1"/>
+<LCN channelNumber="122" serviceRef="tag:sofiadigital.com,2023:MBTV2"/>
+</LCNTable>
+<LCNTable>
+<TargetRegion>Wuppertal</TargetRegion>
+<LCN channelNumber="1" serviceRef="tag:sofiadigital.com,2023:769"/>
+<LCN channelNumber="2" serviceRef="tag:sofiadigital.com,2023:2001"/>
+<LCN channelNumber="3" serviceRef="tag:sofiadigital.com,2023:16896"/>
+<LCN channelNumber="4" serviceRef="tag:sofiadigital.com,2023:16937"/>
+<LCN channelNumber="8" serviceRef="tag:sofiadigital.com,2023:16899"/>
+<LCN channelNumber="9" serviceRef="tag:sofiadigital.com,2023:2003"/>
+<LCN channelNumber="14" serviceRef="tag:sofiadigital.com,2023:2002"/>
+<LCN channelNumber="17" serviceRef="tag:sofiadigital.com,2023:771"/>
+<LCN channelNumber="61" serviceRef="tag:sofiadigital.com,2023:1030"/>
+<LCN channelNumber="70" serviceRef="tag:sofiadigital.com,2023:16905"/>
+<LCN channelNumber="71" serviceRef="tag:sofiadigital.com,2023:16903"/>
+<LCN channelNumber="72" serviceRef="tag:sofiadigital.com,2023:16904"/>
+<LCN channelNumber="73" serviceRef="tag:sofiadigital.com,2023:16906"/>
+<LCN channelNumber="101" serviceRef="tag:sofiadigital.com,2023:17044"/>
+<LCN channelNumber="102" serviceRef="tag:sofiadigital.com,2023:17042"/>
+<LCN channelNumber="103" serviceRef="tag:sofiadigital.com,2023:17041"/>
+<LCN channelNumber="104" serviceRef="tag:sofiadigital.com,2023:17029"/>
+<LCN channelNumber="105" serviceRef="tag:sofiadigital.com,2023:17038"/>
+<LCN channelNumber="106" serviceRef="tag:sofiadigital.com,2023:17025"/>
+<LCN channelNumber="107" serviceRef="tag:sofiadigital.com,2023:17051"/>
+<LCN channelNumber="108" serviceRef="tag:sofiadigital.com,2023:17040"/>
+<LCN channelNumber="115" serviceRef="tag:sofiadigital.com,2023:17046"/>
+<LCN channelNumber="116" serviceRef="tag:sofiadigital.com,2023:17045"/>
+<LCN channelNumber="117" serviceRef="tag:sofiadigital.com,2023:17047"/>
+<LCN channelNumber="118" serviceRef="tag:sofiadigital.com,2023:17048"/>
+<LCN channelNumber="119" serviceRef="tag:sofiadigital.com,2023:17049"/>
+<LCN channelNumber="120" serviceRef="tag:sofiadigital.com,2023:17050"/>
+<LCN channelNumber="121" serviceRef="tag:sofiadigital.com,2023:AnixeHD"/>
+<LCN channelNumber="122" serviceRef="tag:sofiadigital.com,2023:MBTV1"/>
+<LCN channelNumber="122" serviceRef="tag:sofiadigital.com,2023:MBTV2"/>
+</LCNTable>
+<LCNTable>
+<TargetRegion>Essen</TargetRegion>
+<LCN channelNumber="1" serviceRef="tag:sofiadigital.com,2023:769"/>
+<LCN channelNumber="2" serviceRef="tag:sofiadigital.com,2023:2001"/>
+<LCN channelNumber="3" serviceRef="tag:sofiadigital.com,2023:16896"/>
+<LCN channelNumber="4" serviceRef="tag:sofiadigital.com,2023:16937"/>
+<LCN channelNumber="8" serviceRef="tag:sofiadigital.com,2023:16899"/>
+<LCN channelNumber="9" serviceRef="tag:sofiadigital.com,2023:2003"/>
+<LCN channelNumber="14" serviceRef="tag:sofiadigital.com,2023:2002"/>
+<LCN channelNumber="17" serviceRef="tag:sofiadigital.com,2023:771"/>
+<LCN channelNumber="61" serviceRef="tag:sofiadigital.com,2023:1030"/>
+<LCN channelNumber="70" serviceRef="tag:sofiadigital.com,2023:16905"/>
+<LCN channelNumber="71" serviceRef="tag:sofiadigital.com,2023:16903"/>
+<LCN channelNumber="72" serviceRef="tag:sofiadigital.com,2023:16904"/>
+<LCN channelNumber="73" serviceRef="tag:sofiadigital.com,2023:16906"/>
+<LCN channelNumber="101" serviceRef="tag:sofiadigital.com,2023:17044"/>
+<LCN channelNumber="102" serviceRef="tag:sofiadigital.com,2023:17042"/>
+<LCN channelNumber="103" serviceRef="tag:sofiadigital.com,2023:17041"/>
+<LCN channelNumber="104" serviceRef="tag:sofiadigital.com,2023:17029"/>
+<LCN channelNumber="105" serviceRef="tag:sofiadigital.com,2023:17038"/>
+<LCN channelNumber="106" serviceRef="tag:sofiadigital.com,2023:17025"/>
+<LCN channelNumber="107" serviceRef="tag:sofiadigital.com,2023:17051"/>
+<LCN channelNumber="108" serviceRef="tag:sofiadigital.com,2023:17040"/>
+<LCN channelNumber="115" serviceRef="tag:sofiadigital.com,2023:17046"/>
+<LCN channelNumber="116" serviceRef="tag:sofiadigital.com,2023:17045"/>
+<LCN channelNumber="117" serviceRef="tag:sofiadigital.com,2023:17047"/>
+<LCN channelNumber="118" serviceRef="tag:sofiadigital.com,2023:17048"/>
+<LCN channelNumber="119" serviceRef="tag:sofiadigital.com,2023:17049"/>
+<LCN channelNumber="120" serviceRef="tag:sofiadigital.com,2023:17050"/>
+<LCN channelNumber="121" serviceRef="tag:sofiadigital.com,2023:AnixeHD"/>
+<LCN channelNumber="122" serviceRef="tag:sofiadigital.com,2023:MBTV1"/>
+<LCN channelNumber="122" serviceRef="tag:sofiadigital.com,2023:MBTV2"/>
+</LCNTable>
+<LCNTable>
+<TargetRegion>Saarland</TargetRegion>
+<LCN channelNumber="1" serviceRef="tag:sofiadigital.com,2023:769"/>
+<LCN channelNumber="2" serviceRef="tag:sofiadigital.com,2023:2001"/>
+<LCN channelNumber="3" serviceRef="tag:sofiadigital.com,2023:16896"/>
+<LCN channelNumber="4" serviceRef="tag:sofiadigital.com,2023:16937"/>
+<LCN channelNumber="8" serviceRef="tag:sofiadigital.com,2023:16899"/>
+<LCN channelNumber="9" serviceRef="tag:sofiadigital.com,2023:2003"/>
+<LCN channelNumber="14" serviceRef="tag:sofiadigital.com,2023:2002"/>
+<LCN channelNumber="17" serviceRef="tag:sofiadigital.com,2023:771"/>
+<LCN channelNumber="61" serviceRef="tag:sofiadigital.com,2023:1030"/>
+<LCN channelNumber="70" serviceRef="tag:sofiadigital.com,2023:16905"/>
+<LCN channelNumber="71" serviceRef="tag:sofiadigital.com,2023:16903"/>
+<LCN channelNumber="72" serviceRef="tag:sofiadigital.com,2023:16904"/>
+<LCN channelNumber="73" serviceRef="tag:sofiadigital.com,2023:16906"/>
+<LCN channelNumber="101" serviceRef="tag:sofiadigital.com,2023:17044"/>
+<LCN channelNumber="102" serviceRef="tag:sofiadigital.com,2023:17042"/>
+<LCN channelNumber="103" serviceRef="tag:sofiadigital.com,2023:17041"/>
+<LCN channelNumber="104" serviceRef="tag:sofiadigital.com,2023:17029"/>
+<LCN channelNumber="105" serviceRef="tag:sofiadigital.com,2023:17038"/>
+<LCN channelNumber="106" serviceRef="tag:sofiadigital.com,2023:17025"/>
+<LCN channelNumber="107" serviceRef="tag:sofiadigital.com,2023:17051"/>
+<LCN channelNumber="108" serviceRef="tag:sofiadigital.com,2023:17040"/>
+<LCN channelNumber="115" serviceRef="tag:sofiadigital.com,2023:17046"/>
+<LCN channelNumber="116" serviceRef="tag:sofiadigital.com,2023:17045"/>
+<LCN channelNumber="117" serviceRef="tag:sofiadigital.com,2023:17047"/>
+<LCN channelNumber="118" serviceRef="tag:sofiadigital.com,2023:17048"/>
+<LCN channelNumber="119" serviceRef="tag:sofiadigital.com,2023:17049"/>
+<LCN channelNumber="120" serviceRef="tag:sofiadigital.com,2023:17050"/>
+<LCN channelNumber="121" serviceRef="tag:sofiadigital.com,2023:AnixeHD"/>
+<LCN channelNumber="122" serviceRef="tag:sofiadigital.com,2023:MBTV1"/>
+<LCN channelNumber="122" serviceRef="tag:sofiadigital.com,2023:MBTV2"/>
+</LCNTable>
+<LCNTable>
+<TargetRegion>Münster</TargetRegion>
+<LCN channelNumber="1" serviceRef="tag:sofiadigital.com,2023:769"/>
+<LCN channelNumber="2" serviceRef="tag:sofiadigital.com,2023:2001"/>
+<LCN channelNumber="3" serviceRef="tag:sofiadigital.com,2023:16896"/>
+<LCN channelNumber="4" serviceRef="tag:sofiadigital.com,2023:16937"/>
+<LCN channelNumber="8" serviceRef="tag:sofiadigital.com,2023:16899"/>
+<LCN channelNumber="9" serviceRef="tag:sofiadigital.com,2023:2003"/>
+<LCN channelNumber="14" serviceRef="tag:sofiadigital.com,2023:2002"/>
+<LCN channelNumber="17" serviceRef="tag:sofiadigital.com,2023:771"/>
+<LCN channelNumber="61" serviceRef="tag:sofiadigital.com,2023:1030"/>
+<LCN channelNumber="70" serviceRef="tag:sofiadigital.com,2023:16905"/>
+<LCN channelNumber="71" serviceRef="tag:sofiadigital.com,2023:16903"/>
+<LCN channelNumber="72" serviceRef="tag:sofiadigital.com,2023:16904"/>
+<LCN channelNumber="73" serviceRef="tag:sofiadigital.com,2023:16906"/>
+<LCN channelNumber="101" serviceRef="tag:sofiadigital.com,2023:17044"/>
+<LCN channelNumber="102" serviceRef="tag:sofiadigital.com,2023:17042"/>
+<LCN channelNumber="103" serviceRef="tag:sofiadigital.com,2023:17041"/>
+<LCN channelNumber="104" serviceRef="tag:sofiadigital.com,2023:17029"/>
+<LCN channelNumber="105" serviceRef="tag:sofiadigital.com,2023:17038"/>
+<LCN channelNumber="106" serviceRef="tag:sofiadigital.com,2023:17025"/>
+<LCN channelNumber="107" serviceRef="tag:sofiadigital.com,2023:17051"/>
+<LCN channelNumber="108" serviceRef="tag:sofiadigital.com,2023:17040"/>
+<LCN channelNumber="115" serviceRef="tag:sofiadigital.com,2023:17046"/>
+<LCN channelNumber="116" serviceRef="tag:sofiadigital.com,2023:17045"/>
+<LCN channelNumber="117" serviceRef="tag:sofiadigital.com,2023:17047"/>
+<LCN channelNumber="118" serviceRef="tag:sofiadigital.com,2023:17048"/>
+<LCN channelNumber="119" serviceRef="tag:sofiadigital.com,2023:17049"/>
+<LCN channelNumber="120" serviceRef="tag:sofiadigital.com,2023:17050"/>
+<LCN channelNumber="121" serviceRef="tag:sofiadigital.com,2023:AnixeHD"/>
+<LCN channelNumber="122" serviceRef="tag:sofiadigital.com,2023:MBTV1"/>
+<LCN channelNumber="122" serviceRef="tag:sofiadigital.com,2023:MBTV2"/>
+</LCNTable>
+</LCNTableList>
+<ContentGuideSource CGSID="sofia-1">
+<ProviderName>Sofia Digital</ProviderName>
+<ScheduleInfoEndpoint contentType="application/xml">
+<URI>https://dvbi.media-broadcast.com/api/services/MBroadcast/schedules/</URI>
+</ScheduleInfoEndpoint>
+</ContentGuideSource>
+<Service version="1">
+<UniqueIdentifier>tag:sofiadigital.com,2023:769</UniqueIdentifier>
+<ServiceInstance priority="2">
+<DisplayName>Das Erste HD</DisplayName>
+<DASHDeliveryParameters>
+<UriBasedLocation contentType="application/dash+xml">
+<URI>https://daserste-live.ard-mcdn.de/daserste/replay/dash/de/manifest.mpd</URI>
+</UriBasedLocation>
+</DASHDeliveryParameters>
+</ServiceInstance>
+<ServiceInstance priority="1">
+<DisplayName>Das Erste HD</DisplayName>
+<DVBTDeliveryParameters>
+<DVBTriplet origNetId="8468" serviceId="769" tsId="27136"/>
+<TargetCountry>DEU</TargetCountry>
+</DVBTDeliveryParameters>
+</ServiceInstance>
+<ServiceName>Das Erste HD</ServiceName>
+<ProviderName>Sofia Digital</ProviderName>
+<RelatedMaterial>
+<HowRelated href="urn:dvb:metadata:cs:HowRelatedCS:2020:1001.2"/>
+<MediaLocator>
+<tva:MediaUri contentType="image/png">https://dvbi.media-broadcast.com/backend/logo/ARD_HD.png</tva:MediaUri>
+</MediaLocator>
+</RelatedMaterial>
+<RelatedMaterial>
+<HowRelated href="urn:dvb:metadata:cs:LinkedApplicationCS:2019:1.1"/>
+<MediaLocator>
+<tva:MediaUri contentType="application/vnd.dvb.ait+xml">https://devel.sofiadigital.fi/home/tomi.sarparanta/dvb-i-reference-application/backend/app2.aitx</tva:MediaUri>
+</MediaLocator>
+</RelatedMaterial>
+<RelatedMaterial>
+<HowRelated href="urn:dvb:metadata:cs:LinkedApplicationCS:2019:1.2"/>
+<MediaLocator>
+<tva:MediaUri contentType="application/vnd.dvb.ait+xml">https://devel.sofiadigital.fi/home/tomi.sarparanta/dvb-i-reference-application/backend/app2.aitx</tva:MediaUri>
+</MediaLocator>
+</RelatedMaterial>
+<ServiceType href="urn:dvb:metadata:cs:ServiceTypeCS:2019:linear"/>
+</Service>
+<Service version="1">
+<UniqueIdentifier>tag:sofiadigital.com,2023:2001</UniqueIdentifier>
+<ServiceInstance priority="2">
+<DisplayName>ZDF HD</DisplayName>
+<DASHDeliveryParameters>
+<UriBasedLocation contentType="application/dash+xml">
+<URI>http://zdf-dash-15.akamaized.net/dash/live/2016508/de/manifest.mpd</URI>
+</UriBasedLocation>
+</DASHDeliveryParameters>
+</ServiceInstance>
+<ServiceInstance priority="1">
+<DisplayName>ZDF HD</DisplayName>
+<DVBTDeliveryParameters>
+<DVBTriplet origNetId="8468" serviceId="2001" tsId="515"/>
+<TargetCountry>GBR</TargetCountry>
+</DVBTDeliveryParameters>
+</ServiceInstance>
+<ServiceName>ZDF HD</ServiceName>
+<ProviderName>Sofia Digital</ProviderName>
+<RelatedMaterial>
+<HowRelated href="urn:dvb:metadata:cs:HowRelatedCS:2020:1001.2"/>
+<MediaLocator>
+<tva:MediaUri contentType="image/png">https://dvbi.media-broadcast.com/backend/logo/ZDF_HD.png</tva:MediaUri>
+</MediaLocator>
+</RelatedMaterial>
+<ServiceType href="urn:dvb:metadata:cs:ServiceTypeCS:2019:linear"/>
+</Service>
+<Service version="1">
+<UniqueIdentifier>tag:sofiadigital.com,2023:16896</UniqueIdentifier>
+<ServiceInstance priority="2">
+<DisplayName>RTL HD</DisplayName>
+<DASHDeliveryParameters>
+<UriBasedLocation contentType="application/dash+xml">
+<URI>http://cdn-test01.cdn.media-broadcast.com/egress/chandler/mb/test01/index.mpd?drm=true&type=normal</URI>
+</UriBasedLocation>
+</DASHDeliveryParameters>
+</ServiceInstance>
+<ServiceInstance priority="1">
+<DisplayName>RTL HD</DisplayName>
+<DVBTDeliveryParameters>
+<DVBTriplet origNetId="8468" serviceId="16896" tsId="16385"/>
+<TargetCountry>GBR</TargetCountry>
+</DVBTDeliveryParameters>
+</ServiceInstance>
+<ServiceName>RTL HD</ServiceName>
+<ProviderName>Sofia Digital</ProviderName>
+<RelatedMaterial>
+<HowRelated href="urn:dvb:metadata:cs:HowRelatedCS:2020:1001.2"/>
+<MediaLocator>
+<tva:MediaUri contentType="image/png">https://dvbi.media-broadcast.com/backend/logo/RTL HD.png</tva:MediaUri>
+</MediaLocator>
+</RelatedMaterial>
+<ServiceType href="urn:dvb:metadata:cs:ServiceTypeCS:2019:linear"/>
+</Service>
+<Service version="1">
+<UniqueIdentifier>tag:sofiadigital.com,2023:16937</UniqueIdentifier>
+<ServiceInstance priority="2">
+<DisplayName>SAT.1 HD NRW</DisplayName>
+<DASHDeliveryParameters>
+<UriBasedLocation contentType="application/dash+xml">
+<URI>https://ac-001.live.p7s1video.net/972a2351/t_001/p7s1-dvb-i-sat1/unencrypted-default.mpd</URI>
+</UriBasedLocation>
+</DASHDeliveryParameters>
+</ServiceInstance>
+<ServiceInstance priority="1">
+<DisplayName>SAT.1 HD NRW</DisplayName>
+<DVBTDeliveryParameters>
+<DVBTriplet origNetId="8468" serviceId="16937" tsId="16436"/>
+<TargetCountry>GBR</TargetCountry>
+</DVBTDeliveryParameters>
+</ServiceInstance>
+<ServiceName>SAT.1 HD NRW</ServiceName>
+<ProviderName>Sofia Digital</ProviderName>
+<RelatedMaterial>
+<HowRelated href="urn:dvb:metadata:cs:HowRelatedCS:2020:1001.2"/>
+<MediaLocator>
+<tva:MediaUri contentType="image/png">https://dvbi.media-broadcast.com/backend/logo/SAT_1_HD.png</tva:MediaUri>
+</MediaLocator>
+</RelatedMaterial>
+<ServiceType href="urn:dvb:metadata:cs:ServiceTypeCS:2019:linear"/>
+</Service>
+<Service version="1">
+<UniqueIdentifier>tag:sofiadigital.com,2023:16929</UniqueIdentifier>
+<ServiceInstance priority="2">
+<DisplayName>ProSieben HD</DisplayName>
+<DASHDeliveryParameters>
+<UriBasedLocation contentType="application/dash+xml">
+<URI>https://ac-001.live.p7s1video.net/fd17a57c/t_001/p7s1-dvb-i-kabeleins/unencrypted-default.mpd</URI>
+</UriBasedLocation>
+</DASHDeliveryParameters>
+</ServiceInstance>
+<ServiceInstance priority="1">
+<DisplayName>ProSieben HD</DisplayName>
+<DVBTDeliveryParameters>
+<DVBTriplet origNetId="8468" serviceId="16929" tsId="16436"/>
+<TargetCountry>GBR</TargetCountry>
+</DVBTDeliveryParameters>
+</ServiceInstance>
+<ServiceName>ProSieben HD</ServiceName>
+<ProviderName>Sofia Digital</ProviderName>
+<RelatedMaterial>
+<HowRelated href="urn:dvb:metadata:cs:HowRelatedCS:2020:1001.2"/>
+<MediaLocator>
+<tva:MediaUri contentType="image/png">https://dvbi.media-broadcast.com/backend/logo/Pro7_HD.png</tva:MediaUri>
+</MediaLocator>
+</RelatedMaterial>
+<ServiceType href="urn:dvb:metadata:cs:ServiceTypeCS:2019:linear"/>
+</Service>
+<Service version="1">
+<UniqueIdentifier>tag:sofiadigital.com,2023:16930</UniqueIdentifier>
+<ServiceInstance priority="2">
+<DisplayName>kabel eins HD</DisplayName>
+<DASHDeliveryParameters>
+<UriBasedLocation contentType="application/dash+xml">
+<URI>https://ac-001.live.p7s1video.net/fd17a57c/t_001/p7s1-dvb-i-kabeleins/unencrypted-default.mpd</URI>
+</UriBasedLocation>
+</DASHDeliveryParameters>
+</ServiceInstance>
+<ServiceInstance priority="1">
+<DisplayName>kabel eins HD</DisplayName>
+<DVBTDeliveryParameters>
+<DVBTriplet origNetId="8468" serviceId="16930" tsId="16436"/>
+<TargetCountry>GBR</TargetCountry>
+</DVBTDeliveryParameters>
+</ServiceInstance>
+<ServiceName>kabel eins HD</ServiceName>
+<ProviderName>Sofia Digital</ProviderName>
+<RelatedMaterial>
+<HowRelated href="urn:dvb:metadata:cs:HowRelatedCS:2020:1001.2"/>
+<MediaLocator>
+<tva:MediaUri contentType="image/png">https://dvbi.media-broadcast.com/backend/logo/Kabel_1_HD.png</tva:MediaUri>
+</MediaLocator>
+</RelatedMaterial>
+<ServiceType href="urn:dvb:metadata:cs:ServiceTypeCS:2019:linear"/>
+</Service>
+<Service version="1">
+<UniqueIdentifier>tag:sofiadigital.com,2023:16899</UniqueIdentifier>
+<ServiceInstance priority="2">
+<DisplayName>RTLZWEI HD</DisplayName>
+<DASHDeliveryParameters>
+<UriBasedLocation contentType="application/dash+xml">
+<URI>http://cdn-test02.cdn.media-broadcast.com/egress/chandler/mb/test02/index.mpd</URI>
+</UriBasedLocation>
+</DASHDeliveryParameters>
+</ServiceInstance>
+<ServiceInstance priority="1">
+<DisplayName>RTLZWEI HD</DisplayName>
+<DVBTDeliveryParameters>
+<DVBTriplet origNetId="8468" serviceId="16899" tsId="16388"/>
+<TargetCountry>GBR</TargetCountry>
+</DVBTDeliveryParameters>
+</ServiceInstance>
+<ServiceName>RTLZWEI HD</ServiceName>
+<ProviderName>Sofia Digital</ProviderName>
+<RelatedMaterial>
+<HowRelated href="urn:dvb:metadata:cs:HowRelatedCS:2020:1001.2"/>
+<MediaLocator>
+<tva:MediaUri contentType="image/png">https://dvbi.media-broadcast.com/backend/logo/RTL_2_HD.png</tva:MediaUri>
+</MediaLocator>
+</RelatedMaterial>
+<ServiceType href="urn:dvb:metadata:cs:ServiceTypeCS:2019:linear"/>
+</Service>
+<Service version="1">
+<UniqueIdentifier>tag:sofiadigital.com,2023:2003</UniqueIdentifier>
+<ServiceInstance priority="2">
+<DisplayName>ZDF neo HD</DisplayName>
+<DASHDeliveryParameters>
+<UriBasedLocation contentType="application/dash+xml">
+<URI>http://zdf-dash-16.akamaized.net/dash/live/2016509/de/manifest.mpd</URI>
+</UriBasedLocation>
+</DASHDeliveryParameters>
+</ServiceInstance>
+<ServiceInstance priority="1">
+<DisplayName>ZDF neo HD</DisplayName>
+<DVBTDeliveryParameters>
+<DVBTriplet origNetId="8468" serviceId="2003" tsId="515"/>
+<TargetCountry>GBR</TargetCountry>
+</DVBTDeliveryParameters>
+</ServiceInstance>
+<ServiceName>ZDF neo HD</ServiceName>
+<ProviderName>Sofia Digital</ProviderName>
+<RelatedMaterial>
+<HowRelated href="urn:dvb:metadata:cs:HowRelatedCS:2020:1001.2"/>
+<MediaLocator>
+<tva:MediaUri contentType="image/png">https://dvbi.media-broadcast.com/backend/logo/zdf_neo_HD.png</tva:MediaUri>
+</MediaLocator>
+</RelatedMaterial>
+<ServiceType href="urn:dvb:metadata:cs:ServiceTypeCS:2019:linear"/>
+</Service>
+<Service version="1">
+<UniqueIdentifier>tag:sofiadigital.com,2023:16898</UniqueIdentifier>
+<ServiceInstance priority="1">
+<DisplayName>Super RTL HD</DisplayName>
+<DVBTDeliveryParameters>
+<DVBTriplet origNetId="8468" serviceId="16898" tsId="16388"/>
+<TargetCountry>GBR</TargetCountry>
+</DVBTDeliveryParameters>
+</ServiceInstance>
+<ServiceName>Super RTL HD</ServiceName>
+<ProviderName>Sofia Digital</ProviderName>
+<RelatedMaterial>
+<HowRelated href="urn:dvb:metadata:cs:HowRelatedCS:2020:1001.2"/>
+<MediaLocator>
+<tva:MediaUri contentType="image/png">https://dvbi.media-broadcast.com/backend/logo/Super_RTL_HD.png</tva:MediaUri>
+</MediaLocator>
+</RelatedMaterial>
+<ServiceType href="urn:dvb:metadata:cs:ServiceTypeCS:2019:linear"/>
+</Service>
+<Service version="1">
+<UniqueIdentifier>tag:sofiadigital.com,2023:2004</UniqueIdentifier>
+<ServiceInstance priority="2">
+<DisplayName>3sat HD</DisplayName>
+<DASHDeliveryParameters>
+<UriBasedLocation contentType="application/dash+xml">
+<URI>http://zdf-dash-18.akamaized.net/dash/live/2016511/dach/manifest.mpd</URI>
+</UriBasedLocation>
+</DASHDeliveryParameters>
+</ServiceInstance>
+<ServiceInstance priority="1">
+<DisplayName>3sat HD</DisplayName>
+<DVBTDeliveryParameters>
+<DVBTriplet origNetId="8468" serviceId="2004" tsId="515"/>
+<TargetCountry>GBR</TargetCountry>
+</DVBTDeliveryParameters>
+</ServiceInstance>
+<ServiceName>3sat HD</ServiceName>
+<ProviderName>Sofia Digital</ProviderName>
+<RelatedMaterial>
+<HowRelated href="urn:dvb:metadata:cs:HowRelatedCS:2020:1001.2"/>
+<MediaLocator>
+<tva:MediaUri contentType="image/png">https://dvbi.media-broadcast.com/backend/logo/3_sat_HD.png</tva:MediaUri>
+</MediaLocator>
+</RelatedMaterial>
+<ServiceType href="urn:dvb:metadata:cs:ServiceTypeCS:2019:linear"/>
+</Service>
+<Service version="1">
+<UniqueIdentifier>tag:sofiadigital.com,2023:2002</UniqueIdentifier>
+<ServiceInstance priority="2">
+<DisplayName>ZDF info HD</DisplayName>
+<DASHDeliveryParameters>
+<UriBasedLocation contentType="application/dash+xml">
+<URI>http://zdf-dash-17.akamaized.net/dash/live/2016510/de/manifest.mpd</URI>
+</UriBasedLocation>
+</DASHDeliveryParameters>
+</ServiceInstance>
+<ServiceName>ZDF info HD</ServiceName>
+<ProviderName>Sofia Digital</ProviderName>
+<RelatedMaterial>
+<HowRelated href="urn:dvb:metadata:cs:HowRelatedCS:2020:1001.2"/>
+<MediaLocator>
+<tva:MediaUri contentType="image/png">https://dvbi.media-broadcast.com/backend/logo/zdf_info_HD.png</tva:MediaUri>
+</MediaLocator>
+</RelatedMaterial>
+<ServiceType href="urn:dvb:metadata:cs:ServiceTypeCS:2019:linear"/>
+</Service>
+<Service version="1">
+<UniqueIdentifier>tag:sofiadigital.com,2023:2005</UniqueIdentifier>
+<ServiceInstance priority="2">
+<DisplayName>KIKA HD</DisplayName>
+<DASHDeliveryParameters>
+<UriBasedLocation contentType="application/dash+xml">
+<URI>https://kikageodash.akamaized.net/dash/live/2022694/livetvkika_de/manifest.mpd</URI>
+</UriBasedLocation>
+</DASHDeliveryParameters>
+</ServiceInstance>
+<ServiceInstance priority="1">
+<DisplayName>KIKA HD</DisplayName>
+<DVBTDeliveryParameters>
+<DVBTriplet origNetId="8468" serviceId="2005" tsId="515"/>
+<TargetCountry>GBR</TargetCountry>
+</DVBTDeliveryParameters>
+</ServiceInstance>
+<ServiceName>KIKA HD</ServiceName>
+<ProviderName>Sofia Digital</ProviderName>
+<RelatedMaterial>
+<HowRelated href="urn:dvb:metadata:cs:HowRelatedCS:2020:1001.2"/>
+<MediaLocator>
+<tva:MediaUri contentType="image/png">https://dvbi.media-broadcast.com/backend/logo/KiKA_HD.png</tva:MediaUri>
+</MediaLocator>
+</RelatedMaterial>
+<ServiceType href="urn:dvb:metadata:cs:ServiceTypeCS:2019:linear"/>
+</Service>
+<Service version="1">
+<UniqueIdentifier>tag:sofiadigital.com,2023:771</UniqueIdentifier>
+<ServiceInstance priority="2">
+<DisplayName>Phoenix HD</DisplayName>
+<DASHDeliveryParameters>
+<UriBasedLocation contentType="application/dash+xml">
+<URI>https://zdf-dash-19.akamaized.net/dash/live/2016512/de/manifest.mpd</URI>
+</UriBasedLocation>
+</DASHDeliveryParameters>
+</ServiceInstance>
+<ServiceInstance priority="1">
+<DisplayName>Phoenix HD</DisplayName>
+<DVBTDeliveryParameters>
+<DVBTriplet origNetId="8468" serviceId="771" tsId="12291"/>
+<TargetCountry>GBR</TargetCountry>
+</DVBTDeliveryParameters>
+</ServiceInstance>
+<ServiceName>Phoenix HD</ServiceName>
+<ProviderName>Sofia Digital</ProviderName>
+<RelatedMaterial>
+<HowRelated href="urn:dvb:metadata:cs:HowRelatedCS:2020:1001.2"/>
+<MediaLocator>
+<tva:MediaUri contentType="image/png">https://dvbi.media-broadcast.com/backend/logo/phoenix_HD.png</tva:MediaUri>
+</MediaLocator>
+</RelatedMaterial>
+<ServiceType href="urn:dvb:metadata:cs:ServiceTypeCS:2019:linear"/>
+</Service>
+<Service version="1">
+<UniqueIdentifier>tag:sofiadigital.com,2023:770</UniqueIdentifier>
+<ServiceInstance priority="2">
+<DisplayName>arte HD</DisplayName>
+<DASHDeliveryParameters>
+<UriBasedLocation contentType="application/dash+xml">
+<URI>https://arteliveext.akamaized.net/dash/live/2031004/artelive_de/dash.mpd</URI>
+</UriBasedLocation>
+</DASHDeliveryParameters>
+</ServiceInstance>
+<ServiceInstance priority="1">
+<DisplayName>arte HD</DisplayName>
+<DVBTDeliveryParameters>
+<DVBTriplet origNetId="8468" serviceId="770" tsId="27136"/>
+<TargetCountry>GBR</TargetCountry>
+</DVBTDeliveryParameters>
+</ServiceInstance>
+<ServiceName>arte HD</ServiceName>
+<ProviderName>Sofia Digital</ProviderName>
+<RelatedMaterial>
+<HowRelated href="urn:dvb:metadata:cs:HowRelatedCS:2020:1001.2"/>
+<MediaLocator>
+<tva:MediaUri contentType="image/png">https://dvbi.media-broadcast.com/backend/logo/arte_HD.png</tva:MediaUri>
+</MediaLocator>
+</RelatedMaterial>
+<ServiceType href="urn:dvb:metadata:cs:ServiceTypeCS:2019:linear"/>
+</Service>
+<Service version="1">
+<UniqueIdentifier>tag:sofiadigital.com,2023:16902</UniqueIdentifier>
+<ServiceInstance priority="1">
+<DisplayName>RTLup HD</DisplayName>
+<DVBTDeliveryParameters>
+<DVBTriplet origNetId="8468" serviceId="16902" tsId="16388"/>
+<TargetCountry>GBR</TargetCountry>
+</DVBTDeliveryParameters>
+</ServiceInstance>
+<ServiceName>RTLup HD</ServiceName>
+<ProviderName>Sofia Digital</ProviderName>
+<RelatedMaterial>
+<HowRelated href="urn:dvb:metadata:cs:HowRelatedCS:2020:1001.2"/>
+<MediaLocator>
+<tva:MediaUri contentType="image/png">https://dvbi.media-broadcast.com/backend/logo/RTL_logo_collection_12_sRGB_UP_HD_white_horizontal.png</tva:MediaUri>
+</MediaLocator>
+</RelatedMaterial>
+<ServiceType href="urn:dvb:metadata:cs:ServiceTypeCS:2019:linear"/>
+</Service>
+<Service version="1">
+<UniqueIdentifier>tag:sofiadigital.com,2023:772</UniqueIdentifier>
+<ServiceInstance priority="2">
+<DisplayName>Tagesschau24 HD</DisplayName>
+<DASHDeliveryParameters>
+<UriBasedLocation contentType="application/dash+xml">
+<URI>https://tagesschau.akamaized.net/dash/live/2020098/tagesschau/tagesschau_3/tagesschau_3.mpd</URI>
+</UriBasedLocation>
+</DASHDeliveryParameters>
+</ServiceInstance>
+<ServiceInstance priority="1">
+<DisplayName>Tagesschau24 HD</DisplayName>
+<DVBTDeliveryParameters>
+<DVBTriplet origNetId="8468" serviceId="772" tsId="12291"/>
+<TargetCountry>GBR</TargetCountry>
+</DVBTDeliveryParameters>
+</ServiceInstance>
+<ServiceName>Tagesschau24 HD</ServiceName>
+<ProviderName>Sofia Digital</ProviderName>
+<RelatedMaterial>
+<HowRelated href="urn:dvb:metadata:cs:HowRelatedCS:2020:1001.2"/>
+<MediaLocator>
+<tva:MediaUri contentType="image/png">https://dvbi.media-broadcast.com/backend/logo/tagesschau_24_HD.png</tva:MediaUri>
+</MediaLocator>
+</RelatedMaterial>
+<ServiceType href="urn:dvb:metadata:cs:ServiceTypeCS:2019:linear"/>
+</Service>
+<Service version="1">
+<UniqueIdentifier>tag:sofiadigital.com,2023:773</UniqueIdentifier>
+<ServiceInstance priority="2">
+<DisplayName>ONE HD</DisplayName>
+<DASHDeliveryParameters>
+<UriBasedLocation contentType="application/dash+xml">
+<URI>https://mcdn.one.ard.de/ardone/dash/manifest.mpd</URI>
+</UriBasedLocation>
+</DASHDeliveryParameters>
+</ServiceInstance>
+<ServiceInstance priority="1">
+<DisplayName>ONE HD</DisplayName>
+<DVBTDeliveryParameters>
+<DVBTriplet origNetId="8468" serviceId="773" tsId="27136"/>
+<TargetCountry>GBR</TargetCountry>
+</DVBTDeliveryParameters>
+</ServiceInstance>
+<ServiceName>ONE HD</ServiceName>
+<ProviderName>Sofia Digital</ProviderName>
+<RelatedMaterial>
+<HowRelated href="urn:dvb:metadata:cs:HowRelatedCS:2020:1001.2"/>
+<MediaLocator>
+<tva:MediaUri contentType="image/png">https://dvbi.media-broadcast.com/backend/logo/one_HD.png</tva:MediaUri>
+</MediaLocator>
+</RelatedMaterial>
+<ServiceType href="urn:dvb:metadata:cs:ServiceTypeCS:2019:linear"/>
+</Service>
+<Service version="1">
+<UniqueIdentifier>tag:sofiadigital.com,2023:1030</UniqueIdentifier>
+<ServiceInstance priority="2">
+<DisplayName>WDR HD Köln</DisplayName>
+<DASHDeliveryParameters>
+<UriBasedLocation contentType="application/dash+xml">
+<URI>https://wdrfs247.akamaized.net/dash/live/2016702/wdrfs247_geo/dash.mpd</URI>
+</UriBasedLocation>
+</DASHDeliveryParameters>
+</ServiceInstance>
+<ServiceInstance priority="1">
+<DisplayName>WDR HD Köln</DisplayName>
+<DVBTDeliveryParameters>
+<DVBTriplet origNetId="8468" serviceId="1030" tsId="27136"/>
+<TargetCountry>GBR</TargetCountry>
+</DVBTDeliveryParameters>
+</ServiceInstance>
+<ServiceName>WDR HD Köln</ServiceName>
+<ProviderName>Sofia Digital</ProviderName>
+<RelatedMaterial>
+<HowRelated href="urn:dvb:metadata:cs:HowRelatedCS:2020:1001.2"/>
+<MediaLocator>
+<tva:MediaUri contentType="image/png">https://dvbi.media-broadcast.com/backend/logo/WDR_HD.png</tva:MediaUri>
+</MediaLocator>
+</RelatedMaterial>
+<ServiceType href="urn:dvb:metadata:cs:ServiceTypeCS:2019:linear"/>
+</Service>
+<Service version="1">
+<UniqueIdentifier>tag:sofiadigital.com,2023:16905</UniqueIdentifier>
+<ServiceInstance priority="1">
+<DisplayName>RTL West HD</DisplayName>
+<DVBTDeliveryParameters>
+<DVBTriplet origNetId="8468" serviceId="16905" tsId="16388"/>
+<TargetCountry>GBR</TargetCountry>
+</DVBTDeliveryParameters>
+</ServiceInstance>
+<ServiceName>RTL West HD</ServiceName>
+<ProviderName>Sofia Digital</ProviderName>
+<RelatedMaterial>
+<HowRelated href="urn:dvb:metadata:cs:HowRelatedCS:2020:1001.2"/>
+<MediaLocator>
+<tva:MediaUri contentType="image/png">https://dvbi.media-broadcast.com/backend/logo/RTL HD.png</tva:MediaUri>
+</MediaLocator>
+</RelatedMaterial>
+<ServiceType href="urn:dvb:metadata:cs:ServiceTypeCS:2019:linear"/>
+</Service>
+<Service version="1">
+<UniqueIdentifier>tag:sofiadigital.com,2023:16903</UniqueIdentifier>
+<ServiceInstance priority="1">
+<DisplayName>RTL Nord HH/SH HD</DisplayName>
+<DVBTDeliveryParameters>
+<DVBTriplet origNetId="8468" serviceId="16903" tsId="16386"/>
+<TargetCountry>GBR</TargetCountry>
+</DVBTDeliveryParameters>
+</ServiceInstance>
+<ServiceName>RTL Nord HH/SH HD</ServiceName>
+<ProviderName>Sofia Digital</ProviderName>
+<RelatedMaterial>
+<HowRelated href="urn:dvb:metadata:cs:HowRelatedCS:2020:1001.2"/>
+<MediaLocator>
+<tva:MediaUri contentType="image/png">https://dvbi.media-broadcast.com/backend/logo/RTL HD.png</tva:MediaUri>
+</MediaLocator>
+</RelatedMaterial>
+<ServiceType href="urn:dvb:metadata:cs:ServiceTypeCS:2019:linear"/>
+</Service>
+<Service version="1">
+<UniqueIdentifier>tag:sofiadigital.com,2023:16904</UniqueIdentifier>
+<ServiceInstance priority="1">
+<DisplayName>RTL Nord HB/NDS HD</DisplayName>
+<DVBTDeliveryParameters>
+<DVBTriplet origNetId="8468" serviceId="16904" tsId="16387"/>
+<TargetCountry>GBR</TargetCountry>
+</DVBTDeliveryParameters>
+</ServiceInstance>
+<ServiceName>RTL Nord HB/NDS HD</ServiceName>
+<ProviderName>Sofia Digital</ProviderName>
+<RelatedMaterial>
+<HowRelated href="urn:dvb:metadata:cs:HowRelatedCS:2020:1001.2"/>
+<MediaLocator>
+<tva:MediaUri contentType="image/png">https://dvbi.media-broadcast.com/backend/logo/RTL HD.png</tva:MediaUri>
+</MediaLocator>
+</RelatedMaterial>
+<ServiceType href="urn:dvb:metadata:cs:ServiceTypeCS:2019:linear"/>
+</Service>
+<Service version="1">
+<UniqueIdentifier>tag:sofiadigital.com,2023:16906</UniqueIdentifier>
+<ServiceInstance priority="1">
+<DisplayName>RTL Hessen HD</DisplayName>
+<DVBTDeliveryParameters>
+<DVBTriplet origNetId="8468" serviceId="16906" tsId="16389"/>
+<TargetCountry>GBR</TargetCountry>
+</DVBTDeliveryParameters>
+</ServiceInstance>
+<ServiceName>RTL Hessen HD</ServiceName>
+<ProviderName>Sofia Digital</ProviderName>
+<RelatedMaterial>
+<HowRelated href="urn:dvb:metadata:cs:HowRelatedCS:2020:1001.2"/>
+<MediaLocator>
+<tva:MediaUri contentType="image/png">https://dvbi.media-broadcast.com/backend/logo/RTL HD.png</tva:MediaUri>
+</MediaLocator>
+</RelatedMaterial>
+<ServiceType href="urn:dvb:metadata:cs:ServiceTypeCS:2019:linear"/>
+</Service>
+<Service version="1">
+<UniqueIdentifier>tag:sofiadigital.com,2023:16907</UniqueIdentifier>
+<ServiceInstance priority="1">
+<DisplayName>RTL Bayern HD</DisplayName>
+<DVBTDeliveryParameters>
+<DVBTriplet origNetId="8468" serviceId="16907" tsId="16390"/>
+<TargetCountry>GBR</TargetCountry>
+</DVBTDeliveryParameters>
+</ServiceInstance>
+<ServiceName>RTL Bayern HD</ServiceName>
+<ProviderName>Sofia Digital</ProviderName>
+<RelatedMaterial>
+<HowRelated href="urn:dvb:metadata:cs:HowRelatedCS:2020:1001.2"/>
+<MediaLocator>
+<tva:MediaUri contentType="image/png">https://dvbi.media-broadcast.com/backend/logo/RTL HD.png</tva:MediaUri>
+</MediaLocator>
+</RelatedMaterial>
+<ServiceType href="urn:dvb:metadata:cs:ServiceTypeCS:2019:linear"/>
+</Service>
+<Service version="1">
+<UniqueIdentifier>tag:sofiadigital.com,2023:17044</UniqueIdentifier>
+<ServiceInstance priority="1">
+<DisplayName>sonnenklar.TV</DisplayName>
+<DASHDeliveryParameters>
+<UriBasedLocation contentType="application/dash+xml">
+<URI>http://cdn-srv01.cdn.media-broadcast.com/egress/chandler/mb/srv01/index.mpd</URI>
+</UriBasedLocation>
+</DASHDeliveryParameters>
+</ServiceInstance>
+<ServiceName>sonnenklar.TV</ServiceName>
+<ProviderName>Sofia Digital</ProviderName>
+<RelatedMaterial>
+<HowRelated href="urn:dvb:metadata:cs:HowRelatedCS:2020:1001.2"/>
+<MediaLocator>
+<tva:MediaUri contentType="image/png">https://dvbi.media-broadcast.com/backend/logo/sonnenklar_TV.png</tva:MediaUri>
+</MediaLocator>
+</RelatedMaterial>
+<ServiceType href="urn:dvb:metadata:cs:ServiceTypeCS:2019:linear"/>
+</Service>
+<Service version="1">
+<UniqueIdentifier>tag:sofiadigital.com,2023:17042</UniqueIdentifier>
+<ServiceInstance priority="1">
+<DisplayName>Welt der Wunder TV</DisplayName>
+<DASHDeliveryParameters>
+<UriBasedLocation contentType="application/dash+xml">
+<URI>http://cdn-srv02.cdn.media-broadcast.com/egress/chandler/mb/srv02/index.mpd</URI>
+</UriBasedLocation>
+</DASHDeliveryParameters>
+</ServiceInstance>
+<ServiceName>Welt der Wunder TV</ServiceName>
+<ProviderName>Sofia Digital</ProviderName>
+<RelatedMaterial>
+<HowRelated href="urn:dvb:metadata:cs:HowRelatedCS:2020:1001.2"/>
+<MediaLocator>
+<tva:MediaUri contentType="image/png">https://dvbi.media-broadcast.com/backend/logo/Welt_der_Wunder.png</tva:MediaUri>
+</MediaLocator>
+</RelatedMaterial>
+<ServiceType href="urn:dvb:metadata:cs:ServiceTypeCS:2019:linear"/>
+</Service>
+<Service version="1">
+<UniqueIdentifier>tag:sofiadigital.com,2023:17041</UniqueIdentifier>
+<ServiceInstance priority="1">
+<DisplayName>QVC STYLE HD</DisplayName>
+<DASHDeliveryParameters>
+<UriBasedLocation contentType="application/dash+xml">
+<URI>http://cdn-srv03.cdn.media-broadcast.com/egress/chandler/mb/srv03/index.mpd</URI>
+</UriBasedLocation>
+</DASHDeliveryParameters>
+</ServiceInstance>
+<ServiceName>QVC STYLE HD</ServiceName>
+<ProviderName>Sofia Digital</ProviderName>
+<RelatedMaterial>
+<HowRelated href="urn:dvb:metadata:cs:HowRelatedCS:2020:1001.2"/>
+<MediaLocator>
+<tva:MediaUri contentType="image/png">https://dvbi.media-broadcast.com/backend/logo/QVC_STYLE.png</tva:MediaUri>
+</MediaLocator>
+</RelatedMaterial>
+<ServiceType href="urn:dvb:metadata:cs:ServiceTypeCS:2019:linear"/>
+</Service>
+<Service version="1">
+<UniqueIdentifier>tag:sofiadigital.com,2023:17029</UniqueIdentifier>
+<ServiceInstance priority="1">
+<DisplayName>Ric</DisplayName>
+<DASHDeliveryParameters>
+<UriBasedLocation contentType="application/dash+xml">
+<URI>http://cdn-srv04.cdn.media-broadcast.com/egress/chandler/mb/srv04/index.mpd</URI>
+</UriBasedLocation>
+</DASHDeliveryParameters>
+</ServiceInstance>
+<ServiceName>Ric</ServiceName>
+<ProviderName>Sofia Digital</ProviderName>
+<RelatedMaterial>
+<HowRelated href="urn:dvb:metadata:cs:HowRelatedCS:2020:1001.2"/>
+<MediaLocator>
+<tva:MediaUri contentType="image/png">https://dvbi.media-broadcast.com/backend/logo/Ric.png</tva:MediaUri>
+</MediaLocator>
+</RelatedMaterial>
+<ServiceType href="urn:dvb:metadata:cs:ServiceTypeCS:2019:linear"/>
+</Service>
+<Service version="1">
+<UniqueIdentifier>tag:sofiadigital.com,2023:17038</UniqueIdentifier>
+<ServiceInstance priority="1">
+<DisplayName>Hope TV</DisplayName>
+<DASHDeliveryParameters>
+<UriBasedLocation contentType="application/dash+xml">
+<URI>http://cdn-srv05.cdn.media-broadcast.com/egress/chandler/mb/srv05/index.mpd</URI>
+</UriBasedLocation>
+</DASHDeliveryParameters>
+</ServiceInstance>
+<ServiceName>Hope TV</ServiceName>
+<ProviderName>Sofia Digital</ProviderName>
+<RelatedMaterial>
+<HowRelated href="urn:dvb:metadata:cs:HowRelatedCS:2020:1001.2"/>
+<MediaLocator>
+<tva:MediaUri contentType="image/png">https://dvbi.media-broadcast.com/backend/logo/HopeChannel.png</tva:MediaUri>
+</MediaLocator>
+</RelatedMaterial>
+<ServiceType href="urn:dvb:metadata:cs:ServiceTypeCS:2019:linear"/>
+</Service>
+<Service version="1">
+<UniqueIdentifier>tag:sofiadigital.com,2023:17025</UniqueIdentifier>
+<ServiceInstance priority="1">
+<DisplayName>Bloomberg Europe TV</DisplayName>
+<DASHDeliveryParameters>
+<UriBasedLocation contentType="application/dash+xml">
+<URI>https://lu-mb-global.in.airflow.jetstre.am/sz/freenet_tv/webdav/live/egress/chandler/mb/test02/index.mpd?drm=true&type=premium</URI>
+</UriBasedLocation>
+</DASHDeliveryParameters>
+</ServiceInstance>
+<ServiceName>Bloomberg Europe TV</ServiceName>
+<ProviderName>Sofia Digital</ProviderName>
+<RelatedMaterial>
+<HowRelated href="urn:dvb:metadata:cs:HowRelatedCS:2020:1001.2"/>
+<MediaLocator>
+<tva:MediaUri contentType="image/png">https://images.mixd.tv/images/320_v3/blm.png</tva:MediaUri>
+</MediaLocator>
+</RelatedMaterial>
+<ServiceType href="urn:dvb:metadata:cs:ServiceTypeCS:2019:linear"/>
+</Service>
+<Service version="1">
+<UniqueIdentifier>tag:sofiadigital.com,2023:17051</UniqueIdentifier>
+<ServiceInstance priority="1">
+<DisplayName>ShopLC HD</DisplayName>
+<DASHDeliveryParameters>
+<UriBasedLocation contentType="application/dash+xml">
+<URI>http://cdn-srv07.cdn.media-broadcast.com/egress/chandler/mb/srv07/index.mpd</URI>
+</UriBasedLocation>
+</DASHDeliveryParameters>
+</ServiceInstance>
+<ServiceName>ShopLC HD</ServiceName>
+<ProviderName>Sofia Digital</ProviderName>
+<ServiceType href="urn:dvb:metadata:cs:ServiceTypeCS:2019:linear"/>
+</Service>
+<Service version="1">
+<UniqueIdentifier>tag:sofiadigital.com,2023:17040</UniqueIdentifier>
+<ServiceInstance priority="1">
+<DisplayName>France24 HD</DisplayName>
+<DASHDeliveryParameters>
+<UriBasedLocation contentType="application/dash+xml">
+<URI>http://cdn-srv08.cdn.media-broadcast.com/egress/chandler/mb/srv08/index.mpd</URI>
+</UriBasedLocation>
+</DASHDeliveryParameters>
+</ServiceInstance>
+<ServiceName>France24 HD</ServiceName>
+<ProviderName>Sofia Digital</ProviderName>
+<RelatedMaterial>
+<HowRelated href="urn:dvb:metadata:cs:HowRelatedCS:2020:1001.2"/>
+<MediaLocator>
+<tva:MediaUri contentType="image/png">https://dvbi.media-broadcast.com/backend/logo/France24.png</tva:MediaUri>
+</MediaLocator>
+</RelatedMaterial>
+<ServiceType href="urn:dvb:metadata:cs:ServiceTypeCS:2019:linear"/>
+</Service>
+<Service version="1">
+<UniqueIdentifier>tag:sofiadigital.com,2023:17030</UniqueIdentifier>
+<ServiceInstance priority="1">
+<DisplayName>INPLUS.</DisplayName>
+<DASHDeliveryParameters>
+<UriBasedLocation contentType="application/dash+xml">
+<URI>http://cdn-srv10.cdn.media-broadcast.com/egress/chandler/mb/srv10/index.mpd</URI>
+</UriBasedLocation>
+</DASHDeliveryParameters>
+</ServiceInstance>
+<ServiceName>INPLUS.</ServiceName>
+<ProviderName>Sofia Digital</ProviderName>
+<RelatedMaterial>
+<HowRelated href="urn:dvb:metadata:cs:HowRelatedCS:2020:1001.2"/>
+<MediaLocator>
+<tva:MediaUri contentType="image/png">https://dvbi.media-broadcast.com/backend/logo/INSIGHT_TV.png</tva:MediaUri>
+</MediaLocator>
+</RelatedMaterial>
+<ServiceType href="urn:dvb:metadata:cs:ServiceTypeCS:2019:linear"/>
+</Service>
+<Service version="1">
+<UniqueIdentifier>tag:sofiadigital.com,2023:17028</UniqueIdentifier>
+<ServiceInstance priority="1">
+<DisplayName>tv.berlin</DisplayName>
+<DASHDeliveryParameters>
+<UriBasedLocation contentType="application/dash+xml">
+<URI>http://cdn-srv11.cdn.media-broadcast.com/egress/chandler/mb/srv11/index.mpd</URI>
+</UriBasedLocation>
+</DASHDeliveryParameters>
+</ServiceInstance>
+<ServiceName>tv.berlin</ServiceName>
+<ProviderName>Sofia Digital</ProviderName>
+<RelatedMaterial>
+<HowRelated href="urn:dvb:metadata:cs:HowRelatedCS:2020:1001.2"/>
+<MediaLocator>
+<tva:MediaUri contentType="image/png">https://dvbi.media-broadcast.com/backend/logo/tvb_logo-neu-tarnsparent.png</tva:MediaUri>
+</MediaLocator>
+</RelatedMaterial>
+<ServiceType href="urn:dvb:metadata:cs:ServiceTypeCS:2019:linear"/>
+</Service>
+<Service version="1">
+<UniqueIdentifier>tag:sofiadigital.com,2023:17027</UniqueIdentifier>
+<ServiceInstance priority="1">
+<DisplayName>Euronews HD</DisplayName>
+<DASHDeliveryParameters>
+<UriBasedLocation contentType="application/dash+xml">
+<URI>http://cdn-srv12.cdn.media-broadcast.com/egress/chandler/mb/srv12/index.mpd</URI>
+</UriBasedLocation>
+</DASHDeliveryParameters>
+</ServiceInstance>
+<ServiceName>Euronews HD</ServiceName>
+<ProviderName>Sofia Digital</ProviderName>
+<RelatedMaterial>
+<HowRelated href="urn:dvb:metadata:cs:HowRelatedCS:2020:1001.2"/>
+<MediaLocator>
+<tva:MediaUri contentType="image/png">https://dvbi.media-broadcast.com/backend/logo/euronews.png</tva:MediaUri>
+</MediaLocator>
+</RelatedMaterial>
+<ServiceType href="urn:dvb:metadata:cs:ServiceTypeCS:2019:linear"/>
+</Service>
+<Service version="1">
+<UniqueIdentifier>tag:sofiadigital.com,2023:17043</UniqueIdentifier>
+<ServiceInstance priority="1">
+<DisplayName>rhein main TV</DisplayName>
+<DASHDeliveryParameters>
+<UriBasedLocation contentType="application/dash+xml">
+<URI>http://cdn-srv13.cdn.media-broadcast.com/egress/chandler/mb/srv13/index.mpd</URI>
+</UriBasedLocation>
+</DASHDeliveryParameters>
+</ServiceInstance>
+<ServiceName>rhein main TV</ServiceName>
+<ProviderName>Sofia Digital</ProviderName>
+<RelatedMaterial>
+<HowRelated href="urn:dvb:metadata:cs:HowRelatedCS:2020:1001.2"/>
+<MediaLocator>
+<tva:MediaUri contentType="image/png">https://dvbi.media-broadcast.com/backend/logo/rheinMain_tv.png</tva:MediaUri>
+</MediaLocator>
+</RelatedMaterial>
+<ServiceType href="urn:dvb:metadata:cs:ServiceTypeCS:2019:linear"/>
+</Service>
+<Service version="1">
+<UniqueIdentifier>tag:sofiadigital.com,2023:17046</UniqueIdentifier>
+<ServiceInstance priority="1">
+<DisplayName>TLC</DisplayName>
+<DASHDeliveryParameters>
+<UriBasedLocation contentType="application/dash+xml">
+<URI>http://cdn-srv15.cdn.media-broadcast.com/egress/chandler/mb/srv15/index.mpd</URI>
+</UriBasedLocation>
+</DASHDeliveryParameters>
+</ServiceInstance>
+<ServiceName>TLC</ServiceName>
+<ProviderName>Sofia Digital</ProviderName>
+<RelatedMaterial>
+<HowRelated href="urn:dvb:metadata:cs:HowRelatedCS:2020:1001.2"/>
+<MediaLocator>
+<tva:MediaUri contentType="image/png">https://dvbi.media-broadcast.com/backend/logo/TLC.png</tva:MediaUri>
+</MediaLocator>
+</RelatedMaterial>
+<ServiceType href="urn:dvb:metadata:cs:ServiceTypeCS:2019:linear"/>
+</Service>
+<Service version="1">
+<UniqueIdentifier>tag:sofiadigital.com,2023:17045</UniqueIdentifier>
+<ServiceInstance priority="1">
+<DisplayName>N24 DOKU</DisplayName>
+<DASHDeliveryParameters>
+<UriBasedLocation contentType="application/dash+xml">
+<URI>http://cdn-srv16.cdn.media-broadcast.com/egress/chandler/mb/srv16/index.mpd</URI>
+</UriBasedLocation>
+</DASHDeliveryParameters>
+</ServiceInstance>
+<ServiceName>N24 DOKU</ServiceName>
+<ProviderName>Sofia Digital</ProviderName>
+<RelatedMaterial>
+<HowRelated href="urn:dvb:metadata:cs:HowRelatedCS:2020:1001.2"/>
+<MediaLocator>
+<tva:MediaUri contentType="image/png">https://dvbi.media-broadcast.com/backend/logo/N24_DOKU.png</tva:MediaUri>
+</MediaLocator>
+</RelatedMaterial>
+<ServiceType href="urn:dvb:metadata:cs:ServiceTypeCS:2019:linear"/>
+</Service>
+<Service version="1">
+<UniqueIdentifier>tag:sofiadigital.com,2023:17047</UniqueIdentifier>
+<ServiceInstance priority="1">
+<DisplayName>MTV HD</DisplayName>
+<DASHDeliveryParameters>
+<UriBasedLocation contentType="application/dash+xml">
+<URI>http://cdn-srv17.cdn.media-broadcast.com/egress/chandler/mb/srv17/index.mpd</URI>
+</UriBasedLocation>
+</DASHDeliveryParameters>
+</ServiceInstance>
+<ServiceName>MTV HD</ServiceName>
+<ProviderName>Sofia Digital</ProviderName>
+<RelatedMaterial>
+<HowRelated href="urn:dvb:metadata:cs:HowRelatedCS:2020:1001.2"/>
+<MediaLocator>
+<tva:MediaUri contentType="image/png">https://dvbi.media-broadcast.com/backend/logo/MTV.png</tva:MediaUri>
+</MediaLocator>
+</RelatedMaterial>
+<ServiceType href="urn:dvb:metadata:cs:ServiceTypeCS:2019:linear"/>
+</Service>
+<Service version="1">
+<UniqueIdentifier>tag:sofiadigital.com,2023:17048</UniqueIdentifier>
+<ServiceInstance priority="1">
+<DisplayName>Comedy Central</DisplayName>
+<DASHDeliveryParameters>
+<UriBasedLocation contentType="application/dash+xml">
+<URI>http://cdn-srv18.cdn.media-broadcast.com/egress/chandler/mb/srv18/index.mpd</URI>
+</UriBasedLocation>
+</DASHDeliveryParameters>
+</ServiceInstance>
+<ServiceName>Comedy Central</ServiceName>
+<ProviderName>Sofia Digital</ProviderName>
+<RelatedMaterial>
+<HowRelated href="urn:dvb:metadata:cs:HowRelatedCS:2020:1001.2"/>
+<MediaLocator>
+<tva:MediaUri contentType="image/png">https://dvbi.media-broadcast.com/backend/logo/COMEDY_CENTRAL.png</tva:MediaUri>
+</MediaLocator>
+</RelatedMaterial>
+<ServiceType href="urn:dvb:metadata:cs:ServiceTypeCS:2019:linear"/>
+</Service>
+<Service version="1">
+<UniqueIdentifier>tag:sofiadigital.com,2023:17049</UniqueIdentifier>
+<ServiceInstance priority="1">
+<DisplayName>Deluxe Music TV</DisplayName>
+<DASHDeliveryParameters>
+<UriBasedLocation contentType="application/dash+xml">
+<URI>http://cdn-srv19.cdn.media-broadcast.com/egress/chandler/mb/srv19/index.mpd</URI>
+</UriBasedLocation>
+</DASHDeliveryParameters>
+</ServiceInstance>
+<ServiceName>Deluxe Music TV</ServiceName>
+<ProviderName>Sofia Digital</ProviderName>
+<RelatedMaterial>
+<HowRelated href="urn:dvb:metadata:cs:HowRelatedCS:2020:1001.2"/>
+<MediaLocator>
+<tva:MediaUri contentType="image/png">https://dvbi.media-broadcast.com/backend/logo/DELUXE_MUSIC.png</tva:MediaUri>
+</MediaLocator>
+</RelatedMaterial>
+<ServiceType href="urn:dvb:metadata:cs:ServiceTypeCS:2019:linear"/>
+</Service>
+<Service version="1">
+<UniqueIdentifier>tag:sofiadigital.com,2023:17050</UniqueIdentifier>
+<ServiceInstance priority="1">
+<DisplayName>Kabel eins Doku</DisplayName>
+<DASHDeliveryParameters>
+<UriBasedLocation contentType="application/dash+xml">
+<URI>http://cdn-srv20.cdn.media-broadcast.com/egress/chandler/mb/srv20/index.mpd</URI>
+</UriBasedLocation>
+</DASHDeliveryParameters>
+</ServiceInstance>
+<ServiceName>Kabel eins Doku</ServiceName>
+<ProviderName>Sofia Digital</ProviderName>
+<RelatedMaterial>
+<HowRelated href="urn:dvb:metadata:cs:HowRelatedCS:2020:1001.2"/>
+<MediaLocator>
+<tva:MediaUri contentType="image/png">https://dvbi.media-broadcast.com/backend/logo/Kabel_1_DOKU.png</tva:MediaUri>
+</MediaLocator>
+</RelatedMaterial>
+<ServiceType href="urn:dvb:metadata:cs:ServiceTypeCS:2019:linear"/>
+</Service>
+<Service version="1">
+<UniqueIdentifier>tag:sofiadigital.com,2023:AnixeHD</UniqueIdentifier>
+<ServiceInstance priority="1">
+<DisplayName>AnixeHD Serie</DisplayName>
+<DASHDeliveryParameters>
+<UriBasedLocation contentType="application/dash+xml">
+<URI>http://wow.anixa.tv/live/anixehd2/manifest_mvnumber.mpd</URI>
+</UriBasedLocation>
+</DASHDeliveryParameters>
+</ServiceInstance>
+<ServiceName>AnixeHD Serie</ServiceName>
+<ProviderName>Sofia Digital</ProviderName>
+<ServiceType href="urn:dvb:metadata:cs:ServiceTypeCS:2019:linear"/>
+</Service>
+<Service version="1">
+<UniqueIdentifier>tag:sofiadigital.com,2023:MBTV1</UniqueIdentifier>
+<ServiceInstance priority="1">
+<DisplayName>Media-Broadcast TV1</DisplayName>
+<DASHDeliveryParameters>
+<UriBasedLocation contentType="application/dash+xml">
+<URI>http://cdn-test01.cdn.media-broadcast.com/egress/chandler/mb/test01/index.mpd</URI>
+</UriBasedLocation>
+</DASHDeliveryParameters>
+</ServiceInstance>
+<ServiceName>Media-Broadcast TV1</ServiceName>
+<ProviderName>Sofia Digital</ProviderName>
+<ServiceType href="urn:dvb:metadata:cs:ServiceTypeCS:2019:linear"/>
+</Service>
+<Service version="1">
+<UniqueIdentifier>tag:sofiadigital.com,2023:MBTV2</UniqueIdentifier>
+<ServiceInstance priority="1">
+<DisplayName>Media-Broadcast TV2</DisplayName>
+<DASHDeliveryParameters>
+<UriBasedLocation contentType="application/dash+xml">
+<URI>http://cdn-test02.cdn.media-broadcast.com/egress/chandler/mb/test02/index.mpd</URI>
+</UriBasedLocation>
+</DASHDeliveryParameters>
+</ServiceInstance>
+<ServiceName>Media-Broadcast TV2</ServiceName>
+<ProviderName>Sofia Digital</ProviderName>
+<ServiceType href="urn:dvb:metadata:cs:ServiceTypeCS:2019:linear"/>
+</Service>
+</ServiceList>
