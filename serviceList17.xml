@@ -1,0 +1,4444 @@
+<ServiceList xmlns:dvbisd-2022b="urn:dvb:metadata:servicediscovery:2022b" xmlns:hls="vnd:apple:mpegurl" xmlns:dvbisd-2023="urn:dvb:metadata:servicediscovery:2023" xmlns:dvbi-types="urn:dvb:metadata:servicediscovery-types:2023" xmlns:tva-2019="urn:tva:metadata:2019" xmlns:mpeg7="urn:tva:mpeg7:2008" xmlns:tva-2023="urn:tva:metadata:2023" xmlns="urn:dvb:metadata:servicediscovery:2024" xmlns:tva="urn:tva:metadata:2024" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="tag:bmt-technik.de,2024:8ac1915d" version="884" responseStatus="OK" xml:lang="de">
+<Name>Serviceliste Deutschland</Name>
+<ProviderName>DVB-I Pilot Germany</ProviderName>
+<RegionList version="2">
+<Region countryCodes="DEU" regionID="Deutschland">
+<RegionName>Deutschland</RegionName>
+<PostcodeRange from="80340" to="80537"/>
+<PostcodeRange from="81000" to="81240"/>
+<PostcodeRange from="82550" to="83549"/>
+<PostcodeRange from="85779" to="86149"/>
+<PostcodeRange from="86990" to="89311"/>
+<PostcodeRange from="89448" to="90401"/>
+<PostcodeRange from="91808" to="92282"/>
+<PostcodeRange from="92370" to="96151"/>
+<PostcodeRange from="00000" to="40209"/>
+<PostcodeRange from="41752" to="42780"/>
+<PostcodeRange from="42782" to="47797"/>
+<PostcodeRange from="47930" to="48142"/>
+<PostcodeRange from="49550" to="50125"/>
+<PostcodeRange from="51382" to="51426"/>
+<PostcodeRange from="51546" to="51579"/>
+<PostcodeRange from="51790" to="59226"/>
+<PostcodeRange from="59349" to="59386"/>
+<PostcodeRange from="59400" to="80339"/>
+<PostcodeRange from="96152" to="99999"/>
+<Region regionID="München">
+<RegionName>München</RegionName>
+<PostcodeRange from="80331" to="80339"/>
+<PostcodeRange from="80538" to="80999"/>
+<PostcodeRange from="81241" to="82549"/>
+<PostcodeRange from="83550" to="85778"/>
+</Region>
+<Region regionID="Augsburg">
+<RegionName>Augsburg</RegionName>
+<PostcodeRange from="86150" to="86989"/>
+<PostcodeRange from="89312" to="89447"/>
+</Region>
+<Region regionID="Franken">
+<RegionName>Franken</RegionName>
+<PostcodeRange from="90402" to="91807"/>
+<PostcodeRange from="92283" to="92369"/>
+<PostcodeRange from="96152" to="97258"/>
+</Region>
+<Region regionID="Köln">
+<RegionName>Köln</RegionName>
+<PostcodeRange from="50126" to="51381"/>
+<PostcodeRange from="51427" to="51545"/>
+<PostcodeRange from="51580" to="51789"/>
+</Region>
+<Region regionID="Münster">
+<RegionName>Münster</RegionName>
+<PostcodeRange from="48143" to="49549"/>
+<PostcodeRange from="59227" to="59348"/>
+<PostcodeRange from="59387" to="59399"/>
+</Region>
+<Region regionID="Düsseldorf">
+<RegionName>Düsseldorf</RegionName>
+<PostcodeRange from="40210" to="41751"/>
+<PostcodeRange from="42781" to="42781"/>
+<PostcodeRange from="47798" to="47929"/>
+</Region>
+<Region regionID="Dortmund">
+<RegionName>Dortmund</RegionName>
+<PostcodeRange from="44135" to="44581"/>
+<PostcodeRange from="45525" to="45772"/>
+<PostcodeRange from="46282" to="46286"/>
+<PostcodeRange from="58089" to="58456"/>
+<PostcodeRange from="58730" to="58730"/>
+<PostcodeRange from="59063" to="59199"/>
+<PostcodeRange from="59423" to="59439"/>
+</Region>
+</Region>
+</RegionList>
+<LCNTableList>
+<LCNTable>
+<LCN channelNumber="1" serviceRef="tag:mitxp.com,2021:1.1019.10301"/>
+<LCN channelNumber="2" serviceRef="tag:zdf.de,2020:zdf"/>
+<LCN channelNumber="3" serviceRef="tag:netrtl.com,2022:1.1089.12003"/>
+<LCN channelNumber="4" serviceRef="tag:mitxp.com,2021:1.1107.17508"/>
+<LCN channelNumber="5" serviceRef="tag:mitxp.com,2021:1.1107.17501"/>
+<LCN channelNumber="6" serviceRef="tag:netrtl.com,2022:1.1089.12060"/>
+<LCN channelNumber="7" serviceRef="tag:mitxp.com,2021:1.1021.28332"/>
+<LCN channelNumber="8" serviceRef="tag:dvb-i.bmt-technik.de,2022:4360.1073.52135"/>
+<LCN channelNumber="9" serviceRef="tag:netrtl.com,2022:1.1089.12090"/>
+<LCN channelNumber="10" serviceRef="tag:mitxp.com,2021:1.1039.10375"/>
+<LCN channelNumber="11" serviceRef="tag:zdf.de,2020:zdfinfo"/>
+<LCN channelNumber="12" serviceRef="tag:mitxp.com,2021:1.1025.10331"/>
+<LCN channelNumber="14" serviceRef="tag:zdf.de,2020:zdfneo"/>
+<LCN channelNumber="15" serviceRef="tag:mitxp.com,2021:1.1039.10376"/>
+<LCN channelNumber="16" serviceRef="tag:mitxp.com,2021:1.1019.10302"/>
+<LCN channelNumber="17" serviceRef="tag:zdf.de,2020:3sat"/>
+<LCN channelNumber="18" serviceRef="tag:mitxp.com,2021:1.1107.17502"/>
+<LCN channelNumber="20" serviceRef="tag:zdf.de,2020:kika"/>
+<LCN channelNumber="23" serviceRef="tag:mitxp.com,2021:1.1039.10377"/>
+<LCN channelNumber="33" serviceRef="tag:mitxp.com,2021:1.1025.10325"/>
+<LCN channelNumber="34" serviceRef="tag:mitxp.com,2021:1.1061.10355"/>
+<LCN channelNumber="35" serviceRef="tag:mitxp.com,2021:1.1061.10352"/>
+<LCN channelNumber="36" serviceRef="tag:mitxp.com,2021:1.1025.10327"/>
+<LCN channelNumber="37" serviceRef="tag:mitxp.com,2021:1.1039.10379"/>
+<LCN channelNumber="38" serviceRef="tag:mitxp.com,2021:1.1061.10351"/>
+<LCN channelNumber="39" serviceRef="tag:mitxp.com,2021:1.1039.10378"/>
+<LCN channelNumber="40" serviceRef="tag:mitxp.com,2021:1.1019.10303"/>
+<LCN channelNumber="42" serviceRef="tag:dvb-i.bmt-technik.de,2022:4360.1073.52161"/>
+<LCN channelNumber="43" serviceRef="tag:dvb-i.bmt-technik.de,2022:4360.1073.52142"/>
+<LCN channelNumber="44" serviceRef="tag:dvb-i.bmt-technik.de,2022:4360.1073.52140"/>
+<LCN channelNumber="45" serviceRef="tag:dvb-i.bmt-technik.de,2022:4360.1073.52158"/>
+<LCN channelNumber="46" serviceRef="tag:dvb-i.bmt-technik.de,2022:4360.1073.52159"/>
+<LCN channelNumber="47" serviceRef="tag:dvb-i.bmt-technik.de,2022:4360.1073.52138"/>
+<LCN channelNumber="48" serviceRef="tag:dvb-i.bmt-technik.de,2022:4360.1073.52149"/>
+<LCN channelNumber="49" serviceRef="tag:dvb-i.bmt-technik.de,2022:4360.1073.52160"/>
+<LCN channelNumber="50" serviceRef="tag:dvb-i.bmt-technik.de,2022:4360.1073.52153"/>
+<LCN channelNumber="51" serviceRef="tag:dvb-i.bmt-technik.de,2022:4360.1073.52156"/>
+<LCN channelNumber="52" serviceRef="tag:dvb-i.bmt-technik.de,2022:4360.1073.52139"/>
+<LCN channelNumber="53" serviceRef="tag:dvb-i.bmt-technik.de,2022:4360.1073.52141"/>
+<LCN channelNumber="54" serviceRef="tag:dvb-i.bmt-technik.de,2022:4360.1073.52157"/>
+<LCN channelNumber="55" serviceRef="tag:mitxp.com,2021:1.1025.10326"/>
+<LCN channelNumber="56" serviceRef="tag:mitxp.com,2021:1.1061.10353"/>
+<LCN channelNumber="57" serviceRef="tag:mitxp.com,2021:1.1061.10354"/>
+<LCN channelNumber="58" serviceRef="tag:mitxp.com,2021:1.1025.10329"/>
+<LCN channelNumber="59" serviceRef="tag:mitxp.com,2021:1.1025.10328"/>
+<LCN channelNumber="60" serviceRef="tag:mitxp.com,2021:1.1025.10330"/>
+<LCN channelNumber="61" serviceRef="tag:mitxp.com,2021:1.1061.10350"/>
+<LCN channelNumber="62" serviceRef="tag:mitxp.com,2021:1.1019.10304"/>
+<LCN channelNumber="63" serviceRef="tag:mitxp.com,2021:1.1021.28333"/>
+<LCN channelNumber="64" serviceRef="tag:mitxp.com,2021:1.1021.28334"/>
+<LCN channelNumber="65" serviceRef="tag:mitxp.com,2021:1.1021.28335"/>
+<LCN channelNumber="66" serviceRef="tag:mitxp.com,2021:1.1021.28336"/>
+<LCN channelNumber="67" serviceRef="tag:mitxp.com,2021:1.1021.28337"/>
+<LCN channelNumber="68" serviceRef="tag:mitxp.com,2021:1.1021.28338"/>
+<LCN channelNumber="69" serviceRef="tag:mitxp.com,2021:1.1021.28339"/>
+<LCN channelNumber="70" serviceRef="tag:mitxp.com,2021:1.1021.28340"/>
+<LCN channelNumber="71" serviceRef="tag:mitxp.com,2021:1.1021.28341"/>
+<LCN channelNumber="72" serviceRef="tag:mitxp.com,2021:1.1021.28342"/>
+<LCN channelNumber="73" serviceRef="tag:mitxp.com,2021:1.1107.17507"/>
+<LCN channelNumber="74" serviceRef="tag:mitxp.com,2021:1.1201.28347"/>
+<LCN channelNumber="75" serviceRef="tag:mitxp.com,2021:1.1201.28348"/>
+<LCN channelNumber="76" serviceRef="tag:dvb-i.bmt-technik.de,2023:1.1023.5805"/>
+<LCN channelNumber="500" serviceRef="tag:zdf.de,2020:zdf/event"/>
+<LCN channelNumber="501" serviceRef="tag:zdf.de,2020:zdf/preroll"/>
+<LCN channelNumber="502" serviceRef="tag:zdf.de,2020:zdf/app"/>
+<LCN channelNumber="503" serviceRef="tag:zdf.de,2020:zdf/offline"/>
+<LCN channelNumber="504" serviceRef="tag:mitxp.com,2021:1.1201.28346"/>
+<LCN channelNumber="505" serviceRef="tag:mitxp.com,2021:1.1201.28345"/>
+<LCN channelNumber="506" serviceRef="tag:wdr.de,2020:wdr/playlist"/>
+<LCN channelNumber="507" serviceRef="tag:zdf.de,2020:zdf/playlist"/>
+<LCN channelNumber="508" serviceRef="tag:mitxp.com,2021:1.1073.28221"/>
+<LCN channelNumber="509" serviceRef="tag:mitxp.com,2021:1.1201.28341"/>
+<LCN channelNumber="510" serviceRef="tag:mitxp.com,2021:1.1201.28349"/>
+<LCN channelNumber="555" serviceRef="tag:zdf.de,2020:zdf/ibc"/>
+<LCN channelNumber="1001" serviceRef="tag:mitxp.com,2021:1.1039.10458"/>
+<LCN channelNumber="1002" serviceRef="tag:mitxp.com,2021:1.1061.10484"/>
+<LCN channelNumber="1003" serviceRef="tag:mitxp.com,2021:1.1061.10485"/>
+<LCN channelNumber="1004" serviceRef="tag:mitxp.com,2021:1.1061.10486"/>
+<LCN channelNumber="1005" serviceRef="tag:mitxp.com,2021:1.1061.10487"/>
+<LCN channelNumber="1006" serviceRef="tag:mitxp.com,2021:1.1061.10488"/>
+<LCN channelNumber="1007" serviceRef="tag:mitxp.com,2021:1.1061.10489"/>
+</LCNTable>
+<LCNTable>
+<TargetRegion>Augsburg</TargetRegion>
+<LCN channelNumber="1" serviceRef="tag:mitxp.com,2021:1.1019.10301"/>
+<LCN channelNumber="2" serviceRef="tag:zdf.de,2020:zdf"/>
+<LCN channelNumber="3" serviceRef="tag:netrtl.com,2022:1.1089.12003"/>
+<LCN channelNumber="4" serviceRef="tag:mitxp.com,2021:1.1107.17507"/>
+<LCN channelNumber="5" serviceRef="tag:mitxp.com,2021:1.1107.17501"/>
+<LCN channelNumber="6" serviceRef="tag:netrtl.com,2022:1.1089.12060"/>
+<LCN channelNumber="7" serviceRef="tag:mitxp.com,2021:1.1025.10325"/>
+<LCN channelNumber="8" serviceRef="tag:dvb-i.bmt-technik.de,2022:4360.1073.52161"/>
+<LCN channelNumber="9" serviceRef="tag:netrtl.com,2022:1.1089.12090"/>
+<LCN channelNumber="10" serviceRef="tag:mitxp.com,2021:1.1039.10375"/>
+<LCN channelNumber="11" serviceRef="tag:zdf.de,2020:zdfinfo"/>
+<LCN channelNumber="12" serviceRef="tag:mitxp.com,2021:1.1025.10331"/>
+<LCN channelNumber="14" serviceRef="tag:zdf.de,2020:zdfneo"/>
+<LCN channelNumber="15" serviceRef="tag:mitxp.com,2021:1.1039.10376"/>
+<LCN channelNumber="16" serviceRef="tag:mitxp.com,2021:1.1019.10302"/>
+<LCN channelNumber="17" serviceRef="tag:zdf.de,2020:3sat"/>
+<LCN channelNumber="18" serviceRef="tag:mitxp.com,2021:1.1107.17502"/>
+<LCN channelNumber="20" serviceRef="tag:zdf.de,2020:kika"/>
+<LCN channelNumber="23" serviceRef="tag:mitxp.com,2021:1.1039.10377"/>
+<LCN channelNumber="33" serviceRef="tag:mitxp.com,2021:1.1061.10355"/>
+<LCN channelNumber="34" serviceRef="tag:mitxp.com,2021:1.1061.10352"/>
+<LCN channelNumber="35" serviceRef="tag:mitxp.com,2021:1.1025.10327"/>
+<LCN channelNumber="36" serviceRef="tag:mitxp.com,2021:1.1039.10379"/>
+<LCN channelNumber="37" serviceRef="tag:mitxp.com,2021:1.1061.10351"/>
+<LCN channelNumber="38" serviceRef="tag:mitxp.com,2021:1.1039.10378"/>
+<LCN channelNumber="39" serviceRef="tag:mitxp.com,2021:1.1019.10303"/>
+<LCN channelNumber="40" serviceRef="tag:mitxp.com,2021:1.1021.28332"/>
+<LCN channelNumber="42" serviceRef="tag:dvb-i.bmt-technik.de,2022:4360.1073.52142"/>
+<LCN channelNumber="43" serviceRef="tag:dvb-i.bmt-technik.de,2022:4360.1073.52160"/>
+<LCN channelNumber="44" serviceRef="tag:dvb-i.bmt-technik.de,2022:4360.1073.52140"/>
+<LCN channelNumber="45" serviceRef="tag:dvb-i.bmt-technik.de,2022:4360.1073.52135"/>
+<LCN channelNumber="46" serviceRef="tag:dvb-i.bmt-technik.de,2022:4360.1073.52158"/>
+<LCN channelNumber="47" serviceRef="tag:dvb-i.bmt-technik.de,2022:4360.1073.52159"/>
+<LCN channelNumber="48" serviceRef="tag:dvb-i.bmt-technik.de,2022:4360.1073.52138"/>
+<LCN channelNumber="49" serviceRef="tag:dvb-i.bmt-technik.de,2022:4360.1073.52149"/>
+<LCN channelNumber="50" serviceRef="tag:dvb-i.bmt-technik.de,2022:4360.1073.52153"/>
+<LCN channelNumber="51" serviceRef="tag:dvb-i.bmt-technik.de,2022:4360.1073.52156"/>
+<LCN channelNumber="52" serviceRef="tag:dvb-i.bmt-technik.de,2022:4360.1073.52139"/>
+<LCN channelNumber="53" serviceRef="tag:dvb-i.bmt-technik.de,2022:4360.1073.52141"/>
+<LCN channelNumber="54" serviceRef="tag:dvb-i.bmt-technik.de,2022:4360.1073.52157"/>
+<LCN channelNumber="55" serviceRef="tag:mitxp.com,2021:1.1025.10326"/>
+<LCN channelNumber="56" serviceRef="tag:mitxp.com,2021:1.1061.10353"/>
+<LCN channelNumber="57" serviceRef="tag:mitxp.com,2021:1.1061.10354"/>
+<LCN channelNumber="58" serviceRef="tag:mitxp.com,2021:1.1025.10329"/>
+<LCN channelNumber="59" serviceRef="tag:mitxp.com,2021:1.1025.10328"/>
+<LCN channelNumber="60" serviceRef="tag:mitxp.com,2021:1.1025.10330"/>
+<LCN channelNumber="61" serviceRef="tag:mitxp.com,2021:1.1061.10350"/>
+<LCN channelNumber="62" serviceRef="tag:mitxp.com,2021:1.1019.10304"/>
+<LCN channelNumber="63" serviceRef="tag:mitxp.com,2021:1.1021.28333"/>
+<LCN channelNumber="64" serviceRef="tag:mitxp.com,2021:1.1021.28334"/>
+<LCN channelNumber="65" serviceRef="tag:mitxp.com,2021:1.1021.28335"/>
+<LCN channelNumber="66" serviceRef="tag:mitxp.com,2021:1.1021.28336"/>
+<LCN channelNumber="67" serviceRef="tag:mitxp.com,2021:1.1021.28337"/>
+<LCN channelNumber="68" serviceRef="tag:mitxp.com,2021:1.1021.28338"/>
+<LCN channelNumber="69" serviceRef="tag:mitxp.com,2021:1.1021.28339"/>
+<LCN channelNumber="70" serviceRef="tag:mitxp.com,2021:1.1021.28340"/>
+<LCN channelNumber="71" serviceRef="tag:mitxp.com,2021:1.1021.28341"/>
+<LCN channelNumber="72" serviceRef="tag:mitxp.com,2021:1.1021.28342"/>
+<LCN channelNumber="73" serviceRef="tag:mitxp.com,2021:1.1107.17508"/>
+<LCN channelNumber="74" serviceRef="tag:mitxp.com,2021:1.1201.28347"/>
+<LCN channelNumber="75" serviceRef="tag:mitxp.com,2021:1.1201.28348"/>
+<LCN channelNumber="76" serviceRef="tag:dvb-i.bmt-technik.de,2023:1.1023.5805"/>
+<LCN channelNumber="500" serviceRef="tag:zdf.de,2020:zdf/event"/>
+<LCN channelNumber="501" serviceRef="tag:zdf.de,2020:zdf/preroll"/>
+<LCN channelNumber="502" serviceRef="tag:zdf.de,2020:zdf/app"/>
+<LCN channelNumber="503" serviceRef="tag:zdf.de,2020:zdf/offline"/>
+<LCN channelNumber="504" serviceRef="tag:mitxp.com,2021:1.1201.28346"/>
+<LCN channelNumber="505" serviceRef="tag:mitxp.com,2021:1.1201.28345"/>
+<LCN channelNumber="506" serviceRef="tag:wdr.de,2020:wdr/playlist"/>
+<LCN channelNumber="507" serviceRef="tag:zdf.de,2020:zdf/playlist"/>
+<LCN channelNumber="508" serviceRef="tag:mitxp.com,2021:1.1073.28221"/>
+<LCN channelNumber="509" serviceRef="tag:mitxp.com,2021:1.1201.28341"/>
+<LCN channelNumber="510" serviceRef="tag:mitxp.com,2021:1.1201.28349"/>
+<LCN channelNumber="555" serviceRef="tag:zdf.de,2020:zdf/ibc"/>
+<LCN channelNumber="1001" serviceRef="tag:mitxp.com,2021:1.1039.10458"/>
+<LCN channelNumber="1002" serviceRef="tag:mitxp.com,2021:1.1061.10484"/>
+<LCN channelNumber="1003" serviceRef="tag:mitxp.com,2021:1.1061.10485"/>
+<LCN channelNumber="1004" serviceRef="tag:mitxp.com,2021:1.1061.10486"/>
+<LCN channelNumber="1005" serviceRef="tag:mitxp.com,2021:1.1061.10487"/>
+<LCN channelNumber="1006" serviceRef="tag:mitxp.com,2021:1.1061.10488"/>
+<LCN channelNumber="1007" serviceRef="tag:mitxp.com,2021:1.1061.10489"/>
+</LCNTable>
+<LCNTable>
+<TargetRegion>Deutschland</TargetRegion>
+<LCN channelNumber="1" serviceRef="tag:mitxp.com,2021:1.1019.10301"/>
+<LCN channelNumber="2" serviceRef="tag:zdf.de,2020:zdf"/>
+<LCN channelNumber="3" serviceRef="tag:netrtl.com,2022:1.1089.12003"/>
+<LCN channelNumber="4" serviceRef="tag:mitxp.com,2021:1.1107.17508"/>
+<LCN channelNumber="5" serviceRef="tag:mitxp.com,2021:1.1107.17501"/>
+<LCN channelNumber="6" serviceRef="tag:netrtl.com,2022:1.1089.12060"/>
+<LCN channelNumber="7" serviceRef="tag:mitxp.com,2021:1.1021.28332"/>
+<LCN channelNumber="8" serviceRef="tag:dvb-i.bmt-technik.de,2022:4360.1073.52135"/>
+<LCN channelNumber="9" serviceRef="tag:netrtl.com,2022:1.1089.12090"/>
+<LCN channelNumber="10" serviceRef="tag:mitxp.com,2021:1.1039.10375"/>
+<LCN channelNumber="11" serviceRef="tag:zdf.de,2020:zdfinfo"/>
+<LCN channelNumber="12" serviceRef="tag:mitxp.com,2021:1.1025.10331"/>
+<LCN channelNumber="14" serviceRef="tag:zdf.de,2020:zdfneo"/>
+<LCN channelNumber="15" serviceRef="tag:mitxp.com,2021:1.1039.10376"/>
+<LCN channelNumber="16" serviceRef="tag:mitxp.com,2021:1.1019.10302"/>
+<LCN channelNumber="17" serviceRef="tag:zdf.de,2020:3sat"/>
+<LCN channelNumber="18" serviceRef="tag:mitxp.com,2021:1.1107.17502"/>
+<LCN channelNumber="20" serviceRef="tag:zdf.de,2020:kika"/>
+<LCN channelNumber="23" serviceRef="tag:mitxp.com,2021:1.1039.10377"/>
+<LCN channelNumber="33" serviceRef="tag:mitxp.com,2021:1.1025.10325"/>
+<LCN channelNumber="34" serviceRef="tag:mitxp.com,2021:1.1061.10355"/>
+<LCN channelNumber="35" serviceRef="tag:mitxp.com,2021:1.1061.10352"/>
+<LCN channelNumber="36" serviceRef="tag:mitxp.com,2021:1.1025.10327"/>
+<LCN channelNumber="37" serviceRef="tag:mitxp.com,2021:1.1039.10379"/>
+<LCN channelNumber="38" serviceRef="tag:mitxp.com,2021:1.1061.10351"/>
+<LCN channelNumber="39" serviceRef="tag:mitxp.com,2021:1.1039.10378"/>
+<LCN channelNumber="40" serviceRef="tag:mitxp.com,2021:1.1019.10303"/>
+<LCN channelNumber="42" serviceRef="tag:dvb-i.bmt-technik.de,2022:4360.1073.52161"/>
+<LCN channelNumber="43" serviceRef="tag:dvb-i.bmt-technik.de,2022:4360.1073.52142"/>
+<LCN channelNumber="44" serviceRef="tag:dvb-i.bmt-technik.de,2022:4360.1073.52140"/>
+<LCN channelNumber="45" serviceRef="tag:dvb-i.bmt-technik.de,2022:4360.1073.52158"/>
+<LCN channelNumber="46" serviceRef="tag:dvb-i.bmt-technik.de,2022:4360.1073.52159"/>
+<LCN channelNumber="47" serviceRef="tag:dvb-i.bmt-technik.de,2022:4360.1073.52138"/>
+<LCN channelNumber="48" serviceRef="tag:dvb-i.bmt-technik.de,2022:4360.1073.52149"/>
+<LCN channelNumber="49" serviceRef="tag:dvb-i.bmt-technik.de,2022:4360.1073.52160"/>
+<LCN channelNumber="50" serviceRef="tag:dvb-i.bmt-technik.de,2022:4360.1073.52153"/>
+<LCN channelNumber="51" serviceRef="tag:dvb-i.bmt-technik.de,2022:4360.1073.52156"/>
+<LCN channelNumber="52" serviceRef="tag:dvb-i.bmt-technik.de,2022:4360.1073.52139"/>
+<LCN channelNumber="53" serviceRef="tag:dvb-i.bmt-technik.de,2022:4360.1073.52141"/>
+<LCN channelNumber="54" serviceRef="tag:dvb-i.bmt-technik.de,2022:4360.1073.52157"/>
+<LCN channelNumber="55" serviceRef="tag:mitxp.com,2021:1.1025.10326"/>
+<LCN channelNumber="56" serviceRef="tag:mitxp.com,2021:1.1061.10353"/>
+<LCN channelNumber="57" serviceRef="tag:mitxp.com,2021:1.1061.10354"/>
+<LCN channelNumber="58" serviceRef="tag:mitxp.com,2021:1.1025.10329"/>
+<LCN channelNumber="59" serviceRef="tag:mitxp.com,2021:1.1025.10328"/>
+<LCN channelNumber="60" serviceRef="tag:mitxp.com,2021:1.1025.10330"/>
+<LCN channelNumber="61" serviceRef="tag:mitxp.com,2021:1.1061.10350"/>
+<LCN channelNumber="62" serviceRef="tag:mitxp.com,2021:1.1019.10304"/>
+<LCN channelNumber="63" serviceRef="tag:mitxp.com,2021:1.1021.28333"/>
+<LCN channelNumber="64" serviceRef="tag:mitxp.com,2021:1.1021.28334"/>
+<LCN channelNumber="65" serviceRef="tag:mitxp.com,2021:1.1021.28335"/>
+<LCN channelNumber="66" serviceRef="tag:mitxp.com,2021:1.1021.28336"/>
+<LCN channelNumber="67" serviceRef="tag:mitxp.com,2021:1.1021.28337"/>
+<LCN channelNumber="68" serviceRef="tag:mitxp.com,2021:1.1021.28338"/>
+<LCN channelNumber="69" serviceRef="tag:mitxp.com,2021:1.1021.28339"/>
+<LCN channelNumber="70" serviceRef="tag:mitxp.com,2021:1.1021.28340"/>
+<LCN channelNumber="71" serviceRef="tag:mitxp.com,2021:1.1021.28341"/>
+<LCN channelNumber="72" serviceRef="tag:mitxp.com,2021:1.1021.28342"/>
+<LCN channelNumber="73" serviceRef="tag:mitxp.com,2021:1.1107.17507"/>
+<LCN channelNumber="74" serviceRef="tag:mitxp.com,2021:1.1201.28347"/>
+<LCN channelNumber="75" serviceRef="tag:mitxp.com,2021:1.1201.28348"/>
+<LCN channelNumber="76" serviceRef="tag:dvb-i.bmt-technik.de,2023:1.1023.5805"/>
+<LCN channelNumber="500" serviceRef="tag:zdf.de,2020:zdf/event"/>
+<LCN channelNumber="501" serviceRef="tag:zdf.de,2020:zdf/preroll"/>
+<LCN channelNumber="502" serviceRef="tag:zdf.de,2020:zdf/app"/>
+<LCN channelNumber="503" serviceRef="tag:zdf.de,2020:zdf/offline"/>
+<LCN channelNumber="504" serviceRef="tag:mitxp.com,2021:1.1201.28346"/>
+<LCN channelNumber="505" serviceRef="tag:mitxp.com,2021:1.1201.28345"/>
+<LCN channelNumber="506" serviceRef="tag:wdr.de,2020:wdr/playlist"/>
+<LCN channelNumber="507" serviceRef="tag:zdf.de,2020:zdf/playlist"/>
+<LCN channelNumber="508" serviceRef="tag:mitxp.com,2021:1.1073.28221"/>
+<LCN channelNumber="509" serviceRef="tag:mitxp.com,2021:1.1201.28341"/>
+<LCN channelNumber="510" serviceRef="tag:mitxp.com,2021:1.1201.28349"/>
+<LCN channelNumber="555" serviceRef="tag:zdf.de,2020:zdf/ibc"/>
+<LCN channelNumber="1001" serviceRef="tag:mitxp.com,2021:1.1039.10458"/>
+<LCN channelNumber="1002" serviceRef="tag:mitxp.com,2021:1.1061.10484"/>
+<LCN channelNumber="1003" serviceRef="tag:mitxp.com,2021:1.1061.10485"/>
+<LCN channelNumber="1004" serviceRef="tag:mitxp.com,2021:1.1061.10486"/>
+<LCN channelNumber="1005" serviceRef="tag:mitxp.com,2021:1.1061.10487"/>
+<LCN channelNumber="1006" serviceRef="tag:mitxp.com,2021:1.1061.10488"/>
+<LCN channelNumber="1007" serviceRef="tag:mitxp.com,2021:1.1061.10489"/>
+</LCNTable>
+<LCNTable>
+<TargetRegion>Dortmund</TargetRegion>
+<LCN channelNumber="1" serviceRef="tag:mitxp.com,2021:1.1019.10301"/>
+<LCN channelNumber="2" serviceRef="tag:zdf.de,2020:zdf"/>
+<LCN channelNumber="3" serviceRef="tag:netrtl.com,2022:1.1089.12003"/>
+<LCN channelNumber="4" serviceRef="tag:mitxp.com,2021:1.1107.17508"/>
+<LCN channelNumber="5" serviceRef="tag:mitxp.com,2021:1.1107.17501"/>
+<LCN channelNumber="6" serviceRef="tag:netrtl.com,2022:1.1089.12060"/>
+<LCN channelNumber="7" serviceRef="tag:mitxp.com,2021:1.1021.28336"/>
+<LCN channelNumber="8" serviceRef="tag:dvb-i.bmt-technik.de,2022:4360.1073.52135"/>
+<LCN channelNumber="9" serviceRef="tag:netrtl.com,2022:1.1089.12090"/>
+<LCN channelNumber="10" serviceRef="tag:mitxp.com,2021:1.1039.10375"/>
+<LCN channelNumber="11" serviceRef="tag:zdf.de,2020:zdfinfo"/>
+<LCN channelNumber="12" serviceRef="tag:mitxp.com,2021:1.1025.10331"/>
+<LCN channelNumber="14" serviceRef="tag:zdf.de,2020:zdfneo"/>
+<LCN channelNumber="15" serviceRef="tag:mitxp.com,2021:1.1039.10376"/>
+<LCN channelNumber="16" serviceRef="tag:mitxp.com,2021:1.1019.10302"/>
+<LCN channelNumber="17" serviceRef="tag:zdf.de,2020:3sat"/>
+<LCN channelNumber="18" serviceRef="tag:mitxp.com,2021:1.1107.17502"/>
+<LCN channelNumber="20" serviceRef="tag:zdf.de,2020:kika"/>
+<LCN channelNumber="23" serviceRef="tag:mitxp.com,2021:1.1039.10377"/>
+<LCN channelNumber="33" serviceRef="tag:mitxp.com,2021:1.1025.10325"/>
+<LCN channelNumber="34" serviceRef="tag:mitxp.com,2021:1.1061.10355"/>
+<LCN channelNumber="35" serviceRef="tag:mitxp.com,2021:1.1061.10352"/>
+<LCN channelNumber="36" serviceRef="tag:mitxp.com,2021:1.1025.10327"/>
+<LCN channelNumber="37" serviceRef="tag:mitxp.com,2021:1.1039.10379"/>
+<LCN channelNumber="38" serviceRef="tag:mitxp.com,2021:1.1061.10351"/>
+<LCN channelNumber="39" serviceRef="tag:mitxp.com,2021:1.1039.10378"/>
+<LCN channelNumber="40" serviceRef="tag:mitxp.com,2021:1.1019.10303"/>
+<LCN channelNumber="42" serviceRef="tag:dvb-i.bmt-technik.de,2022:4360.1073.52161"/>
+<LCN channelNumber="43" serviceRef="tag:dvb-i.bmt-technik.de,2022:4360.1073.52142"/>
+<LCN channelNumber="44" serviceRef="tag:dvb-i.bmt-technik.de,2022:4360.1073.52140"/>
+<LCN channelNumber="45" serviceRef="tag:dvb-i.bmt-technik.de,2022:4360.1073.52158"/>
+<LCN channelNumber="46" serviceRef="tag:dvb-i.bmt-technik.de,2022:4360.1073.52159"/>
+<LCN channelNumber="47" serviceRef="tag:dvb-i.bmt-technik.de,2022:4360.1073.52138"/>
+<LCN channelNumber="48" serviceRef="tag:dvb-i.bmt-technik.de,2022:4360.1073.52149"/>
+<LCN channelNumber="49" serviceRef="tag:dvb-i.bmt-technik.de,2022:4360.1073.52160"/>
+<LCN channelNumber="50" serviceRef="tag:dvb-i.bmt-technik.de,2022:4360.1073.52153"/>
+<LCN channelNumber="51" serviceRef="tag:dvb-i.bmt-technik.de,2022:4360.1073.52156"/>
+<LCN channelNumber="52" serviceRef="tag:dvb-i.bmt-technik.de,2022:4360.1073.52139"/>
+<LCN channelNumber="53" serviceRef="tag:dvb-i.bmt-technik.de,2022:4360.1073.52141"/>
+<LCN channelNumber="54" serviceRef="tag:dvb-i.bmt-technik.de,2022:4360.1073.52157"/>
+<LCN channelNumber="55" serviceRef="tag:mitxp.com,2021:1.1025.10326"/>
+<LCN channelNumber="56" serviceRef="tag:mitxp.com,2021:1.1061.10353"/>
+<LCN channelNumber="57" serviceRef="tag:mitxp.com,2021:1.1061.10354"/>
+<LCN channelNumber="58" serviceRef="tag:mitxp.com,2021:1.1025.10329"/>
+<LCN channelNumber="59" serviceRef="tag:mitxp.com,2021:1.1025.10328"/>
+<LCN channelNumber="60" serviceRef="tag:mitxp.com,2021:1.1025.10330"/>
+<LCN channelNumber="61" serviceRef="tag:mitxp.com,2021:1.1061.10350"/>
+<LCN channelNumber="62" serviceRef="tag:mitxp.com,2021:1.1019.10304"/>
+<LCN channelNumber="63" serviceRef="tag:mitxp.com,2021:1.1021.28333"/>
+<LCN channelNumber="64" serviceRef="tag:mitxp.com,2021:1.1021.28334"/>
+<LCN channelNumber="65" serviceRef="tag:mitxp.com,2021:1.1021.28335"/>
+<LCN channelNumber="66" serviceRef="tag:mitxp.com,2021:1.1021.28337"/>
+<LCN channelNumber="67" serviceRef="tag:mitxp.com,2021:1.1021.28338"/>
+<LCN channelNumber="68" serviceRef="tag:mitxp.com,2021:1.1021.28339"/>
+<LCN channelNumber="69" serviceRef="tag:mitxp.com,2021:1.1021.28332"/>
+<LCN channelNumber="70" serviceRef="tag:mitxp.com,2021:1.1021.28340"/>
+<LCN channelNumber="71" serviceRef="tag:mitxp.com,2021:1.1021.28341"/>
+<LCN channelNumber="72" serviceRef="tag:mitxp.com,2021:1.1021.28342"/>
+<LCN channelNumber="73" serviceRef="tag:mitxp.com,2021:1.1107.17507"/>
+<LCN channelNumber="74" serviceRef="tag:mitxp.com,2021:1.1201.28347"/>
+<LCN channelNumber="75" serviceRef="tag:mitxp.com,2021:1.1201.28348"/>
+<LCN channelNumber="76" serviceRef="tag:dvb-i.bmt-technik.de,2023:1.1023.5805"/>
+<LCN channelNumber="500" serviceRef="tag:zdf.de,2020:zdf/event"/>
+<LCN channelNumber="501" serviceRef="tag:zdf.de,2020:zdf/preroll"/>
+<LCN channelNumber="502" serviceRef="tag:zdf.de,2020:zdf/app"/>
+<LCN channelNumber="503" serviceRef="tag:zdf.de,2020:zdf/offline"/>
+<LCN channelNumber="504" serviceRef="tag:mitxp.com,2021:1.1201.28346"/>
+<LCN channelNumber="505" serviceRef="tag:mitxp.com,2021:1.1201.28345"/>
+<LCN channelNumber="506" serviceRef="tag:wdr.de,2020:wdr/playlist"/>
+<LCN channelNumber="507" serviceRef="tag:zdf.de,2020:zdf/playlist"/>
+<LCN channelNumber="508" serviceRef="tag:mitxp.com,2021:1.1073.28221"/>
+<LCN channelNumber="509" serviceRef="tag:mitxp.com,2021:1.1201.28341"/>
+<LCN channelNumber="510" serviceRef="tag:mitxp.com,2021:1.1201.28349"/>
+<LCN channelNumber="555" serviceRef="tag:zdf.de,2020:zdf/ibc"/>
+<LCN channelNumber="1001" serviceRef="tag:mitxp.com,2021:1.1039.10458"/>
+<LCN channelNumber="1002" serviceRef="tag:mitxp.com,2021:1.1061.10484"/>
+<LCN channelNumber="1003" serviceRef="tag:mitxp.com,2021:1.1061.10485"/>
+<LCN channelNumber="1004" serviceRef="tag:mitxp.com,2021:1.1061.10486"/>
+<LCN channelNumber="1005" serviceRef="tag:mitxp.com,2021:1.1061.10487"/>
+<LCN channelNumber="1006" serviceRef="tag:mitxp.com,2021:1.1061.10488"/>
+<LCN channelNumber="1007" serviceRef="tag:mitxp.com,2021:1.1061.10489"/>
+</LCNTable>
+<LCNTable>
+<TargetRegion>Düsseldorf</TargetRegion>
+<LCN channelNumber="1" serviceRef="tag:mitxp.com,2021:1.1019.10301"/>
+<LCN channelNumber="2" serviceRef="tag:zdf.de,2020:zdf"/>
+<LCN channelNumber="3" serviceRef="tag:netrtl.com,2022:1.1089.12003"/>
+<LCN channelNumber="4" serviceRef="tag:mitxp.com,2021:1.1107.17508"/>
+<LCN channelNumber="5" serviceRef="tag:mitxp.com,2021:1.1107.17501"/>
+<LCN channelNumber="6" serviceRef="tag:netrtl.com,2022:1.1089.12060"/>
+<LCN channelNumber="7" serviceRef="tag:mitxp.com,2021:1.1021.28338"/>
+<LCN channelNumber="8" serviceRef="tag:dvb-i.bmt-technik.de,2022:4360.1073.52135"/>
+<LCN channelNumber="9" serviceRef="tag:netrtl.com,2022:1.1089.12090"/>
+<LCN channelNumber="10" serviceRef="tag:mitxp.com,2021:1.1039.10375"/>
+<LCN channelNumber="11" serviceRef="tag:zdf.de,2020:zdfinfo"/>
+<LCN channelNumber="12" serviceRef="tag:mitxp.com,2021:1.1025.10331"/>
+<LCN channelNumber="14" serviceRef="tag:zdf.de,2020:zdfneo"/>
+<LCN channelNumber="15" serviceRef="tag:mitxp.com,2021:1.1039.10376"/>
+<LCN channelNumber="16" serviceRef="tag:mitxp.com,2021:1.1019.10302"/>
+<LCN channelNumber="17" serviceRef="tag:zdf.de,2020:3sat"/>
+<LCN channelNumber="18" serviceRef="tag:mitxp.com,2021:1.1107.17502"/>
+<LCN channelNumber="20" serviceRef="tag:zdf.de,2020:kika"/>
+<LCN channelNumber="23" serviceRef="tag:mitxp.com,2021:1.1039.10377"/>
+<LCN channelNumber="33" serviceRef="tag:mitxp.com,2021:1.1025.10325"/>
+<LCN channelNumber="34" serviceRef="tag:mitxp.com,2021:1.1061.10355"/>
+<LCN channelNumber="35" serviceRef="tag:mitxp.com,2021:1.1061.10352"/>
+<LCN channelNumber="36" serviceRef="tag:mitxp.com,2021:1.1025.10327"/>
+<LCN channelNumber="37" serviceRef="tag:mitxp.com,2021:1.1039.10379"/>
+<LCN channelNumber="38" serviceRef="tag:mitxp.com,2021:1.1061.10351"/>
+<LCN channelNumber="39" serviceRef="tag:mitxp.com,2021:1.1039.10378"/>
+<LCN channelNumber="40" serviceRef="tag:mitxp.com,2021:1.1019.10303"/>
+<LCN channelNumber="42" serviceRef="tag:dvb-i.bmt-technik.de,2022:4360.1073.52161"/>
+<LCN channelNumber="43" serviceRef="tag:dvb-i.bmt-technik.de,2022:4360.1073.52142"/>
+<LCN channelNumber="44" serviceRef="tag:dvb-i.bmt-technik.de,2022:4360.1073.52140"/>
+<LCN channelNumber="45" serviceRef="tag:dvb-i.bmt-technik.de,2022:4360.1073.52158"/>
+<LCN channelNumber="46" serviceRef="tag:dvb-i.bmt-technik.de,2022:4360.1073.52159"/>
+<LCN channelNumber="47" serviceRef="tag:dvb-i.bmt-technik.de,2022:4360.1073.52138"/>
+<LCN channelNumber="48" serviceRef="tag:dvb-i.bmt-technik.de,2022:4360.1073.52149"/>
+<LCN channelNumber="49" serviceRef="tag:dvb-i.bmt-technik.de,2022:4360.1073.52160"/>
+<LCN channelNumber="50" serviceRef="tag:dvb-i.bmt-technik.de,2022:4360.1073.52153"/>
+<LCN channelNumber="51" serviceRef="tag:dvb-i.bmt-technik.de,2022:4360.1073.52156"/>
+<LCN channelNumber="52" serviceRef="tag:dvb-i.bmt-technik.de,2022:4360.1073.52139"/>
+<LCN channelNumber="53" serviceRef="tag:dvb-i.bmt-technik.de,2022:4360.1073.52141"/>
+<LCN channelNumber="54" serviceRef="tag:dvb-i.bmt-technik.de,2022:4360.1073.52157"/>
+<LCN channelNumber="55" serviceRef="tag:mitxp.com,2021:1.1025.10326"/>
+<LCN channelNumber="56" serviceRef="tag:mitxp.com,2021:1.1061.10353"/>
+<LCN channelNumber="57" serviceRef="tag:mitxp.com,2021:1.1061.10354"/>
+<LCN channelNumber="58" serviceRef="tag:mitxp.com,2021:1.1025.10329"/>
+<LCN channelNumber="59" serviceRef="tag:mitxp.com,2021:1.1025.10328"/>
+<LCN channelNumber="60" serviceRef="tag:mitxp.com,2021:1.1025.10330"/>
+<LCN channelNumber="61" serviceRef="tag:mitxp.com,2021:1.1061.10350"/>
+<LCN channelNumber="62" serviceRef="tag:mitxp.com,2021:1.1019.10304"/>
+<LCN channelNumber="63" serviceRef="tag:mitxp.com,2021:1.1021.28333"/>
+<LCN channelNumber="64" serviceRef="tag:mitxp.com,2021:1.1021.28334"/>
+<LCN channelNumber="65" serviceRef="tag:mitxp.com,2021:1.1021.28335"/>
+<LCN channelNumber="66" serviceRef="tag:mitxp.com,2021:1.1021.28336"/>
+<LCN channelNumber="67" serviceRef="tag:mitxp.com,2021:1.1021.28337"/>
+<LCN channelNumber="68" serviceRef="tag:mitxp.com,2021:1.1021.28339"/>
+<LCN channelNumber="69" serviceRef="tag:mitxp.com,2021:1.1021.28332"/>
+<LCN channelNumber="70" serviceRef="tag:mitxp.com,2021:1.1021.28340"/>
+<LCN channelNumber="71" serviceRef="tag:mitxp.com,2021:1.1021.28341"/>
+<LCN channelNumber="72" serviceRef="tag:mitxp.com,2021:1.1021.28342"/>
+<LCN channelNumber="73" serviceRef="tag:mitxp.com,2021:1.1107.17507"/>
+<LCN channelNumber="74" serviceRef="tag:mitxp.com,2021:1.1201.28347"/>
+<LCN channelNumber="75" serviceRef="tag:mitxp.com,2021:1.1201.28348"/>
+<LCN channelNumber="76" serviceRef="tag:dvb-i.bmt-technik.de,2023:1.1023.5805"/>
+<LCN channelNumber="500" serviceRef="tag:zdf.de,2020:zdf/event"/>
+<LCN channelNumber="501" serviceRef="tag:zdf.de,2020:zdf/preroll"/>
+<LCN channelNumber="502" serviceRef="tag:zdf.de,2020:zdf/app"/>
+<LCN channelNumber="503" serviceRef="tag:zdf.de,2020:zdf/offline"/>
+<LCN channelNumber="504" serviceRef="tag:mitxp.com,2021:1.1201.28346"/>
+<LCN channelNumber="505" serviceRef="tag:mitxp.com,2021:1.1201.28345"/>
+<LCN channelNumber="506" serviceRef="tag:wdr.de,2020:wdr/playlist"/>
+<LCN channelNumber="507" serviceRef="tag:zdf.de,2020:zdf/playlist"/>
+<LCN channelNumber="508" serviceRef="tag:mitxp.com,2021:1.1073.28221"/>
+<LCN channelNumber="509" serviceRef="tag:mitxp.com,2021:1.1201.28341"/>
+<LCN channelNumber="510" serviceRef="tag:mitxp.com,2021:1.1201.28349"/>
+<LCN channelNumber="555" serviceRef="tag:zdf.de,2020:zdf/ibc"/>
+<LCN channelNumber="1001" serviceRef="tag:mitxp.com,2021:1.1039.10458"/>
+<LCN channelNumber="1002" serviceRef="tag:mitxp.com,2021:1.1061.10484"/>
+<LCN channelNumber="1003" serviceRef="tag:mitxp.com,2021:1.1061.10485"/>
+<LCN channelNumber="1004" serviceRef="tag:mitxp.com,2021:1.1061.10486"/>
+<LCN channelNumber="1005" serviceRef="tag:mitxp.com,2021:1.1061.10487"/>
+<LCN channelNumber="1006" serviceRef="tag:mitxp.com,2021:1.1061.10488"/>
+<LCN channelNumber="1007" serviceRef="tag:mitxp.com,2021:1.1061.10489"/>
+</LCNTable>
+<LCNTable>
+<TargetRegion>Köln</TargetRegion>
+<LCN channelNumber="1" serviceRef="tag:mitxp.com,2021:1.1019.10301"/>
+<LCN channelNumber="2" serviceRef="tag:zdf.de,2020:zdf"/>
+<LCN channelNumber="3" serviceRef="tag:netrtl.com,2022:1.1089.12003"/>
+<LCN channelNumber="4" serviceRef="tag:mitxp.com,2021:1.1107.17508"/>
+<LCN channelNumber="5" serviceRef="tag:mitxp.com,2021:1.1107.17501"/>
+<LCN channelNumber="6" serviceRef="tag:netrtl.com,2022:1.1089.12060"/>
+<LCN channelNumber="7" serviceRef="tag:mitxp.com,2021:1.1021.28332"/>
+<LCN channelNumber="8" serviceRef="tag:dvb-i.bmt-technik.de,2022:4360.1073.52135"/>
+<LCN channelNumber="9" serviceRef="tag:netrtl.com,2022:1.1089.12090"/>
+<LCN channelNumber="10" serviceRef="tag:mitxp.com,2021:1.1039.10375"/>
+<LCN channelNumber="11" serviceRef="tag:zdf.de,2020:zdfinfo"/>
+<LCN channelNumber="12" serviceRef="tag:mitxp.com,2021:1.1025.10331"/>
+<LCN channelNumber="14" serviceRef="tag:zdf.de,2020:zdfneo"/>
+<LCN channelNumber="15" serviceRef="tag:mitxp.com,2021:1.1039.10376"/>
+<LCN channelNumber="16" serviceRef="tag:mitxp.com,2021:1.1019.10302"/>
+<LCN channelNumber="17" serviceRef="tag:zdf.de,2020:3sat"/>
+<LCN channelNumber="18" serviceRef="tag:mitxp.com,2021:1.1107.17502"/>
+<LCN channelNumber="20" serviceRef="tag:zdf.de,2020:kika"/>
+<LCN channelNumber="23" serviceRef="tag:mitxp.com,2021:1.1039.10377"/>
+<LCN channelNumber="33" serviceRef="tag:mitxp.com,2021:1.1025.10325"/>
+<LCN channelNumber="34" serviceRef="tag:mitxp.com,2021:1.1061.10355"/>
+<LCN channelNumber="35" serviceRef="tag:mitxp.com,2021:1.1061.10352"/>
+<LCN channelNumber="36" serviceRef="tag:mitxp.com,2021:1.1025.10327"/>
+<LCN channelNumber="37" serviceRef="tag:mitxp.com,2021:1.1039.10379"/>
+<LCN channelNumber="38" serviceRef="tag:mitxp.com,2021:1.1061.10351"/>
+<LCN channelNumber="39" serviceRef="tag:mitxp.com,2021:1.1039.10378"/>
+<LCN channelNumber="40" serviceRef="tag:mitxp.com,2021:1.1019.10303"/>
+<LCN channelNumber="42" serviceRef="tag:dvb-i.bmt-technik.de,2022:4360.1073.52161"/>
+<LCN channelNumber="43" serviceRef="tag:dvb-i.bmt-technik.de,2022:4360.1073.52142"/>
+<LCN channelNumber="44" serviceRef="tag:dvb-i.bmt-technik.de,2022:4360.1073.52140"/>
+<LCN channelNumber="45" serviceRef="tag:dvb-i.bmt-technik.de,2022:4360.1073.52158"/>
+<LCN channelNumber="46" serviceRef="tag:dvb-i.bmt-technik.de,2022:4360.1073.52159"/>
+<LCN channelNumber="47" serviceRef="tag:dvb-i.bmt-technik.de,2022:4360.1073.52138"/>
+<LCN channelNumber="48" serviceRef="tag:dvb-i.bmt-technik.de,2022:4360.1073.52149"/>
+<LCN channelNumber="49" serviceRef="tag:dvb-i.bmt-technik.de,2022:4360.1073.52160"/>
+<LCN channelNumber="50" serviceRef="tag:dvb-i.bmt-technik.de,2022:4360.1073.52153"/>
+<LCN channelNumber="51" serviceRef="tag:dvb-i.bmt-technik.de,2022:4360.1073.52156"/>
+<LCN channelNumber="52" serviceRef="tag:dvb-i.bmt-technik.de,2022:4360.1073.52139"/>
+<LCN channelNumber="53" serviceRef="tag:dvb-i.bmt-technik.de,2022:4360.1073.52141"/>
+<LCN channelNumber="54" serviceRef="tag:dvb-i.bmt-technik.de,2022:4360.1073.52157"/>
+<LCN channelNumber="55" serviceRef="tag:mitxp.com,2021:1.1025.10326"/>
+<LCN channelNumber="56" serviceRef="tag:mitxp.com,2021:1.1061.10353"/>
+<LCN channelNumber="57" serviceRef="tag:mitxp.com,2021:1.1061.10354"/>
+<LCN channelNumber="58" serviceRef="tag:mitxp.com,2021:1.1025.10329"/>
+<LCN channelNumber="59" serviceRef="tag:mitxp.com,2021:1.1025.10328"/>
+<LCN channelNumber="60" serviceRef="tag:mitxp.com,2021:1.1025.10330"/>
+<LCN channelNumber="61" serviceRef="tag:mitxp.com,2021:1.1061.10350"/>
+<LCN channelNumber="62" serviceRef="tag:mitxp.com,2021:1.1019.10304"/>
+<LCN channelNumber="63" serviceRef="tag:mitxp.com,2021:1.1021.28333"/>
+<LCN channelNumber="64" serviceRef="tag:mitxp.com,2021:1.1021.28334"/>
+<LCN channelNumber="65" serviceRef="tag:mitxp.com,2021:1.1021.28335"/>
+<LCN channelNumber="66" serviceRef="tag:mitxp.com,2021:1.1021.28336"/>
+<LCN channelNumber="67" serviceRef="tag:mitxp.com,2021:1.1021.28337"/>
+<LCN channelNumber="68" serviceRef="tag:mitxp.com,2021:1.1021.28338"/>
+<LCN channelNumber="69" serviceRef="tag:mitxp.com,2021:1.1021.28339"/>
+<LCN channelNumber="70" serviceRef="tag:mitxp.com,2021:1.1021.28340"/>
+<LCN channelNumber="71" serviceRef="tag:mitxp.com,2021:1.1021.28341"/>
+<LCN channelNumber="72" serviceRef="tag:mitxp.com,2021:1.1021.28342"/>
+<LCN channelNumber="73" serviceRef="tag:mitxp.com,2021:1.1107.17507"/>
+<LCN channelNumber="74" serviceRef="tag:mitxp.com,2021:1.1201.28347"/>
+<LCN channelNumber="75" serviceRef="tag:mitxp.com,2021:1.1201.28348"/>
+<LCN channelNumber="76" serviceRef="tag:dvb-i.bmt-technik.de,2023:1.1023.5805"/>
+<LCN channelNumber="500" serviceRef="tag:zdf.de,2020:zdf/event"/>
+<LCN channelNumber="501" serviceRef="tag:zdf.de,2020:zdf/preroll"/>
+<LCN channelNumber="502" serviceRef="tag:zdf.de,2020:zdf/app"/>
+<LCN channelNumber="503" serviceRef="tag:zdf.de,2020:zdf/offline"/>
+<LCN channelNumber="504" serviceRef="tag:mitxp.com,2021:1.1201.28346"/>
+<LCN channelNumber="505" serviceRef="tag:mitxp.com,2021:1.1201.28345"/>
+<LCN channelNumber="506" serviceRef="tag:wdr.de,2020:wdr/playlist"/>
+<LCN channelNumber="507" serviceRef="tag:zdf.de,2020:zdf/playlist"/>
+<LCN channelNumber="508" serviceRef="tag:mitxp.com,2021:1.1073.28221"/>
+<LCN channelNumber="509" serviceRef="tag:mitxp.com,2021:1.1201.28341"/>
+<LCN channelNumber="510" serviceRef="tag:mitxp.com,2021:1.1201.28349"/>
+<LCN channelNumber="555" serviceRef="tag:zdf.de,2020:zdf/ibc"/>
+<LCN channelNumber="1001" serviceRef="tag:mitxp.com,2021:1.1039.10458"/>
+<LCN channelNumber="1002" serviceRef="tag:mitxp.com,2021:1.1061.10484"/>
+<LCN channelNumber="1003" serviceRef="tag:mitxp.com,2021:1.1061.10485"/>
+<LCN channelNumber="1004" serviceRef="tag:mitxp.com,2021:1.1061.10486"/>
+<LCN channelNumber="1005" serviceRef="tag:mitxp.com,2021:1.1061.10487"/>
+<LCN channelNumber="1006" serviceRef="tag:mitxp.com,2021:1.1061.10488"/>
+<LCN channelNumber="1007" serviceRef="tag:mitxp.com,2021:1.1061.10489"/>
+</LCNTable>
+<LCNTable>
+<TargetRegion>München</TargetRegion>
+<LCN channelNumber="1" serviceRef="tag:mitxp.com,2021:1.1019.10301"/>
+<LCN channelNumber="2" serviceRef="tag:zdf.de,2020:zdf"/>
+<LCN channelNumber="3" serviceRef="tag:netrtl.com,2022:1.1089.12003"/>
+<LCN channelNumber="4" serviceRef="tag:mitxp.com,2021:1.1107.17507"/>
+<LCN channelNumber="5" serviceRef="tag:mitxp.com,2021:1.1107.17501"/>
+<LCN channelNumber="6" serviceRef="tag:netrtl.com,2022:1.1089.12060"/>
+<LCN channelNumber="7" serviceRef="tag:mitxp.com,2021:1.1025.10325"/>
+<LCN channelNumber="8" serviceRef="tag:dvb-i.bmt-technik.de,2022:4360.1073.52135"/>
+<LCN channelNumber="9" serviceRef="tag:netrtl.com,2022:1.1089.12090"/>
+<LCN channelNumber="10" serviceRef="tag:mitxp.com,2021:1.1039.10375"/>
+<LCN channelNumber="11" serviceRef="tag:zdf.de,2020:zdfinfo"/>
+<LCN channelNumber="12" serviceRef="tag:mitxp.com,2021:1.1025.10331"/>
+<LCN channelNumber="14" serviceRef="tag:zdf.de,2020:zdfneo"/>
+<LCN channelNumber="15" serviceRef="tag:mitxp.com,2021:1.1039.10376"/>
+<LCN channelNumber="16" serviceRef="tag:mitxp.com,2021:1.1019.10302"/>
+<LCN channelNumber="17" serviceRef="tag:zdf.de,2020:3sat"/>
+<LCN channelNumber="18" serviceRef="tag:mitxp.com,2021:1.1107.17502"/>
+<LCN channelNumber="20" serviceRef="tag:zdf.de,2020:kika"/>
+<LCN channelNumber="23" serviceRef="tag:mitxp.com,2021:1.1039.10377"/>
+<LCN channelNumber="33" serviceRef="tag:mitxp.com,2021:1.1061.10355"/>
+<LCN channelNumber="34" serviceRef="tag:mitxp.com,2021:1.1061.10352"/>
+<LCN channelNumber="35" serviceRef="tag:mitxp.com,2021:1.1025.10327"/>
+<LCN channelNumber="36" serviceRef="tag:mitxp.com,2021:1.1039.10379"/>
+<LCN channelNumber="37" serviceRef="tag:mitxp.com,2021:1.1061.10351"/>
+<LCN channelNumber="38" serviceRef="tag:mitxp.com,2021:1.1039.10378"/>
+<LCN channelNumber="39" serviceRef="tag:mitxp.com,2021:1.1019.10303"/>
+<LCN channelNumber="40" serviceRef="tag:mitxp.com,2021:1.1021.28332"/>
+<LCN channelNumber="42" serviceRef="tag:dvb-i.bmt-technik.de,2022:4360.1073.52153"/>
+<LCN channelNumber="43" serviceRef="tag:dvb-i.bmt-technik.de,2022:4360.1073.52161"/>
+<LCN channelNumber="44" serviceRef="tag:dvb-i.bmt-technik.de,2022:4360.1073.52142"/>
+<LCN channelNumber="45" serviceRef="tag:dvb-i.bmt-technik.de,2022:4360.1073.52140"/>
+<LCN channelNumber="46" serviceRef="tag:dvb-i.bmt-technik.de,2022:4360.1073.52158"/>
+<LCN channelNumber="47" serviceRef="tag:dvb-i.bmt-technik.de,2022:4360.1073.52159"/>
+<LCN channelNumber="48" serviceRef="tag:dvb-i.bmt-technik.de,2022:4360.1073.52138"/>
+<LCN channelNumber="49" serviceRef="tag:dvb-i.bmt-technik.de,2022:4360.1073.52149"/>
+<LCN channelNumber="50" serviceRef="tag:dvb-i.bmt-technik.de,2022:4360.1073.52160"/>
+<LCN channelNumber="51" serviceRef="tag:dvb-i.bmt-technik.de,2022:4360.1073.52156"/>
+<LCN channelNumber="52" serviceRef="tag:dvb-i.bmt-technik.de,2022:4360.1073.52139"/>
+<LCN channelNumber="53" serviceRef="tag:dvb-i.bmt-technik.de,2022:4360.1073.52141"/>
+<LCN channelNumber="54" serviceRef="tag:dvb-i.bmt-technik.de,2022:4360.1073.52157"/>
+<LCN channelNumber="55" serviceRef="tag:mitxp.com,2021:1.1025.10326"/>
+<LCN channelNumber="56" serviceRef="tag:mitxp.com,2021:1.1061.10353"/>
+<LCN channelNumber="57" serviceRef="tag:mitxp.com,2021:1.1061.10354"/>
+<LCN channelNumber="58" serviceRef="tag:mitxp.com,2021:1.1025.10329"/>
+<LCN channelNumber="59" serviceRef="tag:mitxp.com,2021:1.1025.10328"/>
+<LCN channelNumber="60" serviceRef="tag:mitxp.com,2021:1.1025.10330"/>
+<LCN channelNumber="61" serviceRef="tag:mitxp.com,2021:1.1061.10350"/>
+<LCN channelNumber="62" serviceRef="tag:mitxp.com,2021:1.1019.10304"/>
+<LCN channelNumber="63" serviceRef="tag:mitxp.com,2021:1.1021.28333"/>
+<LCN channelNumber="64" serviceRef="tag:mitxp.com,2021:1.1021.28334"/>
+<LCN channelNumber="65" serviceRef="tag:mitxp.com,2021:1.1021.28335"/>
+<LCN channelNumber="66" serviceRef="tag:mitxp.com,2021:1.1021.28336"/>
+<LCN channelNumber="67" serviceRef="tag:mitxp.com,2021:1.1021.28337"/>
+<LCN channelNumber="68" serviceRef="tag:mitxp.com,2021:1.1021.28338"/>
+<LCN channelNumber="69" serviceRef="tag:mitxp.com,2021:1.1021.28339"/>
+<LCN channelNumber="70" serviceRef="tag:mitxp.com,2021:1.1021.28340"/>
+<LCN channelNumber="71" serviceRef="tag:mitxp.com,2021:1.1021.28341"/>
+<LCN channelNumber="72" serviceRef="tag:mitxp.com,2021:1.1021.28342"/>
+<LCN channelNumber="73" serviceRef="tag:mitxp.com,2021:1.1107.17508"/>
+<LCN channelNumber="74" serviceRef="tag:mitxp.com,2021:1.1201.28347"/>
+<LCN channelNumber="75" serviceRef="tag:mitxp.com,2021:1.1201.28348"/>
+<LCN channelNumber="76" serviceRef="tag:dvb-i.bmt-technik.de,2023:1.1023.5805"/>
+<LCN channelNumber="500" serviceRef="tag:zdf.de,2020:zdf/event"/>
+<LCN channelNumber="501" serviceRef="tag:zdf.de,2020:zdf/preroll"/>
+<LCN channelNumber="502" serviceRef="tag:zdf.de,2020:zdf/app"/>
+<LCN channelNumber="503" serviceRef="tag:zdf.de,2020:zdf/offline"/>
+<LCN channelNumber="504" serviceRef="tag:mitxp.com,2021:1.1201.28346"/>
+<LCN channelNumber="505" serviceRef="tag:mitxp.com,2021:1.1201.28345"/>
+<LCN channelNumber="506" serviceRef="tag:wdr.de,2020:wdr/playlist"/>
+<LCN channelNumber="507" serviceRef="tag:zdf.de,2020:zdf/playlist"/>
+<LCN channelNumber="508" serviceRef="tag:mitxp.com,2021:1.1073.28221"/>
+<LCN channelNumber="509" serviceRef="tag:mitxp.com,2021:1.1201.28341"/>
+<LCN channelNumber="510" serviceRef="tag:mitxp.com,2021:1.1201.28349"/>
+<LCN channelNumber="555" serviceRef="tag:zdf.de,2020:zdf/ibc"/>
+<LCN channelNumber="1001" serviceRef="tag:mitxp.com,2021:1.1039.10458"/>
+<LCN channelNumber="1002" serviceRef="tag:mitxp.com,2021:1.1061.10484"/>
+<LCN channelNumber="1003" serviceRef="tag:mitxp.com,2021:1.1061.10485"/>
+<LCN channelNumber="1004" serviceRef="tag:mitxp.com,2021:1.1061.10486"/>
+<LCN channelNumber="1005" serviceRef="tag:mitxp.com,2021:1.1061.10487"/>
+<LCN channelNumber="1006" serviceRef="tag:mitxp.com,2021:1.1061.10488"/>
+<LCN channelNumber="1007" serviceRef="tag:mitxp.com,2021:1.1061.10489"/>
+</LCNTable>
+<LCNTable>
+<TargetRegion>Münster</TargetRegion>
+<LCN channelNumber="1" serviceRef="tag:mitxp.com,2021:1.1019.10301"/>
+<LCN channelNumber="2" serviceRef="tag:zdf.de,2020:zdf"/>
+<LCN channelNumber="3" serviceRef="tag:netrtl.com,2022:1.1089.12003"/>
+<LCN channelNumber="4" serviceRef="tag:mitxp.com,2021:1.1107.17508"/>
+<LCN channelNumber="5" serviceRef="tag:mitxp.com,2021:1.1107.17501"/>
+<LCN channelNumber="6" serviceRef="tag:netrtl.com,2022:1.1089.12060"/>
+<LCN channelNumber="7" serviceRef="tag:mitxp.com,2021:1.1021.28340"/>
+<LCN channelNumber="8" serviceRef="tag:dvb-i.bmt-technik.de,2022:4360.1073.52135"/>
+<LCN channelNumber="9" serviceRef="tag:netrtl.com,2022:1.1089.12090"/>
+<LCN channelNumber="10" serviceRef="tag:mitxp.com,2021:1.1039.10375"/>
+<LCN channelNumber="11" serviceRef="tag:zdf.de,2020:zdfinfo"/>
+<LCN channelNumber="12" serviceRef="tag:mitxp.com,2021:1.1025.10331"/>
+<LCN channelNumber="14" serviceRef="tag:zdf.de,2020:zdfneo"/>
+<LCN channelNumber="15" serviceRef="tag:mitxp.com,2021:1.1039.10376"/>
+<LCN channelNumber="16" serviceRef="tag:mitxp.com,2021:1.1019.10302"/>
+<LCN channelNumber="17" serviceRef="tag:zdf.de,2020:3sat"/>
+<LCN channelNumber="18" serviceRef="tag:mitxp.com,2021:1.1107.17502"/>
+<LCN channelNumber="20" serviceRef="tag:zdf.de,2020:kika"/>
+<LCN channelNumber="23" serviceRef="tag:mitxp.com,2021:1.1039.10377"/>
+<LCN channelNumber="33" serviceRef="tag:mitxp.com,2021:1.1025.10325"/>
+<LCN channelNumber="34" serviceRef="tag:mitxp.com,2021:1.1061.10355"/>
+<LCN channelNumber="35" serviceRef="tag:mitxp.com,2021:1.1061.10352"/>
+<LCN channelNumber="36" serviceRef="tag:mitxp.com,2021:1.1025.10327"/>
+<LCN channelNumber="37" serviceRef="tag:mitxp.com,2021:1.1039.10379"/>
+<LCN channelNumber="38" serviceRef="tag:mitxp.com,2021:1.1061.10351"/>
+<LCN channelNumber="39" serviceRef="tag:mitxp.com,2021:1.1039.10378"/>
+<LCN channelNumber="40" serviceRef="tag:mitxp.com,2021:1.1019.10303"/>
+<LCN channelNumber="42" serviceRef="tag:dvb-i.bmt-technik.de,2022:4360.1073.52161"/>
+<LCN channelNumber="43" serviceRef="tag:dvb-i.bmt-technik.de,2022:4360.1073.52142"/>
+<LCN channelNumber="44" serviceRef="tag:dvb-i.bmt-technik.de,2022:4360.1073.52140"/>
+<LCN channelNumber="45" serviceRef="tag:dvb-i.bmt-technik.de,2022:4360.1073.52158"/>
+<LCN channelNumber="46" serviceRef="tag:dvb-i.bmt-technik.de,2022:4360.1073.52159"/>
+<LCN channelNumber="47" serviceRef="tag:dvb-i.bmt-technik.de,2022:4360.1073.52138"/>
+<LCN channelNumber="48" serviceRef="tag:dvb-i.bmt-technik.de,2022:4360.1073.52149"/>
+<LCN channelNumber="49" serviceRef="tag:dvb-i.bmt-technik.de,2022:4360.1073.52160"/>
+<LCN channelNumber="50" serviceRef="tag:dvb-i.bmt-technik.de,2022:4360.1073.52153"/>
+<LCN channelNumber="51" serviceRef="tag:dvb-i.bmt-technik.de,2022:4360.1073.52156"/>
+<LCN channelNumber="52" serviceRef="tag:dvb-i.bmt-technik.de,2022:4360.1073.52139"/>
+<LCN channelNumber="53" serviceRef="tag:dvb-i.bmt-technik.de,2022:4360.1073.52141"/>
+<LCN channelNumber="54" serviceRef="tag:dvb-i.bmt-technik.de,2022:4360.1073.52157"/>
+<LCN channelNumber="55" serviceRef="tag:mitxp.com,2021:1.1025.10326"/>
+<LCN channelNumber="56" serviceRef="tag:mitxp.com,2021:1.1061.10353"/>
+<LCN channelNumber="57" serviceRef="tag:mitxp.com,2021:1.1061.10354"/>
+<LCN channelNumber="58" serviceRef="tag:mitxp.com,2021:1.1025.10329"/>
+<LCN channelNumber="59" serviceRef="tag:mitxp.com,2021:1.1025.10328"/>
+<LCN channelNumber="60" serviceRef="tag:mitxp.com,2021:1.1025.10330"/>
+<LCN channelNumber="61" serviceRef="tag:mitxp.com,2021:1.1061.10350"/>
+<LCN channelNumber="62" serviceRef="tag:mitxp.com,2021:1.1019.10304"/>
+<LCN channelNumber="63" serviceRef="tag:mitxp.com,2021:1.1021.28333"/>
+<LCN channelNumber="64" serviceRef="tag:mitxp.com,2021:1.1021.28334"/>
+<LCN channelNumber="65" serviceRef="tag:mitxp.com,2021:1.1021.28335"/>
+<LCN channelNumber="66" serviceRef="tag:mitxp.com,2021:1.1021.28336"/>
+<LCN channelNumber="67" serviceRef="tag:mitxp.com,2021:1.1021.28337"/>
+<LCN channelNumber="68" serviceRef="tag:mitxp.com,2021:1.1021.28338"/>
+<LCN channelNumber="69" serviceRef="tag:mitxp.com,2021:1.1021.28339"/>
+<LCN channelNumber="70" serviceRef="tag:mitxp.com,2021:1.1021.28332"/>
+<LCN channelNumber="71" serviceRef="tag:mitxp.com,2021:1.1021.28341"/>
+<LCN channelNumber="72" serviceRef="tag:mitxp.com,2021:1.1021.28342"/>
+<LCN channelNumber="73" serviceRef="tag:mitxp.com,2021:1.1107.17507"/>
+<LCN channelNumber="74" serviceRef="tag:mitxp.com,2021:1.1201.28347"/>
+<LCN channelNumber="75" serviceRef="tag:mitxp.com,2021:1.1201.28348"/>
+<LCN channelNumber="76" serviceRef="tag:dvb-i.bmt-technik.de,2023:1.1023.5805"/>
+<LCN channelNumber="500" serviceRef="tag:zdf.de,2020:zdf/event"/>
+<LCN channelNumber="501" serviceRef="tag:zdf.de,2020:zdf/preroll"/>
+<LCN channelNumber="502" serviceRef="tag:zdf.de,2020:zdf/app"/>
+<LCN channelNumber="503" serviceRef="tag:zdf.de,2020:zdf/offline"/>
+<LCN channelNumber="504" serviceRef="tag:mitxp.com,2021:1.1201.28346"/>
+<LCN channelNumber="505" serviceRef="tag:mitxp.com,2021:1.1201.28345"/>
+<LCN channelNumber="506" serviceRef="tag:wdr.de,2020:wdr/playlist"/>
+<LCN channelNumber="507" serviceRef="tag:zdf.de,2020:zdf/playlist"/>
+<LCN channelNumber="508" serviceRef="tag:mitxp.com,2021:1.1073.28221"/>
+<LCN channelNumber="509" serviceRef="tag:mitxp.com,2021:1.1201.28341"/>
+<LCN channelNumber="510" serviceRef="tag:mitxp.com,2021:1.1201.28349"/>
+<LCN channelNumber="555" serviceRef="tag:zdf.de,2020:zdf/ibc"/>
+<LCN channelNumber="1001" serviceRef="tag:mitxp.com,2021:1.1039.10458"/>
+<LCN channelNumber="1002" serviceRef="tag:mitxp.com,2021:1.1061.10484"/>
+<LCN channelNumber="1003" serviceRef="tag:mitxp.com,2021:1.1061.10485"/>
+<LCN channelNumber="1004" serviceRef="tag:mitxp.com,2021:1.1061.10486"/>
+<LCN channelNumber="1005" serviceRef="tag:mitxp.com,2021:1.1061.10487"/>
+<LCN channelNumber="1006" serviceRef="tag:mitxp.com,2021:1.1061.10488"/>
+<LCN channelNumber="1007" serviceRef="tag:mitxp.com,2021:1.1061.10489"/>
+</LCNTable>
+<LCNTable>
+<TargetRegion>Franken</TargetRegion>
+<LCN channelNumber="1" serviceRef="tag:mitxp.com,2021:1.1019.10301"/>
+<LCN channelNumber="2" serviceRef="tag:zdf.de,2020:zdf"/>
+<LCN channelNumber="3" serviceRef="tag:netrtl.com,2022:1.1089.12003"/>
+<LCN channelNumber="4" serviceRef="tag:mitxp.com,2021:1.1107.17507"/>
+<LCN channelNumber="5" serviceRef="tag:mitxp.com,2021:1.1107.17501"/>
+<LCN channelNumber="6" serviceRef="tag:netrtl.com,2022:1.1089.12060"/>
+<LCN channelNumber="7" serviceRef="tag:mitxp.com,2021:1.1025.10326"/>
+<LCN channelNumber="8" serviceRef="tag:dvb-i.bmt-technik.de,2022:4360.1073.52140"/>
+<LCN channelNumber="9" serviceRef="tag:netrtl.com,2022:1.1089.12090"/>
+<LCN channelNumber="10" serviceRef="tag:mitxp.com,2021:1.1039.10375"/>
+<LCN channelNumber="11" serviceRef="tag:zdf.de,2020:zdfinfo"/>
+<LCN channelNumber="12" serviceRef="tag:mitxp.com,2021:1.1025.10331"/>
+<LCN channelNumber="14" serviceRef="tag:zdf.de,2020:zdfneo"/>
+<LCN channelNumber="15" serviceRef="tag:mitxp.com,2021:1.1039.10376"/>
+<LCN channelNumber="16" serviceRef="tag:mitxp.com,2021:1.1019.10302"/>
+<LCN channelNumber="17" serviceRef="tag:zdf.de,2020:3sat"/>
+<LCN channelNumber="18" serviceRef="tag:mitxp.com,2021:1.1107.17502"/>
+<LCN channelNumber="20" serviceRef="tag:zdf.de,2020:kika"/>
+<LCN channelNumber="23" serviceRef="tag:mitxp.com,2021:1.1039.10377"/>
+<LCN channelNumber="33" serviceRef="tag:mitxp.com,2021:1.1061.10355"/>
+<LCN channelNumber="34" serviceRef="tag:mitxp.com,2021:1.1061.10352"/>
+<LCN channelNumber="35" serviceRef="tag:mitxp.com,2021:1.1025.10327"/>
+<LCN channelNumber="36" serviceRef="tag:mitxp.com,2021:1.1039.10379"/>
+<LCN channelNumber="37" serviceRef="tag:mitxp.com,2021:1.1061.10351"/>
+<LCN channelNumber="38" serviceRef="tag:mitxp.com,2021:1.1039.10378"/>
+<LCN channelNumber="39" serviceRef="tag:mitxp.com,2021:1.1019.10303"/>
+<LCN channelNumber="40" serviceRef="tag:mitxp.com,2021:1.1021.28332"/>
+<LCN channelNumber="42" serviceRef="tag:dvb-i.bmt-technik.de,2022:4360.1073.52156"/>
+<LCN channelNumber="43" serviceRef="tag:dvb-i.bmt-technik.de,2022:4360.1073.52139"/>
+<LCN channelNumber="44" serviceRef="tag:dvb-i.bmt-technik.de,2022:4360.1073.52161"/>
+<LCN channelNumber="45" serviceRef="tag:dvb-i.bmt-technik.de,2022:4360.1073.52142"/>
+<LCN channelNumber="46" serviceRef="tag:dvb-i.bmt-technik.de,2022:4360.1073.52135"/>
+<LCN channelNumber="47" serviceRef="tag:dvb-i.bmt-technik.de,2022:4360.1073.52158"/>
+<LCN channelNumber="48" serviceRef="tag:dvb-i.bmt-technik.de,2022:4360.1073.52159"/>
+<LCN channelNumber="49" serviceRef="tag:dvb-i.bmt-technik.de,2022:4360.1073.52138"/>
+<LCN channelNumber="50" serviceRef="tag:dvb-i.bmt-technik.de,2022:4360.1073.52149"/>
+<LCN channelNumber="51" serviceRef="tag:dvb-i.bmt-technik.de,2022:4360.1073.52160"/>
+<LCN channelNumber="52" serviceRef="tag:dvb-i.bmt-technik.de,2022:4360.1073.52153"/>
+<LCN channelNumber="53" serviceRef="tag:dvb-i.bmt-technik.de,2022:4360.1073.52141"/>
+<LCN channelNumber="54" serviceRef="tag:dvb-i.bmt-technik.de,2022:4360.1073.52157"/>
+<LCN channelNumber="55" serviceRef="tag:mitxp.com,2021:1.1025.10325"/>
+<LCN channelNumber="56" serviceRef="tag:mitxp.com,2021:1.1061.10353"/>
+<LCN channelNumber="57" serviceRef="tag:mitxp.com,2021:1.1061.10354"/>
+<LCN channelNumber="58" serviceRef="tag:mitxp.com,2021:1.1025.10329"/>
+<LCN channelNumber="59" serviceRef="tag:mitxp.com,2021:1.1025.10328"/>
+<LCN channelNumber="60" serviceRef="tag:mitxp.com,2021:1.1025.10330"/>
+<LCN channelNumber="61" serviceRef="tag:mitxp.com,2021:1.1061.10350"/>
+<LCN channelNumber="62" serviceRef="tag:mitxp.com,2021:1.1019.10304"/>
+<LCN channelNumber="63" serviceRef="tag:mitxp.com,2021:1.1021.28333"/>
+<LCN channelNumber="64" serviceRef="tag:mitxp.com,2021:1.1021.28334"/>
+<LCN channelNumber="65" serviceRef="tag:mitxp.com,2021:1.1021.28335"/>
+<LCN channelNumber="66" serviceRef="tag:mitxp.com,2021:1.1021.28336"/>
+<LCN channelNumber="67" serviceRef="tag:mitxp.com,2021:1.1021.28337"/>
+<LCN channelNumber="68" serviceRef="tag:mitxp.com,2021:1.1021.28338"/>
+<LCN channelNumber="69" serviceRef="tag:mitxp.com,2021:1.1021.28339"/>
+<LCN channelNumber="70" serviceRef="tag:mitxp.com,2021:1.1021.28340"/>
+<LCN channelNumber="71" serviceRef="tag:mitxp.com,2021:1.1021.28341"/>
+<LCN channelNumber="72" serviceRef="tag:mitxp.com,2021:1.1021.28342"/>
+<LCN channelNumber="73" serviceRef="tag:mitxp.com,2021:1.1107.17508"/>
+<LCN channelNumber="74" serviceRef="tag:mitxp.com,2021:1.1201.28347"/>
+<LCN channelNumber="75" serviceRef="tag:mitxp.com,2021:1.1201.28348"/>
+<LCN channelNumber="76" serviceRef="tag:dvb-i.bmt-technik.de,2023:1.1023.5805"/>
+<LCN channelNumber="500" serviceRef="tag:zdf.de,2020:zdf/event"/>
+<LCN channelNumber="501" serviceRef="tag:zdf.de,2020:zdf/preroll"/>
+<LCN channelNumber="502" serviceRef="tag:zdf.de,2020:zdf/app"/>
+<LCN channelNumber="503" serviceRef="tag:zdf.de,2020:zdf/offline"/>
+<LCN channelNumber="504" serviceRef="tag:mitxp.com,2021:1.1201.28346"/>
+<LCN channelNumber="505" serviceRef="tag:mitxp.com,2021:1.1201.28345"/>
+<LCN channelNumber="506" serviceRef="tag:wdr.de,2020:wdr/playlist"/>
+<LCN channelNumber="507" serviceRef="tag:zdf.de,2020:zdf/playlist"/>
+<LCN channelNumber="508" serviceRef="tag:mitxp.com,2021:1.1073.28221"/>
+<LCN channelNumber="509" serviceRef="tag:mitxp.com,2021:1.1201.28341"/>
+<LCN channelNumber="510" serviceRef="tag:mitxp.com,2021:1.1201.28349"/>
+<LCN channelNumber="555" serviceRef="tag:zdf.de,2020:zdf/ibc"/>
+<LCN channelNumber="1001" serviceRef="tag:mitxp.com,2021:1.1039.10458"/>
+<LCN channelNumber="1002" serviceRef="tag:mitxp.com,2021:1.1061.10484"/>
+<LCN channelNumber="1003" serviceRef="tag:mitxp.com,2021:1.1061.10485"/>
+<LCN channelNumber="1004" serviceRef="tag:mitxp.com,2021:1.1061.10486"/>
+<LCN channelNumber="1005" serviceRef="tag:mitxp.com,2021:1.1061.10487"/>
+<LCN channelNumber="1006" serviceRef="tag:mitxp.com,2021:1.1061.10488"/>
+<LCN channelNumber="1007" serviceRef="tag:mitxp.com,2021:1.1061.10489"/>
+</LCNTable>
+</LCNTableList>
+<ContentGuideSourceList>
+<ContentGuideSource CGSID="int-7" minimumMetadataUpdatePeriod="P0Y0M0DT0H5M0.000S">
+<Name>ZDF Contentguide</Name>
+<ProviderName>ZDF, Zweites Deutsches Fernsehen</ProviderName>
+<ScheduleInfoEndpoint contentType="application/xml">
+<dvbi-types:URI>https://int-dvbi.zdf.de/contentguide/schedule/</dvbi-types:URI>
+</ScheduleInfoEndpoint>
+<ProgramInfoEndpoint contentType="application/xml">
+<dvbi-types:URI>https://int-dvbi.zdf.de/contentguide/program/</dvbi-types:URI>
+</ProgramInfoEndpoint>
+<MoreEpisodesEndpoint contentType="application/xml">
+<dvbi-types:URI>https://int-dvbi.zdf.de/contentguide/more/</dvbi-types:URI>
+</MoreEpisodesEndpoint>
+</ContentGuideSource>
+<ContentGuideSource CGSID="int-1" minimumMetadataUpdatePeriod="P0Y0M0DT0H5M0.000S">
+<Name>ZDF Contentguide</Name>
+<ProviderName>ZDF, Zweites Deutsches Fernsehen</ProviderName>
+<ScheduleInfoEndpoint contentType="application/xml">
+<dvbi-types:URI>https://int-dvbi.zdf.de/contentguide/schedule/</dvbi-types:URI>
+</ScheduleInfoEndpoint>
+<ProgramInfoEndpoint contentType="application/xml">
+<dvbi-types:URI>https://int-dvbi.zdf.de/contentguide/program/</dvbi-types:URI>
+</ProgramInfoEndpoint>
+<GroupInfoEndpoint contentType="application/xml">
+<dvbi-types:URI>https://int-dvbi.zdf.de/contentguide/groups/zdf/</dvbi-types:URI>
+</GroupInfoEndpoint>
+<MoreEpisodesEndpoint contentType="application/xml">
+<dvbi-types:URI>https://int-dvbi.zdf.de/contentguide/more/</dvbi-types:URI>
+</MoreEpisodesEndpoint>
+</ContentGuideSource>
+<ContentGuideSource CGSID="int-2" minimumMetadataUpdatePeriod="P0Y0M0DT0H5M0.000S">
+<Name>ZDFinfo Contentguide</Name>
+<ProviderName>ZDF, Zweites Deutsches Fernsehen</ProviderName>
+<ScheduleInfoEndpoint contentType="application/xml">
+<dvbi-types:URI>https://int-dvbi.zdf.de/contentguide/schedule/</dvbi-types:URI>
+</ScheduleInfoEndpoint>
+<ProgramInfoEndpoint contentType="application/xml">
+<dvbi-types:URI>https://int-dvbi.zdf.de/contentguide/program/</dvbi-types:URI>
+</ProgramInfoEndpoint>
+<GroupInfoEndpoint contentType="application/xml">
+<dvbi-types:URI>https://int-dvbi.zdf.de/contentguide/groups/zdfinfo/</dvbi-types:URI>
+</GroupInfoEndpoint>
+<MoreEpisodesEndpoint contentType="application/xml">
+<dvbi-types:URI>https://int-dvbi.zdf.de/contentguide/more/</dvbi-types:URI>
+</MoreEpisodesEndpoint>
+</ContentGuideSource>
+<ContentGuideSource CGSID="int-3" minimumMetadataUpdatePeriod="P0Y0M0DT0H5M0.000S">
+<Name>zdf_neo Contentguide</Name>
+<ProviderName>ZDF, Zweites Deutsches Fernsehen</ProviderName>
+<ScheduleInfoEndpoint contentType="application/xml">
+<dvbi-types:URI>https://int-dvbi.zdf.de/contentguide/schedule/</dvbi-types:URI>
+</ScheduleInfoEndpoint>
+<ProgramInfoEndpoint contentType="application/xml">
+<dvbi-types:URI>https://int-dvbi.zdf.de/contentguide/program/</dvbi-types:URI>
+</ProgramInfoEndpoint>
+<GroupInfoEndpoint contentType="application/xml">
+<dvbi-types:URI>https://int-dvbi.zdf.de/contentguide/groups/zdfneo/</dvbi-types:URI>
+</GroupInfoEndpoint>
+<MoreEpisodesEndpoint contentType="application/xml">
+<dvbi-types:URI>https://int-dvbi.zdf.de/contentguide/more/</dvbi-types:URI>
+</MoreEpisodesEndpoint>
+</ContentGuideSource>
+<ContentGuideSource CGSID="int-4" minimumMetadataUpdatePeriod="P0Y0M0DT0H5M0.000S">
+<Name>3sat Contentguide</Name>
+<ProviderName>ZDF, Zweites Deutsches Fernsehen</ProviderName>
+<ScheduleInfoEndpoint contentType="application/xml">
+<dvbi-types:URI>https://int-dvbi.zdf.de/contentguide/schedule/</dvbi-types:URI>
+</ScheduleInfoEndpoint>
+<ProgramInfoEndpoint contentType="application/xml">
+<dvbi-types:URI>https://int-dvbi.zdf.de/contentguide/program/</dvbi-types:URI>
+</ProgramInfoEndpoint>
+<GroupInfoEndpoint contentType="application/xml">
+<dvbi-types:URI>https://int-dvbi.zdf.de/contentguide/groups/3sat/</dvbi-types:URI>
+</GroupInfoEndpoint>
+<MoreEpisodesEndpoint contentType="application/xml">
+<dvbi-types:URI>https://int-dvbi.zdf.de/contentguide/more/</dvbi-types:URI>
+</MoreEpisodesEndpoint>
+</ContentGuideSource>
+<ContentGuideSource CGSID="int-5" minimumMetadataUpdatePeriod="P0Y0M0DT0H5M0.000S">
+<Name>KiKA Contentguide</Name>
+<ProviderName>ZDF, Zweites Deutsches Fernsehen</ProviderName>
+<ScheduleInfoEndpoint contentType="application/xml">
+<dvbi-types:URI>https://int-dvbi.zdf.de/contentguide/schedule/</dvbi-types:URI>
+</ScheduleInfoEndpoint>
+<ProgramInfoEndpoint contentType="application/xml">
+<dvbi-types:URI>https://int-dvbi.zdf.de/contentguide/program/</dvbi-types:URI>
+</ProgramInfoEndpoint>
+<GroupInfoEndpoint contentType="application/xml">
+<dvbi-types:URI>https://int-dvbi.zdf.de/contentguide/groups/kika/</dvbi-types:URI>
+</GroupInfoEndpoint>
+<MoreEpisodesEndpoint contentType="application/xml">
+<dvbi-types:URI>https://int-dvbi.zdf.de/contentguide/more/</dvbi-types:URI>
+</MoreEpisodesEndpoint>
+</ContentGuideSource>
+<ContentGuideSource CGSID="int-6" minimumMetadataUpdatePeriod="P0Y0M0DT0H5M0.000S">
+<Name>DVB-I@IBC Contentguide</Name>
+<ProviderName>ZDF, Zweites Deutsches Fernsehen</ProviderName>
+<ScheduleInfoEndpoint contentType="application/xml">
+<dvbi-types:URI>https://int-dvbi.zdf.de/ibc/cg/schedule/</dvbi-types:URI>
+</ScheduleInfoEndpoint>
+<ProgramInfoEndpoint contentType="application/xml">
+<dvbi-types:URI>https://int-dvbi.zdf.de/ibc/cg/programinfo/</dvbi-types:URI>
+</ProgramInfoEndpoint>
+<GroupInfoEndpoint contentType="application/xml">
+<dvbi-types:URI>https://int-dvbi.zdf.de/ibc/cg/group/</dvbi-types:URI>
+</GroupInfoEndpoint>
+</ContentGuideSource>
+<ContentGuideSource CGSID="bmt-epg-1">
+<Name>bmt EPG</Name>
+<ProviderName>Bayerische Medien Technik GmbH</ProviderName>
+<ScheduleInfoEndpoint contentType="application/xml">
+<dvbi-types:URI>https://epg.bmt-technik.de/ScheduleInfoEndpoint</dvbi-types:URI>
+</ScheduleInfoEndpoint>
+<ProgramInfoEndpoint contentType="application/xml">
+<dvbi-types:URI>https://epg.bmt-technik.de/ProgramInfoEndpoint</dvbi-types:URI>
+</ProgramInfoEndpoint>
+</ContentGuideSource>
+<ContentGuideSource CGSID="rtl-iSIMS">
+<ProviderName>RTL Deutschland</ProviderName>
+<ScheduleInfoEndpoint contentType="application/xml">
+<dvbi-types:URI>https://dvb-i.net/staging/schedule.php/de/rtl</dvbi-types:URI>
+</ScheduleInfoEndpoint>
+<ProgramInfoEndpoint contentType="application/xml">
+<dvbi-types:URI>https://dvb-i.net/staging/program.php/de/rtl</dvbi-types:URI>
+</ProgramInfoEndpoint>
+</ContentGuideSource>
+<ContentGuideSource CGSID="iSIMS">
+<ProviderName>ARD-Playout-Center</ProviderName>
+<ScheduleInfoEndpoint contentType="application/xml">
+<dvbi-types:URI>https://dvb-i.net/staging/schedule.php/de/ard</dvbi-types:URI>
+</ScheduleInfoEndpoint>
+<ProgramInfoEndpoint contentType="application/xml">
+<dvbi-types:URI>https://dvb-i.net/staging/program.php/de/ard</dvbi-types:URI>
+</ProgramInfoEndpoint>
+</ContentGuideSource>
+<ContentGuideSource CGSID="ardradio-iSIMS">
+<ProviderName>ARD-Playout-Center</ProviderName>
+<ScheduleInfoEndpoint contentType="application/xml">
+<dvbi-types:URI>https://dvb-i.net/staging/schedule.php/de/ardradio</dvbi-types:URI>
+</ScheduleInfoEndpoint>
+<ProgramInfoEndpoint contentType="application/xml">
+<dvbi-types:URI>https://dvb-i.net/staging/program.php/de/ardradio</dvbi-types:URI>
+</ProgramInfoEndpoint>
+</ContentGuideSource>
+</ContentGuideSourceList>
+<Service version="7">
+<UniqueIdentifier>tag:mitxp.com,2021:1.1019.10301</UniqueIdentifier>
+<ServiceInstance priority="5">
+<DASHDeliveryParameters>
+<UriBasedLocation contentType="application/dash+xml">
+<dvbi-types:URI>https://daserste-live.ard-mcdn.de/daserste/replay/dash/de/manifest.mpd</dvbi-types:URI>
+</UriBasedLocation>
+</DASHDeliveryParameters>
+</ServiceInstance>
+<ServiceInstance priority="3">
+<DVBSDeliveryParameters>
+<DVBTriplet origNetId="1" tsId="1019" serviceId="10301"/>
+</DVBSDeliveryParameters>
+</ServiceInstance>
+<ServiceInstance priority="3">
+<DVBTDeliveryParameters>
+<DVBTriplet serviceId="769"/>
+</DVBTDeliveryParameters>
+</ServiceInstance>
+<ServiceName>Das Erste HD</ServiceName>
+<ProviderName>ARD</ProviderName>
+<RelatedMaterial>
+<tva:HowRelated href="urn:dvb:metadata:cs:HowRelatedCS:2021:1001.2"/>
+<tva:MediaLocator>
+<tva:MediaUri contentType="image/png">https://itv-api.ard.de/ardstart/img/services/28106.png</tva:MediaUri>
+</tva:MediaLocator>
+</RelatedMaterial>
+<RelatedMaterial>
+<tva:HowRelated href="urn:dvb:metadata:cs:LinkedApplicationCS:2019:1.1"/>
+<tva:MediaLocator>
+<tva:MediaUri contentType="application/vnd.dvb.ait+xml">https://itv-api.ard.de/xml.aitx?sid=28106</tva:MediaUri>
+</tva:MediaLocator>
+</RelatedMaterial>
+<ServiceType href="urn:dvb:metadata:cs:ServiceTypeCS:2019:linear"/>
+<ContentGuideSourceRef>iSIMS</ContentGuideSourceRef>
+<ContentGuideServiceRef>tag:mitxp.com,2021:eit1.1019.10301</ContentGuideServiceRef>
+</Service>
+<Service version="14">
+<UniqueIdentifier>tag:zdf.de,2020:zdf</UniqueIdentifier>
+<ServiceInstance priority="3">
+<DVBSDeliveryParameters>
+<DVBTriplet origNetId="1" tsId="1011" serviceId="11110"/>
+</DVBSDeliveryParameters>
+</ServiceInstance>
+<ServiceInstance priority="3">
+<DisplayName>ZDF HD</DisplayName>
+<DVBTDeliveryParameters>
+<DVBTriplet origNetId="8468" tsId="515" serviceId="2001"/>
+</DVBTDeliveryParameters>
+</ServiceInstance>
+<ServiceInstance priority="2">
+<DVBCDeliveryParameters>
+<DVBTriplet origNetId="1" tsId="1079" serviceId="11110"/>
+<NetworkID>102</NetworkID>
+</DVBCDeliveryParameters>
+</ServiceInstance>
+<ServiceInstance priority="5">
+<DASHDeliveryParameters>
+<UriBasedLocation contentType="application/dash+xml">
+<dvbi-types:URI>https://int-dvbi.zdf.de/manifest.php?service=zdf</dvbi-types:URI>
+</UriBasedLocation>
+</DASHDeliveryParameters>
+</ServiceInstance>
+<ServiceInstance priority="5">
+<DisplayName>ZDF HD</DisplayName>
+<OtherDeliveryParameters xsi:type="hls:m3u8RefType" extensionName="vnd.apple.mpegurl">
+<hls:UriBasedLocation contentType="application/vnd.apple.mpegurl">
+<dvbi-types:URI>https://zdf-hls-15.akamaized.net/hls/live/2016498/de/veryhigh/master.m3u8</dvbi-types:URI>
+</hls:UriBasedLocation>
+</OtherDeliveryParameters>
+</ServiceInstance>
+<ServiceName>ZDF HD</ServiceName>
+<ProviderName>ZDF, Zweites Deutsches Fernsehen</ProviderName>
+<RelatedMaterial>
+<tva:HowRelated href="urn:dvb:metadata:cs:HowRelatedCS:2021:1001.2"/>
+<tva:MediaLocator>
+<tva:MediaUri contentType="image/png">https://int-dvbi.zdf.de/contentguide/image/?id=11655</tva:MediaUri>
+</tva:MediaLocator>
+</RelatedMaterial>
+<RelatedMaterial>
+<tva:HowRelated href="urn:dvb:metadata:cs:LinkedApplicationCS:2019:1.1"/>
+<tva:MediaLocator>
+<tva:MediaUri contentType="application/vnd.dvb.ait+xml">https://int-dvbi.zdf.de/contentguide/aitx.php?id=1</tva:MediaUri>
+</tva:MediaLocator>
+</RelatedMaterial>
+<RelatedMaterial>
+<tva:HowRelated href="urn:dvb:metadata:cs:LinkedApplicationCS:2019:1.1"/>
+<tva:MediaLocator>
+<tva:MediaUri contentType="application/xhtml+xml">https://int-dvbi.zdf.de/apps/zdfhtml/index.php</tva:MediaUri>
+</tva:MediaLocator>
+</RelatedMaterial>
+<ServiceType href="urn:dvb:metadata:cs:ServiceTypeCS:2019:linear"/>
+<RecordingInfo href="urn:dvb:metadata:cs:RecordingInfoCS:2019:4"/>
+<ContentGuideSourceRef>int-1</ContentGuideSourceRef>
+</Service>
+<Service version="11">
+<UniqueIdentifier>tag:netrtl.com,2022:1.1089.12003</UniqueIdentifier>
+<ServiceInstance priority="2">
+<DisplayName>RTL</DisplayName>
+<AltServiceName>RTL Television</AltServiceName>
+<DVBSDeliveryParameters>
+<DVBTriplet origNetId="1" tsId="1089" serviceId="12003"/>
+<OrbitalPosition>19.2</OrbitalPosition>
+<Frequency>1218800</Frequency>
+<Polarization>horizontal</Polarization>
+</DVBSDeliveryParameters>
+</ServiceInstance>
+<ServiceInstance priority="1">
+<DisplayName>RTL HD</DisplayName>
+<RelatedMaterial>
+<tva:HowRelated href="urn:dvb:metadata:cs:LinkedApplicationCS:2019:1.2"/>
+<tva:MediaLocator>
+<tva:MediaUri contentType="application/vnd.dvb.ait+xml">https://hbbtv-test.cbc.de/DVB-I/rtlait.aitx</tva:MediaUri>
+</tva:MediaLocator>
+</RelatedMaterial>
+</ServiceInstance>
+<ServiceInstance priority="3">
+<DisplayName>RTL HD</DisplayName>
+<RelatedMaterial>
+<tva:HowRelated href="urn:dvb:metadata:cs:LinkedApplicationCS:2019:1.2"/>
+<tva:MediaLocator>
+<tva:MediaUri contentType="text/html">https://ibc.player.tvnow.de/rtl.html</tva:MediaUri>
+</tva:MediaLocator>
+</RelatedMaterial>
+</ServiceInstance>
+<ServiceName>RTL</ServiceName>
+<ProviderName>RTL Deutschland</ProviderName>
+<RelatedMaterial>
+<tva:HowRelated href="urn:dvb:metadata:cs:HowRelatedCS:2021:1001.2"/>
+<tva:MediaLocator>
+<tva:MediaUri contentType="image/png">https://hbbtv-test.cbc.de/DVB-I/RTLLogo.png</tva:MediaUri>
+</tva:MediaLocator>
+</RelatedMaterial>
+<ServiceType href="urn:dvb:metadata:cs:ServiceTypeCS:2019:linear"/>
+<ContentGuideSourceRef>rtl-iSIMS</ContentGuideSourceRef>
+<ContentGuideServiceRef>tag:mitxp.com,2021:eit1.1089.12003</ContentGuideServiceRef>
+</Service>
+<Service version="3">
+<UniqueIdentifier>tag:mitxp.com,2021:1.1107.17508</UniqueIdentifier>
+<ServiceInstance priority="5">
+<DASHDeliveryParameters>
+<UriBasedLocation contentType="application/dash+xml">
+<dvbi-types:URI>https://ac-001.live.p7s1video.net/972a2351/t_001/p7s1-dvb-i-sat1/unencrypted-default.mpd</dvbi-types:URI>
+</UriBasedLocation>
+</DASHDeliveryParameters>
+</ServiceInstance>
+<ServiceInstance priority="4">
+<DVBSDeliveryParameters>
+<DVBTriplet origNetId="1" tsId="1107" serviceId="17508"/>
+</DVBSDeliveryParameters>
+</ServiceInstance>
+<ServiceName>SAT.1 NRW</ServiceName>
+<ProviderName>ProSiebenSat.1</ProviderName>
+<RelatedMaterial>
+<tva:HowRelated href="urn:dvb:metadata:cs:HowRelatedCS:2021:1001.2"/>
+<tva:MediaLocator>
+<tva:MediaUri contentType="image/png">https://thumbnails.vod.p7s1video.net/dvb-i-showcase/sat1_100px.png</tva:MediaUri>
+</tva:MediaLocator>
+</RelatedMaterial>
+<ServiceType href="urn:dvb:metadata:cs:ServiceTypeCS:2019:linear"/>
+<ContentGuideSourceRef>iSIMS</ContentGuideSourceRef>
+<ContentGuideServiceRef>tag:mitxp.com,2021:eit1.1107.17508</ContentGuideServiceRef>
+</Service>
+<Service version="3">
+<UniqueIdentifier>tag:mitxp.com,2021:1.1107.17501</UniqueIdentifier>
+<ServiceInstance priority="5">
+<DASHDeliveryParameters>
+<UriBasedLocation contentType="application/dash+xml">
+<dvbi-types:URI>https://ac-001.live.p7s1video.net/3477826b/t_001/p7s1-dvb-i-prosieben/unencrypted-default.mpd</dvbi-types:URI>
+</UriBasedLocation>
+</DASHDeliveryParameters>
+</ServiceInstance>
+<ServiceInstance priority="4">
+<DVBSDeliveryParameters>
+<DVBTriplet origNetId="1" tsId="1107" serviceId="17501"/>
+</DVBSDeliveryParameters>
+</ServiceInstance>
+<ServiceName>ProSieben</ServiceName>
+<ProviderName>ProSiebenSat.1</ProviderName>
+<RelatedMaterial>
+<tva:HowRelated href="urn:dvb:metadata:cs:HowRelatedCS:2021:1001.2"/>
+<tva:MediaLocator>
+<tva:MediaUri contentType="image/png">https://thumbnails.vod.p7s1video.net/dvb-i-showcase/prosieben_100px.png</tva:MediaUri>
+</tva:MediaLocator>
+</RelatedMaterial>
+<ServiceType href="urn:dvb:metadata:cs:ServiceTypeCS:2019:linear"/>
+<ContentGuideSourceRef>iSIMS</ContentGuideSourceRef>
+<ContentGuideServiceRef>tag:mitxp.com,2021:eit1.1107.17501</ContentGuideServiceRef>
+</Service>
+<Service version="16">
+<UniqueIdentifier>tag:netrtl.com,2022:1.1089.12060</UniqueIdentifier>
+<ServiceInstance priority="1">
+<DisplayName>VOX HD</DisplayName>
+<AltServiceName>VOX HD</AltServiceName>
+<DVBSDeliveryParameters>
+<DVBTriplet origNetId="1" tsId="1057" serviceId="61201"/>
+<OrbitalPosition>19.2</OrbitalPosition>
+<Frequency>1083200</Frequency>
+<Polarization>horizontal</Polarization>
+</DVBSDeliveryParameters>
+</ServiceInstance>
+<ServiceInstance priority="2">
+<DisplayName>VOX</DisplayName>
+<AltServiceName>VOX</AltServiceName>
+<DVBSDeliveryParameters>
+<DVBTriplet origNetId="1" tsId="1089" serviceId="12060"/>
+<OrbitalPosition>19.2</OrbitalPosition>
+<Frequency>1218800</Frequency>
+<Polarization>horizontal</Polarization>
+</DVBSDeliveryParameters>
+</ServiceInstance>
+<ServiceInstance priority="3">
+<DisplayName>VOX HD</DisplayName>
+<RelatedMaterial>
+<tva:HowRelated href="urn:dvb:metadata:cs:LinkedApplicationCS:2019:1.2"/>
+<tva:MediaLocator>
+<tva:MediaUri contentType="application/vnd.dvb.ait+xml">https://hbbtv-test.cbc.de/DVB-I/voxait.aitx</tva:MediaUri>
+</tva:MediaLocator>
+</RelatedMaterial>
+</ServiceInstance>
+<ServiceInstance priority="4">
+<DisplayName>VOX HD</DisplayName>
+<RelatedMaterial>
+<tva:HowRelated href="urn:dvb:metadata:cs:LinkedApplicationCS:2019:1.2"/>
+<tva:MediaLocator>
+<tva:MediaUri contentType="text/html">https://ibc.player.tvnow.de/vox.html</tva:MediaUri>
+</tva:MediaLocator>
+</RelatedMaterial>
+</ServiceInstance>
+<ServiceName>VOX</ServiceName>
+<ProviderName>RTL Deutschland</ProviderName>
+<RelatedMaterial>
+<tva:HowRelated href="urn:dvb:metadata:cs:HowRelatedCS:2021:1001.2"/>
+<tva:MediaLocator>
+<tva:MediaUri contentType="image/png">https://hbbtv-test.cbc.de/DVB-I/VOXLogo.png</tva:MediaUri>
+</tva:MediaLocator>
+</RelatedMaterial>
+<ServiceType href="urn:dvb:metadata:cs:ServiceTypeCS:2019:linear"/>
+<ContentGuideSourceRef>rtl-iSIMS</ContentGuideSourceRef>
+<ContentGuideServiceRef>tag:mitxp.com,2021:eit1.1089.12060</ContentGuideServiceRef>
+</Service>
+<Service version="23">
+<UniqueIdentifier>tag:mitxp.com,2021:1.1021.28332</UniqueIdentifier>
+<ServiceInstance priority="5">
+<DASHDeliveryParameters>
+<UriBasedLocation contentType="application/dash+xml">
+<dvbi-types:URI>https://wdrfs247.akamaized.net/dash/live/2016702/wdrfs247_geo/dash.mpd</dvbi-types:URI>
+</UriBasedLocation>
+</DASHDeliveryParameters>
+</ServiceInstance>
+<ServiceInstance priority="3">
+<DVBSDeliveryParameters>
+<DVBTriplet origNetId="1" tsId="1021" serviceId="28332"/>
+</DVBSDeliveryParameters>
+</ServiceInstance>
+<ServiceInstance priority="3">
+<DVBTDeliveryParameters>
+<DVBTriplet serviceId="1030"/>
+</DVBTDeliveryParameters>
+</ServiceInstance>
+<ServiceName>WDR HD Köln</ServiceName>
+<ProviderName>ARD</ProviderName>
+<RelatedMaterial>
+<tva:HowRelated href="urn:dvb:metadata:cs:HowRelatedCS:2021:1001.2"/>
+<tva:MediaLocator>
+<tva:MediaUri contentType="image/png">https://itv-api.ard.de/ardstart/img/services/28111.png</tva:MediaUri>
+</tva:MediaLocator>
+</RelatedMaterial>
+<RelatedMaterial>
+<tva:HowRelated href="urn:dvb:metadata:cs:LinkedApplicationCS:2019:1.1"/>
+<tva:MediaLocator>
+<tva:MediaUri contentType="application/vnd.dvb.ait+xml">https://itv-api.ard.de/xml.aitx?sid=28111</tva:MediaUri>
+</tva:MediaLocator>
+</RelatedMaterial>
+<ServiceType href="urn:dvb:metadata:cs:ServiceTypeCS:2019:linear"/>
+<ContentGuideSourceRef>iSIMS</ContentGuideSourceRef>
+<ContentGuideServiceRef>tag:mitxp.com,2021:eit1.1021.28332</ContentGuideServiceRef>
+</Service>
+<Service version="5">
+<UniqueIdentifier>tag:dvb-i.bmt-technik.de,2022:4360.1073.52135</UniqueIdentifier>
+<ServiceInstance priority="2">
+<RelatedMaterial>
+<tva:HowRelated href="urn:dvb:metadata:cs:LinkedApplicationCS:2019:1.1"/>
+<tva:MediaLocator>
+<tva:MediaUri contentType="application/vnd.dvb.ait+xml">https://dvb-i.bmt-technik.de/ait/muenchen.tv.aitx</tva:MediaUri>
+</tva:MediaLocator>
+</RelatedMaterial>
+<DASHDeliveryParameters>
+<UriBasedLocation contentType="application/dash+xml">
+<dvbi-types:URI>https://muc-hbb.iptv-playoutcenter.de/muc-hbb/muenchentv.stream_all/manifest.mpd</dvbi-types:URI>
+</UriBasedLocation>
+</DASHDeliveryParameters>
+</ServiceInstance>
+<ServiceInstance priority="3">
+<DVBCDeliveryParameters>
+<DVBTriplet origNetId="61441" tsId="10000" serviceId="52003"/>
+<NetworkID>61449</NetworkID>
+</DVBCDeliveryParameters>
+</ServiceInstance>
+<ServiceInstance priority="1">
+<DVBCDeliveryParameters>
+<DVBTriplet tsId="1073" serviceId="52135"/>
+<NetworkID>61449</NetworkID>
+</DVBCDeliveryParameters>
+</ServiceInstance>
+<ServiceInstance priority="1">
+<DVBSDeliveryParameters>
+<DVBTriplet origNetId="1" tsId="1023" serviceId="5801"/>
+<OrbitalPosition>19.2</OrbitalPosition>
+<Frequency>1155300</Frequency>
+<Polarization>horizontal</Polarization>
+</DVBSDeliveryParameters>
+</ServiceInstance>
+<ServiceName>münchen.tv HD</ServiceName>
+<ProviderName>München Live TV Fernsehen GmbH & Co.KG</ProviderName>
+<RelatedMaterial>
+<tva:HowRelated href="urn:dvb:metadata:cs:HowRelatedCS:2021:1001.2"/>
+<tva:MediaLocator>
+<tva:MediaUri contentType="image/png">https://dvb-i.bmt-technik.de/channel-logos/muenchen-tv.png</tva:MediaUri>
+</tva:MediaLocator>
+</RelatedMaterial>
+<ServiceType href="urn:dvb:metadata:cs:ServiceTypeCS:2019:linear"/>
+<ContentGuideSourceRef>bmt-epg-1</ContentGuideSourceRef>
+</Service>
+<Service version="10">
+<UniqueIdentifier>tag:netrtl.com,2022:1.1089.12090</UniqueIdentifier>
+<ServiceInstance priority="2">
+<AltServiceName>ntv</AltServiceName>
+<DVBSDeliveryParameters>
+<DVBTriplet origNetId="1" tsId="1089" serviceId="12090"/>
+<OrbitalPosition>19.2</OrbitalPosition>
+<Frequency>1218800</Frequency>
+<Polarization>horizontal</Polarization>
+</DVBSDeliveryParameters>
+</ServiceInstance>
+<ServiceInstance priority="1">
+<DisplayName>ntv HD</DisplayName>
+<RelatedMaterial>
+<tva:HowRelated href="urn:dvb:metadata:cs:LinkedApplicationCS:2019:1.2"/>
+<tva:MediaLocator>
+<tva:MediaUri contentType="text/html">https://ibc.player.tvnow.de/ntv.html</tva:MediaUri>
+</tva:MediaLocator>
+</RelatedMaterial>
+</ServiceInstance>
+<ServiceName>ntv</ServiceName>
+<ProviderName>RTL Deutschland</ProviderName>
+<RelatedMaterial>
+<tva:HowRelated href="urn:dvb:metadata:cs:HowRelatedCS:2021:1001.2"/>
+<tva:MediaLocator>
+<tva:MediaUri contentType="image/png">https://hbbtv-test.cbc.de/DVB-I/ntvLogo.png</tva:MediaUri>
+</tva:MediaLocator>
+</RelatedMaterial>
+<ServiceType href="urn:dvb:metadata:cs:ServiceTypeCS:2019:linear"/>
+<ContentGuideSourceRef>rtl-iSIMS</ContentGuideSourceRef>
+<ContentGuideServiceRef>tag:mitxp.com,2021:eit1.1089.12090</ContentGuideServiceRef>
+</Service>
+<Service version="20">
+<UniqueIdentifier>tag:mitxp.com,2021:1.1039.10375</UniqueIdentifier>
+<ServiceInstance priority="5">
+<DASHDeliveryParameters>
+<UriBasedLocation contentType="application/dash+xml">
+<dvbi-types:URI>https://tagesschau.akamaized.net/dash/live/2020098/tagesschau/tagesschau_3/tagesschau_3.mpd</dvbi-types:URI>
+</UriBasedLocation>
+</DASHDeliveryParameters>
+</ServiceInstance>
+<ServiceInstance priority="3">
+<DVBSDeliveryParameters>
+<DVBTriplet origNetId="1" tsId="1039" serviceId="10375"/>
+</DVBSDeliveryParameters>
+</ServiceInstance>
+<ServiceInstance priority="3">
+<DVBTDeliveryParameters>
+<DVBTriplet serviceId="772"/>
+</DVBTDeliveryParameters>
+</ServiceInstance>
+<ServiceName>tagesschau24 HD</ServiceName>
+<ProviderName>ARD</ProviderName>
+<RelatedMaterial>
+<tva:HowRelated href="urn:dvb:metadata:cs:HowRelatedCS:2021:1001.2"/>
+<tva:MediaLocator>
+<tva:MediaUri contentType="image/png">https://itv-api.ard.de/ardstart/img/services/28721.png</tva:MediaUri>
+</tva:MediaLocator>
+</RelatedMaterial>
+<RelatedMaterial>
+<tva:HowRelated href="urn:dvb:metadata:cs:LinkedApplicationCS:2019:1.1"/>
+<tva:MediaLocator>
+<tva:MediaUri contentType="application/vnd.dvb.ait+xml">https://itv-api.ard.de/xml.aitx?sid=28721</tva:MediaUri>
+</tva:MediaLocator>
+</RelatedMaterial>
+<ServiceType href="urn:dvb:metadata:cs:ServiceTypeCS:2019:linear"/>
+<ContentGuideSourceRef>iSIMS</ContentGuideSourceRef>
+<ContentGuideServiceRef>tag:mitxp.com,2021:eit1.1039.10375</ContentGuideServiceRef>
+</Service>
+<Service version="8">
+<UniqueIdentifier>tag:zdf.de,2020:zdfinfo</UniqueIdentifier>
+<ServiceInstance priority="1">
+<DisplayName>ZDFinfo</DisplayName>
+<AltServiceName>ZDFinfo HD</AltServiceName>
+<DVBSDeliveryParameters>
+<DVBTriplet origNetId="1" tsId="1010" serviceId="11170"/>
+</DVBSDeliveryParameters>
+</ServiceInstance>
+<ServiceInstance priority="3">
+<DisplayName>ZDFinfo</DisplayName>
+<AltServiceName>ZDFinfo HD</AltServiceName>
+<DVBTDeliveryParameters>
+<DVBTriplet origNetId="8468" tsId="515" serviceId="2003"/>
+</DVBTDeliveryParameters>
+</ServiceInstance>
+<ServiceInstance priority="2">
+<DisplayName>ZDFinfo</DisplayName>
+<AltServiceName>ZDFinfo HD</AltServiceName>
+<DVBCDeliveryParameters>
+<DVBTriplet origNetId="8468" tsId="515" serviceId="2003"/>
+<NetworkID>102</NetworkID>
+</DVBCDeliveryParameters>
+</ServiceInstance>
+<ServiceInstance priority="4">
+<DisplayName>ZDFinfo</DisplayName>
+<AltServiceName>ZDFinfo HD</AltServiceName>
+<DASHDeliveryParameters>
+<UriBasedLocation contentType="application/dash+xml">
+<dvbi-types:URI>https://zdf-dash-17.akamaized.net/dash/live/2016510/de/manifest.mpd</dvbi-types:URI>
+</UriBasedLocation>
+</DASHDeliveryParameters>
+</ServiceInstance>
+<ServiceInstance priority="5">
+<DisplayName>ZDFinfo</DisplayName>
+<AltServiceName>ZDFinfo HD</AltServiceName>
+<OtherDeliveryParameters xsi:type="hls:m3u8RefType" extensionName="vnd.apple.mpegurl">
+<hls:UriBasedLocation contentType="application/vnd.apple.mpegurl">
+<dvbi-types:URI>https://zdf-hls-17.akamaized.net/hls/live/2016500/de/veryhigh/master.m3u8</dvbi-types:URI>
+</hls:UriBasedLocation>
+</OtherDeliveryParameters>
+</ServiceInstance>
+<ServiceInstance priority="4">
+<DisplayName>ZDFinfo</DisplayName>
+<AltServiceName>ZDFinfo HD</AltServiceName>
+<DASHDeliveryParameters>
+<UriBasedLocation contentType="application/dash+xml">
+<dvbi-types:URI>https://int-dvbi.zdf.de/manifest.php?service=zdfevent</dvbi-types:URI>
+</UriBasedLocation>
+</DASHDeliveryParameters>
+</ServiceInstance>
+<ServiceName>ZDFinfo HD</ServiceName>
+<ProviderName>ZDF, Zweites Deutsches Fernsehen</ProviderName>
+<RelatedMaterial>
+<tva:HowRelated href="urn:dvb:metadata:cs:HowRelatedCS:2021:1001.2"/>
+<tva:MediaLocator>
+<tva:MediaUri contentType="image/png">https://int-dvbi.zdf.de/contentguide/image/?id=11658</tva:MediaUri>
+</tva:MediaLocator>
+</RelatedMaterial>
+<RelatedMaterial>
+<tva:HowRelated href="urn:dvb:metadata:cs:LinkedApplicationCS:2019:1.1"/>
+<tva:MediaLocator>
+<tva:MediaUri contentType="application/vnd.dvb.ait+xml">https://int-dvbi.zdf.de/contentguide/aitx.php?id=4</tva:MediaUri>
+</tva:MediaLocator>
+</RelatedMaterial>
+<RelatedMaterial>
+<tva:HowRelated href="urn:dvb:metadata:cs:LinkedApplicationCS:2019:1.1"/>
+<tva:MediaLocator>
+<tva:MediaUri contentType="application/xhtml+xml">https://int-dvbi.zdf.de/apps/zdfhtml/index.php?svc=zdfinfo</tva:MediaUri>
+</tva:MediaLocator>
+</RelatedMaterial>
+<ServiceType href="urn:dvb:metadata:cs:ServiceTypeCS:2019:linear"/>
+<RecordingInfo href="urn:dvb:metadata:cs:RecordingInfoCS:2019:4"/>
+<ContentGuideSourceRef>int-2</ContentGuideSourceRef>
+</Service>
+<Service version="6">
+<UniqueIdentifier>tag:mitxp.com,2021:1.1025.10331</UniqueIdentifier>
+<ServiceInstance priority="5">
+<DASHDeliveryParameters>
+<UriBasedLocation contentType="application/dash+xml">
+<dvbi-types:URI>https://zdf-dash-19.akamaized.net/dash/live/2016512/de/manifest.mpd</dvbi-types:URI>
+</UriBasedLocation>
+</DASHDeliveryParameters>
+</ServiceInstance>
+<ServiceInstance priority="3">
+<DVBSDeliveryParameters>
+<DVBTriplet origNetId="1" tsId="1025" serviceId="10331"/>
+</DVBSDeliveryParameters>
+</ServiceInstance>
+<ServiceInstance priority="3">
+<DVBTDeliveryParameters>
+<DVBTriplet serviceId="771"/>
+</DVBTDeliveryParameters>
+</ServiceInstance>
+<ServiceName>phoenix HD</ServiceName>
+<ProviderName>ARD</ProviderName>
+<RelatedMaterial>
+<tva:HowRelated href="urn:dvb:metadata:cs:HowRelatedCS:2021:1001.2"/>
+<tva:MediaLocator>
+<tva:MediaUri contentType="image/png">https://itv-api.ard.de/ardstart/img/services/28725.png</tva:MediaUri>
+</tva:MediaLocator>
+</RelatedMaterial>
+<RelatedMaterial>
+<tva:HowRelated href="urn:dvb:metadata:cs:LinkedApplicationCS:2019:1.1"/>
+<tva:MediaLocator>
+<tva:MediaUri contentType="application/vnd.dvb.ait+xml">https://itv-api.ard.de/xml.aitx?sid=28725</tva:MediaUri>
+</tva:MediaLocator>
+</RelatedMaterial>
+<ServiceType href="urn:dvb:metadata:cs:ServiceTypeCS:2019:linear"/>
+<ContentGuideSourceRef>iSIMS</ContentGuideSourceRef>
+<ContentGuideServiceRef>tag:mitxp.com,2021:eit1.1025.10331</ContentGuideServiceRef>
+</Service>
+<Service version="7">
+<UniqueIdentifier>tag:zdf.de,2020:zdfneo</UniqueIdentifier>
+<ServiceInstance priority="1">
+<DisplayName>zdf_neo</DisplayName>
+<AltServiceName>zdf_neo HD</AltServiceName>
+<DVBSDeliveryParameters>
+<DVBTriplet origNetId="1" tsId="1011" serviceId="11130"/>
+</DVBSDeliveryParameters>
+</ServiceInstance>
+<ServiceInstance priority="3">
+<DisplayName>zdf_neo</DisplayName>
+<AltServiceName>zdf_neo HD</AltServiceName>
+<DVBTDeliveryParameters>
+<DVBTriplet origNetId="8468" tsId="515" serviceId="2002"/>
+</DVBTDeliveryParameters>
+</ServiceInstance>
+<ServiceInstance priority="2">
+<DisplayName>zdf_neo</DisplayName>
+<AltServiceName>zdf_neo HD</AltServiceName>
+<DVBCDeliveryParameters>
+<DVBTriplet origNetId="102" tsId="1079" serviceId="11130"/>
+<NetworkID>102</NetworkID>
+</DVBCDeliveryParameters>
+</ServiceInstance>
+<ServiceInstance priority="4">
+<DisplayName>zdf_neo</DisplayName>
+<AltServiceName>zdf_neo HD</AltServiceName>
+<DASHDeliveryParameters>
+<UriBasedLocation contentType="application/dash+xml">
+<dvbi-types:URI>https://int-dvbi.zdf.de/manifest.php?service=zdfneo</dvbi-types:URI>
+</UriBasedLocation>
+</DASHDeliveryParameters>
+</ServiceInstance>
+<ServiceInstance priority="5">
+<DisplayName>zdf_neo</DisplayName>
+<AltServiceName>zdf_neo HD</AltServiceName>
+<OtherDeliveryParameters xsi:type="hls:m3u8RefType" extensionName="vnd.apple.mpegurl">
+<hls:UriBasedLocation contentType="application/vnd.apple.mpegurl">
+<dvbi-types:URI>https://zdf-hls-16.akamaized.net/hls/live/2016499/de/veryhigh/master.m3u8</dvbi-types:URI>
+</hls:UriBasedLocation>
+</OtherDeliveryParameters>
+</ServiceInstance>
+<ServiceName>zdf_neo HD</ServiceName>
+<ProviderName>ZDF, Zweites Deutsches Fernsehen</ProviderName>
+<RelatedMaterial>
+<tva:HowRelated href="urn:dvb:metadata:cs:HowRelatedCS:2021:1001.2"/>
+<tva:MediaLocator>
+<tva:MediaUri contentType="image/png">https://int-dvbi.zdf.de/contentguide/image/?id=11659</tva:MediaUri>
+</tva:MediaLocator>
+</RelatedMaterial>
+<RelatedMaterial>
+<tva:HowRelated href="urn:dvb:metadata:cs:LinkedApplicationCS:2019:1.1"/>
+<tva:MediaLocator>
+<tva:MediaUri contentType="application/vnd.dvb.ait+xml">https://int-dvbi.zdf.de/contentguide/aitx.php?id=5</tva:MediaUri>
+</tva:MediaLocator>
+</RelatedMaterial>
+<RelatedMaterial>
+<tva:HowRelated href="urn:dvb:metadata:cs:LinkedApplicationCS:2019:1.1"/>
+<tva:MediaLocator>
+<tva:MediaUri contentType="application/xhtml+xml">https://int-dvbi.zdf.de/apps/zdfhtml/index.php?svc=zdfneo</tva:MediaUri>
+</tva:MediaLocator>
+</RelatedMaterial>
+<ServiceType href="urn:dvb:metadata:cs:ServiceTypeCS:2019:linear"/>
+<RecordingInfo href="urn:dvb:metadata:cs:RecordingInfoCS:2019:4"/>
+<ContentGuideSourceRef>int-3</ContentGuideSourceRef>
+</Service>
+<Service version="282">
+<UniqueIdentifier>tag:mitxp.com,2021:1.1039.10376</UniqueIdentifier>
+<ServiceInstance priority="5">
+<DASHDeliveryParameters>
+<UriBasedLocation contentType="application/dash+xml">
+<dvbi-types:URI>https://mcdn-one.ard.de/ardone/dash/manifest.mpd</dvbi-types:URI>
+</UriBasedLocation>
+</DASHDeliveryParameters>
+</ServiceInstance>
+<ServiceInstance priority="3">
+<DVBSDeliveryParameters>
+<DVBTriplet origNetId="1" tsId="1039" serviceId="10376"/>
+</DVBSDeliveryParameters>
+</ServiceInstance>
+<ServiceInstance priority="3">
+<DVBTDeliveryParameters>
+<DVBTriplet serviceId="773"/>
+</DVBTDeliveryParameters>
+</ServiceInstance>
+<ServiceName>ONE HD</ServiceName>
+<ProviderName>ARD</ProviderName>
+<RelatedMaterial>
+<tva:HowRelated href="urn:dvb:metadata:cs:HowRelatedCS:2021:1001.2"/>
+<tva:MediaLocator>
+<tva:MediaUri contentType="image/png">https://itv-api.ard.de/ardstart/img/services/28722.png</tva:MediaUri>
+</tva:MediaLocator>
+</RelatedMaterial>
+<RelatedMaterial>
+<tva:HowRelated href="urn:dvb:metadata:cs:LinkedApplicationCS:2019:1.1"/>
+<tva:MediaLocator>
+<tva:MediaUri contentType="application/vnd.dvb.ait+xml">https://itv-api.ard.de/xml.aitx?sid=28722</tva:MediaUri>
+</tva:MediaLocator>
+</RelatedMaterial>
+<ServiceType href="urn:dvb:metadata:cs:ServiceTypeCS:2019:linear"/>
+<ContentGuideSourceRef>iSIMS</ContentGuideSourceRef>
+<ContentGuideServiceRef>tag:mitxp.com,2021:eit1.1039.10376</ContentGuideServiceRef>
+</Service>
+<Service version="146">
+<UniqueIdentifier>tag:mitxp.com,2021:1.1019.10302</UniqueIdentifier>
+<ServiceInstance priority="5">
+<DASHDeliveryParameters>
+<UriBasedLocation contentType="application/dash+xml">
+<dvbi-types:URI>https://arteliveext.akamaized.net/dash/live/2031004/artelive_de/dash.mpd</dvbi-types:URI>
+</UriBasedLocation>
+</DASHDeliveryParameters>
+</ServiceInstance>
+<ServiceInstance priority="3">
+<DVBSDeliveryParameters>
+<DVBTriplet origNetId="1" tsId="1019" serviceId="10302"/>
+</DVBSDeliveryParameters>
+</ServiceInstance>
+<ServiceInstance priority="3">
+<DVBTDeliveryParameters>
+<DVBTriplet serviceId="770"/>
+</DVBTDeliveryParameters>
+</ServiceInstance>
+<ServiceName>arte HD</ServiceName>
+<ProviderName>ARD</ProviderName>
+<RelatedMaterial>
+<tva:HowRelated href="urn:dvb:metadata:cs:HowRelatedCS:2021:1001.2"/>
+<tva:MediaLocator>
+<tva:MediaUri contentType="image/png">https://itv-api.ard.de/ardstart/img/services/28724.png</tva:MediaUri>
+</tva:MediaLocator>
+</RelatedMaterial>
+<RelatedMaterial>
+<tva:HowRelated href="urn:dvb:metadata:cs:LinkedApplicationCS:2019:1.1"/>
+<tva:MediaLocator>
+<tva:MediaUri contentType="application/vnd.dvb.ait+xml">https://dvb-dev.ard-poc.de/xmlait/arte_xml.aitx</tva:MediaUri>
+</tva:MediaLocator>
+</RelatedMaterial>
+<ServiceType href="urn:dvb:metadata:cs:ServiceTypeCS:2019:linear"/>
+<ContentGuideSourceRef>iSIMS</ContentGuideSourceRef>
+<ContentGuideServiceRef>tag:mitxp.com,2021:eit1.1019.10302</ContentGuideServiceRef>
+</Service>
+<Service version="7">
+<UniqueIdentifier>tag:zdf.de,2020:3sat</UniqueIdentifier>
+<ServiceInstance priority="1">
+<DisplayName>3sat</DisplayName>
+<AltServiceName>3sat HD</AltServiceName>
+<DVBSDeliveryParameters>
+<DVBTriplet origNetId="1" tsId="1010" serviceId="11150"/>
+</DVBSDeliveryParameters>
+</ServiceInstance>
+<ServiceInstance priority="3">
+<DisplayName>3sat</DisplayName>
+<AltServiceName>3sat HD</AltServiceName>
+<DVBTDeliveryParameters>
+<DVBTriplet origNetId="8468" tsId="515" serviceId="2004"/>
+</DVBTDeliveryParameters>
+</ServiceInstance>
+<ServiceInstance priority="2">
+<DisplayName>3sat</DisplayName>
+<AltServiceName>3sat HD</AltServiceName>
+<DVBCDeliveryParameters>
+<DVBTriplet origNetId="102" tsId="1079" serviceId="11150"/>
+<NetworkID>102</NetworkID>
+</DVBCDeliveryParameters>
+</ServiceInstance>
+<ServiceInstance priority="4">
+<DisplayName>3sat</DisplayName>
+<AltServiceName>3sat HD</AltServiceName>
+<DASHDeliveryParameters>
+<UriBasedLocation contentType="application/dash+xml">
+<dvbi-types:URI>https://int-dvbi.zdf.de/manifest.php?service=3sat</dvbi-types:URI>
+</UriBasedLocation>
+</DASHDeliveryParameters>
+</ServiceInstance>
+<ServiceInstance priority="5">
+<DisplayName>3sat</DisplayName>
+<AltServiceName>3sat HD</AltServiceName>
+<OtherDeliveryParameters xsi:type="hls:m3u8RefType" extensionName="vnd.apple.mpegurl">
+<hls:UriBasedLocation contentType="application/vnd.apple.mpegurl">
+<dvbi-types:URI>https://zdf-hls-18.akamaized.net/hls/live/2016501/dach/veryhigh/master.m3u8</dvbi-types:URI>
+</hls:UriBasedLocation>
+</OtherDeliveryParameters>
+</ServiceInstance>
+<ServiceName>3sat HD</ServiceName>
+<ProviderName>ZDF, Zweites Deutsches Fernsehen</ProviderName>
+<RelatedMaterial>
+<tva:HowRelated href="urn:dvb:metadata:cs:HowRelatedCS:2021:1001.2"/>
+<tva:MediaLocator>
+<tva:MediaUri contentType="image/png">https://int-dvbi.zdf.de/contentguide/image/?id=11656</tva:MediaUri>
+</tva:MediaLocator>
+</RelatedMaterial>
+<RelatedMaterial>
+<tva:HowRelated href="urn:dvb:metadata:cs:LinkedApplicationCS:2019:1.1"/>
+<tva:MediaLocator>
+<tva:MediaUri contentType="application/vnd.dvb.ait+xml">https://int-dvbi.zdf.de/contentguide/aitx.php?id=3</tva:MediaUri>
+</tva:MediaLocator>
+</RelatedMaterial>
+<ServiceType href="urn:dvb:metadata:cs:ServiceTypeCS:2019:linear"/>
+<RecordingInfo href="urn:dvb:metadata:cs:RecordingInfoCS:2019:4"/>
+<ContentGuideSourceRef>int-4</ContentGuideSourceRef>
+</Service>
+<Service version="3">
+<UniqueIdentifier>tag:mitxp.com,2021:1.1107.17502</UniqueIdentifier>
+<ServiceInstance priority="5">
+<DASHDeliveryParameters>
+<UriBasedLocation contentType="application/dash+xml">
+<dvbi-types:URI>https://ac-001.live.p7s1video.net/fd17a57c/t_001/p7s1-dvb-i-kabeleins/unencrypted-default.mpd</dvbi-types:URI>
+</UriBasedLocation>
+</DASHDeliveryParameters>
+</ServiceInstance>
+<ServiceInstance priority="4">
+<DVBSDeliveryParameters>
+<DVBTriplet origNetId="1" tsId="1107" serviceId="17502"/>
+</DVBSDeliveryParameters>
+</ServiceInstance>
+<ServiceName>kabel eins</ServiceName>
+<ProviderName>ProSiebenSat.1</ProviderName>
+<RelatedMaterial>
+<tva:HowRelated href="urn:dvb:metadata:cs:HowRelatedCS:2021:1001.2"/>
+<tva:MediaLocator>
+<tva:MediaUri contentType="image/png">https://thumbnails.vod.p7s1video.net/dvb-i-showcase/kabeleins_100px.png</tva:MediaUri>
+</tva:MediaLocator>
+</RelatedMaterial>
+<ServiceType href="urn:dvb:metadata:cs:ServiceTypeCS:2019:linear"/>
+<ContentGuideSourceRef>iSIMS</ContentGuideSourceRef>
+<ContentGuideServiceRef>tag:mitxp.com,2021:eit1.1107.17502</ContentGuideServiceRef>
+</Service>
+<Service version="7">
+<UniqueIdentifier>tag:zdf.de,2020:kika</UniqueIdentifier>
+<ServiceInstance priority="1">
+<DisplayName>KiKA</DisplayName>
+<AltServiceName>KiKA HD</AltServiceName>
+<DVBSDeliveryParameters>
+<DVBTriplet origNetId="1" tsId="1010" serviceId="11160"/>
+</DVBSDeliveryParameters>
+</ServiceInstance>
+<ServiceInstance priority="3">
+<DisplayName>KiKA</DisplayName>
+<AltServiceName>KiKA HD</AltServiceName>
+<DVBTDeliveryParameters>
+<DVBTriplet origNetId="8468" tsId="515" serviceId="2005"/>
+</DVBTDeliveryParameters>
+</ServiceInstance>
+<ServiceInstance priority="2">
+<DisplayName>KiKA</DisplayName>
+<AltServiceName>KiKA HD</AltServiceName>
+<DVBCDeliveryParameters>
+<DVBTriplet origNetId="102" tsId="1079" serviceId="11160"/>
+<NetworkID>102</NetworkID>
+</DVBCDeliveryParameters>
+</ServiceInstance>
+<ServiceInstance priority="4">
+<DisplayName>KiKA</DisplayName>
+<AltServiceName>KiKA HD</AltServiceName>
+<DASHDeliveryParameters>
+<UriBasedLocation contentType="application/dash+xml">
+<dvbi-types:URI>https://kikageodash.akamaized.net/dash/live/2022694/livetvkika_de/manifest.mpd</dvbi-types:URI>
+</UriBasedLocation>
+</DASHDeliveryParameters>
+</ServiceInstance>
+<ServiceInstance priority="5">
+<DisplayName>KiKA</DisplayName>
+<AltServiceName>KiKA HD</AltServiceName>
+<OtherDeliveryParameters xsi:type="hls:m3u8RefType" extensionName="vnd.apple.mpegurl">
+<hls:UriBasedLocation contentType="application/vnd.apple.mpegurl">
+<dvbi-types:URI>https://kikageohls.akamaized.net/hls/live/2022693/livetvkika_de/master-720p-3328.m3u8</dvbi-types:URI>
+</hls:UriBasedLocation>
+</OtherDeliveryParameters>
+</ServiceInstance>
+<ServiceName>KiKA HD</ServiceName>
+<ProviderName>ZDF, Zweites Deutsches Fernsehen</ProviderName>
+<RelatedMaterial>
+<tva:HowRelated href="urn:dvb:metadata:cs:HowRelatedCS:2021:1001.2"/>
+<tva:MediaLocator>
+<tva:MediaUri contentType="image/png">https://int-dvbi.zdf.de/contentguide/image/?id=11657</tva:MediaUri>
+</tva:MediaLocator>
+</RelatedMaterial>
+<RelatedMaterial>
+<tva:HowRelated href="urn:dvb:metadata:cs:LinkedApplicationCS:2019:1.1"/>
+<tva:MediaLocator>
+<tva:MediaUri contentType="application/vnd.dvb.ait+xml">https://int-dvbi.zdf.de/contentguide/aitx.php?id=2</tva:MediaUri>
+</tva:MediaLocator>
+</RelatedMaterial>
+<ServiceType href="urn:dvb:metadata:cs:ServiceTypeCS:2019:linear"/>
+<RecordingInfo href="urn:dvb:metadata:cs:RecordingInfoCS:2019:4"/>
+<ContentGuideSourceRef>int-5</ContentGuideSourceRef>
+</Service>
+<Service version="19">
+<UniqueIdentifier>tag:mitxp.com,2021:1.1039.10377</UniqueIdentifier>
+<ServiceInstance priority="5">
+<DASHDeliveryParameters>
+<UriBasedLocation contentType="application/dash+xml">
+<dvbi-types:URI>https://ardalphadash.akamaized.net/dash/live/2016972/ard_alpha/dvbt2/manifest.mpd</dvbi-types:URI>
+</UriBasedLocation>
+</DASHDeliveryParameters>
+</ServiceInstance>
+<ServiceInstance priority="3">
+<DVBSDeliveryParameters>
+<DVBTriplet origNetId="1" tsId="1039" serviceId="10377"/>
+</DVBSDeliveryParameters>
+</ServiceInstance>
+<ServiceInstance priority="3">
+<DVBTDeliveryParameters>
+<DVBTriplet serviceId="803"/>
+</DVBTDeliveryParameters>
+</ServiceInstance>
+<ServiceName>ARD alpha HD</ServiceName>
+<ProviderName>ARD</ProviderName>
+<RelatedMaterial>
+<tva:HowRelated href="urn:dvb:metadata:cs:HowRelatedCS:2021:1001.2"/>
+<tva:MediaLocator>
+<tva:MediaUri contentType="image/png">https://itv-api.ard.de/ardstart/img/services/28487.png</tva:MediaUri>
+</tva:MediaLocator>
+</RelatedMaterial>
+<RelatedMaterial>
+<tva:HowRelated href="urn:dvb:metadata:cs:LinkedApplicationCS:2019:1.1"/>
+<tva:MediaLocator>
+<tva:MediaUri contentType="application/vnd.dvb.ait+xml">https://itv-api.ard.de/xml.aitx?sid=28487</tva:MediaUri>
+</tva:MediaLocator>
+</RelatedMaterial>
+<ServiceType href="urn:dvb:metadata:cs:ServiceTypeCS:2019:linear"/>
+<ContentGuideSourceRef>iSIMS</ContentGuideSourceRef>
+<ContentGuideServiceRef>tag:mitxp.com,2021:eit1.1039.10377</ContentGuideServiceRef>
+</Service>
+<Service version="4">
+<UniqueIdentifier>tag:mitxp.com,2021:1.1025.10325</UniqueIdentifier>
+<ServiceInstance priority="5">
+<DASHDeliveryParameters>
+<UriBasedLocation contentType="application/dash+xml">
+<dvbi-types:URI>https://bfrsueddash.akamaized.net/dash/live/2016970/bfs_sued_de/dvbt2/manifest.mpd</dvbi-types:URI>
+</UriBasedLocation>
+</DASHDeliveryParameters>
+</ServiceInstance>
+<ServiceInstance priority="3">
+<DVBSDeliveryParameters>
+<DVBTriplet origNetId="1" tsId="1025" serviceId="10325"/>
+</DVBSDeliveryParameters>
+</ServiceInstance>
+<ServiceInstance priority="3">
+<DVBTDeliveryParameters>
+<DVBTriplet serviceId="802"/>
+</DVBTDeliveryParameters>
+</ServiceInstance>
+<ServiceName>BR Fernsehen Süd HD</ServiceName>
+<ProviderName>ARD</ProviderName>
+<RelatedMaterial>
+<tva:HowRelated href="urn:dvb:metadata:cs:HowRelatedCS:2021:1001.2"/>
+<tva:MediaLocator>
+<tva:MediaUri contentType="image/png">https://itv-api.ard.de/ardstart/img/services/28107.png</tva:MediaUri>
+</tva:MediaLocator>
+</RelatedMaterial>
+<RelatedMaterial>
+<tva:HowRelated href="urn:dvb:metadata:cs:LinkedApplicationCS:2019:1.1"/>
+<tva:MediaLocator>
+<tva:MediaUri contentType="application/vnd.dvb.ait+xml">https://itv-api.ard.de/xml.aitx?sid=28107</tva:MediaUri>
+</tva:MediaLocator>
+</RelatedMaterial>
+<ServiceType href="urn:dvb:metadata:cs:ServiceTypeCS:2019:linear"/>
+<ContentGuideSourceRef>iSIMS</ContentGuideSourceRef>
+<ContentGuideServiceRef>tag:mitxp.com,2021:eit1.1025.10325</ContentGuideServiceRef>
+</Service>
+<Service version="22">
+<UniqueIdentifier>tag:mitxp.com,2021:1.1061.10355</UniqueIdentifier>
+<ServiceInstance priority="5">
+<DASHDeliveryParameters>
+<UriBasedLocation contentType="application/dash+xml">
+<dvbi-types:URI>https://hrdashde.akamaized.net/dash/live/2024544/hrdashde/manifest.mpd</dvbi-types:URI>
+</UriBasedLocation>
+</DASHDeliveryParameters>
+</ServiceInstance>
+<ServiceInstance priority="3">
+<DVBSDeliveryParameters>
+<DVBTriplet origNetId="1" tsId="1061" serviceId="10355"/>
+</DVBSDeliveryParameters>
+</ServiceInstance>
+<ServiceInstance priority="3">
+<DVBTDeliveryParameters>
+<DVBTriplet serviceId="833"/>
+</DVBTDeliveryParameters>
+</ServiceInstance>
+<ServiceName>hr-fernsehen HD</ServiceName>
+<ProviderName>ARD</ProviderName>
+<RelatedMaterial>
+<tva:HowRelated href="urn:dvb:metadata:cs:HowRelatedCS:2021:1001.2"/>
+<tva:MediaLocator>
+<tva:MediaUri contentType="image/png">https://itv-api.ard.de/ardstart/img/services/28108.png</tva:MediaUri>
+</tva:MediaLocator>
+</RelatedMaterial>
+<RelatedMaterial>
+<tva:HowRelated href="urn:dvb:metadata:cs:LinkedApplicationCS:2019:1.1"/>
+<tva:MediaLocator>
+<tva:MediaUri contentType="application/vnd.dvb.ait+xml">https://itv-api.ard.de/xml.aitx?sid=28108</tva:MediaUri>
+</tva:MediaLocator>
+</RelatedMaterial>
+<ServiceType href="urn:dvb:metadata:cs:ServiceTypeCS:2019:linear"/>
+<ContentGuideSourceRef>iSIMS</ContentGuideSourceRef>
+<ContentGuideServiceRef>tag:mitxp.com,2021:eit1.1061.10355</ContentGuideServiceRef>
+</Service>
+<Service version="15">
+<UniqueIdentifier>tag:mitxp.com,2021:1.1061.10352</UniqueIdentifier>
+<ServiceInstance priority="5">
+<DASHDeliveryParameters>
+<UriBasedLocation contentType="application/dash+xml">
+<dvbi-types:URI>https://mdrtvsndash.akamaized.net/dash/live/2094117/mdrtvsn/dash.mpd</dvbi-types:URI>
+</UriBasedLocation>
+</DASHDeliveryParameters>
+</ServiceInstance>
+<ServiceInstance priority="3">
+<DVBSDeliveryParameters>
+<DVBTriplet origNetId="1" tsId="1061" serviceId="10352"/>
+</DVBSDeliveryParameters>
+</ServiceInstance>
+<ServiceInstance priority="3">
+<DVBTDeliveryParameters>
+<DVBTriplet serviceId="865"/>
+</DVBTDeliveryParameters>
+</ServiceInstance>
+<ServiceName>MDR Sachsen HD</ServiceName>
+<ProviderName>ARD</ProviderName>
+<RelatedMaterial>
+<tva:HowRelated href="urn:dvb:metadata:cs:HowRelatedCS:2021:1001.2"/>
+<tva:MediaLocator>
+<tva:MediaUri contentType="image/png">https://itv-api.ard.de/ardstart/img/services/28228.png</tva:MediaUri>
+</tva:MediaLocator>
+</RelatedMaterial>
+<RelatedMaterial>
+<tva:HowRelated href="urn:dvb:metadata:cs:LinkedApplicationCS:2019:1.1"/>
+<tva:MediaLocator>
+<tva:MediaUri contentType="application/vnd.dvb.ait+xml">https://itv-api.ard.de/xml.aitx?sid=28228</tva:MediaUri>
+</tva:MediaLocator>
+</RelatedMaterial>
+<ServiceType href="urn:dvb:metadata:cs:ServiceTypeCS:2019:linear"/>
+<ContentGuideSourceRef>iSIMS</ContentGuideSourceRef>
+<ContentGuideServiceRef>tag:mitxp.com,2021:eit1.1061.10352</ContentGuideServiceRef>
+</Service>
+<Service version="6">
+<UniqueIdentifier>tag:mitxp.com,2021:1.1025.10327</UniqueIdentifier>
+<ServiceInstance priority="5">
+<DASHDeliveryParameters>
+<UriBasedLocation contentType="application/dash+xml">
+<dvbi-types:URI>https://mcdn.ndr.de/ndr/dash/ndr_hbbtv/ndr_hbbtv_nds/ndr_hbbtv_nds.mpd</dvbi-types:URI>
+</UriBasedLocation>
+</DASHDeliveryParameters>
+</ServiceInstance>
+<ServiceInstance priority="3">
+<DVBSDeliveryParameters>
+<DVBTriplet origNetId="1" tsId="1025" serviceId="10327"/>
+</DVBSDeliveryParameters>
+</ServiceInstance>
+<ServiceInstance priority="3">
+<DVBTDeliveryParameters>
+<DVBTriplet serviceId="897"/>
+</DVBTDeliveryParameters>
+</ServiceInstance>
+<ServiceName>NDR FS NDS HD</ServiceName>
+<ProviderName>ARD</ProviderName>
+<RelatedMaterial>
+<tva:HowRelated href="urn:dvb:metadata:cs:HowRelatedCS:2021:1001.2"/>
+<tva:MediaLocator>
+<tva:MediaUri contentType="image/png">https://itv-api.ard.de/ardstart/img/services/28226.png</tva:MediaUri>
+</tva:MediaLocator>
+</RelatedMaterial>
+<RelatedMaterial>
+<tva:HowRelated href="urn:dvb:metadata:cs:LinkedApplicationCS:2019:1.1"/>
+<tva:MediaLocator>
+<tva:MediaUri contentType="application/vnd.dvb.ait+xml">https://itv-api.ard.de/xml.aitx?sid=28226</tva:MediaUri>
+</tva:MediaLocator>
+</RelatedMaterial>
+<ServiceType href="urn:dvb:metadata:cs:ServiceTypeCS:2019:linear"/>
+<ContentGuideSourceRef>iSIMS</ContentGuideSourceRef>
+<ContentGuideServiceRef>tag:mitxp.com,2021:eit1.1025.10327</ContentGuideServiceRef>
+</Service>
+<Service version="18">
+<UniqueIdentifier>tag:mitxp.com,2021:1.1039.10379</UniqueIdentifier>
+<ServiceInstance priority="5">
+<DASHDeliveryParameters>
+<UriBasedLocation contentType="application/dash+xml">
+<dvbi-types:URI>https://rbdashlive.akamaized.net/dash/live/2020436/rbfs/dash.mpd</dvbi-types:URI>
+</UriBasedLocation>
+</DASHDeliveryParameters>
+</ServiceInstance>
+<ServiceInstance priority="3">
+<DVBSDeliveryParameters>
+<DVBTriplet origNetId="1" tsId="1039" serviceId="10379"/>
+</DVBSDeliveryParameters>
+</ServiceInstance>
+<ServiceInstance priority="3">
+<DVBTDeliveryParameters>
+<DVBTriplet serviceId="929"/>
+</DVBTDeliveryParameters>
+</ServiceInstance>
+<ServiceName>Radio Bremen HD</ServiceName>
+<ProviderName>ARD</ProviderName>
+<RelatedMaterial>
+<tva:HowRelated href="urn:dvb:metadata:cs:HowRelatedCS:2021:1001.2"/>
+<tva:MediaLocator>
+<tva:MediaUri contentType="image/png">https://itv-api.ard.de/ardstart/img/services/28385.png</tva:MediaUri>
+</tva:MediaLocator>
+</RelatedMaterial>
+<RelatedMaterial>
+<tva:HowRelated href="urn:dvb:metadata:cs:LinkedApplicationCS:2019:1.1"/>
+<tva:MediaLocator>
+<tva:MediaUri contentType="application/vnd.dvb.ait+xml">https://itv-api.ard.de/xml.aitx?sid=28385</tva:MediaUri>
+</tva:MediaLocator>
+</RelatedMaterial>
+<ServiceType href="urn:dvb:metadata:cs:ServiceTypeCS:2019:linear"/>
+<ContentGuideSourceRef>iSIMS</ContentGuideSourceRef>
+<ContentGuideServiceRef>tag:mitxp.com,2021:eit1.1039.10379</ContentGuideServiceRef>
+</Service>
+<Service version="20">
+<UniqueIdentifier>tag:mitxp.com,2021:1.1061.10351</UniqueIdentifier>
+<ServiceInstance priority="5">
+<DASHDeliveryParameters>
+<UriBasedLocation contentType="application/dash+xml">
+<dvbi-types:URI>https://rbb-dash-berlin.akamaized.net/dash/live/2017826/rbb_berlin/manifest.mpd</dvbi-types:URI>
+</UriBasedLocation>
+</DASHDeliveryParameters>
+</ServiceInstance>
+<ServiceInstance priority="3">
+<DVBSDeliveryParameters>
+<DVBTriplet origNetId="1" tsId="1061" serviceId="10351"/>
+</DVBSDeliveryParameters>
+</ServiceInstance>
+<ServiceInstance priority="3">
+<DVBTDeliveryParameters>
+<DVBTriplet serviceId="945"/>
+</DVBTDeliveryParameters>
+</ServiceInstance>
+<ServiceName>rbb Berlin HD</ServiceName>
+<ProviderName>ARD</ProviderName>
+<RelatedMaterial>
+<tva:HowRelated href="urn:dvb:metadata:cs:HowRelatedCS:2021:1001.2"/>
+<tva:MediaLocator>
+<tva:MediaUri contentType="image/png">https://itv-api.ard.de/ardstart/img/services/28206.png</tva:MediaUri>
+</tva:MediaLocator>
+</RelatedMaterial>
+<RelatedMaterial>
+<tva:HowRelated href="urn:dvb:metadata:cs:LinkedApplicationCS:2019:1.1"/>
+<tva:MediaLocator>
+<tva:MediaUri contentType="application/vnd.dvb.ait+xml">https://itv-api.ard.de/xml.aitx?sid=28206</tva:MediaUri>
+</tva:MediaLocator>
+</RelatedMaterial>
+<ServiceType href="urn:dvb:metadata:cs:ServiceTypeCS:2019:linear"/>
+<ContentGuideSourceRef>iSIMS</ContentGuideSourceRef>
+<ContentGuideServiceRef>tag:mitxp.com,2021:eit1.1061.10351</ContentGuideServiceRef>
+</Service>
+<Service version="19">
+<UniqueIdentifier>tag:mitxp.com,2021:1.1039.10378</UniqueIdentifier>
+<ServiceInstance priority="5">
+<DASHDeliveryParameters>
+<UriBasedLocation contentType="application/dash+xml">
+<dvbi-types:URI>https://swrsrfs-dash.akamaized.net/dash/live/2018687/srfsgeo/dash.mpd</dvbi-types:URI>
+</UriBasedLocation>
+</DASHDeliveryParameters>
+</ServiceInstance>
+<ServiceInstance priority="3">
+<DVBSDeliveryParameters>
+<DVBTriplet origNetId="1" tsId="1039" serviceId="10378"/>
+</DVBSDeliveryParameters>
+</ServiceInstance>
+<ServiceInstance priority="3">
+<DVBTDeliveryParameters>
+<DVBTriplet serviceId="977"/>
+</DVBTDeliveryParameters>
+</ServiceInstance>
+<ServiceName>SR Fernsehen HD</ServiceName>
+<ProviderName>ARD</ProviderName>
+<RelatedMaterial>
+<tva:HowRelated href="urn:dvb:metadata:cs:HowRelatedCS:2021:1001.2"/>
+<tva:MediaLocator>
+<tva:MediaUri contentType="image/png">https://itv-api.ard.de/ardstart/img/services/28486.png</tva:MediaUri>
+</tva:MediaLocator>
+</RelatedMaterial>
+<RelatedMaterial>
+<tva:HowRelated href="urn:dvb:metadata:cs:LinkedApplicationCS:2019:1.1"/>
+<tva:MediaLocator>
+<tva:MediaUri contentType="application/vnd.dvb.ait+xml">https://itv-api.ard.de/xml.aitx?sid=28486</tva:MediaUri>
+</tva:MediaLocator>
+</RelatedMaterial>
+<ServiceType href="urn:dvb:metadata:cs:ServiceTypeCS:2019:linear"/>
+<ContentGuideSourceRef>iSIMS</ContentGuideSourceRef>
+<ContentGuideServiceRef>tag:mitxp.com,2021:eit1.1039.10378</ContentGuideServiceRef>
+</Service>
+<Service version="6">
+<UniqueIdentifier>tag:mitxp.com,2021:1.1019.10303</UniqueIdentifier>
+<ServiceInstance priority="5">
+<DASHDeliveryParameters>
+<UriBasedLocation contentType="application/dash+xml">
+<dvbi-types:URI>https://swrbw-dash.akamaized.net/dash/live/2018674/swrbwd/manifest.mpd</dvbi-types:URI>
+</UriBasedLocation>
+</DASHDeliveryParameters>
+</ServiceInstance>
+<ServiceInstance priority="3">
+<DVBSDeliveryParameters>
+<DVBTriplet origNetId="1" tsId="1019" serviceId="10303"/>
+</DVBSDeliveryParameters>
+</ServiceInstance>
+<ServiceInstance priority="3">
+<DVBTDeliveryParameters>
+<DVBTriplet serviceId="993"/>
+</DVBTDeliveryParameters>
+</ServiceInstance>
+<ServiceName>SWR BW HD</ServiceName>
+<ProviderName>ARD</ProviderName>
+<RelatedMaterial>
+<tva:HowRelated href="urn:dvb:metadata:cs:HowRelatedCS:2021:1001.2"/>
+<tva:MediaLocator>
+<tva:MediaUri contentType="image/png">https://itv-api.ard.de/ardstart/img/services/28113.png</tva:MediaUri>
+</tva:MediaLocator>
+</RelatedMaterial>
+<RelatedMaterial>
+<tva:HowRelated href="urn:dvb:metadata:cs:LinkedApplicationCS:2019:1.1"/>
+<tva:MediaLocator>
+<tva:MediaUri contentType="application/vnd.dvb.ait+xml">https://itv-api.ard.de/xml.aitx?sid=28113</tva:MediaUri>
+</tva:MediaLocator>
+</RelatedMaterial>
+<ServiceType href="urn:dvb:metadata:cs:ServiceTypeCS:2019:linear"/>
+<ContentGuideSourceRef>iSIMS</ContentGuideSourceRef>
+<ContentGuideServiceRef>tag:mitxp.com,2021:eit1.1019.10303</ContentGuideServiceRef>
+</Service>
+<Service version="3">
+<UniqueIdentifier>tag:dvb-i.bmt-technik.de,2022:4360.1073.52161</UniqueIdentifier>
+<ServiceInstance priority="3">
+<DVBCDeliveryParameters>
+<DVBTriplet origNetId="61441" tsId="10000" serviceId="52006"/>
+<NetworkID>61449</NetworkID>
+</DVBCDeliveryParameters>
+</ServiceInstance>
+<ServiceInstance priority="1">
+<DVBCDeliveryParameters>
+<DVBTriplet tsId="1073" serviceId="52161"/>
+<NetworkID>61449</NetworkID>
+</DVBCDeliveryParameters>
+</ServiceInstance>
+<ServiceInstance priority="2">
+<RelatedMaterial>
+<tva:HowRelated href="urn:dvb:metadata:cs:LinkedApplicationCS:2019:1.1"/>
+<tva:MediaLocator>
+<tva:MediaUri contentType="application/vnd.dvb.ait+xml">https://dvb-i.bmt-technik.de/ait/a.tv.aitx</tva:MediaUri>
+</tva:MediaLocator>
+</RelatedMaterial>
+<DASHDeliveryParameters>
+<UriBasedLocation contentType="application/dash+xml">
+<dvbi-types:URI>https://atv-hbb.iptv-playoutcenter.de/atv-hbb/augsburgtv.stream_all/manifest.mpd</dvbi-types:URI>
+</UriBasedLocation>
+</DASHDeliveryParameters>
+</ServiceInstance>
+<ServiceName>a.tv HD</ServiceName>
+<ProviderName>a.tv GmbH & Co. KG</ProviderName>
+<RelatedMaterial>
+<tva:HowRelated href="urn:dvb:metadata:cs:HowRelatedCS:2021:1001.2"/>
+<tva:MediaLocator>
+<tva:MediaUri contentType="image/png">https://dvb-i.bmt-technik.de/channel-logos/atv.png</tva:MediaUri>
+</tva:MediaLocator>
+</RelatedMaterial>
+<ServiceType href="urn:dvb:metadata:cs:ServiceTypeCS:2019:linear"/>
+<ContentGuideSourceRef>bmt-epg-1</ContentGuideSourceRef>
+</Service>
+<Service version="3">
+<UniqueIdentifier>tag:dvb-i.bmt-technik.de,2022:4360.1073.52142</UniqueIdentifier>
+<ServiceInstance priority="3">
+<DVBCDeliveryParameters>
+<DVBTriplet origNetId="61441" tsId="10000" serviceId="52016"/>
+<NetworkID>61449</NetworkID>
+</DVBCDeliveryParameters>
+</ServiceInstance>
+<ServiceInstance priority="1">
+<DVBCDeliveryParameters>
+<DVBTriplet tsId="1073" serviceId="52142"/>
+<NetworkID>61449</NetworkID>
+</DVBCDeliveryParameters>
+</ServiceInstance>
+<ServiceInstance priority="2">
+<RelatedMaterial>
+<tva:HowRelated href="urn:dvb:metadata:cs:LinkedApplicationCS:2019:1.1"/>
+<tva:MediaLocator>
+<tva:MediaUri contentType="application/vnd.dvb.ait+xml">https://dvb-i.bmt-technik.de/ait/allgaeu.tv.aitx</tva:MediaUri>
+</tva:MediaLocator>
+</RelatedMaterial>
+<DASHDeliveryParameters>
+<UriBasedLocation contentType="application/dash+xml">
+<dvbi-types:URI>https://allgaeu-hbb.iptv-playoutcenter.de/allgaeu-hbb/tvallgaeu.stream_all/manifest.mpd</dvbi-types:URI>
+</UriBasedLocation>
+</DASHDeliveryParameters>
+</ServiceInstance>
+<ServiceName>allgäu.tv HD</ServiceName>
+<ProviderName>Allgäu-TV GmbH & Co. KG</ProviderName>
+<RelatedMaterial>
+<tva:HowRelated href="urn:dvb:metadata:cs:HowRelatedCS:2021:1001.2"/>
+<tva:MediaLocator>
+<tva:MediaUri contentType="image/png">https://dvb-i.bmt-technik.de/channel-logos/allgaeu-tv.png</tva:MediaUri>
+</tva:MediaLocator>
+</RelatedMaterial>
+<ServiceType href="urn:dvb:metadata:cs:ServiceTypeCS:2019:linear"/>
+<ContentGuideSourceRef>bmt-epg-1</ContentGuideSourceRef>
+</Service>
+<Service version="3">
+<UniqueIdentifier>tag:dvb-i.bmt-technik.de,2022:4360.1073.52140</UniqueIdentifier>
+<ServiceInstance priority="2">
+<RelatedMaterial>
+<tva:HowRelated href="urn:dvb:metadata:cs:LinkedApplicationCS:2019:1.1"/>
+<tva:MediaLocator>
+<tva:MediaUri contentType="application/vnd.dvb.ait+xml">https://dvb-i.bmt-technik.de/ait/franken-fernsehen.aitx</tva:MediaUri>
+</tva:MediaLocator>
+</RelatedMaterial>
+<DASHDeliveryParameters>
+<UriBasedLocation contentType="application/dash+xml">
+<dvbi-types:URI>https://franken-hbb.iptv-playoutcenter.de/franken-hbb/frankentv.stream_all/manifest.mpd</dvbi-types:URI>
+</UriBasedLocation>
+</DASHDeliveryParameters>
+</ServiceInstance>
+<ServiceInstance priority="3">
+<DVBCDeliveryParameters>
+<DVBTriplet origNetId="61441" tsId="10000" serviceId="52007"/>
+<NetworkID>61449</NetworkID>
+</DVBCDeliveryParameters>
+</ServiceInstance>
+<ServiceInstance priority="1">
+<DVBCDeliveryParameters>
+<DVBTriplet tsId="1073" serviceId="52140"/>
+<NetworkID>61449</NetworkID>
+</DVBCDeliveryParameters>
+</ServiceInstance>
+<ServiceName>Franken Fernsehen HD</ServiceName>
+<ProviderName>TVF Fernsehen in Franken Programm GmbH</ProviderName>
+<RelatedMaterial>
+<tva:HowRelated href="urn:dvb:metadata:cs:HowRelatedCS:2021:1001.2"/>
+<tva:MediaLocator>
+<tva:MediaUri contentType="image/png">https://dvb-i.bmt-technik.de/channel-logos/frankenfernsehen.png</tva:MediaUri>
+</tva:MediaLocator>
+</RelatedMaterial>
+<ServiceType href="urn:dvb:metadata:cs:ServiceTypeCS:2019:linear"/>
+<ContentGuideSourceRef>bmt-epg-1</ContentGuideSourceRef>
+</Service>
+<Service version="4">
+<UniqueIdentifier>tag:dvb-i.bmt-technik.de,2022:4360.1073.52158</UniqueIdentifier>
+<ServiceInstance priority="2">
+<RelatedMaterial>
+<tva:HowRelated href="urn:dvb:metadata:cs:LinkedApplicationCS:2019:1.1"/>
+<tva:MediaLocator>
+<tva:MediaUri contentType="application/vnd.dvb.ait+xml">https://dvb-i.bmt-technik.de/ait/ndbtv-deg-sr.aitx</tva:MediaUri>
+</tva:MediaLocator>
+</RelatedMaterial>
+<DASHDeliveryParameters>
+<UriBasedLocation contentType="application/dash+xml">
+<dvbi-types:URI>https://nbd-hbb.iptv-playoutcenter.de/nbd-hbb/donautv.stream_all/manifest.mpd</dvbi-types:URI>
+</UriBasedLocation>
+</DASHDeliveryParameters>
+</ServiceInstance>
+<ServiceInstance priority="3">
+<DisplayName>Niederbayern TV DEG-SR</DisplayName>
+<DVBCDeliveryParameters>
+<DVBTriplet origNetId="61441" tsId="10000" serviceId="52040"/>
+<NetworkID>61449</NetworkID>
+</DVBCDeliveryParameters>
+</ServiceInstance>
+<ServiceInstance priority="1">
+<DisplayName>Niederbayern TV HD DEG-SR</DisplayName>
+<DVBCDeliveryParameters>
+<DVBTriplet tsId="1073" serviceId="52158"/>
+<NetworkID>61449</NetworkID>
+</DVBCDeliveryParameters>
+</ServiceInstance>
+<ServiceName>Niederbayern TV HD Deggendorf-Straubing</ServiceName>
+<ProviderName>Niederbayern TV Deggendorf-Straubing GmbH & Co. KG</ProviderName>
+<RelatedMaterial>
+<tva:HowRelated href="urn:dvb:metadata:cs:HowRelatedCS:2021:1001.2"/>
+<tva:MediaLocator>
+<tva:MediaUri contentType="image/png">https://dvb-i.bmt-technik.de/channel-logos/niederbayern-tv-deggendorf-straubing.png</tva:MediaUri>
+</tva:MediaLocator>
+</RelatedMaterial>
+<ServiceType href="urn:dvb:metadata:cs:ServiceTypeCS:2019:linear"/>
+<ContentGuideSourceRef>bmt-epg-1</ContentGuideSourceRef>
+</Service>
+<Service version="4">
+<UniqueIdentifier>tag:dvb-i.bmt-technik.de,2022:4360.1073.52159</UniqueIdentifier>
+<ServiceInstance priority="1">
+<RelatedMaterial>
+<tva:HowRelated href="urn:dvb:metadata:cs:LinkedApplicationCS:2019:1.1"/>
+<tva:MediaLocator>
+<tva:MediaUri contentType="application/vnd.dvb.ait+xml">https://dvb-i.bmt-technik.de/ait/ndbtv-la.aitx</tva:MediaUri>
+</tva:MediaLocator>
+</RelatedMaterial>
+<DASHDeliveryParameters>
+<UriBasedLocation contentType="application/dash+xml">
+<dvbi-types:URI>https://nbl-hbb.iptv-playoutcenter.de/nbl-hbb/isar-tv.stream_all/manifest.mpd</dvbi-types:URI>
+</UriBasedLocation>
+</DASHDeliveryParameters>
+</ServiceInstance>
+<ServiceInstance priority="3">
+<DVBCDeliveryParameters>
+<DVBTriplet origNetId="61441" tsId="10000" serviceId="52012"/>
+<NetworkID>61449</NetworkID>
+</DVBCDeliveryParameters>
+</ServiceInstance>
+<ServiceInstance priority="1">
+<DVBCDeliveryParameters>
+<DVBTriplet tsId="1073" serviceId="52159"/>
+<NetworkID>61449</NetworkID>
+</DVBCDeliveryParameters>
+</ServiceInstance>
+<ServiceName>Niederbayern TV HD Landshut</ServiceName>
+<ProviderName>NIEDERBAYERN TV Landshut GmbH</ProviderName>
+<RelatedMaterial>
+<tva:HowRelated href="urn:dvb:metadata:cs:HowRelatedCS:2021:1001.2"/>
+<tva:MediaLocator>
+<tva:MediaUri contentType="image/png">https://dvb-i.bmt-technik.de/channel-logos/niederbayern-tv-landshut.png</tva:MediaUri>
+</tva:MediaLocator>
+</RelatedMaterial>
+<ServiceType href="urn:dvb:metadata:cs:ServiceTypeCS:2019:linear"/>
+<ContentGuideSourceRef>bmt-epg-1</ContentGuideSourceRef>
+</Service>
+<Service version="4">
+<UniqueIdentifier>tag:dvb-i.bmt-technik.de,2022:4360.1073.52138</UniqueIdentifier>
+<ServiceInstance priority="2">
+<RelatedMaterial>
+<tva:HowRelated href="urn:dvb:metadata:cs:LinkedApplicationCS:2019:1.1"/>
+<tva:MediaLocator>
+<tva:MediaUri contentType="application/vnd.dvb.ait+xml">https://dvb-i.bmt-technik.de/ait/ndbtv-pa.aitx</tva:MediaUri>
+</tva:MediaLocator>
+</RelatedMaterial>
+<DASHDeliveryParameters>
+<UriBasedLocation contentType="application/dash+xml">
+<dvbi-types:URI>https://nbp-hbb.iptv-playoutcenter.de/nbp-hbb/teleregionalpassau1.stream_all/manifest.mpd</dvbi-types:URI>
+</UriBasedLocation>
+</DASHDeliveryParameters>
+</ServiceInstance>
+<ServiceInstance priority="3">
+<DVBCDeliveryParameters>
+<DVBTriplet origNetId="61441" tsId="10000" serviceId="52017"/>
+<NetworkID>61449</NetworkID>
+</DVBCDeliveryParameters>
+</ServiceInstance>
+<ServiceInstance priority="1">
+<DVBCDeliveryParameters>
+<DVBTriplet tsId="1073" serviceId="52138"/>
+<NetworkID>61449</NetworkID>
+</DVBCDeliveryParameters>
+</ServiceInstance>
+<ServiceName>Niederbayern TV HD Passau</ServiceName>
+<ProviderName>Niederbayern TV Passau GmbH</ProviderName>
+<RelatedMaterial>
+<tva:HowRelated href="urn:dvb:metadata:cs:HowRelatedCS:2021:1001.2"/>
+<tva:MediaLocator>
+<tva:MediaUri contentType="image/png">https://dvb-i.bmt-technik.de/channel-logos/niederbayern-tv-passau.png</tva:MediaUri>
+</tva:MediaLocator>
+</RelatedMaterial>
+<ServiceType href="urn:dvb:metadata:cs:ServiceTypeCS:2019:linear"/>
+<ContentGuideSourceRef>bmt-epg-1</ContentGuideSourceRef>
+</Service>
+<Service version="3">
+<UniqueIdentifier>tag:dvb-i.bmt-technik.de,2022:4360.1073.52149</UniqueIdentifier>
+<ServiceInstance priority="2">
+<RelatedMaterial>
+<tva:HowRelated href="urn:dvb:metadata:cs:LinkedApplicationCS:2019:1.1"/>
+<tva:MediaLocator>
+<tva:MediaUri contentType="application/vnd.dvb.ait+xml">https://dvb-i.bmt-technik.de/ait/oberpfalz-tv.aitx</tva:MediaUri>
+</tva:MediaLocator>
+</RelatedMaterial>
+<DASHDeliveryParameters>
+<UriBasedLocation contentType="application/dash+xml">
+<dvbi-types:URI>https://otv-hbb.iptv-playoutcenter.de/otv-hbb/oberpfalztv.stream_all/manifest.mpd</dvbi-types:URI>
+</UriBasedLocation>
+</DASHDeliveryParameters>
+</ServiceInstance>
+<ServiceInstance priority="3">
+<DVBCDeliveryParameters>
+<DVBTriplet origNetId="61441" tsId="10000" serviceId="52005"/>
+<NetworkID>61449</NetworkID>
+</DVBCDeliveryParameters>
+</ServiceInstance>
+<ServiceInstance priority="1">
+<DVBCDeliveryParameters>
+<DVBTriplet tsId="1073" serviceId="52149"/>
+<NetworkID>61449</NetworkID>
+</DVBCDeliveryParameters>
+</ServiceInstance>
+<ServiceName>Oberpfalz TV HD</ServiceName>
+<ProviderName>Oberpfalz TV Nord GmbH & Co. Studiobetriebs KG</ProviderName>
+<RelatedMaterial>
+<tva:HowRelated href="urn:dvb:metadata:cs:HowRelatedCS:2021:1001.2"/>
+<tva:MediaLocator>
+<tva:MediaUri contentType="image/png">https://dvb-i.bmt-technik.de/channel-logos/otv.png</tva:MediaUri>
+</tva:MediaLocator>
+</RelatedMaterial>
+<ServiceType href="urn:dvb:metadata:cs:ServiceTypeCS:2019:linear"/>
+<ContentGuideSourceRef>bmt-epg-1</ContentGuideSourceRef>
+</Service>
+<Service version="3">
+<UniqueIdentifier>tag:dvb-i.bmt-technik.de,2022:4360.1073.52160</UniqueIdentifier>
+<ServiceInstance priority="2">
+<RelatedMaterial>
+<tva:HowRelated href="urn:dvb:metadata:cs:LinkedApplicationCS:2019:1.1"/>
+<tva:MediaLocator>
+<tva:MediaUri contentType="application/vnd.dvb.ait+xml">https://dvb-i.bmt-technik.de/ait/regio-tv-schwaben.aitx</tva:MediaUri>
+</tva:MediaLocator>
+</RelatedMaterial>
+<DASHDeliveryParameters>
+<UriBasedLocation contentType="application/dash+xml">
+<dvbi-types:URI>https://regio-hbb.iptv-playoutcenter.de/regio-hbb/regiotv.stream_all/manifest.mpd</dvbi-types:URI>
+</UriBasedLocation>
+</DASHDeliveryParameters>
+</ServiceInstance>
+<ServiceInstance priority="3">
+<DVBCDeliveryParameters>
+<DVBTriplet origNetId="61441" tsId="10000" serviceId="52039"/>
+<NetworkID>61449</NetworkID>
+</DVBCDeliveryParameters>
+</ServiceInstance>
+<ServiceInstance priority="1">
+<DVBCDeliveryParameters>
+<DVBTriplet tsId="1073" serviceId="52160"/>
+<NetworkID>61449</NetworkID>
+</DVBCDeliveryParameters>
+</ServiceInstance>
+<ServiceName>Regio TV Schwaben HD</ServiceName>
+<ProviderName>Regio TV Stuttgart GmbH & Co. KG</ProviderName>
+<RelatedMaterial>
+<tva:HowRelated href="urn:dvb:metadata:cs:HowRelatedCS:2021:1001.2"/>
+<tva:MediaLocator>
+<tva:MediaUri contentType="image/png">https://dvb-i.bmt-technik.de/channel-logos/regio-tv-schwaben.png</tva:MediaUri>
+</tva:MediaLocator>
+</RelatedMaterial>
+<ServiceType href="urn:dvb:metadata:cs:ServiceTypeCS:2019:linear"/>
+<ContentGuideSourceRef>bmt-epg-1</ContentGuideSourceRef>
+</Service>
+<Service version="3">
+<UniqueIdentifier>tag:dvb-i.bmt-technik.de,2022:4360.1073.52153</UniqueIdentifier>
+<ServiceInstance priority="2">
+<RelatedMaterial>
+<tva:HowRelated href="urn:dvb:metadata:cs:LinkedApplicationCS:2019:1.1"/>
+<tva:MediaLocator>
+<tva:MediaUri contentType="application/vnd.dvb.ait+xml">https://dvb-i.bmt-technik.de/ait/rfo.aitx</tva:MediaUri>
+</tva:MediaLocator>
+</RelatedMaterial>
+<DASHDeliveryParameters>
+<UriBasedLocation contentType="application/dash+xml">
+<dvbi-types:URI>https://rfo-hbb.iptv-playoutcenter.de/rfo-hbb/rfo.stream_all/manifest.mpd</dvbi-types:URI>
+</UriBasedLocation>
+</DASHDeliveryParameters>
+</ServiceInstance>
+<ServiceInstance priority="3">
+<DVBCDeliveryParameters>
+<DVBTriplet origNetId="61441" tsId="10000" serviceId="52010"/>
+<NetworkID>61449</NetworkID>
+</DVBCDeliveryParameters>
+</ServiceInstance>
+<ServiceInstance priority="1">
+<DVBCDeliveryParameters>
+<DVBTriplet tsId="1073" serviceId="52153"/>
+<NetworkID>61449</NetworkID>
+</DVBCDeliveryParameters>
+</ServiceInstance>
+<ServiceName>Regional Fernsehen Oberbayern HD</ServiceName>
+<ProviderName>Regional Fernsehen Oberbayern GmbH</ProviderName>
+<RelatedMaterial>
+<tva:HowRelated href="urn:dvb:metadata:cs:HowRelatedCS:2021:1001.2"/>
+<tva:MediaLocator>
+<tva:MediaUri contentType="image/png">https://dvb-i.bmt-technik.de/channel-logos/rfo.png</tva:MediaUri>
+</tva:MediaLocator>
+</RelatedMaterial>
+<ServiceType href="urn:dvb:metadata:cs:ServiceTypeCS:2019:linear"/>
+<ContentGuideSourceRef>bmt-epg-1</ContentGuideSourceRef>
+</Service>
+<Service version="3">
+<UniqueIdentifier>tag:dvb-i.bmt-technik.de,2022:4360.1073.52156</UniqueIdentifier>
+<ServiceInstance priority="2">
+<RelatedMaterial>
+<tva:HowRelated href="urn:dvb:metadata:cs:LinkedApplicationCS:2019:1.1"/>
+<tva:MediaLocator>
+<tva:MediaUri contentType="application/vnd.dvb.ait+xml">https://dvb-i.bmt-technik.de/ait/tv-mainfranken.aitx</tva:MediaUri>
+</tva:MediaLocator>
+</RelatedMaterial>
+<DASHDeliveryParameters>
+<UriBasedLocation contentType="application/dash+xml">
+<dvbi-types:URI>https://tvmain-hbb.iptv-playoutcenter.de/tvmain-hbb/tvtouringw.stream_all/manifest.mpd</dvbi-types:URI>
+</UriBasedLocation>
+</DASHDeliveryParameters>
+</ServiceInstance>
+<ServiceInstance priority="3">
+<DVBCDeliveryParameters>
+<DVBTriplet origNetId="61441" tsId="10000" serviceId="52008"/>
+<NetworkID>61449</NetworkID>
+</DVBCDeliveryParameters>
+</ServiceInstance>
+<ServiceInstance priority="1">
+<DVBCDeliveryParameters>
+<DVBTriplet tsId="1073" serviceId="52156"/>
+<NetworkID>61449</NetworkID>
+</DVBCDeliveryParameters>
+</ServiceInstance>
+<ServiceName>TV Mainfranken HD</ServiceName>
+<ProviderName>TV Mainfranken GmbH & Co. KG</ProviderName>
+<RelatedMaterial>
+<tva:HowRelated href="urn:dvb:metadata:cs:HowRelatedCS:2021:1001.2"/>
+<tva:MediaLocator>
+<tva:MediaUri contentType="image/png">https://dvb-i.bmt-technik.de/channel-logos/tv-mainfranken.png</tva:MediaUri>
+</tva:MediaLocator>
+</RelatedMaterial>
+<ServiceType href="urn:dvb:metadata:cs:ServiceTypeCS:2019:linear"/>
+<ContentGuideSourceRef>bmt-epg-1</ContentGuideSourceRef>
+</Service>
+<Service version="4">
+<UniqueIdentifier>tag:dvb-i.bmt-technik.de,2022:4360.1073.52139</UniqueIdentifier>
+<ServiceInstance priority="2">
+<RelatedMaterial>
+<tva:HowRelated href="urn:dvb:metadata:cs:LinkedApplicationCS:2019:1.1"/>
+<tva:MediaLocator>
+<tva:MediaUri contentType="application/vnd.dvb.ait+xml">https://dvb-i.bmt-technik.de/ait/tv-oberfranken.aitx</tva:MediaUri>
+</tva:MediaLocator>
+</RelatedMaterial>
+<DASHDeliveryParameters>
+<UriBasedLocation contentType="application/dash+xml">
+<dvbi-types:URI>https://tvo-hbb.iptv-playoutcenter.de/tvo-hbb/tvoberfranken.stream_all/manifest.mpd</dvbi-types:URI>
+</UriBasedLocation>
+</DASHDeliveryParameters>
+</ServiceInstance>
+<ServiceInstance priority="3">
+<DVBCDeliveryParameters>
+<DVBTriplet origNetId="61441" tsId="10000" serviceId="52015"/>
+<NetworkID>61449</NetworkID>
+</DVBCDeliveryParameters>
+</ServiceInstance>
+<ServiceInstance priority="1">
+<DVBCDeliveryParameters>
+<DVBTriplet tsId="1073" serviceId="52139"/>
+<NetworkID>61449</NetworkID>
+</DVBCDeliveryParameters>
+</ServiceInstance>
+<ServiceName>TV Oberfranken HD</ServiceName>
+<ProviderName>TV Oberfranken GmbH & Co. KG</ProviderName>
+<RelatedMaterial>
+<tva:HowRelated href="urn:dvb:metadata:cs:HowRelatedCS:2021:1001.2"/>
+<tva:MediaLocator>
+<tva:MediaUri contentType="image/png">https://dvb-i.bmt-technik.de/channel-logos/tv-oberfranken.png</tva:MediaUri>
+</tva:MediaLocator>
+</RelatedMaterial>
+<ServiceType href="urn:dvb:metadata:cs:ServiceTypeCS:2019:linear"/>
+<ContentGuideSourceRef>bmt-epg-1</ContentGuideSourceRef>
+</Service>
+<Service version="3">
+<UniqueIdentifier>tag:dvb-i.bmt-technik.de,2022:4360.1073.52141</UniqueIdentifier>
+<ServiceInstance priority="2">
+<RelatedMaterial>
+<tva:HowRelated href="urn:dvb:metadata:cs:LinkedApplicationCS:2019:1.1"/>
+<tva:MediaLocator>
+<tva:MediaUri contentType="application/vnd.dvb.ait+xml">https://dvb-i.bmt-technik.de/ait/tv.ingolstadt.aitx</tva:MediaUri>
+</tva:MediaLocator>
+</RelatedMaterial>
+<DASHDeliveryParameters>
+<UriBasedLocation contentType="application/dash+xml">
+<dvbi-types:URI>https://tvin-hbb.iptv-playoutcenter.de/tvin-hbb/tvingolstadt.stream_all/manifest.mpd</dvbi-types:URI>
+</UriBasedLocation>
+</DASHDeliveryParameters>
+</ServiceInstance>
+<ServiceInstance priority="3">
+<DVBCDeliveryParameters>
+<DVBTriplet origNetId="61441" tsId="10000" serviceId="52013"/>
+<NetworkID>61449</NetworkID>
+</DVBCDeliveryParameters>
+</ServiceInstance>
+<ServiceInstance priority="1">
+<DVBCDeliveryParameters>
+<DVBTriplet tsId="1073" serviceId="52141"/>
+<NetworkID>61449</NetworkID>
+</DVBCDeliveryParameters>
+</ServiceInstance>
+<ServiceInstance priority="1">
+<DVBSDeliveryParameters>
+<DVBTriplet origNetId="1" tsId="1023" serviceId="5804"/>
+</DVBSDeliveryParameters>
+</ServiceInstance>
+<ServiceName>tv.ingolstadt HD</ServiceName>
+<ProviderName>tv.ingolstadt GmbH & Co. KG</ProviderName>
+<RelatedMaterial>
+<tva:HowRelated href="urn:dvb:metadata:cs:HowRelatedCS:2021:1001.2"/>
+<tva:MediaLocator>
+<tva:MediaUri contentType="image/png">https://dvb-i.bmt-technik.de/channel-logos/ingolstadt-tv.png</tva:MediaUri>
+</tva:MediaLocator>
+</RelatedMaterial>
+<ServiceType href="urn:dvb:metadata:cs:ServiceTypeCS:2019:linear"/>
+<ContentGuideSourceRef>bmt-epg-1</ContentGuideSourceRef>
+</Service>
+<Service version="3">
+<UniqueIdentifier>tag:dvb-i.bmt-technik.de,2022:4360.1073.52157</UniqueIdentifier>
+<ServiceInstance priority="2">
+<RelatedMaterial>
+<tva:HowRelated href="urn:dvb:metadata:cs:LinkedApplicationCS:2019:1.1"/>
+<tva:MediaLocator>
+<tva:MediaUri contentType="application/vnd.dvb.ait+xml">https://dvb-i.bmt-technik.de/ait/tva-ostbayern.aitx</tva:MediaUri>
+</tva:MediaLocator>
+</RelatedMaterial>
+<DASHDeliveryParameters>
+<UriBasedLocation contentType="application/dash+xml">
+<dvbi-types:URI>https://tva-hbb.iptv-playoutcenter.de/tva-hbb/tvaktuellr.stream_all/manifest.mpd</dvbi-types:URI>
+</UriBasedLocation>
+</DASHDeliveryParameters>
+</ServiceInstance>
+<ServiceInstance priority="3">
+<DVBCDeliveryParameters>
+<DVBTriplet origNetId="61441" tsId="10000" serviceId="52014"/>
+<NetworkID>61449</NetworkID>
+</DVBCDeliveryParameters>
+</ServiceInstance>
+<ServiceInstance priority="1">
+<DVBCDeliveryParameters>
+<DVBTriplet tsId="1073" serviceId="52157"/>
+<NetworkID>61449</NetworkID>
+</DVBCDeliveryParameters>
+</ServiceInstance>
+<ServiceName>TVA Ostbayern HD</ServiceName>
+<ProviderName>TVA Ostbayern Fernsehprogrammgesellschaft mbH & Co. Studiobetriebs-KG</ProviderName>
+<RelatedMaterial>
+<tva:HowRelated href="urn:dvb:metadata:cs:HowRelatedCS:2021:1001.2"/>
+<tva:MediaLocator>
+<tva:MediaUri contentType="image/png">https://dvb-i.bmt-technik.de/channel-logos/tv-a-ostbayern.png</tva:MediaUri>
+</tva:MediaLocator>
+</RelatedMaterial>
+<ServiceType href="urn:dvb:metadata:cs:ServiceTypeCS:2019:linear"/>
+<ContentGuideSourceRef>bmt-epg-1</ContentGuideSourceRef>
+</Service>
+<Service version="6">
+<UniqueIdentifier>tag:mitxp.com,2021:1.1025.10326</UniqueIdentifier>
+<ServiceInstance priority="5">
+<DASHDeliveryParameters>
+<UriBasedLocation contentType="application/dash+xml">
+<dvbi-types:URI>https://bfrnorddash.akamaized.net/dash/live/2016971/bfs_nord_de/dvbt2/manifest.mpd</dvbi-types:URI>
+</UriBasedLocation>
+</DASHDeliveryParameters>
+</ServiceInstance>
+<ServiceInstance priority="3">
+<DVBSDeliveryParameters>
+<DVBTriplet origNetId="1" tsId="1025" serviceId="10326"/>
+</DVBSDeliveryParameters>
+</ServiceInstance>
+<ServiceInstance priority="3">
+<DVBTDeliveryParameters>
+<DVBTriplet serviceId="801"/>
+</DVBTDeliveryParameters>
+</ServiceInstance>
+<ServiceName>BR Fernsehen Nord HD</ServiceName>
+<ProviderName>ARD</ProviderName>
+<RelatedMaterial>
+<tva:HowRelated href="urn:dvb:metadata:cs:HowRelatedCS:2021:1001.2"/>
+<tva:MediaLocator>
+<tva:MediaUri contentType="image/png">https://itv-api.ard.de/ardstart/img/services/28110.png</tva:MediaUri>
+</tva:MediaLocator>
+</RelatedMaterial>
+<RelatedMaterial>
+<tva:HowRelated href="urn:dvb:metadata:cs:LinkedApplicationCS:2019:1.1"/>
+<tva:MediaLocator>
+<tva:MediaUri contentType="application/vnd.dvb.ait+xml">https://itv-api.ard.de/xml.aitx?sid=28110</tva:MediaUri>
+</tva:MediaLocator>
+</RelatedMaterial>
+<ServiceType href="urn:dvb:metadata:cs:ServiceTypeCS:2019:linear"/>
+<ContentGuideSourceRef>iSIMS</ContentGuideSourceRef>
+<ContentGuideServiceRef>tag:mitxp.com,2021:eit1.1025.10326</ContentGuideServiceRef>
+</Service>
+<Service version="12">
+<UniqueIdentifier>tag:mitxp.com,2021:1.1061.10353</UniqueIdentifier>
+<ServiceInstance priority="5">
+<DASHDeliveryParameters>
+<UriBasedLocation contentType="application/dash+xml">
+<dvbi-types:URI>https://mdrtvsadash.akamaized.net/dash/live/2094116/mdrtvsa/dash.mpd</dvbi-types:URI>
+</UriBasedLocation>
+</DASHDeliveryParameters>
+</ServiceInstance>
+<ServiceInstance priority="3">
+<DVBSDeliveryParameters>
+<DVBTriplet origNetId="1" tsId="1061" serviceId="10353"/>
+</DVBSDeliveryParameters>
+</ServiceInstance>
+<ServiceInstance priority="3">
+<DVBTDeliveryParameters>
+<DVBTriplet serviceId="866"/>
+</DVBTDeliveryParameters>
+</ServiceInstance>
+<ServiceName>MDR S-Anhalt HD</ServiceName>
+<ProviderName>ARD</ProviderName>
+<RelatedMaterial>
+<tva:HowRelated href="urn:dvb:metadata:cs:HowRelatedCS:2021:1001.2"/>
+<tva:MediaLocator>
+<tva:MediaUri contentType="image/png">https://itv-api.ard.de/ardstart/img/services/28229.png</tva:MediaUri>
+</tva:MediaLocator>
+</RelatedMaterial>
+<RelatedMaterial>
+<tva:HowRelated href="urn:dvb:metadata:cs:LinkedApplicationCS:2019:1.1"/>
+<tva:MediaLocator>
+<tva:MediaUri contentType="application/vnd.dvb.ait+xml">https://itv-api.ard.de/xml.aitx?sid=28229</tva:MediaUri>
+</tva:MediaLocator>
+</RelatedMaterial>
+<ServiceType href="urn:dvb:metadata:cs:ServiceTypeCS:2019:linear"/>
+<ContentGuideSourceRef>iSIMS</ContentGuideSourceRef>
+<ContentGuideServiceRef>tag:mitxp.com,2021:eit1.1061.10353</ContentGuideServiceRef>
+</Service>
+<Service version="20">
+<UniqueIdentifier>tag:mitxp.com,2021:1.1061.10354</UniqueIdentifier>
+<ServiceInstance priority="5">
+<DASHDeliveryParameters>
+<UriBasedLocation contentType="application/dash+xml">
+<dvbi-types:URI>https://mdrtvthdash.akamaized.net/dash/live/2094118/mdrtvth/dash.mpd</dvbi-types:URI>
+</UriBasedLocation>
+</DASHDeliveryParameters>
+</ServiceInstance>
+<ServiceInstance priority="3">
+<DVBSDeliveryParameters>
+<DVBTriplet origNetId="1" tsId="1061" serviceId="10354"/>
+</DVBSDeliveryParameters>
+</ServiceInstance>
+<ServiceInstance priority="3">
+<DVBTDeliveryParameters>
+<DVBTriplet serviceId="867"/>
+</DVBTDeliveryParameters>
+</ServiceInstance>
+<ServiceName>MDR Thüringen HD</ServiceName>
+<ProviderName>ARD</ProviderName>
+<RelatedMaterial>
+<tva:HowRelated href="urn:dvb:metadata:cs:HowRelatedCS:2021:1001.2"/>
+<tva:MediaLocator>
+<tva:MediaUri contentType="image/png">https://itv-api.ard.de/ardstart/img/services/28230.png</tva:MediaUri>
+</tva:MediaLocator>
+</RelatedMaterial>
+<RelatedMaterial>
+<tva:HowRelated href="urn:dvb:metadata:cs:LinkedApplicationCS:2019:1.1"/>
+<tva:MediaLocator>
+<tva:MediaUri contentType="application/vnd.dvb.ait+xml">https://itv-api.ard.de/xml.aitx?sid=28230</tva:MediaUri>
+</tva:MediaLocator>
+</RelatedMaterial>
+<ServiceType href="urn:dvb:metadata:cs:ServiceTypeCS:2019:linear"/>
+<ContentGuideSourceRef>iSIMS</ContentGuideSourceRef>
+<ContentGuideServiceRef>tag:mitxp.com,2021:eit1.1061.10354</ContentGuideServiceRef>
+</Service>
+<Service version="4">
+<UniqueIdentifier>tag:mitxp.com,2021:1.1025.10329</UniqueIdentifier>
+<ServiceInstance priority="5">
+<DASHDeliveryParameters>
+<UriBasedLocation contentType="application/dash+xml">
+<dvbi-types:URI>https://mcdn.ndr.de/ndr/dash/ndr_hbbtv/ndr_hbbtv_hh/ndr_hbbtv_hh.mpd</dvbi-types:URI>
+</UriBasedLocation>
+</DASHDeliveryParameters>
+</ServiceInstance>
+<ServiceInstance priority="3">
+<DVBSDeliveryParameters>
+<DVBTriplet origNetId="1" tsId="1025" serviceId="10329"/>
+</DVBSDeliveryParameters>
+</ServiceInstance>
+<ServiceInstance priority="3">
+<DVBTDeliveryParameters>
+<DVBTriplet serviceId="898"/>
+</DVBTDeliveryParameters>
+</ServiceInstance>
+<ServiceName>NDR FS HH HD</ServiceName>
+<ProviderName>ARD</ProviderName>
+<RelatedMaterial>
+<tva:HowRelated href="urn:dvb:metadata:cs:HowRelatedCS:2021:1001.2"/>
+<tva:MediaLocator>
+<tva:MediaUri contentType="image/png">https://itv-api.ard.de/ardstart/img/services/28225.png</tva:MediaUri>
+</tva:MediaLocator>
+</RelatedMaterial>
+<RelatedMaterial>
+<tva:HowRelated href="urn:dvb:metadata:cs:LinkedApplicationCS:2019:1.1"/>
+<tva:MediaLocator>
+<tva:MediaUri contentType="application/vnd.dvb.ait+xml">https://itv-api.ard.de/xml.aitx?sid=28225</tva:MediaUri>
+</tva:MediaLocator>
+</RelatedMaterial>
+<ServiceType href="urn:dvb:metadata:cs:ServiceTypeCS:2019:linear"/>
+<ContentGuideSourceRef>iSIMS</ContentGuideSourceRef>
+<ContentGuideServiceRef>tag:mitxp.com,2021:eit1.1025.10329</ContentGuideServiceRef>
+</Service>
+<Service version="4">
+<UniqueIdentifier>tag:mitxp.com,2021:1.1025.10328</UniqueIdentifier>
+<ServiceInstance priority="5">
+<DASHDeliveryParameters>
+<UriBasedLocation contentType="application/dash+xml">
+<dvbi-types:URI>https://mcdn.ndr.de/ndr/dash/ndr_hbbtv/ndr_hbbtv_mv/ndr_hbbtv_mv.mpd</dvbi-types:URI>
+</UriBasedLocation>
+</DASHDeliveryParameters>
+</ServiceInstance>
+<ServiceInstance priority="3">
+<DVBSDeliveryParameters>
+<DVBTriplet origNetId="1" tsId="1025" serviceId="10328"/>
+</DVBSDeliveryParameters>
+</ServiceInstance>
+<ServiceInstance priority="3">
+<DVBTDeliveryParameters>
+<DVBTriplet serviceId="900"/>
+</DVBTDeliveryParameters>
+</ServiceInstance>
+<ServiceName>NDR FS MV HD</ServiceName>
+<ProviderName>ARD</ProviderName>
+<RelatedMaterial>
+<tva:HowRelated href="urn:dvb:metadata:cs:HowRelatedCS:2021:1001.2"/>
+<tva:MediaLocator>
+<tva:MediaUri contentType="image/png">https://itv-api.ard.de/ardstart/img/services/28224.png</tva:MediaUri>
+</tva:MediaLocator>
+</RelatedMaterial>
+<RelatedMaterial>
+<tva:HowRelated href="urn:dvb:metadata:cs:LinkedApplicationCS:2019:1.1"/>
+<tva:MediaLocator>
+<tva:MediaUri contentType="application/vnd.dvb.ait+xml">https://itv-api.ard.de/xml.aitx?sid=28224</tva:MediaUri>
+</tva:MediaLocator>
+</RelatedMaterial>
+<ServiceType href="urn:dvb:metadata:cs:ServiceTypeCS:2019:linear"/>
+<ContentGuideSourceRef>iSIMS</ContentGuideSourceRef>
+<ContentGuideServiceRef>tag:mitxp.com,2021:eit1.1025.10328</ContentGuideServiceRef>
+</Service>
+<Service version="4">
+<UniqueIdentifier>tag:mitxp.com,2021:1.1025.10330</UniqueIdentifier>
+<ServiceInstance priority="5">
+<DASHDeliveryParameters>
+<UriBasedLocation contentType="application/dash+xml">
+<dvbi-types:URI>https://mcdn.ndr.de/ndr/dash/ndr_hbbtv/ndr_hbbtv_sh/ndr_hbbtv_sh.mpd</dvbi-types:URI>
+</UriBasedLocation>
+</DASHDeliveryParameters>
+</ServiceInstance>
+<ServiceInstance priority="3">
+<DVBSDeliveryParameters>
+<DVBTriplet origNetId="1" tsId="1025" serviceId="10330"/>
+</DVBSDeliveryParameters>
+</ServiceInstance>
+<ServiceInstance priority="3">
+<DVBTDeliveryParameters>
+<DVBTriplet serviceId="899"/>
+</DVBTDeliveryParameters>
+</ServiceInstance>
+<ServiceName>NDR FS SH HD</ServiceName>
+<ProviderName>ARD</ProviderName>
+<RelatedMaterial>
+<tva:HowRelated href="urn:dvb:metadata:cs:HowRelatedCS:2021:1001.2"/>
+<tva:MediaLocator>
+<tva:MediaUri contentType="image/png">https://itv-api.ard.de/ardstart/img/services/28227.png</tva:MediaUri>
+</tva:MediaLocator>
+</RelatedMaterial>
+<RelatedMaterial>
+<tva:HowRelated href="urn:dvb:metadata:cs:LinkedApplicationCS:2019:1.1"/>
+<tva:MediaLocator>
+<tva:MediaUri contentType="application/vnd.dvb.ait+xml">https://itv-api.ard.de/xml.aitx?sid=28227</tva:MediaUri>
+</tva:MediaLocator>
+</RelatedMaterial>
+<ServiceType href="urn:dvb:metadata:cs:ServiceTypeCS:2019:linear"/>
+<ContentGuideSourceRef>iSIMS</ContentGuideSourceRef>
+<ContentGuideServiceRef>tag:mitxp.com,2021:eit1.1025.10330</ContentGuideServiceRef>
+</Service>
+<Service version="21">
+<UniqueIdentifier>tag:mitxp.com,2021:1.1061.10350</UniqueIdentifier>
+<ServiceInstance priority="5">
+<DASHDeliveryParameters>
+<UriBasedLocation contentType="application/dash+xml">
+<dvbi-types:URI>https://rbb-dash-brandenburg.akamaized.net/dash/live/2017827/rbb_brandenburg/manifest.mpd</dvbi-types:URI>
+</UriBasedLocation>
+</DASHDeliveryParameters>
+</ServiceInstance>
+<ServiceInstance priority="3">
+<DVBSDeliveryParameters>
+<DVBTriplet origNetId="1" tsId="1061" serviceId="10350"/>
+</DVBSDeliveryParameters>
+</ServiceInstance>
+<ServiceInstance priority="3">
+<DVBTDeliveryParameters>
+<DVBTriplet serviceId="946"/>
+</DVBTDeliveryParameters>
+</ServiceInstance>
+<ServiceName>rbb Brandenburg HD</ServiceName>
+<ProviderName>ARD</ProviderName>
+<RelatedMaterial>
+<tva:HowRelated href="urn:dvb:metadata:cs:HowRelatedCS:2021:1001.2"/>
+<tva:MediaLocator>
+<tva:MediaUri contentType="image/png">https://itv-api.ard.de/ardstart/img/services/28206.png</tva:MediaUri>
+</tva:MediaLocator>
+</RelatedMaterial>
+<RelatedMaterial>
+<tva:HowRelated href="urn:dvb:metadata:cs:LinkedApplicationCS:2019:1.1"/>
+<tva:MediaLocator>
+<tva:MediaUri contentType="application/vnd.dvb.ait+xml">https://itv-api.ard.de/xml.aitx?sid=28206</tva:MediaUri>
+</tva:MediaLocator>
+</RelatedMaterial>
+<ServiceType href="urn:dvb:metadata:cs:ServiceTypeCS:2019:linear"/>
+<ContentGuideSourceRef>iSIMS</ContentGuideSourceRef>
+<ContentGuideServiceRef>tag:mitxp.com,2021:eit1.1061.10350</ContentGuideServiceRef>
+</Service>
+<Service version="4">
+<UniqueIdentifier>tag:mitxp.com,2021:1.1019.10304</UniqueIdentifier>
+<ServiceInstance priority="5">
+<DASHDeliveryParameters>
+<UriBasedLocation contentType="application/dash+xml">
+<dvbi-types:URI>https://swrrp-dash.akamaized.net/dash/live/2018680/swrrpd/manifest.mpd</dvbi-types:URI>
+</UriBasedLocation>
+</DASHDeliveryParameters>
+</ServiceInstance>
+<ServiceInstance priority="3">
+<DVBSDeliveryParameters>
+<DVBTriplet origNetId="1" tsId="1019" serviceId="10304"/>
+</DVBSDeliveryParameters>
+</ServiceInstance>
+<ServiceInstance priority="3">
+<DVBTDeliveryParameters>
+<DVBTriplet serviceId="994"/>
+</DVBTDeliveryParameters>
+</ServiceInstance>
+<ServiceName>SWR RP HD</ServiceName>
+<ProviderName>ARD</ProviderName>
+<RelatedMaterial>
+<tva:HowRelated href="urn:dvb:metadata:cs:HowRelatedCS:2021:1001.2"/>
+<tva:MediaLocator>
+<tva:MediaUri contentType="image/png">https://itv-api.ard.de/ardstart/img/services/28231.png</tva:MediaUri>
+</tva:MediaLocator>
+</RelatedMaterial>
+<RelatedMaterial>
+<tva:HowRelated href="urn:dvb:metadata:cs:LinkedApplicationCS:2019:1.1"/>
+<tva:MediaLocator>
+<tva:MediaUri contentType="application/vnd.dvb.ait+xml">https://itv-api.ard.de/xml.aitx?sid=28231</tva:MediaUri>
+</tva:MediaLocator>
+</RelatedMaterial>
+<ServiceType href="urn:dvb:metadata:cs:ServiceTypeCS:2019:linear"/>
+<ContentGuideSourceRef>iSIMS</ContentGuideSourceRef>
+<ContentGuideServiceRef>tag:mitxp.com,2021:eit1.1019.10304</ContentGuideServiceRef>
+</Service>
+<Service version="11">
+<UniqueIdentifier>tag:mitxp.com,2021:1.1021.28333</UniqueIdentifier>
+<ServiceInstance priority="5">
+<DASHDeliveryParameters>
+<UriBasedLocation contentType="application/dash+xml">
+<dvbi-types:URI>https://wdrlokalzeit.akamaized.net/dash/live/2018107/wdrlz_aachen/dash.mpd</dvbi-types:URI>
+</UriBasedLocation>
+</DASHDeliveryParameters>
+</ServiceInstance>
+<ServiceInstance priority="3">
+<DVBSDeliveryParameters>
+<DVBTriplet origNetId="1" tsId="1021" serviceId="28333"/>
+</DVBSDeliveryParameters>
+</ServiceInstance>
+<ServiceInstance priority="3">
+<DVBTDeliveryParameters>
+<DVBTriplet serviceId="1025"/>
+</DVBTDeliveryParameters>
+</ServiceInstance>
+<ServiceName>WDR HD Aachen</ServiceName>
+<ProviderName>ARD</ProviderName>
+<RelatedMaterial>
+<tva:HowRelated href="urn:dvb:metadata:cs:HowRelatedCS:2021:1001.2"/>
+<tva:MediaLocator>
+<tva:MediaUri contentType="image/png">https://itv-api.ard.de/ardstart/img/services/28111.png</tva:MediaUri>
+</tva:MediaLocator>
+</RelatedMaterial>
+<RelatedMaterial>
+<tva:HowRelated href="urn:dvb:metadata:cs:LinkedApplicationCS:2019:1.1"/>
+<tva:MediaLocator>
+<tva:MediaUri contentType="application/vnd.dvb.ait+xml">https://itv-api.ard.de/xml.aitx?sid=28111</tva:MediaUri>
+</tva:MediaLocator>
+</RelatedMaterial>
+<ServiceType href="urn:dvb:metadata:cs:ServiceTypeCS:2019:linear"/>
+<ContentGuideSourceRef>iSIMS</ContentGuideSourceRef>
+<ContentGuideServiceRef>tag:mitxp.com,2021:eit1.1021.28333</ContentGuideServiceRef>
+</Service>
+<Service version="10">
+<UniqueIdentifier>tag:mitxp.com,2021:1.1021.28334</UniqueIdentifier>
+<ServiceInstance priority="5">
+<DASHDeliveryParameters>
+<UriBasedLocation contentType="application/dash+xml">
+<dvbi-types:URI>https://wdrlokalzeit.akamaized.net/dash/live/2018117/wdrlz_bielefeld/dash.mpd</dvbi-types:URI>
+</UriBasedLocation>
+</DASHDeliveryParameters>
+</ServiceInstance>
+<ServiceInstance priority="3">
+<DVBSDeliveryParameters>
+<DVBTriplet origNetId="1" tsId="1021" serviceId="28334"/>
+</DVBSDeliveryParameters>
+</ServiceInstance>
+<ServiceInstance priority="3">
+<DVBTDeliveryParameters>
+<DVBTriplet serviceId="1026"/>
+</DVBTDeliveryParameters>
+</ServiceInstance>
+<ServiceName>WDR HD Bielefeld</ServiceName>
+<ProviderName>ARD</ProviderName>
+<RelatedMaterial>
+<tva:HowRelated href="urn:dvb:metadata:cs:HowRelatedCS:2021:1001.2"/>
+<tva:MediaLocator>
+<tva:MediaUri contentType="image/png">https://itv-api.ard.de/ardstart/img/services/28111.png</tva:MediaUri>
+</tva:MediaLocator>
+</RelatedMaterial>
+<RelatedMaterial>
+<tva:HowRelated href="urn:dvb:metadata:cs:LinkedApplicationCS:2019:1.1"/>
+<tva:MediaLocator>
+<tva:MediaUri contentType="application/vnd.dvb.ait+xml">https://itv-api.ard.de/xml.aitx?sid=28111</tva:MediaUri>
+</tva:MediaLocator>
+</RelatedMaterial>
+<ServiceType href="urn:dvb:metadata:cs:ServiceTypeCS:2019:linear"/>
+<ContentGuideSourceRef>iSIMS</ContentGuideSourceRef>
+<ContentGuideServiceRef>tag:mitxp.com,2021:eit1.1021.28334</ContentGuideServiceRef>
+</Service>
+<Service version="10">
+<UniqueIdentifier>tag:mitxp.com,2021:1.1021.28335</UniqueIdentifier>
+<ServiceInstance priority="5">
+<DASHDeliveryParameters>
+<UriBasedLocation contentType="application/dash+xml">
+<dvbi-types:URI>https://wdrlokalzeit.akamaized.net/dash/live/2018112/wdrlz_bonn/dash.mpd</dvbi-types:URI>
+</UriBasedLocation>
+</DASHDeliveryParameters>
+</ServiceInstance>
+<ServiceInstance priority="3">
+<DVBSDeliveryParameters>
+<DVBTriplet origNetId="1" tsId="1021" serviceId="28335"/>
+</DVBSDeliveryParameters>
+</ServiceInstance>
+<ServiceInstance priority="3">
+<DVBTDeliveryParameters>
+<DVBTriplet serviceId="1034"/>
+</DVBTDeliveryParameters>
+</ServiceInstance>
+<ServiceName>WDR HD Bonn</ServiceName>
+<ProviderName>ARD</ProviderName>
+<RelatedMaterial>
+<tva:HowRelated href="urn:dvb:metadata:cs:HowRelatedCS:2021:1001.2"/>
+<tva:MediaLocator>
+<tva:MediaUri contentType="image/png">https://itv-api.ard.de/ardstart/img/services/28111.png</tva:MediaUri>
+</tva:MediaLocator>
+</RelatedMaterial>
+<RelatedMaterial>
+<tva:HowRelated href="urn:dvb:metadata:cs:LinkedApplicationCS:2019:1.1"/>
+<tva:MediaLocator>
+<tva:MediaUri contentType="application/vnd.dvb.ait+xml">https://itv-api.ard.de/xml.aitx?sid=28111</tva:MediaUri>
+</tva:MediaLocator>
+</RelatedMaterial>
+<ServiceType href="urn:dvb:metadata:cs:ServiceTypeCS:2019:linear"/>
+<ContentGuideSourceRef>iSIMS</ContentGuideSourceRef>
+<ContentGuideServiceRef>tag:mitxp.com,2021:eit1.1021.28335</ContentGuideServiceRef>
+</Service>
+<Service version="10">
+<UniqueIdentifier>tag:mitxp.com,2021:1.1021.28336</UniqueIdentifier>
+<ServiceInstance priority="5">
+<DASHDeliveryParameters>
+<UriBasedLocation contentType="application/dash+xml">
+<dvbi-types:URI>https://wdrlokalzeit.akamaized.net/dash/live/2018113/wdrlz_dortmund/dash.mpd</dvbi-types:URI>
+</UriBasedLocation>
+</DASHDeliveryParameters>
+</ServiceInstance>
+<ServiceInstance priority="3">
+<DVBSDeliveryParameters>
+<DVBTriplet origNetId="1" tsId="1021" serviceId="28336"/>
+</DVBSDeliveryParameters>
+</ServiceInstance>
+<ServiceInstance priority="3">
+<DVBTDeliveryParameters>
+<DVBTriplet serviceId="1027"/>
+</DVBTDeliveryParameters>
+</ServiceInstance>
+<ServiceName>WDR HD Dortmund</ServiceName>
+<ProviderName>ARD</ProviderName>
+<RelatedMaterial>
+<tva:HowRelated href="urn:dvb:metadata:cs:HowRelatedCS:2021:1001.2"/>
+<tva:MediaLocator>
+<tva:MediaUri contentType="image/png">https://itv-api.ard.de/ardstart/img/services/28111.png</tva:MediaUri>
+</tva:MediaLocator>
+</RelatedMaterial>
+<RelatedMaterial>
+<tva:HowRelated href="urn:dvb:metadata:cs:LinkedApplicationCS:2019:1.1"/>
+<tva:MediaLocator>
+<tva:MediaUri contentType="application/vnd.dvb.ait+xml">https://itv-api.ard.de/xml.aitx?sid=28111</tva:MediaUri>
+</tva:MediaLocator>
+</RelatedMaterial>
+<ServiceType href="urn:dvb:metadata:cs:ServiceTypeCS:2019:linear"/>
+<ContentGuideSourceRef>iSIMS</ContentGuideSourceRef>
+<ContentGuideServiceRef>tag:mitxp.com,2021:eit1.1021.28336</ContentGuideServiceRef>
+</Service>
+<Service version="10">
+<UniqueIdentifier>tag:mitxp.com,2021:1.1021.28337</UniqueIdentifier>
+<ServiceInstance priority="5">
+<DASHDeliveryParameters>
+<UriBasedLocation contentType="application/dash+xml">
+<dvbi-types:URI>https://wdrlokalzeit.akamaized.net/dash/live/2018115/wdrlz_duisburg/dash.mpd</dvbi-types:URI>
+</UriBasedLocation>
+</DASHDeliveryParameters>
+</ServiceInstance>
+<ServiceInstance priority="3">
+<DVBSDeliveryParameters>
+<DVBTriplet origNetId="1" tsId="1021" serviceId="28337"/>
+</DVBSDeliveryParameters>
+</ServiceInstance>
+<ServiceInstance priority="3">
+<DVBTDeliveryParameters>
+<DVBTriplet serviceId="1035"/>
+</DVBTDeliveryParameters>
+</ServiceInstance>
+<ServiceName>WDR HD Duisburg</ServiceName>
+<ProviderName>ARD</ProviderName>
+<RelatedMaterial>
+<tva:HowRelated href="urn:dvb:metadata:cs:HowRelatedCS:2021:1001.2"/>
+<tva:MediaLocator>
+<tva:MediaUri contentType="image/png">https://itv-api.ard.de/ardstart/img/services/28111.png</tva:MediaUri>
+</tva:MediaLocator>
+</RelatedMaterial>
+<RelatedMaterial>
+<tva:HowRelated href="urn:dvb:metadata:cs:LinkedApplicationCS:2019:1.1"/>
+<tva:MediaLocator>
+<tva:MediaUri contentType="application/vnd.dvb.ait+xml">https://itv-api.ard.de/xml.aitx?sid=28111</tva:MediaUri>
+</tva:MediaLocator>
+</RelatedMaterial>
+<ServiceType href="urn:dvb:metadata:cs:ServiceTypeCS:2019:linear"/>
+<ContentGuideSourceRef>iSIMS</ContentGuideSourceRef>
+<ContentGuideServiceRef>tag:mitxp.com,2021:eit1.1021.28337</ContentGuideServiceRef>
+</Service>
+<Service version="10">
+<UniqueIdentifier>tag:mitxp.com,2021:1.1021.28338</UniqueIdentifier>
+<ServiceInstance priority="5">
+<DASHDeliveryParameters>
+<UriBasedLocation contentType="application/dash+xml">
+<dvbi-types:URI>https://wdrlokalzeit.akamaized.net/dash/live/2018114/wdrlz_duesseldorf/dash.mpd</dvbi-types:URI>
+</UriBasedLocation>
+</DASHDeliveryParameters>
+</ServiceInstance>
+<ServiceInstance priority="3">
+<DVBSDeliveryParameters>
+<DVBTriplet origNetId="1" tsId="1021" serviceId="28338"/>
+</DVBSDeliveryParameters>
+</ServiceInstance>
+<ServiceInstance priority="3">
+<DVBTDeliveryParameters>
+<DVBTriplet serviceId="1028"/>
+</DVBTDeliveryParameters>
+</ServiceInstance>
+<ServiceName>WDR HD Düsseldorf</ServiceName>
+<ProviderName>ARD</ProviderName>
+<RelatedMaterial>
+<tva:HowRelated href="urn:dvb:metadata:cs:HowRelatedCS:2021:1001.2"/>
+<tva:MediaLocator>
+<tva:MediaUri contentType="image/png">https://itv-api.ard.de/ardstart/img/services/28111.png</tva:MediaUri>
+</tva:MediaLocator>
+</RelatedMaterial>
+<RelatedMaterial>
+<tva:HowRelated href="urn:dvb:metadata:cs:LinkedApplicationCS:2019:1.1"/>
+<tva:MediaLocator>
+<tva:MediaUri contentType="application/vnd.dvb.ait+xml">https://itv-api.ard.de/xml.aitx?sid=28111</tva:MediaUri>
+</tva:MediaLocator>
+</RelatedMaterial>
+<ServiceType href="urn:dvb:metadata:cs:ServiceTypeCS:2019:linear"/>
+<ContentGuideSourceRef>iSIMS</ContentGuideSourceRef>
+<ContentGuideServiceRef>tag:mitxp.com,2021:eit1.1021.28338</ContentGuideServiceRef>
+</Service>
+<Service version="10">
+<UniqueIdentifier>tag:mitxp.com,2021:1.1021.28339</UniqueIdentifier>
+<ServiceInstance priority="5">
+<DASHDeliveryParameters>
+<UriBasedLocation contentType="application/dash+xml">
+<dvbi-types:URI>https://wdrlokalzeit.akamaized.net/dash/live/2018118/wdrlz_essen/dash.mpd</dvbi-types:URI>
+</UriBasedLocation>
+</DASHDeliveryParameters>
+</ServiceInstance>
+<ServiceInstance priority="3">
+<DVBSDeliveryParameters>
+<DVBTriplet origNetId="1" tsId="1021" serviceId="28339"/>
+</DVBSDeliveryParameters>
+</ServiceInstance>
+<ServiceInstance priority="3">
+<DVBTDeliveryParameters>
+<DVBTriplet serviceId="1029"/>
+</DVBTDeliveryParameters>
+</ServiceInstance>
+<ServiceName>WDR HD Essen</ServiceName>
+<ProviderName>ARD</ProviderName>
+<RelatedMaterial>
+<tva:HowRelated href="urn:dvb:metadata:cs:HowRelatedCS:2021:1001.2"/>
+<tva:MediaLocator>
+<tva:MediaUri contentType="image/png">https://itv-api.ard.de/ardstart/img/services/28111.png</tva:MediaUri>
+</tva:MediaLocator>
+</RelatedMaterial>
+<RelatedMaterial>
+<tva:HowRelated href="urn:dvb:metadata:cs:LinkedApplicationCS:2019:1.1"/>
+<tva:MediaLocator>
+<tva:MediaUri contentType="application/vnd.dvb.ait+xml">https://itv-api.ard.de/xml.aitx?sid=28111</tva:MediaUri>
+</tva:MediaLocator>
+</RelatedMaterial>
+<ServiceType href="urn:dvb:metadata:cs:ServiceTypeCS:2019:linear"/>
+<ContentGuideSourceRef>iSIMS</ContentGuideSourceRef>
+<ContentGuideServiceRef>tag:mitxp.com,2021:eit1.1021.28339</ContentGuideServiceRef>
+</Service>
+<Service version="10">
+<UniqueIdentifier>tag:mitxp.com,2021:1.1021.28340</UniqueIdentifier>
+<ServiceInstance priority="5">
+<DASHDeliveryParameters>
+<UriBasedLocation contentType="application/dash+xml">
+<dvbi-types:URI>https://wdrlokalzeit.akamaized.net/dash/live/2018116/wdrlz_muensterland/dash.mpd</dvbi-types:URI>
+</UriBasedLocation>
+</DASHDeliveryParameters>
+</ServiceInstance>
+<ServiceInstance priority="3">
+<DVBSDeliveryParameters>
+<DVBTriplet origNetId="1" tsId="1021" serviceId="28340"/>
+</DVBSDeliveryParameters>
+</ServiceInstance>
+<ServiceInstance priority="3">
+<DVBTDeliveryParameters>
+<DVBTriplet serviceId="1031"/>
+</DVBTDeliveryParameters>
+</ServiceInstance>
+<ServiceName>WDR HD Münster</ServiceName>
+<ProviderName>ARD</ProviderName>
+<RelatedMaterial>
+<tva:HowRelated href="urn:dvb:metadata:cs:HowRelatedCS:2021:1001.2"/>
+<tva:MediaLocator>
+<tva:MediaUri contentType="image/png">https://itv-api.ard.de/ardstart/img/services/28111.png</tva:MediaUri>
+</tva:MediaLocator>
+</RelatedMaterial>
+<RelatedMaterial>
+<tva:HowRelated href="urn:dvb:metadata:cs:LinkedApplicationCS:2019:1.1"/>
+<tva:MediaLocator>
+<tva:MediaUri contentType="application/vnd.dvb.ait+xml">https://itv-api.ard.de/xml.aitx?sid=28111</tva:MediaUri>
+</tva:MediaLocator>
+</RelatedMaterial>
+<ServiceType href="urn:dvb:metadata:cs:ServiceTypeCS:2019:linear"/>
+<ContentGuideSourceRef>iSIMS</ContentGuideSourceRef>
+<ContentGuideServiceRef>tag:mitxp.com,2021:eit1.1021.28340</ContentGuideServiceRef>
+</Service>
+<Service version="10">
+<UniqueIdentifier>tag:mitxp.com,2021:1.1021.28341</UniqueIdentifier>
+<ServiceInstance priority="5">
+<DASHDeliveryParameters>
+<UriBasedLocation contentType="application/dash+xml">
+<dvbi-types:URI>https://wdrlokalzeit.akamaized.net/dash/live/2018111/wdrlz_siegen/dash.mpd</dvbi-types:URI>
+</UriBasedLocation>
+</DASHDeliveryParameters>
+</ServiceInstance>
+<ServiceInstance priority="3">
+<DVBSDeliveryParameters>
+<DVBTriplet origNetId="1" tsId="1021" serviceId="28341"/>
+</DVBSDeliveryParameters>
+</ServiceInstance>
+<ServiceInstance priority="3">
+<DVBTDeliveryParameters>
+<DVBTriplet serviceId="1032"/>
+</DVBTDeliveryParameters>
+</ServiceInstance>
+<ServiceName>WDR HD Siegen</ServiceName>
+<ProviderName>ARD</ProviderName>
+<RelatedMaterial>
+<tva:HowRelated href="urn:dvb:metadata:cs:HowRelatedCS:2021:1001.2"/>
+<tva:MediaLocator>
+<tva:MediaUri contentType="image/png">https://itv-api.ard.de/ardstart/img/services/28111.png</tva:MediaUri>
+</tva:MediaLocator>
+</RelatedMaterial>
+<RelatedMaterial>
+<tva:HowRelated href="urn:dvb:metadata:cs:LinkedApplicationCS:2019:1.1"/>
+<tva:MediaLocator>
+<tva:MediaUri contentType="application/vnd.dvb.ait+xml">https://itv-api.ard.de/xml.aitx?sid=28111</tva:MediaUri>
+</tva:MediaLocator>
+</RelatedMaterial>
+<ServiceType href="urn:dvb:metadata:cs:ServiceTypeCS:2019:linear"/>
+<ContentGuideSourceRef>iSIMS</ContentGuideSourceRef>
+<ContentGuideServiceRef>tag:mitxp.com,2021:eit1.1021.28341</ContentGuideServiceRef>
+</Service>
+<Service version="10">
+<UniqueIdentifier>tag:mitxp.com,2021:1.1021.28342</UniqueIdentifier>
+<ServiceInstance priority="5">
+<DASHDeliveryParameters>
+<UriBasedLocation contentType="application/dash+xml">
+<dvbi-types:URI>https://wdrlokalzeit.akamaized.net/dash/live/2018126/wdrlz_wuppertal/dash.mpd</dvbi-types:URI>
+</UriBasedLocation>
+</DASHDeliveryParameters>
+</ServiceInstance>
+<ServiceInstance priority="3">
+<DVBSDeliveryParameters>
+<DVBTriplet origNetId="1" tsId="1021" serviceId="28342"/>
+</DVBSDeliveryParameters>
+</ServiceInstance>
+<ServiceInstance priority="3">
+<DVBTDeliveryParameters>
+<DVBTriplet serviceId="1033"/>
+</DVBTDeliveryParameters>
+</ServiceInstance>
+<ServiceName>WDR HD Wuppertal</ServiceName>
+<ProviderName>ARD</ProviderName>
+<RelatedMaterial>
+<tva:HowRelated href="urn:dvb:metadata:cs:HowRelatedCS:2021:1001.2"/>
+<tva:MediaLocator>
+<tva:MediaUri contentType="image/png">https://itv-api.ard.de/ardstart/img/services/28111.png</tva:MediaUri>
+</tva:MediaLocator>
+</RelatedMaterial>
+<RelatedMaterial>
+<tva:HowRelated href="urn:dvb:metadata:cs:LinkedApplicationCS:2019:1.1"/>
+<tva:MediaLocator>
+<tva:MediaUri contentType="application/vnd.dvb.ait+xml">https://itv-api.ard.de/xml.aitx?sid=28111</tva:MediaUri>
+</tva:MediaLocator>
+</RelatedMaterial>
+<ServiceType href="urn:dvb:metadata:cs:ServiceTypeCS:2019:linear"/>
+<ContentGuideSourceRef>iSIMS</ContentGuideSourceRef>
+<ContentGuideServiceRef>tag:mitxp.com,2021:eit1.1021.28342</ContentGuideServiceRef>
+</Service>
+<Service version="6">
+<UniqueIdentifier>tag:mitxp.com,2021:1.1107.17507</UniqueIdentifier>
+<ServiceInstance priority="5">
+<DASHDeliveryParameters>
+<UriBasedLocation contentType="application/dash+xml">
+<dvbi-types:URI>https://ac-001.live.p7s1video.net/972a2351/t_001/p7s1-dvb-i-sat1/unencrypted-default.mpd</dvbi-types:URI>
+</UriBasedLocation>
+</DASHDeliveryParameters>
+</ServiceInstance>
+<ServiceInstance priority="4">
+<DVBSDeliveryParameters>
+<DVBTriplet origNetId="1" tsId="1107" serviceId="17507"/>
+</DVBSDeliveryParameters>
+</ServiceInstance>
+<ServiceInstance priority="4">
+<DisplayName>SAT.1 NRW</DisplayName>
+<DVBSDeliveryParameters>
+<DVBTriplet origNetId="1" tsId="1107" serviceId="17508"/>
+</DVBSDeliveryParameters>
+</ServiceInstance>
+<ServiceName>SAT.1 Bayern</ServiceName>
+<ProviderName>ProSiebenSat.1</ProviderName>
+<RelatedMaterial>
+<tva:HowRelated href="urn:dvb:metadata:cs:HowRelatedCS:2021:1001.2"/>
+<tva:MediaLocator>
+<tva:MediaUri contentType="image/png">https://thumbnails.vod.p7s1video.net/dvb-i-showcase/sat1_100px.png</tva:MediaUri>
+</tva:MediaLocator>
+</RelatedMaterial>
+<ServiceType href="urn:dvb:metadata:cs:ServiceTypeCS:2019:linear"/>
+<ContentGuideSourceRef>iSIMS</ContentGuideSourceRef>
+<ContentGuideServiceRef>tag:mitxp.com,2021:eit1.1107.17507</ContentGuideServiceRef>
+</Service>
+<Service version="4">
+<UniqueIdentifier>tag:mitxp.com,2021:1.1201.28347</UniqueIdentifier>
+<ServiceInstance priority="1">
+<RelatedMaterial>
+<tva:HowRelated href="urn:dvb:metadata:cs:LinkedApplicationCS:2019:1.2"/>
+<tva:MediaLocator>
+<tva:MediaUri contentType="application/vnd.dvb.ait+xml">https://dvb-dev.ard-poc.de/xmlait/ard-mediathek_xml.aitx</tva:MediaUri>
+</tva:MediaLocator>
+</RelatedMaterial>
+</ServiceInstance>
+<ServiceName>ARD-Mediathek</ServiceName>
+<ProviderName>ARD</ProviderName>
+<RelatedMaterial>
+<tva:HowRelated href="urn:dvb:metadata:cs:HowRelatedCS:2021:1001.2"/>
+<tva:MediaLocator>
+<tva:MediaUri contentType="image/png">https://dvb-dev.ard-poc.de/Logos/ard-mediathek_logo.png</tva:MediaUri>
+</tva:MediaLocator>
+</RelatedMaterial>
+</Service>
+<Service version="4">
+<UniqueIdentifier>tag:mitxp.com,2021:1.1201.28348</UniqueIdentifier>
+<ServiceInstance priority="1">
+<RelatedMaterial>
+<tva:HowRelated href="urn:dvb:metadata:cs:LinkedApplicationCS:2019:1.2"/>
+<tva:MediaLocator>
+<tva:MediaUri contentType="application/vnd.dvb.ait+xml">https://dvb-dev.ard-poc.de/xmlait/ard-audiothek_xml.aitx</tva:MediaUri>
+</tva:MediaLocator>
+</RelatedMaterial>
+</ServiceInstance>
+<ServiceName>ARD-Audiothek</ServiceName>
+<ProviderName>ARD</ProviderName>
+<RelatedMaterial>
+<tva:HowRelated href="urn:dvb:metadata:cs:HowRelatedCS:2021:1001.2"/>
+<tva:MediaLocator>
+<tva:MediaUri contentType="image/png">https://dvb-dev.ard-poc.de/Logos/ard-audiothek_logo.png</tva:MediaUri>
+</tva:MediaLocator>
+</RelatedMaterial>
+</Service>
+<Service version="2">
+<UniqueIdentifier>tag:dvb-i.bmt-technik.de,2023:1.1023.5805</UniqueIdentifier>
+<ServiceInstance priority="1">
+<DVBSDeliveryParameters>
+<DVBTriplet origNetId="1" tsId="1023" serviceId="5805"/>
+<OrbitalPosition>19.2</OrbitalPosition>
+<Frequency>1153300</Frequency>
+<Polarization>horizontal</Polarization>
+</DVBSDeliveryParameters>
+</ServiceInstance>
+<ServiceInstance priority="2">
+<RelatedMaterial>
+<tva:HowRelated href="urn:dvb:metadata:cs:LinkedApplicationCS:2019:1.2"/>
+<tva:MediaLocator>
+<tva:MediaUri contentType="application/vnd.dvb.ait+xml">https://dvb-i.bmt-technik.de/ait/ltvp.aitx</tva:MediaUri>
+</tva:MediaLocator>
+</RelatedMaterial>
+</ServiceInstance>
+<ServiceName>Lokal-TV-Portal HD</ServiceName>
+<ProviderName>Bayerische Medien Technik GmbH</ProviderName>
+<RelatedMaterial>
+<tva:HowRelated href="urn:dvb:metadata:cs:HowRelatedCS:2021:1001.2"/>
+<tva:MediaLocator>
+<tva:MediaUri contentType="image/png">https://dvb-i.bmt-technik.de/channel-logos/ltvp.png</tva:MediaUri>
+</tva:MediaLocator>
+</RelatedMaterial>
+<RelatedMaterial>
+<tva:HowRelated href="urn:dvb:metadata:cs:HowRelatedCS:2021:1001.3"/>
+<tva:MediaLocator>
+<tva:MediaUri contentType="image/jpg">https://dvb-i.bmt-technik.de/channel-logos/ltvp_1920x1080.jpg</tva:MediaUri>
+</tva:MediaLocator>
+</RelatedMaterial>
+<ServiceType href="urn:dvb:metadata:cs:ServiceTypeCS:2019:ondemand"/>
+</Service>
+<Service version="5">
+<UniqueIdentifier>tag:zdf.de,2020:zdf/event</UniqueIdentifier>
+<ServiceInstance priority="2">
+<DisplayName>ZDF Event</DisplayName>
+<Availability>
+<Period>
+<Interval days="1 2 3 4 5 6 7" startTime="00:00:00Z" endTime="00:04:59Z"/>
+</Period>
+<Period>
+<Interval days="1 2 3 4 5 6 7" startTime="00:10:00Z" endTime="00:14:59Z"/>
+</Period>
+<Period>
+<Interval days="1 2 3 4 5 6 7" startTime="00:20:00Z" endTime="00:24:59Z"/>
+</Period>
+<Period>
+<Interval days="1 2 3 4 5 6 7" startTime="00:30:00Z" endTime="00:34:59Z"/>
+</Period>
+<Period>
+<Interval days="1 2 3 4 5 6 7" startTime="00:40:00Z" endTime="00:44:59Z"/>
+</Period>
+<Period>
+<Interval days="1 2 3 4 5 6 7" startTime="00:50:00Z" endTime="00:54:59Z"/>
+</Period>
+<Period>
+<Interval days="1 2 3 4 5 6 7" startTime="01:00:00Z" endTime="01:04:59Z"/>
+</Period>
+<Period>
+<Interval days="1 2 3 4 5 6 7" startTime="01:10:00Z" endTime="01:14:59Z"/>
+</Period>
+<Period>
+<Interval days="1 2 3 4 5 6 7" startTime="01:20:00Z" endTime="01:24:59Z"/>
+</Period>
+<Period>
+<Interval days="1 2 3 4 5 6 7" startTime="01:30:00Z" endTime="01:34:59Z"/>
+</Period>
+<Period>
+<Interval days="1 2 3 4 5 6 7" startTime="01:40:00Z" endTime="01:44:59Z"/>
+</Period>
+<Period>
+<Interval days="1 2 3 4 5 6 7" startTime="01:50:00Z" endTime="01:54:59Z"/>
+</Period>
+<Period>
+<Interval days="1 2 3 4 5 6 7" startTime="02:00:00Z" endTime="02:04:59Z"/>
+</Period>
+<Period>
+<Interval days="1 2 3 4 5 6 7" startTime="02:10:00Z" endTime="02:14:59Z"/>
+</Period>
+<Period>
+<Interval days="1 2 3 4 5 6 7" startTime="02:20:00Z" endTime="02:24:59Z"/>
+</Period>
+<Period>
+<Interval days="1 2 3 4 5 6 7" startTime="02:30:00Z" endTime="02:34:59Z"/>
+</Period>
+<Period>
+<Interval days="1 2 3 4 5 6 7" startTime="02:40:00Z" endTime="02:44:59Z"/>
+</Period>
+<Period>
+<Interval days="1 2 3 4 5 6 7" startTime="02:50:00Z" endTime="02:54:59Z"/>
+</Period>
+<Period>
+<Interval days="1 2 3 4 5 6 7" startTime="03:00:00Z" endTime="03:04:59Z"/>
+</Period>
+<Period>
+<Interval days="1 2 3 4 5 6 7" startTime="03:10:00Z" endTime="03:14:59Z"/>
+</Period>
+<Period>
+<Interval days="1 2 3 4 5 6 7" startTime="03:20:00Z" endTime="03:24:59Z"/>
+</Period>
+<Period>
+<Interval days="1 2 3 4 5 6 7" startTime="03:30:00Z" endTime="03:34:59Z"/>
+</Period>
+<Period>
+<Interval days="1 2 3 4 5 6 7" startTime="03:40:00Z" endTime="03:44:59Z"/>
+</Period>
+<Period>
+<Interval days="1 2 3 4 5 6 7" startTime="03:50:00Z" endTime="03:54:59Z"/>
+</Period>
+<Period>
+<Interval days="1 2 3 4 5 6 7" startTime="04:00:00Z" endTime="04:04:59Z"/>
+</Period>
+<Period>
+<Interval days="1 2 3 4 5 6 7" startTime="04:10:00Z" endTime="04:14:59Z"/>
+</Period>
+<Period>
+<Interval days="1 2 3 4 5 6 7" startTime="04:20:00Z" endTime="04:24:59Z"/>
+</Period>
+<Period>
+<Interval days="1 2 3 4 5 6 7" startTime="04:30:00Z" endTime="04:34:59Z"/>
+</Period>
+<Period>
+<Interval days="1 2 3 4 5 6 7" startTime="04:40:00Z" endTime="04:44:59Z"/>
+</Period>
+<Period>
+<Interval days="1 2 3 4 5 6 7" startTime="04:50:00Z" endTime="04:54:59Z"/>
+</Period>
+<Period>
+<Interval days="1 2 3 4 5 6 7" startTime="05:00:00Z" endTime="05:04:59Z"/>
+</Period>
+<Period>
+<Interval days="1 2 3 4 5 6 7" startTime="05:10:00Z" endTime="05:14:59Z"/>
+</Period>
+<Period>
+<Interval days="1 2 3 4 5 6 7" startTime="05:20:00Z" endTime="05:24:59Z"/>
+</Period>
+<Period>
+<Interval days="1 2 3 4 5 6 7" startTime="05:30:00Z" endTime="05:34:59Z"/>
+</Period>
+<Period>
+<Interval days="1 2 3 4 5 6 7" startTime="05:40:00Z" endTime="05:44:59Z"/>
+</Period>
+<Period>
+<Interval days="1 2 3 4 5 6 7" startTime="05:50:00Z" endTime="05:54:59Z"/>
+</Period>
+<Period>
+<Interval days="1 2 3 4 5 6 7" startTime="06:00:00Z" endTime="06:04:59Z"/>
+</Period>
+<Period>
+<Interval days="1 2 3 4 5 6 7" startTime="06:10:00Z" endTime="06:14:59Z"/>
+</Period>
+<Period>
+<Interval days="1 2 3 4 5 6 7" startTime="06:20:00Z" endTime="06:24:59Z"/>
+</Period>
+<Period>
+<Interval days="1 2 3 4 5 6 7" startTime="06:30:00Z" endTime="06:34:59Z"/>
+</Period>
+<Period>
+<Interval days="1 2 3 4 5 6 7" startTime="06:40:00Z" endTime="06:44:59Z"/>
+</Period>
+<Period>
+<Interval days="1 2 3 4 5 6 7" startTime="06:50:00Z" endTime="06:54:59Z"/>
+</Period>
+<Period>
+<Interval days="1 2 3 4 5 6 7" startTime="07:00:00Z" endTime="07:04:59Z"/>
+</Period>
+<Period>
+<Interval days="1 2 3 4 5 6 7" startTime="07:10:00Z" endTime="07:14:59Z"/>
+</Period>
+<Period>
+<Interval days="1 2 3 4 5 6 7" startTime="07:20:00Z" endTime="07:24:59Z"/>
+</Period>
+<Period>
+<Interval days="1 2 3 4 5 6 7" startTime="07:30:00Z" endTime="07:34:59Z"/>
+</Period>
+<Period>
+<Interval days="1 2 3 4 5 6 7" startTime="07:40:00Z" endTime="07:44:59Z"/>
+</Period>
+<Period>
+<Interval days="1 2 3 4 5 6 7" startTime="07:50:00Z" endTime="07:54:59Z"/>
+</Period>
+<Period>
+<Interval days="1 2 3 4 5 6 7" startTime="08:00:00Z" endTime="08:04:59Z"/>
+</Period>
+<Period>
+<Interval days="1 2 3 4 5 6 7" startTime="08:10:00Z" endTime="08:14:59Z"/>
+</Period>
+<Period>
+<Interval days="1 2 3 4 5 6 7" startTime="08:20:00Z" endTime="08:24:59Z"/>
+</Period>
+<Period>
+<Interval days="1 2 3 4 5 6 7" startTime="08:30:00Z" endTime="08:34:59Z"/>
+</Period>
+<Period>
+<Interval days="1 2 3 4 5 6 7" startTime="08:40:00Z" endTime="08:44:59Z"/>
+</Period>
+<Period>
+<Interval days="1 2 3 4 5 6 7" startTime="08:50:00Z" endTime="08:54:59Z"/>
+</Period>
+<Period>
+<Interval days="1 2 3 4 5 6 7" startTime="09:00:00Z" endTime="09:04:59Z"/>
+</Period>
+<Period>
+<Interval days="1 2 3 4 5 6 7" startTime="09:10:00Z" endTime="09:14:59Z"/>
+</Period>
+<Period>
+<Interval days="1 2 3 4 5 6 7" startTime="09:20:00Z" endTime="09:24:59Z"/>
+</Period>
+<Period>
+<Interval days="1 2 3 4 5 6 7" startTime="09:30:00Z" endTime="09:34:59Z"/>
+</Period>
+<Period>
+<Interval days="1 2 3 4 5 6 7" startTime="09:40:00Z" endTime="09:44:59Z"/>
+</Period>
+<Period>
+<Interval days="1 2 3 4 5 6 7" startTime="09:50:00Z" endTime="09:54:59Z"/>
+</Period>
+<Period>
+<Interval days="1 2 3 4 5 6 7" startTime="10:00:00Z" endTime="10:04:59Z"/>
+</Period>
+<Period>
+<Interval days="1 2 3 4 5 6 7" startTime="10:10:00Z" endTime="10:14:59Z"/>
+</Period>
+<Period>
+<Interval days="1 2 3 4 5 6 7" startTime="10:20:00Z" endTime="10:24:59Z"/>
+</Period>
+<Period>
+<Interval days="1 2 3 4 5 6 7" startTime="10:30:00Z" endTime="10:34:59Z"/>
+</Period>
+<Period>
+<Interval days="1 2 3 4 5 6 7" startTime="10:40:00Z" endTime="10:44:59Z"/>
+</Period>
+<Period>
+<Interval days="1 2 3 4 5 6 7" startTime="10:50:00Z" endTime="10:54:59Z"/>
+</Period>
+<Period>
+<Interval days="1 2 3 4 5 6 7" startTime="11:00:00Z" endTime="11:04:59Z"/>
+</Period>
+<Period>
+<Interval days="1 2 3 4 5 6 7" startTime="11:10:00Z" endTime="11:14:59Z"/>
+</Period>
+<Period>
+<Interval days="1 2 3 4 5 6 7" startTime="11:20:00Z" endTime="11:24:59Z"/>
+</Period>
+<Period>
+<Interval days="1 2 3 4 5 6 7" startTime="11:30:00Z" endTime="11:34:59Z"/>
+</Period>
+<Period>
+<Interval days="1 2 3 4 5 6 7" startTime="11:40:00Z" endTime="11:44:59Z"/>
+</Period>
+<Period>
+<Interval days="1 2 3 4 5 6 7" startTime="11:50:00Z" endTime="11:54:59Z"/>
+</Period>
+<Period>
+<Interval days="1 2 3 4 5 6 7" startTime="12:00:00Z" endTime="12:04:59Z"/>
+</Period>
+<Period>
+<Interval days="1 2 3 4 5 6 7" startTime="12:10:00Z" endTime="12:14:59Z"/>
+</Period>
+<Period>
+<Interval days="1 2 3 4 5 6 7" startTime="12:20:00Z" endTime="12:24:59Z"/>
+</Period>
+<Period>
+<Interval days="1 2 3 4 5 6 7" startTime="12:30:00Z" endTime="12:34:59Z"/>
+</Period>
+<Period>
+<Interval days="1 2 3 4 5 6 7" startTime="12:40:00Z" endTime="12:44:59Z"/>
+</Period>
+<Period>
+<Interval days="1 2 3 4 5 6 7" startTime="12:50:00Z" endTime="12:54:59Z"/>
+</Period>
+<Period>
+<Interval days="1 2 3 4 5 6 7" startTime="13:00:00Z" endTime="13:04:59Z"/>
+</Period>
+<Period>
+<Interval days="1 2 3 4 5 6 7" startTime="13:10:00Z" endTime="13:14:59Z"/>
+</Period>
+<Period>
+<Interval days="1 2 3 4 5 6 7" startTime="13:20:00Z" endTime="13:24:59Z"/>
+</Period>
+<Period>
+<Interval days="1 2 3 4 5 6 7" startTime="13:30:00Z" endTime="13:34:59Z"/>
+</Period>
+<Period>
+<Interval days="1 2 3 4 5 6 7" startTime="13:40:00Z" endTime="13:44:59Z"/>
+</Period>
+<Period>
+<Interval days="1 2 3 4 5 6 7" startTime="13:50:00Z" endTime="13:54:59Z"/>
+</Period>
+<Period>
+<Interval days="1 2 3 4 5 6 7" startTime="14:00:00Z" endTime="14:04:59Z"/>
+</Period>
+<Period>
+<Interval days="1 2 3 4 5 6 7" startTime="14:10:00Z" endTime="14:14:59Z"/>
+</Period>
+<Period>
+<Interval days="1 2 3 4 5 6 7" startTime="14:20:00Z" endTime="14:24:59Z"/>
+</Period>
+<Period>
+<Interval days="1 2 3 4 5 6 7" startTime="14:30:00Z" endTime="14:34:59Z"/>
+</Period>
+<Period>
+<Interval days="1 2 3 4 5 6 7" startTime="14:40:00Z" endTime="14:44:59Z"/>
+</Period>
+<Period>
+<Interval days="1 2 3 4 5 6 7" startTime="14:50:00Z" endTime="14:54:59Z"/>
+</Period>
+<Period>
+<Interval days="1 2 3 4 5 6 7" startTime="15:00:00Z" endTime="15:04:59Z"/>
+</Period>
+<Period>
+<Interval days="1 2 3 4 5 6 7" startTime="15:10:00Z" endTime="15:14:59Z"/>
+</Period>
+<Period>
+<Interval days="1 2 3 4 5 6 7" startTime="15:20:00Z" endTime="15:24:59Z"/>
+</Period>
+<Period>
+<Interval days="1 2 3 4 5 6 7" startTime="15:30:00Z" endTime="15:34:59Z"/>
+</Period>
+<Period>
+<Interval days="1 2 3 4 5 6 7" startTime="15:40:00Z" endTime="15:44:59Z"/>
+</Period>
+<Period>
+<Interval days="1 2 3 4 5 6 7" startTime="15:50:00Z" endTime="15:54:59Z"/>
+</Period>
+<Period>
+<Interval days="1 2 3 4 5 6 7" startTime="16:00:00Z" endTime="16:04:59Z"/>
+</Period>
+<Period>
+<Interval days="1 2 3 4 5 6 7" startTime="16:10:00Z" endTime="16:14:59Z"/>
+</Period>
+<Period>
+<Interval days="1 2 3 4 5 6 7" startTime="16:20:00Z" endTime="16:24:59Z"/>
+</Period>
+<Period>
+<Interval days="1 2 3 4 5 6 7" startTime="16:30:00Z" endTime="16:34:59Z"/>
+</Period>
+<Period>
+<Interval days="1 2 3 4 5 6 7" startTime="16:40:00Z" endTime="16:44:59Z"/>
+</Period>
+<Period>
+<Interval days="1 2 3 4 5 6 7" startTime="16:50:00Z" endTime="16:54:59Z"/>
+</Period>
+<Period>
+<Interval days="1 2 3 4 5 6 7" startTime="17:00:00Z" endTime="17:04:59Z"/>
+</Period>
+<Period>
+<Interval days="1 2 3 4 5 6 7" startTime="17:10:00Z" endTime="17:14:59Z"/>
+</Period>
+<Period>
+<Interval days="1 2 3 4 5 6 7" startTime="17:20:00Z" endTime="17:24:59Z"/>
+</Period>
+<Period>
+<Interval days="1 2 3 4 5 6 7" startTime="17:30:00Z" endTime="17:34:59Z"/>
+</Period>
+<Period>
+<Interval days="1 2 3 4 5 6 7" startTime="17:40:00Z" endTime="17:44:59Z"/>
+</Period>
+<Period>
+<Interval days="1 2 3 4 5 6 7" startTime="17:50:00Z" endTime="17:54:59Z"/>
+</Period>
+<Period>
+<Interval days="1 2 3 4 5 6 7" startTime="18:00:00Z" endTime="18:04:59Z"/>
+</Period>
+<Period>
+<Interval days="1 2 3 4 5 6 7" startTime="18:10:00Z" endTime="18:14:59Z"/>
+</Period>
+<Period>
+<Interval days="1 2 3 4 5 6 7" startTime="18:20:00Z" endTime="18:24:59Z"/>
+</Period>
+<Period>
+<Interval days="1 2 3 4 5 6 7" startTime="18:30:00Z" endTime="18:34:59Z"/>
+</Period>
+<Period>
+<Interval days="1 2 3 4 5 6 7" startTime="18:40:00Z" endTime="18:44:59Z"/>
+</Period>
+<Period>
+<Interval days="1 2 3 4 5 6 7" startTime="18:50:00Z" endTime="18:54:59Z"/>
+</Period>
+<Period>
+<Interval days="1 2 3 4 5 6 7" startTime="19:00:00Z" endTime="19:04:59Z"/>
+</Period>
+<Period>
+<Interval days="1 2 3 4 5 6 7" startTime="19:10:00Z" endTime="19:14:59Z"/>
+</Period>
+<Period>
+<Interval days="1 2 3 4 5 6 7" startTime="19:20:00Z" endTime="19:24:59Z"/>
+</Period>
+<Period>
+<Interval days="1 2 3 4 5 6 7" startTime="19:30:00Z" endTime="19:34:59Z"/>
+</Period>
+<Period>
+<Interval days="1 2 3 4 5 6 7" startTime="19:40:00Z" endTime="19:44:59Z"/>
+</Period>
+<Period>
+<Interval days="1 2 3 4 5 6 7" startTime="19:50:00Z" endTime="19:54:59Z"/>
+</Period>
+<Period>
+<Interval days="1 2 3 4 5 6 7" startTime="20:00:00Z" endTime="20:04:59Z"/>
+</Period>
+<Period>
+<Interval days="1 2 3 4 5 6 7" startTime="20:10:00Z" endTime="20:14:59Z"/>
+</Period>
+<Period>
+<Interval days="1 2 3 4 5 6 7" startTime="20:20:00Z" endTime="20:24:59Z"/>
+</Period>
+<Period>
+<Interval days="1 2 3 4 5 6 7" startTime="20:30:00Z" endTime="20:34:59Z"/>
+</Period>
+<Period>
+<Interval days="1 2 3 4 5 6 7" startTime="20:40:00Z" endTime="20:44:59Z"/>
+</Period>
+<Period>
+<Interval days="1 2 3 4 5 6 7" startTime="20:50:00Z" endTime="20:54:59Z"/>
+</Period>
+<Period>
+<Interval days="1 2 3 4 5 6 7" startTime="21:00:00Z" endTime="21:04:59Z"/>
+</Period>
+<Period>
+<Interval days="1 2 3 4 5 6 7" startTime="21:10:00Z" endTime="21:14:59Z"/>
+</Period>
+<Period>
+<Interval days="1 2 3 4 5 6 7" startTime="21:20:00Z" endTime="21:24:59Z"/>
+</Period>
+<Period>
+<Interval days="1 2 3 4 5 6 7" startTime="21:30:00Z" endTime="21:34:59Z"/>
+</Period>
+<Period>
+<Interval days="1 2 3 4 5 6 7" startTime="21:40:00Z" endTime="21:44:59Z"/>
+</Period>
+<Period>
+<Interval days="1 2 3 4 5 6 7" startTime="21:50:00Z" endTime="21:54:59Z"/>
+</Period>
+<Period>
+<Interval days="1 2 3 4 5 6 7" startTime="22:00:00Z" endTime="22:04:59Z"/>
+</Period>
+<Period>
+<Interval days="1 2 3 4 5 6 7" startTime="22:10:00Z" endTime="22:14:59Z"/>
+</Period>
+<Period>
+<Interval days="1 2 3 4 5 6 7" startTime="22:20:00Z" endTime="22:24:59Z"/>
+</Period>
+<Period>
+<Interval days="1 2 3 4 5 6 7" startTime="22:30:00Z" endTime="22:34:59Z"/>
+</Period>
+<Period>
+<Interval days="1 2 3 4 5 6 7" startTime="22:40:00Z" endTime="22:44:59Z"/>
+</Period>
+<Period>
+<Interval days="1 2 3 4 5 6 7" startTime="22:50:00Z" endTime="22:54:59Z"/>
+</Period>
+<Period>
+<Interval days="1 2 3 4 5 6 7" startTime="23:00:00Z" endTime="23:04:59Z"/>
+</Period>
+<Period>
+<Interval days="1 2 3 4 5 6 7" startTime="23:10:00Z" endTime="23:14:59Z"/>
+</Period>
+<Period>
+<Interval days="1 2 3 4 5 6 7" startTime="23:20:00Z" endTime="23:24:59Z"/>
+</Period>
+<Period>
+<Interval days="1 2 3 4 5 6 7" startTime="23:30:00Z" endTime="23:34:59Z"/>
+</Period>
+<Period>
+<Interval days="1 2 3 4 5 6 7" startTime="23:40:00Z" endTime="23:44:59Z"/>
+</Period>
+<Period>
+<Interval days="1 2 3 4 5 6 7" startTime="23:50:00Z" endTime="23:54:59Z"/>
+</Period>
+</Availability>
+<DASHDeliveryParameters>
+<UriBasedLocation contentType="application/dash+xml">
+<dvbi-types:URI>https://int-dvbi.zdf.de/manifest.php?service=zdfevent</dvbi-types:URI>
+</UriBasedLocation>
+</DASHDeliveryParameters>
+</ServiceInstance>
+<ServiceInstance priority="1">
+<DisplayName>ZDF Event</DisplayName>
+<Availability>
+<Period>
+<Interval days="1 2 3 4 5 6 7" startTime="00:05:00Z" endTime="00:09:59Z"/>
+</Period>
+<Period>
+<Interval days="1 2 3 4 5 6 7" startTime="00:15:00Z" endTime="00:19:59Z"/>
+</Period>
+<Period>
+<Interval days="1 2 3 4 5 6 7" startTime="00:25:00Z" endTime="00:29:59Z"/>
+</Period>
+<Period>
+<Interval days="1 2 3 4 5 6 7" startTime="00:35:00Z" endTime="00:39:59Z"/>
+</Period>
+<Period>
+<Interval days="1 2 3 4 5 6 7" startTime="00:45:00Z" endTime="00:49:59Z"/>
+</Period>
+<Period>
+<Interval days="1 2 3 4 5 6 7" startTime="00:55:00Z" endTime="00:59:59Z"/>
+</Period>
+<Period>
+<Interval days="1 2 3 4 5 6 7" startTime="01:05:00Z" endTime="01:09:59Z"/>
+</Period>
+<Period>
+<Interval days="1 2 3 4 5 6 7" startTime="01:15:00Z" endTime="01:19:59Z"/>
+</Period>
+<Period>
+<Interval days="1 2 3 4 5 6 7" startTime="01:25:00Z" endTime="01:29:59Z"/>
+</Period>
+<Period>
+<Interval days="1 2 3 4 5 6 7" startTime="01:35:00Z" endTime="01:39:59Z"/>
+</Period>
+<Period>
+<Interval days="1 2 3 4 5 6 7" startTime="01:45:00Z" endTime="01:49:59Z"/>
+</Period>
+<Period>
+<Interval days="1 2 3 4 5 6 7" startTime="01:55:00Z" endTime="01:59:59Z"/>
+</Period>
+<Period>
+<Interval days="1 2 3 4 5 6 7" startTime="02:05:00Z" endTime="02:09:59Z"/>
+</Period>
+<Period>
+<Interval days="1 2 3 4 5 6 7" startTime="02:15:00Z" endTime="02:19:59Z"/>
+</Period>
+<Period>
+<Interval days="1 2 3 4 5 6 7" startTime="02:25:00Z" endTime="02:29:59Z"/>
+</Period>
+<Period>
+<Interval days="1 2 3 4 5 6 7" startTime="02:35:00Z" endTime="02:39:59Z"/>
+</Period>
+<Period>
+<Interval days="1 2 3 4 5 6 7" startTime="02:45:00Z" endTime="02:49:59Z"/>
+</Period>
+<Period>
+<Interval days="1 2 3 4 5 6 7" startTime="02:55:00Z" endTime="02:59:59Z"/>
+</Period>
+<Period>
+<Interval days="1 2 3 4 5 6 7" startTime="03:05:00Z" endTime="03:09:59Z"/>
+</Period>
+<Period>
+<Interval days="1 2 3 4 5 6 7" startTime="03:15:00Z" endTime="03:19:59Z"/>
+</Period>
+<Period>
+<Interval days="1 2 3 4 5 6 7" startTime="03:25:00Z" endTime="03:29:59Z"/>
+</Period>
+<Period>
+<Interval days="1 2 3 4 5 6 7" startTime="03:35:00Z" endTime="03:39:59Z"/>
+</Period>
+<Period>
+<Interval days="1 2 3 4 5 6 7" startTime="03:45:00Z" endTime="03:49:59Z"/>
+</Period>
+<Period>
+<Interval days="1 2 3 4 5 6 7" startTime="03:55:00Z" endTime="03:59:59Z"/>
+</Period>
+<Period>
+<Interval days="1 2 3 4 5 6 7" startTime="04:05:00Z" endTime="04:09:59Z"/>
+</Period>
+<Period>
+<Interval days="1 2 3 4 5 6 7" startTime="04:15:00Z" endTime="04:19:59Z"/>
+</Period>
+<Period>
+<Interval days="1 2 3 4 5 6 7" startTime="04:25:00Z" endTime="04:29:59Z"/>
+</Period>
+<Period>
+<Interval days="1 2 3 4 5 6 7" startTime="04:35:00Z" endTime="04:39:59Z"/>
+</Period>
+<Period>
+<Interval days="1 2 3 4 5 6 7" startTime="04:45:00Z" endTime="04:49:59Z"/>
+</Period>
+<Period>
+<Interval days="1 2 3 4 5 6 7" startTime="04:55:00Z" endTime="04:59:59Z"/>
+</Period>
+<Period>
+<Interval days="1 2 3 4 5 6 7" startTime="05:05:00Z" endTime="05:09:59Z"/>
+</Period>
+<Period>
+<Interval days="1 2 3 4 5 6 7" startTime="05:15:00Z" endTime="05:19:59Z"/>
+</Period>
+<Period>
+<Interval days="1 2 3 4 5 6 7" startTime="05:25:00Z" endTime="05:29:59Z"/>
+</Period>
+<Period>
+<Interval days="1 2 3 4 5 6 7" startTime="05:35:00Z" endTime="05:39:59Z"/>
+</Period>
+<Period>
+<Interval days="1 2 3 4 5 6 7" startTime="05:45:00Z" endTime="05:49:59Z"/>
+</Period>
+<Period>
+<Interval days="1 2 3 4 5 6 7" startTime="05:55:00Z" endTime="05:59:59Z"/>
+</Period>
+<Period>
+<Interval days="1 2 3 4 5 6 7" startTime="06:05:00Z" endTime="06:09:59Z"/>
+</Period>
+<Period>
+<Interval days="1 2 3 4 5 6 7" startTime="06:15:00Z" endTime="06:19:59Z"/>
+</Period>
+<Period>
+<Interval days="1 2 3 4 5 6 7" startTime="06:25:00Z" endTime="06:29:59Z"/>
+</Period>
+<Period>
+<Interval days="1 2 3 4 5 6 7" startTime="06:35:00Z" endTime="06:39:59Z"/>
+</Period>
+<Period>
+<Interval days="1 2 3 4 5 6 7" startTime="06:45:00Z" endTime="06:49:59Z"/>
+</Period>
+<Period>
+<Interval days="1 2 3 4 5 6 7" startTime="06:55:00Z" endTime="06:59:59Z"/>
+</Period>
+<Period>
+<Interval days="1 2 3 4 5 6 7" startTime="07:05:00Z" endTime="07:09:59Z"/>
+</Period>
+<Period>
+<Interval days="1 2 3 4 5 6 7" startTime="07:15:00Z" endTime="07:19:59Z"/>
+</Period>
+<Period>
+<Interval days="1 2 3 4 5 6 7" startTime="07:25:00Z" endTime="07:29:59Z"/>
+</Period>
+<Period>
+<Interval days="1 2 3 4 5 6 7" startTime="07:35:00Z" endTime="07:39:59Z"/>
+</Period>
+<Period>
+<Interval days="1 2 3 4 5 6 7" startTime="07:45:00Z" endTime="07:49:59Z"/>
+</Period>
+<Period>
+<Interval days="1 2 3 4 5 6 7" startTime="07:55:00Z" endTime="07:59:59Z"/>
+</Period>
+<Period>
+<Interval days="1 2 3 4 5 6 7" startTime="08:05:00Z" endTime="08:09:59Z"/>
+</Period>
+<Period>
+<Interval days="1 2 3 4 5 6 7" startTime="08:15:00Z" endTime="08:19:59Z"/>
+</Period>
+<Period>
+<Interval days="1 2 3 4 5 6 7" startTime="08:25:00Z" endTime="08:29:59Z"/>
+</Period>
+<Period>
+<Interval days="1 2 3 4 5 6 7" startTime="08:35:00Z" endTime="08:39:59Z"/>
+</Period>
+<Period>
+<Interval days="1 2 3 4 5 6 7" startTime="08:45:00Z" endTime="08:49:59Z"/>
+</Period>
+<Period>
+<Interval days="1 2 3 4 5 6 7" startTime="08:55:00Z" endTime="08:59:59Z"/>
+</Period>
+<Period>
+<Interval days="1 2 3 4 5 6 7" startTime="09:05:00Z" endTime="09:09:59Z"/>
+</Period>
+<Period>
+<Interval days="1 2 3 4 5 6 7" startTime="09:15:00Z" endTime="09:19:59Z"/>
+</Period>
+<Period>
+<Interval days="1 2 3 4 5 6 7" startTime="09:25:00Z" endTime="09:29:59Z"/>
+</Period>
+<Period>
+<Interval days="1 2 3 4 5 6 7" startTime="09:35:00Z" endTime="09:39:59Z"/>
+</Period>
+<Period>
+<Interval days="1 2 3 4 5 6 7" startTime="09:45:00Z" endTime="09:49:59Z"/>
+</Period>
+<Period>
+<Interval days="1 2 3 4 5 6 7" startTime="09:55:00Z" endTime="09:59:59Z"/>
+</Period>
+<Period>
+<Interval days="1 2 3 4 5 6 7" startTime="10:05:00Z" endTime="10:09:59Z"/>
+</Period>
+<Period>
+<Interval days="1 2 3 4 5 6 7" startTime="10:15:00Z" endTime="10:19:59Z"/>
+</Period>
+<Period>
+<Interval days="1 2 3 4 5 6 7" startTime="10:25:00Z" endTime="10:29:59Z"/>
+</Period>
+<Period>
+<Interval days="1 2 3 4 5 6 7" startTime="10:35:00Z" endTime="10:39:59Z"/>
+</Period>
+<Period>
+<Interval days="1 2 3 4 5 6 7" startTime="10:45:00Z" endTime="10:49:59Z"/>
+</Period>
+<Period>
+<Interval days="1 2 3 4 5 6 7" startTime="10:55:00Z" endTime="10:59:59Z"/>
+</Period>
+<Period>
+<Interval days="1 2 3 4 5 6 7" startTime="11:05:00Z" endTime="11:09:59Z"/>
+</Period>
+<Period>
+<Interval days="1 2 3 4 5 6 7" startTime="11:15:00Z" endTime="11:19:59Z"/>
+</Period>
+<Period>
+<Interval days="1 2 3 4 5 6 7" startTime="11:25:00Z" endTime="11:29:59Z"/>
+</Period>
+<Period>
+<Interval days="1 2 3 4 5 6 7" startTime="11:35:00Z" endTime="11:39:59Z"/>
+</Period>
+<Period>
+<Interval days="1 2 3 4 5 6 7" startTime="11:45:00Z" endTime="11:49:59Z"/>
+</Period>
+<Period>
+<Interval days="1 2 3 4 5 6 7" startTime="11:55:00Z" endTime="11:59:59Z"/>
+</Period>
+<Period>
+<Interval days="1 2 3 4 5 6 7" startTime="12:05:00Z" endTime="12:09:59Z"/>
+</Period>
+<Period>
+<Interval days="1 2 3 4 5 6 7" startTime="12:15:00Z" endTime="12:19:59Z"/>
+</Period>
+<Period>
+<Interval days="1 2 3 4 5 6 7" startTime="12:25:00Z" endTime="12:29:59Z"/>
+</Period>
+<Period>
+<Interval days="1 2 3 4 5 6 7" startTime="12:35:00Z" endTime="12:39:59Z"/>
+</Period>
+<Period>
+<Interval days="1 2 3 4 5 6 7" startTime="12:45:00Z" endTime="12:49:59Z"/>
+</Period>
+<Period>
+<Interval days="1 2 3 4 5 6 7" startTime="12:55:00Z" endTime="12:59:59Z"/>
+</Period>
+<Period>
+<Interval days="1 2 3 4 5 6 7" startTime="13:05:00Z" endTime="13:09:59Z"/>
+</Period>
+<Period>
+<Interval days="1 2 3 4 5 6 7" startTime="13:15:00Z" endTime="13:19:59Z"/>
+</Period>
+<Period>
+<Interval days="1 2 3 4 5 6 7" startTime="13:25:00Z" endTime="13:29:59Z"/>
+</Period>
+<Period>
+<Interval days="1 2 3 4 5 6 7" startTime="13:35:00Z" endTime="13:39:59Z"/>
+</Period>
+<Period>
+<Interval days="1 2 3 4 5 6 7" startTime="13:45:00Z" endTime="13:49:59Z"/>
+</Period>
+<Period>
+<Interval days="1 2 3 4 5 6 7" startTime="13:55:00Z" endTime="13:59:59Z"/>
+</Period>
+<Period>
+<Interval days="1 2 3 4 5 6 7" startTime="14:05:00Z" endTime="14:09:59Z"/>
+</Period>
+<Period>
+<Interval days="1 2 3 4 5 6 7" startTime="14:15:00Z" endTime="14:19:59Z"/>
+</Period>
+<Period>
+<Interval days="1 2 3 4 5 6 7" startTime="14:25:00Z" endTime="14:29:59Z"/>
+</Period>
+<Period>
+<Interval days="1 2 3 4 5 6 7" startTime="14:35:00Z" endTime="14:39:59Z"/>
+</Period>
+<Period>
+<Interval days="1 2 3 4 5 6 7" startTime="14:45:00Z" endTime="14:49:59Z"/>
+</Period>
+<Period>
+<Interval days="1 2 3 4 5 6 7" startTime="14:55:00Z" endTime="14:59:59Z"/>
+</Period>
+<Period>
+<Interval days="1 2 3 4 5 6 7" startTime="15:05:00Z" endTime="15:09:59Z"/>
+</Period>
+<Period>
+<Interval days="1 2 3 4 5 6 7" startTime="15:15:00Z" endTime="15:19:59Z"/>
+</Period>
+<Period>
+<Interval days="1 2 3 4 5 6 7" startTime="15:25:00Z" endTime="15:29:59Z"/>
+</Period>
+<Period>
+<Interval days="1 2 3 4 5 6 7" startTime="15:35:00Z" endTime="15:39:59Z"/>
+</Period>
+<Period>
+<Interval days="1 2 3 4 5 6 7" startTime="15:45:00Z" endTime="15:49:59Z"/>
+</Period>
+<Period>
+<Interval days="1 2 3 4 5 6 7" startTime="15:55:00Z" endTime="15:59:59Z"/>
+</Period>
+<Period>
+<Interval days="1 2 3 4 5 6 7" startTime="16:05:00Z" endTime="16:09:59Z"/>
+</Period>
+<Period>
+<Interval days="1 2 3 4 5 6 7" startTime="16:15:00Z" endTime="16:19:59Z"/>
+</Period>
+<Period>
+<Interval days="1 2 3 4 5 6 7" startTime="16:25:00Z" endTime="16:29:59Z"/>
+</Period>
+<Period>
+<Interval days="1 2 3 4 5 6 7" startTime="16:35:00Z" endTime="16:39:59Z"/>
+</Period>
+<Period>
+<Interval days="1 2 3 4 5 6 7" startTime="16:45:00Z" endTime="16:49:59Z"/>
+</Period>
+<Period>
+<Interval days="1 2 3 4 5 6 7" startTime="16:55:00Z" endTime="16:59:59Z"/>
+</Period>
+<Period>
+<Interval days="1 2 3 4 5 6 7" startTime="17:05:00Z" endTime="17:09:59Z"/>
+</Period>
+<Period>
+<Interval days="1 2 3 4 5 6 7" startTime="17:15:00Z" endTime="17:19:59Z"/>
+</Period>
+<Period>
+<Interval days="1 2 3 4 5 6 7" startTime="17:25:00Z" endTime="17:29:59Z"/>
+</Period>
+<Period>
+<Interval days="1 2 3 4 5 6 7" startTime="17:35:00Z" endTime="17:39:59Z"/>
+</Period>
+<Period>
+<Interval days="1 2 3 4 5 6 7" startTime="17:45:00Z" endTime="17:49:59Z"/>
+</Period>
+<Period>
+<Interval days="1 2 3 4 5 6 7" startTime="17:55:00Z" endTime="17:59:59Z"/>
+</Period>
+<Period>
+<Interval days="1 2 3 4 5 6 7" startTime="18:05:00Z" endTime="18:09:59Z"/>
+</Period>
+<Period>
+<Interval days="1 2 3 4 5 6 7" startTime="18:15:00Z" endTime="18:19:59Z"/>
+</Period>
+<Period>
+<Interval days="1 2 3 4 5 6 7" startTime="18:25:00Z" endTime="18:29:59Z"/>
+</Period>
+<Period>
+<Interval days="1 2 3 4 5 6 7" startTime="18:35:00Z" endTime="18:39:59Z"/>
+</Period>
+<Period>
+<Interval days="1 2 3 4 5 6 7" startTime="18:45:00Z" endTime="18:49:59Z"/>
+</Period>
+<Period>
+<Interval days="1 2 3 4 5 6 7" startTime="18:55:00Z" endTime="18:59:59Z"/>
+</Period>
+<Period>
+<Interval days="1 2 3 4 5 6 7" startTime="19:05:00Z" endTime="19:09:59Z"/>
+</Period>
+<Period>
+<Interval days="1 2 3 4 5 6 7" startTime="19:15:00Z" endTime="19:19:59Z"/>
+</Period>
+<Period>
+<Interval days="1 2 3 4 5 6 7" startTime="19:25:00Z" endTime="19:29:59Z"/>
+</Period>
+<Period>
+<Interval days="1 2 3 4 5 6 7" startTime="19:35:00Z" endTime="19:39:59Z"/>
+</Period>
+<Period>
+<Interval days="1 2 3 4 5 6 7" startTime="19:45:00Z" endTime="19:49:59Z"/>
+</Period>
+<Period>
+<Interval days="1 2 3 4 5 6 7" startTime="19:55:00Z" endTime="19:59:59Z"/>
+</Period>
+<Period>
+<Interval days="1 2 3 4 5 6 7" startTime="20:05:00Z" endTime="20:09:59Z"/>
+</Period>
+<Period>
+<Interval days="1 2 3 4 5 6 7" startTime="20:15:00Z" endTime="20:19:59Z"/>
+</Period>
+<Period>
+<Interval days="1 2 3 4 5 6 7" startTime="20:25:00Z" endTime="20:29:59Z"/>
+</Period>
+<Period>
+<Interval days="1 2 3 4 5 6 7" startTime="20:35:00Z" endTime="20:39:59Z"/>
+</Period>
+<Period>
+<Interval days="1 2 3 4 5 6 7" startTime="20:45:00Z" endTime="20:49:59Z"/>
+</Period>
+<Period>
+<Interval days="1 2 3 4 5 6 7" startTime="20:55:00Z" endTime="20:59:59Z"/>
+</Period>
+<Period>
+<Interval days="1 2 3 4 5 6 7" startTime="21:05:00Z" endTime="21:09:59Z"/>
+</Period>
+<Period>
+<Interval days="1 2 3 4 5 6 7" startTime="21:15:00Z" endTime="21:19:59Z"/>
+</Period>
+<Period>
+<Interval days="1 2 3 4 5 6 7" startTime="21:25:00Z" endTime="21:29:59Z"/>
+</Period>
+<Period>
+<Interval days="1 2 3 4 5 6 7" startTime="21:35:00Z" endTime="21:39:59Z"/>
+</Period>
+<Period>
+<Interval days="1 2 3 4 5 6 7" startTime="21:45:00Z" endTime="21:49:59Z"/>
+</Period>
+<Period>
+<Interval days="1 2 3 4 5 6 7" startTime="21:55:00Z" endTime="21:59:59Z"/>
+</Period>
+<Period>
+<Interval days="1 2 3 4 5 6 7" startTime="22:05:00Z" endTime="22:09:59Z"/>
+</Period>
+<Period>
+<Interval days="1 2 3 4 5 6 7" startTime="22:15:00Z" endTime="22:19:59Z"/>
+</Period>
+<Period>
+<Interval days="1 2 3 4 5 6 7" startTime="22:25:00Z" endTime="22:29:59Z"/>
+</Period>
+<Period>
+<Interval days="1 2 3 4 5 6 7" startTime="22:35:00Z" endTime="22:39:59Z"/>
+</Period>
+<Period>
+<Interval days="1 2 3 4 5 6 7" startTime="22:45:00Z" endTime="22:49:59Z"/>
+</Period>
+<Period>
+<Interval days="1 2 3 4 5 6 7" startTime="22:55:00Z" endTime="22:59:59Z"/>
+</Period>
+<Period>
+<Interval days="1 2 3 4 5 6 7" startTime="23:05:00Z" endTime="23:09:59Z"/>
+</Period>
+<Period>
+<Interval days="1 2 3 4 5 6 7" startTime="23:15:00Z" endTime="23:19:59Z"/>
+</Period>
+<Period>
+<Interval days="1 2 3 4 5 6 7" startTime="23:25:00Z" endTime="23:29:59Z"/>
+</Period>
+<Period>
+<Interval days="1 2 3 4 5 6 7" startTime="23:35:00Z" endTime="23:39:59Z"/>
+</Period>
+<Period>
+<Interval days="1 2 3 4 5 6 7" startTime="23:45:00Z" endTime="23:49:59Z"/>
+</Period>
+<Period>
+<Interval days="1 2 3 4 5 6 7" startTime="23:55:00Z" endTime="23:59:59Z"/>
+</Period>
+</Availability>
+<DASHDeliveryParameters>
+<UriBasedLocation contentType="application/dash+xml">
+<dvbi-types:URI>https://int-dvbi.zdf.de/manifest.php?service=nolive</dvbi-types:URI>
+</UriBasedLocation>
+</DASHDeliveryParameters>
+</ServiceInstance>
+<ServiceName>ZDF Event</ServiceName>
+<ProviderName>ZDF, Zweites Deutsches Fernsehen</ProviderName>
+<RelatedMaterial>
+<tva:HowRelated href="urn:dvb:metadata:cs:HowRelatedCS:2021:1001.2"/>
+<tva:MediaLocator>
+<tva:MediaUri contentType="image/png">https://int-dvbi.zdf.de/contentguide/image/?id=11660</tva:MediaUri>
+</tva:MediaLocator>
+</RelatedMaterial>
+<RelatedMaterial>
+<tva:HowRelated href="urn:dvb:metadata:cs:HowRelatedCS:2021:1000.1"/>
+<tva:MediaLocator>
+<tva:MediaUri contentType="image/png">https://int-dvbi.zdf.de/contentguide/image/?id=11663</tva:MediaUri>
+</tva:MediaLocator>
+</RelatedMaterial>
+<RelatedMaterial>
+<tva:HowRelated href="urn:dvb:metadata:cs:LinkedApplicationCS:2019:1.1"/>
+<tva:MediaLocator>
+<tva:MediaUri contentType="application/vnd.dvb.ait+xml">https://int-dvbi.zdf.de/contentguide/aitx.php?id=1</tva:MediaUri>
+</tva:MediaLocator>
+</RelatedMaterial>
+</Service>
+<Service version="2">
+<UniqueIdentifier>tag:zdf.de,2020:zdf/preroll</UniqueIdentifier>
+<ServiceInstance priority="1">
+<RelatedMaterial>
+<tva:HowRelated href="urn:dvb:metadata:cs:LinkedApplicationCS:2019:1.2"/>
+<tva:MediaLocator>
+<tva:MediaUri contentType="application/vnd.dvb.ait+xml">https://int-dvbi.zdf.de/apps/preroll/preroll.ait</tva:MediaUri>
+</tva:MediaLocator>
+</RelatedMaterial>
+</ServiceInstance>
+<ServiceInstance priority="2">
+<RelatedMaterial>
+<tva:HowRelated href="urn:dvb:metadata:cs:LinkedApplicationCS:2019:1.2"/>
+<tva:MediaLocator>
+<tva:MediaUri contentType="text/html">https://int-dvbi.zdf.de/apps/preroll/html5.html</tva:MediaUri>
+</tva:MediaLocator>
+</RelatedMaterial>
+</ServiceInstance>
+<ServiceName>ZDF FAST</ServiceName>
+<ProviderName>ZDF, Zweites Deutsches Fernsehen</ProviderName>
+<RelatedMaterial>
+<tva:HowRelated href="urn:dvb:metadata:cs:HowRelatedCS:2021:1001.2"/>
+<tva:MediaLocator>
+<tva:MediaUri contentType="image/png">https://int-dvbi.zdf.de/contentguide/image/?id=11655</tva:MediaUri>
+</tva:MediaLocator>
+</RelatedMaterial>
+<ContentGuideSourceRef>int-7</ContentGuideSourceRef>
+<ContentGuideServiceRef>tag:zdf.de,2020:zdf</ContentGuideServiceRef>
+</Service>
+<Service version="3">
+<UniqueIdentifier>tag:zdf.de,2020:zdf/app</UniqueIdentifier>
+<ServiceInstance priority="1">
+<RelatedMaterial>
+<tva:HowRelated href="urn:dvb:metadata:cs:LinkedApplicationCS:2019:1.2"/>
+<tva:MediaLocator>
+<tva:MediaUri contentType="application/vnd.dvb.ait+xml">https://int-dvbi.zdf.de/contentguide/zapping.ait</tva:MediaUri>
+</tva:MediaLocator>
+</RelatedMaterial>
+</ServiceInstance>
+<ServiceName>ZDF App</ServiceName>
+<ProviderName>ZDF, Zweites Deutsches Fernsehen</ProviderName>
+<RelatedMaterial>
+<tva:HowRelated href="urn:dvb:metadata:cs:HowRelatedCS:2021:1001.2"/>
+<tva:MediaLocator>
+<tva:MediaUri contentType="image/png">https://int-dvbi.zdf.de/contentguide/image/?id=11655</tva:MediaUri>
+</tva:MediaLocator>
+</RelatedMaterial>
+</Service>
+<Service version="1">
+<UniqueIdentifier>tag:zdf.de,2020:zdf/offline</UniqueIdentifier>
+<ServiceInstance priority="1">
+<Availability>
+<Period>
+<Interval days="3" startTime="02:00:00Z" endTime="02:02:00Z"/>
+</Period>
+</Availability>
+<DASHDeliveryParameters>
+<UriBasedLocation contentType="application/dash+xml">
+<dvbi-types:URI>https://int-dvbi.zdf.de/manifest.php?service=zdfevent</dvbi-types:URI>
+</UriBasedLocation>
+</DASHDeliveryParameters>
+</ServiceInstance>
+<ServiceName>ZDF Offline</ServiceName>
+<ProviderName>ZDF, Zweites Deutsches Fernsehen</ProviderName>
+<RelatedMaterial>
+<tva:HowRelated href="urn:dvb:metadata:cs:HowRelatedCS:2021:1001.2"/>
+<tva:MediaLocator>
+<tva:MediaUri contentType="image/png">https://int-dvbi.zdf.de/contentguide/image/?id=11655</tva:MediaUri>
+</tva:MediaLocator>
+</RelatedMaterial>
+<RelatedMaterial>
+<tva:HowRelated href="urn:dvb:metadata:cs:HowRelatedCS:2021:1000.1"/>
+<tva:MediaLocator>
+<tva:MediaUri contentType="image/png">https://int-dvbi.zdf.de/contentguide/image/?id=11663</tva:MediaUri>
+</tva:MediaLocator>
+</RelatedMaterial>
+<RelatedMaterial>
+<tva:HowRelated href="urn:dvb:metadata:cs:LinkedApplicationCS:2019:1.1"/>
+<tva:MediaLocator>
+<tva:MediaUri contentType="application/vnd.dvb.ait+xml">https://int-dvbi.zdf.de/contentguide/aitx.php?id=1</tva:MediaUri>
+</tva:MediaLocator>
+</RelatedMaterial>
+<RelatedMaterial>
+<tva:HowRelated href="urn:dvb:metadata:cs:LinkedApplicationCS:2019:1.1"/>
+<tva:MediaLocator>
+<tva:MediaUri contentType="application/xhtml+xml">https://int-dvbi.zdf.de/apps/zdfhtml/index.php</tva:MediaUri>
+</tva:MediaLocator>
+</RelatedMaterial>
+<ServiceType href="urn:dvb:metadata:cs:ServiceTypeCS:2019:linear"/>
+<RecordingInfo href="urn:dvb:metadata:cs:RecordingInfoCS:2019:4"/>
+</Service>
+<Service version="8">
+<UniqueIdentifier>tag:mitxp.com,2021:1.1201.28346</UniqueIdentifier>
+<ServiceInstance priority="1">
+<RelatedMaterial>
+<tva:HowRelated href="urn:dvb:metadata:cs:LinkedApplicationCS:2019:1.2"/>
+<tva:MediaLocator>
+<tva:MediaUri contentType="application/vnd.dvb.ait+xml">https://dvb-dev.ard-poc.de/xmlait/wedotv_xml.aitx</tva:MediaUri>
+</tva:MediaLocator>
+</RelatedMaterial>
+</ServiceInstance>
+<ServiceName>wedotv</ServiceName>
+<ProviderName>Playout Center</ProviderName>
+<RelatedMaterial>
+<tva:HowRelated href="urn:dvb:metadata:cs:HowRelatedCS:2021:1001.2"/>
+<tva:MediaLocator>
+<tva:MediaUri contentType="image/png">https://dvb-dev.ard-poc.de/Logos/wedotv_logo.png</tva:MediaUri>
+</tva:MediaLocator>
+</RelatedMaterial>
+</Service>
+<Service version="189">
+<UniqueIdentifier>tag:mitxp.com,2021:1.1201.28345</UniqueIdentifier>
+<ServiceInstance priority="5">
+<ContentAttributes>
+<AudioAttributes>
+<tva:Coding href="urn:dvb:metadata:cs:AudioCodecCS:2020:4.1.4"/>
+</AudioAttributes>
+</ContentAttributes>
+<DASHDeliveryParameters>
+<UriBasedLocation contentType="application/dash+xml">
+<dvbi-types:URI>https://d6x7fmrn87p0o.cloudfront.net/manifest.mpd</dvbi-types:URI>
+</UriBasedLocation>
+</DASHDeliveryParameters>
+</ServiceInstance>
+<ServiceInstance priority="3">
+<DVBSDeliveryParameters>
+<DVBTriplet origNetId="1" tsId="1201" serviceId="28345"/>
+</DVBSDeliveryParameters>
+</ServiceInstance>
+<ServiceName>rbb Dolby AC4</ServiceName>
+<ProviderName>ARD</ProviderName>
+<RelatedMaterial>
+<tva:HowRelated href="urn:dvb:metadata:cs:HowRelatedCS:2021:1001.2"/>
+<tva:MediaLocator>
+<tva:MediaUri contentType="image/png">https://itv-api.ard.de/ardstart/img/services/28206.png</tva:MediaUri>
+</tva:MediaLocator>
+</RelatedMaterial>
+<RelatedMaterial>
+<tva:HowRelated href="urn:dvb:metadata:cs:LinkedApplicationCS:2019:1.1"/>
+<tva:MediaLocator>
+<tva:MediaUri contentType="application/vnd.dvb.ait+xml">https://itv-api.ard.de/xml.aitx?sid=28206</tva:MediaUri>
+</tva:MediaLocator>
+</RelatedMaterial>
+<ServiceType href="urn:dvb:metadata:cs:ServiceTypeCS:2019:linear"/>
+<ContentGuideSourceRef>iSIMS</ContentGuideSourceRef>
+<ContentGuideServiceRef>tag:mitxp.com,2021:eit1.1201.28345</ContentGuideServiceRef>
+</Service>
+<Service version="1">
+<UniqueIdentifier>tag:wdr.de,2020:wdr/playlist</UniqueIdentifier>
+<ServiceInstance priority="1">
+<DisplayName>WDR Retro</DisplayName>
+<DASHDeliveryParameters>
+<UriBasedLocation contentType="application/xml">
+<dvbi-types:URI>https://research.rbb-online.de/dvbi/extra/PlaylistWDRRetro.xml</dvbi-types:URI>
+</UriBasedLocation>
+</DASHDeliveryParameters>
+</ServiceInstance>
+<ServiceName>WDR Retro Playlist</ServiceName>
+<ProviderName>ARD</ProviderName>
+<RelatedMaterial>
+<tva:HowRelated href="urn:dvb:metadata:cs:HowRelatedCS:2021:1001.2"/>
+<tva:MediaLocator>
+<tva:MediaUri contentType="image/png">https://research.rbb-online.de/dvbi/ressources/WDR/WDR_Retro.png</tva:MediaUri>
+</tva:MediaLocator>
+</RelatedMaterial>
+</Service>
+</ServiceList>
