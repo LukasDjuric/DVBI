@@ -1288,7 +1288,7 @@
 </DVBSDeliveryParameters>
 </ServiceInstance>
 <ServiceName>münchen.tv HD</ServiceName>
-<ProviderName>München Live TV Fernsehen GmbH & Co.KG</ProviderName>
+<ProviderName>München Live TV Fernsehen GmbH &amp; Co.KG</ProviderName>
 <RelatedMaterial>
 <tva:HowRelated href="urn:dvb:metadata:cs:HowRelatedCS:2021:1001.2"/>
 <tva:MediaLocator>
@@ -2126,7 +2126,7 @@
 </DASHDeliveryParameters>
 </ServiceInstance>
 <ServiceName>a.tv HD</ServiceName>
-<ProviderName>a.tv GmbH & Co. KG</ProviderName>
+<ProviderName>a.tv GmbH &amp; Co. KG</ProviderName>
 <RelatedMaterial>
 <tva:HowRelated href="urn:dvb:metadata:cs:HowRelatedCS:2021:1001.2"/>
 <tva:MediaLocator>
@@ -2164,7 +2164,7 @@
 </DASHDeliveryParameters>
 </ServiceInstance>
 <ServiceName>allgäu.tv HD</ServiceName>
-<ProviderName>Allgäu-TV GmbH & Co. KG</ProviderName>
+<ProviderName>Allgäu-TV GmbH &amp; Co. KG</ProviderName>
 <RelatedMaterial>
 <tva:HowRelated href="urn:dvb:metadata:cs:HowRelatedCS:2021:1001.2"/>
 <tva:MediaLocator>
@@ -2242,7 +2242,7 @@
 </DVBCDeliveryParameters>
 </ServiceInstance>
 <ServiceName>Niederbayern TV HD Deggendorf-Straubing</ServiceName>
-<ProviderName>Niederbayern TV Deggendorf-Straubing GmbH & Co. KG</ProviderName>
+<ProviderName>Niederbayern TV Deggendorf-Straubing GmbH &amp; Co. KG</ProviderName>
 <RelatedMaterial>
 <tva:HowRelated href="urn:dvb:metadata:cs:HowRelatedCS:2021:1001.2"/>
 <tva:MediaLocator>
@@ -2356,7 +2356,7 @@
 </DVBCDeliveryParameters>
 </ServiceInstance>
 <ServiceName>Oberpfalz TV HD</ServiceName>
-<ProviderName>Oberpfalz TV Nord GmbH & Co. Studiobetriebs KG</ProviderName>
+<ProviderName>Oberpfalz TV Nord GmbH &amp; Co. Studiobetriebs KG</ProviderName>
 <RelatedMaterial>
 <tva:HowRelated href="urn:dvb:metadata:cs:HowRelatedCS:2021:1001.2"/>
 <tva:MediaLocator>
@@ -2394,7 +2394,7 @@
 </DVBCDeliveryParameters>
 </ServiceInstance>
 <ServiceName>Regio TV Schwaben HD</ServiceName>
-<ProviderName>Regio TV Stuttgart GmbH & Co. KG</ProviderName>
+<ProviderName>Regio TV Stuttgart GmbH &amp; Co. KG</ProviderName>
 <RelatedMaterial>
 <tva:HowRelated href="urn:dvb:metadata:cs:HowRelatedCS:2021:1001.2"/>
 <tva:MediaLocator>
@@ -2470,7 +2470,7 @@
 </DVBCDeliveryParameters>
 </ServiceInstance>
 <ServiceName>TV Mainfranken HD</ServiceName>
-<ProviderName>TV Mainfranken GmbH & Co. KG</ProviderName>
+<ProviderName>TV Mainfranken GmbH &amp; Co. KG</ProviderName>
 <RelatedMaterial>
 <tva:HowRelated href="urn:dvb:metadata:cs:HowRelatedCS:2021:1001.2"/>
 <tva:MediaLocator>
@@ -2508,7 +2508,7 @@
 </DVBCDeliveryParameters>
 </ServiceInstance>
 <ServiceName>TV Oberfranken HD</ServiceName>
-<ProviderName>TV Oberfranken GmbH & Co. KG</ProviderName>
+<ProviderName>TV Oberfranken GmbH &amp; Co. KG</ProviderName>
 <RelatedMaterial>
 <tva:HowRelated href="urn:dvb:metadata:cs:HowRelatedCS:2021:1001.2"/>
 <tva:MediaLocator>
@@ -2551,7 +2551,7 @@
 </DVBSDeliveryParameters>
 </ServiceInstance>
 <ServiceName>tv.ingolstadt HD</ServiceName>
-<ProviderName>tv.ingolstadt GmbH & Co. KG</ProviderName>
+<ProviderName>tv.ingolstadt GmbH &amp; Co. KG</ProviderName>
 <RelatedMaterial>
 <tva:HowRelated href="urn:dvb:metadata:cs:HowRelatedCS:2021:1001.2"/>
 <tva:MediaLocator>
@@ -2589,7 +2589,7 @@
 </DVBCDeliveryParameters>
 </ServiceInstance>
 <ServiceName>TVA Ostbayern HD</ServiceName>
-<ProviderName>TVA Ostbayern Fernsehprogrammgesellschaft mbH & Co. Studiobetriebs-KG</ProviderName>
+<ProviderName>TVA Ostbayern Fernsehprogrammgesellschaft mbH &amp; Co. Studiobetriebs-KG</ProviderName>
 <RelatedMaterial>
 <tva:HowRelated href="urn:dvb:metadata:cs:HowRelatedCS:2021:1001.2"/>
 <tva:MediaLocator>
